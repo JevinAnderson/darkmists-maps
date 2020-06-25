@@ -1,0 +1,12 @@
+{
+  "name": "darkmists-maps",
+  "version": "1.0.0",
+  "description": "Repository for hosting Darkmists map web pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
