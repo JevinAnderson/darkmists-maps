@@ -1,0 +1,9 @@
+.map {
+  background: black;
+  color: white;
+}
+
+/* Probably not great css ;) */
+a {
+  display: block;
+}

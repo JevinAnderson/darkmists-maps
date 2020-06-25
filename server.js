@@ -15,6 +15,7 @@ app.listen(port, (error) => {
     console.log("Application startup error", error);
     process.exit(-1);
   }
+
   const url = `http://127.0.0.1:${port}`;
   console.log(`Application started. Go to ${url} in your browser.`);
   open(url);
