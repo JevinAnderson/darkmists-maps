@@ -1,0 +1,5 @@
+{
+	"watch": ["server.js"],
+	"verbose": true,
+	"delay": "2500"
+}
