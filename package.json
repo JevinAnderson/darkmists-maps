@@ -7,7 +7,7 @@
     "build": "webpack --mode production --output docs/main.js",
     "dev": "nodemon server.js",
     "prettier": "prettier --write 'server.js' 'docs/**/*.js' 'docs/**/*.html' 'docs/**/*.css' 'src/**/*.js'",
-    "watch": "webpack --watch --output docs/main.js"
+    "watch": "webpack --mode=development --watch --output docs/main.js"
   },
   "keywords": [],
   "author": "",

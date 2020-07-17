@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+import MapLevel from "./map-level";
+
 class MapComponent extends Component {
   state = {};
 
@@ -19,7 +21,14 @@ class MapComponent extends Component {
   render() {
     return (
       <div className="map-component">
-        <h2>Map Component coming soon...</h2>
+        <h2>{this.props.map.name} - Map</h2>
+        {this.props.map.map.map((level, index) => (
+          <MapLevel
+            key={index}
+            level={level}
+            floor={this.props.map.map.length - index}
+          />
+        ))}
       </div>
     );
   }
