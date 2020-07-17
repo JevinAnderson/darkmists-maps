@@ -1,0 +1,287 @@
+{
+  "filename": "memorial.are",
+  "name": "Memorial Gardens",
+  "map": [
+    [
+      [
+        {
+          "vnum": "31400",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "south": "2095"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31417",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "east": "31418",
+            "south": "31416"
+          }
+        },
+        {
+          "vnum": "31418",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "east": "31421",
+            "west": "31417"
+          }
+        },
+        {
+          "vnum": "31421",
+          "title": "Inside the Ilphrynn Darmo'che Memorial",
+          "exits": {
+            "west": "31418"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31416",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "north": "31417",
+            "south": "31415"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31415",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "north": "31416",
+            "east": "31414"
+          }
+        },
+        {
+          "vnum": "31414",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "east": "31413",
+            "west": "31415"
+          }
+        },
+        {
+          "vnum": "31413",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "east": "31420",
+            "south": "31412",
+            "west": "31414"
+          }
+        },
+        {
+          "vnum": "31420",
+          "title": "Inside the Vledimire Memorial",
+          "exits": {
+            "east": "31422",
+            "west": "31413"
+          }
+        },
+        {
+          "vnum": "31422",
+          "title": "Inside the Vledimire Memorial",
+          "exits": {
+            "west": "31420"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31412",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "north": "31413",
+            "south": "31411"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31419",
+          "title": "Inside the Cedric Lightshield Memorial",
+          "exits": {
+            "east": "31409"
+          }
+        },
+        {
+          "vnum": "31409",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "east": "31410",
+            "south": "31408",
+            "west": "31419"
+          }
+        },
+        {
+          "vnum": "31410",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "east": "31411",
+            "west": "31409"
+          }
+        },
+        {
+          "vnum": "31411",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "north": "31412",
+            "west": "31410"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31408",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "north": "31409",
+            "south": "31407"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "31407",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "north": "31408",
+            "south": "31406"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "31403",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "east": "31404",
+            "south": "31402"
+          }
+        },
+        {
+          "vnum": "31404",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "east": "31405",
+            "west": "31403"
+          }
+        },
+        {
+          "vnum": "31405",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "east": "31406",
+            "west": "31404"
+          }
+        },
+        {
+          "vnum": "31406",
+          "title": "A Turn in the Well-Kept Path",
+          "exits": {
+            "north": "31407",
+            "west": "31405"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "31402",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "north": "31403",
+            "south": "31400"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "31401",
+          "title": "A Well-Kept Path",
+          "exits": {
+            "north": "31402",
+            "south": "2095"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

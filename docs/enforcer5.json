@@ -1,0 +1,162 @@
+{
+  "filename": "enforcer5.are",
+  "name": "The Citadel of Justice",
+  "listing": "{HOUSE} Riallus The Citadel of Justice",
+  "range": "23600 23645",
+  "rooms": {
+    "23601": {
+      "vnum": "23601",
+      "title": "The Citadel of Justice: Drawbridge",
+      "description": "You have finally made your way through the winding streets of Ofcol, and\nfind yourself here, before the legendary Citadel of Justice, home to the\nEnforcers of Law.  The Citadel is an enormous construct, towering over the\ncity.  The citadel is a fortified castle, with three large cylindrical\ntowers jutting out above the main building.  A small river runs here past\nthe road leading up to the main gates, which requires a drawbridge to cross.\nThe drawbridge is currently raised and you are standing just inside of it,\nbefore the Main Gateway of the Citadel.  The drawbridge is lowered, oddly\nallowing you free access to this supposedly \"closed\" house.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23602": {
+      "vnum": "23602",
+      "title": "Courtyard",
+      "description": "This is a vast area between the Main Gateway and the Citadel.  Basically, the\ncourtyard is square, surrounded by walls on each side. The ground is padded\nslightly with sawdust, and you can see some faded cart tracks skewing through\nthe dirt.  Currently the area appears abandoned.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23603": {
+      "vnum": "23603",
+      "title": "Altar of Law",
+      "description": "You have now arrived in the heart of the Citadel of Justice, the Altar of\nLaw.  Once considered sacred by the now defunct Enforcers, this room is\nrumored to still house the legendary Book of Law.  A grand, ancient pillar\nstands in the middle of this white marble room.  The room is a perfect square,\nconstructed from the purest of white marble.  A golden dome serves as the\nroof.  Repleat with windows, the roof reflects the sunlight that pours in,\nmaking this entire room glow with a divine lustre.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23604": {
+      "vnum": "23604",
+      "title": "Enforcer Barracks",
+      "description": "This is the area where agents of Enforcer once rested themselves after a\nweary day of protecting Theran citizens.  Simple and austere, the barracks\nare little more than bunk beds arranged as efficiently as possible down the\nlong rectangular room.  Wooden closets stand beside each set of beds providing\nstorage of personal items. You notice these cabinets have no locks.  A\ntestament to the trust these agents of law must have had for each other.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23605": {
+      "vnum": "23605",
+      "title": "Council Room",
+      "description": "Like many rooms in the Citadel of Justice, this room is very simple and\nelegantly decorated.  The council room is a large trapezoid shape with the\ncoats of arms of past Enforcer leaders lining the walls.  A gigantic table\nsits in the center of the room with a large chair at the shorter of the two\nparallel sides, awaiting the leader of enforcers.  Smaller chairs align the\nother sides of the table, awaiting other special agents of Justice.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23606": {
+      "vnum": "23606",
+      "title": "Eastern Hallway",
+      "description": "Wandering around the Citadel, you see rooms lining the corridor, closed off\nfrom the hallway by heavy wooden doors.  You can just imagine hearing the\ncaustic arguements of lawyers and accused, seeking justice and mercy for the\ncrimes of others.  Westward you can see the main foyer of the Citadel, and\nfurther east, you can see the end of the main hallway.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23607": {
+      "vnum": "23607",
+      "title": "Citadel of Justice: Main Foyer",
+      "description": "The foyer is truly magnificent.  The room starts as a solid marble floor\nwhich stretches a good distance into the heart of the Citadel.  Ironwood\ncolumns erupt from this floor and reach the arched ceiling forming\nbutresses at the top.  Exits appear to be in all cardinal directions.\nMenacing looking guards must surely have roamed these halls once.  However,\nthe citadel appears now largely abandoned, though you think you can make out\nfresh footprints in the dust on the floor.  Up to the north, you see a radiant\nroom.  The south will take you into the courtyard of the Citadel, and to the\nEast and West appear to be long hallways.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23609": {
+      "vnum": "23609",
+      "title": "Eastern Corner",
+      "description": "This is the junction of the eastern hallway and a hallway that leads\nnorthward.  Looking at the archway in that direction, you see a simple brass\nplate with the engraving \"COUNCIL ROOM\".  The hallway stretches back west, or\nyou can continue northward.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23610": {
+      "vnum": "23610",
+      "title": "Western Corner",
+      "description": "You have arrived in a western corner of the Citadel.  To the north is what\nappears to be a barracks of some sort.  It is abandoned, much like the rest\nof the citadel.  However, there are signs that there has been recent activity\nwithin the citadel.  You may take your rest to the north or continue down the\nhallway to the east.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23624": {
+      "vnum": "23624",
+      "title": "Main Gateway of the Citadel",
+      "description": "Standing here within the gateway into the main courtyard and building of\nthe citadel, you can't help but be overtaken with a feeling of complete\nawe.  The building rises straight up before you and is topped with ramparts\nand walkways that once allowed Enforcer guards to keep vigilant watch over\nany who entered or left the edifice.  A portcullis looms above the gate,\nwaiting to be dropped should the need arise. A small guardpost stands just\nwithin the gates.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "23625": {
+      "vnum": "23625",
+      "title": "Western Hallway",
+      "description": "You've now traversed into the main section of the west wing of the Citadel\nof Justice.  Back east is the main foyer of the edifice.  A sign on the wall\npoints west and reads BARRACKS.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_LAW"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

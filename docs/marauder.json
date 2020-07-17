@@ -1,0 +1,358 @@
+{
+  "filename": "marauder.are",
+  "name": "The Marauder's Den",
+  "listing": "{HOUSE} Huerkin/Rellion  The Marauder's Den",
+  "range": "9800 9899",
+  "rooms": {
+    "9800": {
+      "vnum": "9800",
+      "title": "The Marauder's Shrine",
+      "description": "Every part of this room is made out of a pure, unstained onyx.\nEven the lightest noise made can be heard echoing slightly,\nbouncing off the reflecting surface of the walls. No torches or\nlights shine in this room. A black glow lights up this room,\nand it emanates from the onyx statue in the middle of the room.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE",
+        "ROOM_SHRINE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "9811"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9801": {
+      "vnum": "9801",
+      "title": "Corridor",
+      "description": "The floor of this room is a little more than packed dirt beneath\none's feet. Loose pieces of gravel and dirt look as if they\ncould still be scattered about by a sliding foot. Light can be\nseen coming from within a rather large doorway. A low murmur of\nvoices and other jovial sounds can be heard from within. Torches\nare constantly burning in their golden sconces upon the walls.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "558"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9802"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9802": {
+      "vnum": "9802",
+      "title": "Entry Hall",
+      "description": "Footsteps echo loudly in this hall of carved marble. It has been\nconstructed so seamlessly that it looks to have been carved\nfrom one solid piece of white marble. There are no torches\nburning in this hall, but a light seems to echo like a voice off\nthe walls.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9801"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9803"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9803": {
+      "vnum": "9803",
+      "title": "An Intersection",
+      "description": "Four different halls branch out of this room. One leads back\ntowards the entrance and to the hall of white marble. One leads\nto the north; out of that path comes the smell of alcohol and\ncooking meat. A ladder leads up into a hole in the ceiling;\nflickering shadows can be seen crossing across the hole. To the\nsouth there is the sound of silence. No movement, no talking, no\nactivity of any kind comes from there.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9802"
+        },
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9804"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9805"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9806"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9804": {
+      "vnum": "9804",
+      "title": "Dining Hall",
+      "description": "Beyond the archway to this room, the ceiling expands upward\nfor several feet. The walls widen out to accommodate the tables\nset up in rows across half of the floor. The other half of the\nroom appears to be a very busy kitchen. A fire is burning in an\noversized fireplace, perfectly sized for the massive pot that is\nin it. Tables with various kitchen utensils surround the\nremainder of the kitchen.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9803"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9805": {
+      "vnum": "9805",
+      "title": "Closet",
+      "description": "The walls of this small room are very smooth and unadorned. A\npile of rags can be seen in one corner, the smells of soap and\nmurky water wafting up from them. A large rug covers the portion\nof the floor on the opposite side of the room from the rags. It\nis not a very comfortable place.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9803"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9807"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9806": {
+      "vnum": "9806",
+      "title": "Hall",
+      "description": "The grains of the wood-panelled walls of this hallway make\npatterns that seem to dance in the flickering torchlight. There\nare niches in the sides of the hall for people to stand out of\nthe way if they wish to converse in the hall. There is a hole\nin the floor with a ladder running down into the room below; a\nlarge doorway sits in front of a room to the east, and the hall\ncontinues to the north.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9803"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9808"
+        },
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9809"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9807": {
+      "vnum": "9807",
+      "title": "The Vault",
+      "description": "The stairs descending into this vault are made of the same\nunbroken white marble that is in the main hallway. The swirls\nand patterns of the marble suddenly stop as the stairs meet\nthe floor. The walls of the room are lined with lockers and\nindentations, places to store the wealth of the Marauders.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9805"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9808": {
+      "vnum": "9808",
+      "title": "The Thug's Den",
+      "description": "Not very good care has been given to this room from the looks of\nit. The covering of the walls seems to be falling off in spots;\nthe floor is a complete mess covered in pieces of random clothing\nand bedding items. There are various beds of different sizes\nlining the walls.  Some seem to be made for those of giant\nstature and others look like a gnome or halfling would fit\nsnugly under the blankets.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9806"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9809": {
+      "vnum": "9809",
+      "title": "Hall",
+      "description": "A grand archway leads to a room to the end of this hallway. It\nis covered with a thick black velvet drape. A path has been\nworn into the floor and it leads down a narrow hallway to the\nwest. Torches line the hall way here, but no flames dance at\ntheir ends, but rather a strange amber tinted light comes out\nfrom where the flames should be.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9810"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9806"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9811"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9810": {
+      "vnum": "9810",
+      "title": "The Guildmaster's Den",
+      "description": "A lavish looking bed is in the center of this room. It is round\nand is covered with the furs and hides of exotic animals. It\nlooks very comfortable. Book shelves line the far wall, taking\nup the walls surrounding the bed. The floor is covered with a\nthick weaved carpet, looking like it would be fitting to hang\nupon the wall of a king's castle as a most cherished tapestry.\nA solid oak desk sits in the corner. Resting next to it is a\nchair covered with leather and padded with stuffing which looks\nmuch better than the rickety pine chair sitting across from it.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9809"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9811": {
+      "vnum": "9811",
+      "title": "Narrow Hallway",
+      "description": "This hallway is a little more than a walk-in closet. A human can\nstand in the center of the hallway and reach out and touch both\nwalls. The only light in this hallway comes from the open hall\nto the east and from the stairway at the end of the hall. The\nstairs are very steep; one would want to be cautious when going\ndown them.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9809"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "9800"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "9812": {
+      "vnum": "9812",
+      "title": "The Godfathers Abode",
+      "description": "This overlook, erected high into the upper limits of the house,\nwas created so the Godfather could oversee the businesses.  The\nroom is rather small and dim, with an iron fireplace burning\nin the back of the room.  On the walls, there are a few posters\ndepicting wanted criminals, and a few of Lord Rellion's enemies.\nIn the center of the room rests a small table, surrounded by\ntwo wooden chairs.  On the top of the table rests a few accounting\nbooks, each with the balances of the Marauder house account penned\nin them.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_TELEPORT"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

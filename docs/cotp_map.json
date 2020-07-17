@@ -1,0 +1,1758 @@
+{
+  "filename": "cotp.are",
+  "name": "City of the Pure",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20374",
+          "title": "Downward sloping path",
+          "exits": {
+            "south": "20430",
+            "down": "20373"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20449",
+          "title": "Shrine to Darkwood",
+          "exits": {
+            "east": "20422"
+          }
+        },
+        {
+          "vnum": "20422",
+          "title": "A woody alcove",
+          "exits": {
+            "south": "20421",
+            "west": "20449"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20430",
+          "title": "By the pond",
+          "exits": {
+            "north": "20374",
+            "south": "20429"
+          }
+        },
+        {
+          "vnum": "20429",
+          "title": "By the pond",
+          "exits": {
+            "north": "20430",
+            "south": "20428",
+            "west": "20442"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20458",
+          "title": "Small Cottage",
+          "exits": {
+            "east": "20421"
+          }
+        },
+        {
+          "vnum": "20421",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20422",
+            "south": "20411",
+            "west": "20458"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "20444",
+          "title": "Within the herb garden",
+          "exits": {
+            "east": "20443"
+          }
+        },
+        {
+          "vnum": "20443",
+          "title": "Within the herb garden",
+          "exits": {
+            "east": "20442",
+            "west": "20444"
+          }
+        },
+        {
+          "vnum": "20442",
+          "title": "Within the herb garden",
+          "exits": {
+            "east": "20429",
+            "west": "20443"
+          }
+        },
+        {
+          "vnum": "20429",
+          "title": "By the pond",
+          "exits": {
+            "north": "20430",
+            "south": "20428",
+            "west": "20442"
+          }
+        },
+        {
+          "vnum": "20428",
+          "title": "By the pond and herb garden",
+          "exits": {
+            "north": "20429",
+            "east": "20427",
+            "south": "20431"
+          }
+        },
+        {
+          "vnum": "20427",
+          "title": "By the pond",
+          "exits": {
+            "east": "20426",
+            "west": "20428"
+          }
+        },
+        {
+          "vnum": "20426",
+          "title": "By the pond",
+          "exits": {
+            "east": "20420",
+            "south": "20432",
+            "west": "20427"
+          }
+        },
+        {
+          "vnum": "20419",
+          "title": "On a dark path",
+          "exits": {
+            "east": "20416",
+            "west": "20426"
+          }
+        },
+        {
+          "vnum": "20418",
+          "title": "On a dark path",
+          "exits": {
+            "south": "20417",
+            "west": "20419"
+          }
+        },
+        "*",
+        {
+          "vnum": "20411",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20421",
+            "east": "20412",
+            "south": "20410"
+          }
+        },
+        {
+          "vnum": "20412",
+          "title": "A woody alcove",
+          "exits": {
+            "west": "20411"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20428",
+          "title": "By the pond and herb garden",
+          "exits": {
+            "north": "20429",
+            "east": "20427",
+            "south": "20431"
+          }
+        },
+        {
+          "vnum": "20431",
+          "title": "By the herb garden",
+          "exits": {
+            "north": "20428",
+            "west": "20436"
+          }
+        },
+        "*",
+        {
+          "vnum": "20432",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20426",
+            "south": "20433"
+          }
+        },
+        "*",
+        {
+          "vnum": "20417",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20418",
+            "south": "20416"
+          }
+        },
+        "*",
+        {
+          "vnum": "20410",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20411",
+            "south": "20407"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "20441",
+          "title": "Within the gardener's house",
+          "exits": {
+            "east": "20440"
+          }
+        },
+        {
+          "vnum": "20440",
+          "title": "Within the herb garden",
+          "exits": {
+            "east": "20439",
+            "west": "20441"
+          }
+        },
+        {
+          "vnum": "20439",
+          "title": "Within the herb garden",
+          "exits": {
+            "east": "20436",
+            "west": "20440"
+          }
+        },
+        {
+          "vnum": "20436",
+          "title": "By the herb garden",
+          "exits": {
+            "east": "20431",
+            "south": "20437",
+            "west": "20439"
+          }
+        },
+        {
+          "vnum": "20431",
+          "title": "By the herb garden",
+          "exits": {
+            "north": "20428",
+            "west": "20436"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20433",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20432",
+            "south": "20445"
+          }
+        },
+        "*",
+        {
+          "vnum": "20416",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20417",
+            "south": "20415",
+            "west": "20420"
+          }
+        },
+        "*",
+        {
+          "vnum": "20407",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20410",
+            "east": "20408",
+            "south": "20406"
+          }
+        },
+        {
+          "vnum": "20408",
+          "title": "On a dark path",
+          "exits": {
+            "east": "20409",
+            "west": "20407"
+          }
+        },
+        {
+          "vnum": "20409",
+          "title": "Shrine to Julive",
+          "exits": {
+            "west": "20408"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20437",
+          "title": "By the herb garden",
+          "exits": {
+            "north": "20436",
+            "south": "20438"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20433",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20432",
+            "south": "20445"
+          }
+        },
+        {
+          "vnum": "20445",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20433",
+            "south": "20434"
+          }
+        },
+        "*",
+        {
+          "vnum": "20415",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20416",
+            "south": "20414"
+          }
+        },
+        "*",
+        {
+          "vnum": "20406",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20407",
+            "south": "20405"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20438",
+          "title": "On a path",
+          "exits": {
+            "north": "20437",
+            "south": "20384"
+          }
+        },
+        {
+          "vnum": "20344",
+          "title": "Downward sloping path",
+          "exits": {
+            "south": "20389",
+            "down": "20345"
+          }
+        },
+        "*",
+        {
+          "vnum": "20445",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20433",
+            "south": "20434"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20414",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20415",
+            "east": "20413"
+          }
+        },
+        {
+          "vnum": "20413",
+          "title": "On a dark path",
+          "exits": {
+            "east": "20405",
+            "south": "20323",
+            "west": "20414"
+          }
+        },
+        {
+          "vnum": "20405",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20406",
+            "east": "20452",
+            "south": "20404",
+            "west": "20413"
+          }
+        },
+        {
+          "vnum": "20452",
+          "title": "Path through the shrubs",
+          "exits": {
+            "east": "20453",
+            "west": "20405"
+          }
+        },
+        {
+          "vnum": "20453",
+          "title": "Huge log house",
+          "exits": {
+            "west": "20452"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20383",
+          "title": "On a path by an herb garden",
+          "exits": {
+            "east": "20384",
+            "south": "20450"
+          }
+        },
+        {
+          "vnum": "20384",
+          "title": "On a path",
+          "exits": {
+            "north": "20438",
+            "east": "20389",
+            "west": "20383"
+          }
+        },
+        {
+          "vnum": "20389",
+          "title": "On a path",
+          "exits": {
+            "north": "20344",
+            "east": "20435",
+            "south": "20388",
+            "west": "20384"
+          }
+        },
+        {
+          "vnum": "20435",
+          "title": "On a dark path",
+          "exits": {
+            "east": "20434",
+            "west": "20389"
+          }
+        },
+        {
+          "vnum": "20434",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20445",
+            "west": "20435"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20323",
+          "title": "Downward sloping path",
+          "exits": {
+            "north": "20413",
+            "east": "20404",
+            "down": "20322"
+          }
+        },
+        {
+          "vnum": "20404",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20405",
+            "east": "20403",
+            "south": "20401",
+            "west": "20323"
+          }
+        },
+        {
+          "vnum": "20403",
+          "title": "Woodland practice yard",
+          "exits": {
+            "east": "20402",
+            "west": "20404"
+          }
+        },
+        {
+          "vnum": "20402",
+          "title": "Woodland practice yard",
+          "exits": {
+            "west": "20403"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20450",
+          "title": "Shrine to Aegnor",
+          "exits": {
+            "north": "20383"
+          }
+        },
+        {
+          "vnum": "20454",
+          "title": "Shrine to Tyberius",
+          "exits": {
+            "south": "20451"
+          }
+        },
+        {
+          "vnum": "20388",
+          "title": "On a path",
+          "exits": {
+            "north": "20389",
+            "south": "20387"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20401",
+          "title": "On a dark path",
+          "exits": {
+            "north": "20404",
+            "south": "20399"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20451",
+          "title": "Dark, enclosed path",
+          "exits": {
+            "north": "20454",
+            "south": "20446"
+          }
+        },
+        {
+          "vnum": "20387",
+          "title": "On a path",
+          "exits": {
+            "north": "20388",
+            "south": "20386"
+          }
+        },
+        "*",
+        {
+          "vnum": "20393",
+          "title": "On a path",
+          "exits": {
+            "east": "20394",
+            "south": "20392"
+          }
+        },
+        {
+          "vnum": "20394",
+          "title": "On a path",
+          "exits": {
+            "east": "20395",
+            "west": "20393"
+          }
+        },
+        {
+          "vnum": "20395",
+          "title": "On a path",
+          "exits": {
+            "east": "20396",
+            "south": "20334",
+            "west": "20394"
+          }
+        },
+        {
+          "vnum": "20396",
+          "title": "On a path",
+          "exits": {
+            "east": "20398",
+            "west": "20395"
+          }
+        },
+        {
+          "vnum": "20398",
+          "title": "On a path",
+          "exits": {
+            "north": "20399",
+            "south": "20397",
+            "west": "20396"
+          }
+        },
+        {
+          "vnum": "20399",
+          "title": "On a path",
+          "exits": {
+            "north": "20401",
+            "east": "20400",
+            "south": "20398"
+          }
+        },
+        {
+          "vnum": "20400",
+          "title": "On a path",
+          "exits": {
+            "west": "20399"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20448",
+          "title": "Shrine to Krazar",
+          "exits": {
+            "east": "20446"
+          }
+        },
+        {
+          "vnum": "20446",
+          "title": "Dirt path through the wild woodland",
+          "exits": {
+            "north": "20451",
+            "east": "20386",
+            "south": "20447",
+            "west": "20448"
+          }
+        },
+        {
+          "vnum": "20386",
+          "title": "On a path",
+          "exits": {
+            "north": "20387",
+            "east": "20390",
+            "south": "20385",
+            "west": "20446"
+          }
+        },
+        {
+          "vnum": "20390",
+          "title": "On a path",
+          "exits": {
+            "east": "20392",
+            "south": "20457",
+            "west": "20386"
+          }
+        },
+        {
+          "vnum": "20392",
+          "title": "The yard",
+          "exits": {
+            "north": "20393",
+            "south": "20391",
+            "west": "20390"
+          }
+        },
+        "*",
+        {
+          "vnum": "20334",
+          "title": "Downward sloping path",
+          "exits": {
+            "north": "20395",
+            "down": "20333"
+          }
+        },
+        "*",
+        {
+          "vnum": "20396",
+          "title": "On a path",
+          "exits": {
+            "east": "20398",
+            "west": "20395"
+          }
+        },
+        {
+          "vnum": "20398",
+          "title": "On a path",
+          "exits": {
+            "north": "20399",
+            "south": "20397",
+            "west": "20396"
+          }
+        },
+        {
+          "vnum": "20456",
+          "title": "Inside the cabin",
+          "exits": {
+            "south": "20455"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20447",
+          "title": "Shrine to Joja",
+          "exits": {
+            "north": "20446"
+          }
+        },
+        {
+          "vnum": "20385",
+          "title": "Southern viewpoint",
+          "exits": {
+            "north": "20386"
+          }
+        },
+        {
+          "vnum": "20457",
+          "title": "Small Cottage",
+          "exits": {
+            "north": "20390"
+          }
+        },
+        {
+          "vnum": "20391",
+          "title": "The yard",
+          "exits": {
+            "north": "20392"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20397",
+          "title": "Southern viewpoint",
+          "exits": {
+            "north": "20398",
+            "east": "20455"
+          }
+        },
+        {
+          "vnum": "20455",
+          "title": "Kevinlape's Butchery",
+          "exits": {
+            "north": "20456",
+            "west": "20397"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20381",
+          "title": "Alcove",
+          "exits": {
+            "east": "20380"
+          }
+        },
+        {
+          "vnum": "20380",
+          "title": "General Shoppe within the tunnel",
+          "exits": {
+            "east": "20379",
+            "west": "20381"
+          }
+        },
+        {
+          "vnum": "20379",
+          "title": "Path within the tunnel",
+          "exits": {
+            "south": "20378",
+            "west": "20380"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20425",
+          "title": "Shrine to Maelstrom",
+          "exits": {
+            "south": "20424"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20373",
+          "title": "Sloping path within the tunnel",
+          "exits": {
+            "south": "20368",
+            "up": "20374"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20378",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20379",
+            "south": "20375"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20424",
+          "title": "By the pond",
+          "exits": {
+            "north": "20425",
+            "south": "20423"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20366",
+          "title": "Shrine to Nycholas",
+          "exits": {
+            "east": "20367"
+          }
+        },
+        {
+          "vnum": "20367",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20368",
+            "south": "20365",
+            "west": "20366"
+          }
+        },
+        {
+          "vnum": "20368",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20373",
+            "east": "20369",
+            "west": "20367"
+          }
+        },
+        {
+          "vnum": "20369",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20370",
+            "west": "20368"
+          }
+        },
+        {
+          "vnum": "20370",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20371",
+            "west": "20369"
+          }
+        },
+        {
+          "vnum": "20371",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20375",
+            "south": "20372",
+            "west": "20370"
+          }
+        },
+        {
+          "vnum": "20375",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20378",
+            "east": "20376",
+            "west": "20371"
+          }
+        },
+        {
+          "vnum": "20376",
+          "title": "Barr's Bar",
+          "exits": {
+            "east": "20377",
+            "west": "20375"
+          }
+        },
+        {
+          "vnum": "20377",
+          "title": "Barr's Brewery",
+          "exits": {
+            "west": "20376"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20423",
+          "title": "By the pond",
+          "exits": {
+            "north": "20424",
+            "east": "20419"
+          }
+        },
+        {
+          "vnum": "20419",
+          "title": "On a dark path",
+          "exits": {
+            "east": "20416",
+            "west": "20426"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20364",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20365",
+            "south": "20363"
+          }
+        },
+        {
+          "vnum": "20365",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20367",
+            "west": "20364"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20372",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20371",
+            "south": "20351"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20316",
+          "title": "Blacksmith's Forge",
+          "exits": {
+            "south": "20315"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20363",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20364",
+            "south": "20359"
+          }
+        },
+        "*",
+        {
+          "vnum": "20357",
+          "title": "The Cokery",
+          "exits": {
+            "south": "20356"
+          }
+        },
+        {
+          "vnum": "20355",
+          "title": "Festes Ryalle",
+          "exits": {
+            "south": "20354"
+          }
+        },
+        "*",
+        {
+          "vnum": "20351",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20372",
+            "east": "20350",
+            "south": "20352"
+          }
+        },
+        {
+          "vnum": "20350",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20310",
+            "west": "20351"
+          }
+        },
+        {
+          "vnum": "20310",
+          "title": "Path within the tunnel",
+          "exits": {
+            "south": "20309",
+            "west": "20350"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20314",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20315",
+            "south": "20313"
+          }
+        },
+        {
+          "vnum": "20315",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20316",
+            "east": "20317",
+            "west": "20314"
+          }
+        },
+        {
+          "vnum": "20317",
+          "title": "Willow-Wing's Wears and Weaponry",
+          "exits": {
+            "west": "20315"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20359",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20363",
+            "east": "20358",
+            "south": "20360"
+          }
+        },
+        {
+          "vnum": "20358",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20356",
+            "west": "20359"
+          }
+        },
+        {
+          "vnum": "20356",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20357",
+            "east": "20354",
+            "west": "20358"
+          }
+        },
+        {
+          "vnum": "20354",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20355",
+            "east": "20353",
+            "west": "20356"
+          }
+        },
+        {
+          "vnum": "20353",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20352",
+            "west": "20354"
+          }
+        },
+        {
+          "vnum": "20352",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20351",
+            "west": "20353"
+          }
+        },
+        "*",
+        {
+          "vnum": "20309",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20310",
+            "south": "20308"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20313",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20314",
+            "south": "20305"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "20382",
+          "title": "Shrine to Jord",
+          "exits": {
+            "east": "20360"
+          }
+        },
+        {
+          "vnum": "20360",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20359",
+            "south": "20361",
+            "west": "20382"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20308",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20309",
+            "east": "20307",
+            "south": "20311"
+          }
+        },
+        {
+          "vnum": "20307",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20306",
+            "west": "20308"
+          }
+        },
+        {
+          "vnum": "20306",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20305",
+            "west": "20307"
+          }
+        },
+        {
+          "vnum": "20305",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20313",
+            "east": "20304",
+            "south": "20318",
+            "west": "20306"
+          }
+        },
+        {
+          "vnum": "20304",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20303",
+            "west": "20305"
+          }
+        },
+        {
+          "vnum": "20303",
+          "title": "By the Pillars",
+          "exits": {
+            "east": "20302",
+            "west": "20304"
+          }
+        },
+        {
+          "vnum": "20302",
+          "title": "Path between pillars",
+          "exits": {
+            "east": "20301",
+            "west": "20303"
+          }
+        },
+        {
+          "vnum": "20301",
+          "title": "Path sloping downward",
+          "exits": {
+            "up": "5256",
+            "west": "20302"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20361",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20360",
+            "south": "20362"
+          }
+        },
+        "*",
+        {
+          "vnum": "20345",
+          "title": "Sloping path within the tunnel",
+          "exits": {
+            "south": "20346",
+            "up": "20344"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20311",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20308",
+            "south": "20312"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20318",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20305",
+            "south": "20319"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "20362",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20361",
+            "east": "20347",
+            "west": "21701"
+          }
+        },
+        {
+          "vnum": "20347",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20346",
+            "south": "20348",
+            "west": "20362"
+          }
+        },
+        {
+          "vnum": "20346",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20345",
+            "east": "20339",
+            "west": "20347"
+          }
+        },
+        {
+          "vnum": "20339",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20338",
+            "south": "20340",
+            "west": "20346"
+          }
+        },
+        {
+          "vnum": "20338",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20337",
+            "west": "20339"
+          }
+        },
+        {
+          "vnum": "20337",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20336",
+            "south": "20335",
+            "west": "20338"
+          }
+        },
+        {
+          "vnum": "20336",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20312",
+            "west": "20337"
+          }
+        },
+        {
+          "vnum": "20312",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20311",
+            "east": "20322",
+            "west": "20336"
+          }
+        },
+        {
+          "vnum": "20322",
+          "title": "Sloping path within the tunnel",
+          "exits": {
+            "west": "20312",
+            "up": "20323"
+          }
+        },
+        "*",
+        {
+          "vnum": "20319",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20318",
+            "south": "20320"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20348",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20347",
+            "south": "20349"
+          }
+        },
+        "*",
+        {
+          "vnum": "20340",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20339",
+            "south": "20341"
+          }
+        },
+        "*",
+        {
+          "vnum": "20335",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20337",
+            "south": "20330"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20320",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20319",
+            "south": "20321"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20349",
+          "title": "Shrine to Nixalis",
+          "exits": {
+            "north": "20348"
+          }
+        },
+        "*",
+        {
+          "vnum": "20341",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20340",
+            "south": "20342"
+          }
+        },
+        "*",
+        {
+          "vnum": "20330",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20335",
+            "east": "20329",
+            "south": "20331"
+          }
+        },
+        {
+          "vnum": "20329",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20328",
+            "south": "20333",
+            "west": "20330"
+          }
+        },
+        {
+          "vnum": "20328",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20325",
+            "west": "20329"
+          }
+        },
+        {
+          "vnum": "20325",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20324",
+            "south": "20326",
+            "west": "20328"
+          }
+        },
+        {
+          "vnum": "20324",
+          "title": "Path within the tunnel",
+          "exits": {
+            "east": "20321",
+            "west": "20325"
+          }
+        },
+        {
+          "vnum": "20321",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20320",
+            "west": "20324"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20343",
+          "title": "Bank of Thera",
+          "exits": {
+            "east": "20342"
+          }
+        },
+        {
+          "vnum": "20342",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20341",
+            "west": "20343"
+          }
+        },
+        "*",
+        {
+          "vnum": "20331",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20330",
+            "south": "20332"
+          }
+        },
+        {
+          "vnum": "20333",
+          "title": "Sloping path within the tunnel",
+          "exits": {
+            "north": "20329",
+            "up": "20334"
+          }
+        },
+        "*",
+        {
+          "vnum": "20326",
+          "title": "Path within the tunnel",
+          "exits": {
+            "north": "20325",
+            "south": "20327"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20332",
+          "title": "Shrine to Restin",
+          "exits": {
+            "north": "20331"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20327",
+          "title": "Shrine to Gryleth",
+          "exits": {
+            "north": "20326"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

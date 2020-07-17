@@ -1,0 +1,2091 @@
+{
+  "filename": "castleb.are",
+  "name": "Joja's Garden",
+  "listing": "{SHRINE} Joja Botanical Garden",
+  "range": "18200 18299",
+  "rooms": {
+    "18200": {
+      "vnum": "18200",
+      "title": "Joja's and Krazar's Garden",
+      "description": "Just to the east of the Glade of Sanctuary is a part of the forest rarely\nvisited. Tall golden oak trees with thick trunks lend shade to this part\nof the Golden Leaf Wood, keeping the harshness of the sun from blanching\nthe leaves of the tiny trees growing within. A path of hard packed black\ndirt winds around, allowing the visitor to view all the plants without\nstepping upon any. The ground is otherwise covered with golden oak leaves\nwhich have fallen, lending a fresh carpet to the wood here, and somehow\nnot wandering onto the path. Animals feel welcome here and often visit,\ncareful not to trample the little trees. A small section of the garden\nis devoted to a few rose plants. You see one rosebush filled with black\nroses, fragrant with a heady and sensual scent. The black rose bush is\nsurrounded by a number of smaller rosebushes bearing tiny pink rosebuds.\nSurrounding those plants are a circle of brilliant yellow tulips. A small\nsign is planted in the little rose garden.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_SHRINE",
+        "ROOM_NO_RECALL",
+        "ROOM_NOWHERE",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "7066"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "tiny"
+          ],
+          "description": "The tiny trees are miniature oaks, as though they were models of the larger,\nmore ancient golden oaks of this area. Exquisite, petite, they are a joy to\nbehold, and the temptation to touch the tiny golden leaves is great."
+        },
+        {
+          "keywords": [
+            "tall"
+          ],
+          "description": "The tall thick golden oaks stand as guardians over this part of the wood.\nTheir thick canopy of golden leaves keeps most of the sun out, but you can\nstill look up and see the sky beyond when the wind rustles the high branches."
+        },
+        {
+          "keywords": [
+            "sign"
+          ],
+          "description": "The small sign says,\nRoses and Tulips\nDonated by\nReldor"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18201": {
+      "vnum": "18201",
+      "title": "Along the garden path",
+      "description": "A path formed of natural rock leads southward through a lush garden.\nUnlike most gardens, this one has a more wild, natural look to it.\nTo either side of the rock path, trees grow, their trunks thick and\ncoarse, their canopies offering a pleasant shade to those who travel\nhere. Numerous shrubs also grow here, adding thick foliage to the\nlower part of the garden. A sign has been set in the soil near one\nof the tall trees.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18202"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18244"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "sign"
+          ],
+          "description": "+-------------------+\n| Botanical Gardens |\n|  planted by Joja  |\n|                   |\n|  Kindly  Refrain  |\n| From  Using Magic |\n| During Your Visit |\n|  To This Natural  |\n|      Garden.      |\n+-------+---+-------+\n|   |\n|   |\n/////\\\\\\\\/\\/\\/\\//////"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18202": {
+      "vnum": "18202",
+      "title": "Along the garden path",
+      "description": "The stone path meanders to the north and east here, dipping with\nthe land. To either side of it are tall trees, their trunks covered\nwith coarse bark. It is shady here, delightfully so, as a canopy of\nthick leaves holds back the harshest rays of the sun during the day.\nLower to the ground, lush shrubs fill the air with freshness. A thin\nstream of running water follows the path toward the east. Its origin\nin the west is unseen past the thick growth of trees.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18201"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18203"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18203": {
+      "vnum": "18203",
+      "title": "Along the garden path",
+      "description": "The rock path follows a somewhat east-west direction, lending itself\nnaturally to the uneven ground. To either side of the natural path\nare tall, thick-trunked trees, their bark coarse and rough to the\ntouch. High above, a canopy of leaves lends shade to the path during\nthe sunniest days. A low-hanging branch promises trouble to those\nwho travel here without ducking low beneath it. Shrubs reach out\nwith thorny branches among deep green leaves. A thin stream of\nrunning water follows the path, heading eastward. Its origin seems\nto be beyond the thick growth of trees to the west.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18204"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18202"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18204": {
+      "vnum": "18204",
+      "title": "Along the garden path",
+      "description": "The stone path meanders to the north and west here, dipping with\nthe land. To either side of it are tall trees, their trunks covered\nwith coarse bark. It is delightfully shady here, as a canopy of\nthick leaves holds back the harshest heat from the sun during the\nday. Alongside the trees, thick shrubs grow, their green leaves\ndotted with little berries. A thin stream of running water follows\nthe path toward the east and the north. Its origin appears to be\nbeyond a thick growth of trees to the west.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18205"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18203"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18205": {
+      "vnum": "18205",
+      "title": "Along the garden path",
+      "description": "Northward and southward the path of natural stone stretches. To either\nside of it, high, thick trees surrounded by lush green shrubs send\nshade from their thick canopy of leaves above. To the east is a\nrunning stream of water heading toward the north. Several low-hanging\nbranches promise trouble to those who do not duck low to pass beneath\nthem. A lone leaf flutters downward and lands upon the rushing waters,\nfloating swiftly northward like a flatbottom boat.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18206"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18204"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18206": {
+      "vnum": "18206",
+      "title": "Along the garden path",
+      "description": "The natural stone path meanders northward and southward, and branches\noff eastward. Veering eastward or southward, a stream of water flows\nwith a pleasant gurgle. High, thick, coarse-barked trees spread a bit\nof shade beneath their thick canopies of leaves. Closer to the ground,\nthick shrubs fill the air with that fresh, green fragrance.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18207"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18212"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18205"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18207": {
+      "vnum": "18207",
+      "title": "Along the garden path",
+      "description": "The rock path extends north and south through a thick woodland\nof tall trees and lush shrubs. A thick canopy of leaves shades\nthe natural garden. The uneven ground makes travelling here a\nlittle dangerous, with risks of turned ankles or slipping on\nslick surfaces.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18208"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18206"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18208": {
+      "vnum": "18208",
+      "title": "Along the garden path",
+      "description": "A natural rock path extends north and south over uneven ground\nhere. On either side of it, tall trees with thick, coarse trunks\ntower above, shading all with a canopy of thick leaves. Closer\nto the ground, a number of thick, thorny shrubs surround the\ntrees and reach out toward those who travel the path.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18210"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18207"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18209": {
+      "vnum": "18209",
+      "title": "End of the garden path",
+      "description": "The natural rock path leads to the east. To north, west, and\nsouth are huge trees, giant redwoods, thick as nine giants\nin a huddle together. So close do they grow to one another\nthat there is no room for shrubs. Smaller plants seem to be\nattempting to grow here in the moist soil, though. A small\nstone bench is here, angled to enjoy the shade of the mighty\nredwoods.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18210"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "bench"
+          ],
+          "description": "It appears to be made of sturdy stone, and while small, it is\nstrong enough to hold quite a lot of weight without cracking."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18210": {
+      "vnum": "18210",
+      "title": "Along the garden path",
+      "description": "The natural rock path forms a T here, the crosspiece of it\nstretched east and west, and the stem extending far to the\nsouth. To the north are huge redwood trees, their trunks as\nwide around as about nine giants in a huddle together. A\ncouple small plants have started growing among the redwoods.\nThe canopy of leaves high above offers shade.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18211"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18208"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18209"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18211": {
+      "vnum": "18211",
+      "title": "End of the garden path",
+      "description": "The natural rock path leads to the west. To north, east, and\nsouth are huge trees, giant redwoods, as thick as nine giants\nin a huddle together. So close do these titanic trees grow to\none another that there is no room for shrubs. There are a few\nsmall plants, however, which have begun to grow in the moist\nsoil here, despite crowded conditions. A small stone bench is\nhere, set at an angle to best enjoy the shade of the mighty\nredwoods.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18210"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "bench"
+          ],
+          "description": "It appears to be made of sturdy stone, and while small, it is\nstrong enough to hold quite a lot of weight without cracking."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18212": {
+      "vnum": "18212",
+      "title": "Along the garden path",
+      "description": "The natural rock path leads to east and west through the\nforested garden. Alongside of it, to the south, a gurgling\nstream rushes toward the east, heading downward as does\nthe path itself. Sunlight creeps through the canopy of\nleaves above. Thick, thorny bushes reach out to travellers\non the path, luring with pretty flowers and delightful\nscents.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18213"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18206"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18213": {
+      "vnum": "18213",
+      "title": "Along the garden path",
+      "description": "The natural rock path converges here with one heading toward the\nwest, one toward the south, and one toward the north and east.\nLooking to the east from here, you see a huge pool of water. Into\nthis pool the gurgling stream empties, forming a small waterfall\nfrom this height to down there where the water is. The way down\nis not safe and is not recommended to any travellers. To the south\nis a stone bridge, under which the stream flows freely. During the\nday, the sun breaks through the canopy of leaves here, warming the\nuneven ground. The path northward slopes downward, the path south-\nward slopes upward, and the path westward remains somewhat level.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18222"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18214"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18212"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18214": {
+      "vnum": "18214",
+      "title": "The bridge over the gurgling stream",
+      "description": "Stretching northward and southward, the natural rock path\nencircles a deep pool of water. It forms a rock bridge here,\nstradling the gurgling stream from the west which empties,\nby way of a small waterfall, into the water below to the\neast. Above, a hole in the canopy of leaves allows the sun\nto shine brightly during the day, both upon the path and\nbridge, and the water below and to the east.",
+      "flags": [],
+      "sector": "SECT_HILLS",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18213"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18215"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18215": {
+      "vnum": "18215",
+      "title": "Along the garden path",
+      "description": "The natural rock path veers toward the north and east here,\nencircling a lovely huge pool to the northeast. To the north,\na rock bridge spans over a stream which forms a small waterfall\nas it plunges its waters into the pool below. There is no safe\nway down to the pool from here. A break in the canopy of leaves\nallows the sun to shine brightly during the day, tickling the\npool's surface with its warm rays and heating the stones of\nthe natural path. To the west and south, tall trees rise up,\ntheir bark rough, their trunks thick. Shrubs reach out with\nthorny branches, temptingly brilliant flowers peeking out from\nwithin thorn-infested cages.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18214"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18216"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18216": {
+      "vnum": "18216",
+      "title": "Along the garden path",
+      "description": "To the north of the natural rock path which extends east and\nwest, is a deep pool fed by the waters from a gurgling stream\nflowing beneath a rock bridge to the west-north-west. South of\nthe natural path, tall trees rise up, their leaves forming a\ncanopy which cannot extend above the pool. Sunlight therefore\nshines upon the water's surface during the day and warms the\nsurface of the rocks which form the path. Short shrubs grow\nbetween the thick tree trunks, lending foliage to the lower\nlevels of the forested garden. The rock path is uneven, and\nthe ground slopes, so that the farther east you travel, the\nlower in altitude you become, the farther west, the higher.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18217"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18215"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18217": {
+      "vnum": "18217",
+      "title": "Along the garden path",
+      "description": "The path formed of natural rock veers northward and westward\nhere, surrounding a deep pool of water to the northwest. From\nhere you can look across, west-north-westward, to a rock bridge,\nand a waterfall formed from a gurgling stream, the waters of\nwhich descend into the pool below. Tall trees growing south and\neast of the path lend a canopy of leaves to form a shade, but\nthey do not extend over the pool, and during the day, the sun\nsends its warm rays upon the water's surface, and sometimes\nslips through and warms the rocks of the natural path. On a\nlower level, thick shrubs grow between the tree trunks, their\nfoliage thick and green. The altitude changes as you travel,\nrising toward the west, lowering toward the north.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18218"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18216"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18218": {
+      "vnum": "18218",
+      "title": "Along the garden path",
+      "description": "A natural rock path encircles a deep pool of water to the west\nand northwest. From where you stand, you can look west across\nthe way and see a rock bridge stradling a stream whose water\nfalls upon a rough rock face into the pool below. The path\nbelow you is uneven, sloping downward toward the north, upward\ntoward the south.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18219"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18217"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18219": {
+      "vnum": "18219",
+      "title": "On the garden path",
+      "description": "The natural rock path encircling the deep pool to the west\nslopes downward to the north and upward to the south. On the\neastward side, tall trees rise up, their canopy of leaves\nlending shade upon the path but none upon the water below.\nAcross the way, to the west, you can see a stone bridge over\na modest waterfall. Green, leafy shrubs grow between the\ntree trunks, their branches reaching out toward you.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18220"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18218"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18220": {
+      "vnum": "18220",
+      "title": "Along the garden path",
+      "description": "The natural rock paths converge at this point, encircling\nthe deep pool of water to the southwest and also heading\nout to the east. Tall trees growing north of the path lend\nshade from their canopy of leaves, but this shade only\nextends to the path. The waters of the pool receive full\nsunlight on a sunny day. The path slopes upward toward\nthe south, and also upward toward the west, but levels off\ntoward the east. Looking toward the southwest, across the\npool, you see a stone bridge across a stream which descends\npast a rocky outcropping into the waters below.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18223"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18219"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18221"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18221": {
+      "vnum": "18221",
+      "title": "Along the garden path",
+      "description": "On uneven ground, the natural rock path encircles the pool\nto the south, sloping upward as it leads westward, downward\nas it leads eastward. North of the path, tall trees grow,\ntheir high branches extending a canopy of leaves out to shade\nthe path. The waters of the pool, however, remain exposed to\nthe direct sunlight during the day.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18220"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18222"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18222": {
+      "vnum": "18222",
+      "title": "Along the garden path",
+      "description": "The natural path veers southward, and slopes upward, and\neastward, sloping downward, as it encircles the deep pool\nto the southeast. North and west of the path, tall trees\ngrow, their thick, coarsely barked trunks close together,\nso that only thin, but tall, shrubs grow between them.\nFrom above, the canopy of leaves lends shade to the path,\nbut it does not extend to the pool, which receives the\nfull brunt of the sun during the day. From here, looking\nsouth, you can see the path rising upward, and a stone\nbridge arching over something.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18221"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18213"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18223": {
+      "vnum": "18223",
+      "title": "Along the garden path",
+      "description": "The natural rock path stretches before you to the east and\nwest. Toward the west, it seems to meet at a convergence of\npaths, rising upward. To the north and south of the path,\nthin trunked trees rise, their bark smooth and grey except\nwhere it peels, naturally, from the trunk. These trees have\nnot a thick foliage canopy, but thin, intermittant shade,\nallowing the sunlight, during the day, to filter through.\nThick, large-leaved shrubs grow between the tree trunks, and\nhuge-leafed ivy covers the ground. Along the south side of\nthe path, a stream flows toward the east. Its origin seems\nto be with the pool to the west.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18224"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18220"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18224": {
+      "vnum": "18224",
+      "title": "Along the garden path",
+      "description": "The natural rock paths converge here, stretching to east and\nwest, as well as southward. Thin trunked trees rise, their\nbark smooth and grey except where it peels, naturally, from\nthe trunk. These trees have not a thick canopy of foliage, but\nthin, intermittant shade, allowing the sunlight to filter in\nthrough the leaves during the day. Thick, large-leaved shrubs\ngrow between the tree trunks, and huge-leafed ivy covers the\nground. A large slab of stone spans a stream of water that\ngurgles its way to the east.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18233"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18225"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18223"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18225": {
+      "vnum": "18225",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends toward the south from here,\nas well as to a convergence of paths to the north. Thin\ntrunked trees grow here, their bark smooth and grey except\nwhere it peels naturally from the trunk. These trees do not\nhave a thick canopy of foliage, but their leaves give thin,\nintermittant shade, allowing the sunlight to filter in\nthrough the leaves during the day. The ground is covered\nwith ivy whose leaves measure about five inches across.\nAlong the east side of the path, a stream flows eastward,\ngurgling merrily, fed from the south and, it appears, the\nwest, perhaps from an opening in the rock beneath you. Along\nthe west side of the path, toward the south, is a flowerbed.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18224"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18226"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18226": {
+      "vnum": "18226",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends toward the north and south.\nThin trunked trees grow here, their bark smooth and grey\nexcept where it peels from the trunk naturally. These\ntrees do not have a thick canopy of foliage, but their\nleaves give thin, intermittant shade, allowing the sun to\nfilter in through the leaves during the day. The ground\nis covered with a variety of ivy whose leaves measure\nabout five inches across. Along the east side of the\npath, a stream of water gurgles northward. Along the west\nside of the path is a flowerbed, neatly kept but for the\nend vines of ivy which attempt to crawl over its boundaries.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18225"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18227"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18227": {
+      "vnum": "18227",
+      "title": "Along the garden path",
+      "description": "The natural rock path stretches northward and southward.\nAlong the east and west sides of the path, thin trunked\ntrees rise up, their bark smooth and grey except where\nnature has peeled it away from the trunk. These trees\nwere graced with a thin canopy which allows the sun to\nfilter through the intermittant shade it provides. Ivy,\nwhose leaves measure about five inches across, covers\nthe ground. Along the east side of the path, a stream\nof water gurgles northward. Along the west side of the\npath, flowers grow within a neatly kept flowerbed, into\nwhich the ivy attempts to crawl.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18226"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18228"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18228": {
+      "vnum": "18228",
+      "title": "Along the garden path",
+      "description": "The natural rock path stretches toward the north and\nsouth. Along the east and west sides of the bank, thin\ntrunked trees rise up, their bark smooth and grey except\nwhere nature has chosen to peel it away in paper thin\npeelings. These trees were graced with a thin canopy\nwhich allows the sun to filter through. Intermittant\nshade dances upon the large (about five inches across)\nleafed ivy which covers the ground. Along the west side\nof the path, a flowerbed stretches north and south, the\nivy making attempts to crawl over the boundaries. Along\nthe east side, a stream of water gurgles northward.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18227"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18229"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18229": {
+      "vnum": "18229",
+      "title": "Along the garden path",
+      "description": "The natural rock path veers northward and westward. Toward\nthe north, it is even, on level ground. Toward the west,\nhowever, the rock path is uneven, covering ground which\nslopes downward. To the northwest, a well-kept flowerbed\nsits beside the path, and beyond it, a field of dark green\nivy with leaves measuring about five inches across. Amidst\nthe ivy, thin trunked trees rise up, lending an intermittant\nshade from their canopy of leaves. The bark of those trees\nis of light grey and very smooth, except where nature has\nchosen to peel it away in paper-thin layers. To the east, a\nstream of water gurgles northward. Its origin seems to be\nwithin a field of ivy, perhaps a natural spring coming up\nfrom the ground amid the vines.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18228"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18230"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18230": {
+      "vnum": "18230",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends east and west upon uneven ground\nthat slopes downward toward the west, upward toward the east.\nTo the south, a field of dark green ivy covers the ground, its\nleaves measuring about five inches across. Within the field of\nivy, thin trunked trees rise up, their smooth grey bark peeling\nin places. Intermittant shade covers this area, as the trees do\nnot have thick, large leaves. On the northern side of the path,\na neatly kept flowerbed fends off the adventurous vines of ivy\nwhich seek to climb over its boundaries.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18229"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18231"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18231": {
+      "vnum": "18231",
+      "title": "Along the garden path",
+      "description": "The natural rock path turns toward the north and east here,\nuneven on uneven ground sloping downward toward the west and\nnorth, sloping upward toward the east. Looking toward the\nnorth, you see a rock face cliff, from the craggy side of\nwhich a few die-hard trees, very small in size, have attempted\nto grow. The field of dark green ivy has given way to lush\ngreen grass, soft to walk upon. The trees here are a mixture\nof those thin trunked trees with smooth, grey peeling bark, or\nthicker trees of maple and elm, their dark brown bark very\nrough to the touch.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18232"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18230"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18232": {
+      "vnum": "18232",
+      "title": "End of the garden path",
+      "description": "The natural rock path stretches southward from the base of a\nrough rock cliff. The land to the south gently inclines, though\nthe result is to make the path uneven and challenging to walk\nupon. The cliff face is craggy, with small, hardy trees attempting\nto grow from it. Directly before you, to the north, it seems a\nlittle smoother, as though someone had sought to work the stone\nand polish it. To the west and east of the path, lush green grass\ngrows, soft to the touch of bare feet walking upon it. A few elm\ntrees, and a couple maples, grow here.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "You sense that the smoothness of the cliff face here is indicative\nof a door within the rock face. Looking closely at it, you sense\ncertain cracks in the rock that seem more from a construction than\nnatural cracking.",
+          "keywords": [
+            "rock",
+            "door"
+          ],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "18245"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18231"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18233": {
+      "vnum": "18233",
+      "title": "Along the garden path",
+      "description": "The natural rock path stretches before you to the east\nand west. To the north and south of the path, you see\nthin trunked trees with smooth grey, peeling bark\nlending an intermittant shade to all around you. Thick,\nlarge-leaved shrubs grow between the tree trunks, and\ndark green ivy with large leaves covers the ground.\nAlong the south side of the path, a stream flows toward\nthe east. It gurgles from under a slab of rock to the\nwest toward another such slab of rock to the east.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18234"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18224"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18234": {
+      "vnum": "18234",
+      "title": "Along the garden path",
+      "description": "The natural rock paths converge here, stretching to east and\nwest, as well as southward. During the day the sun is bright\nhere, for all the trees are in miniature, and no canopy of\nthick leaves offers any shade. To the north of the path,\nthere are many rocks, and the small trees growing here cling\nto those rocks with weather-toughened roots. Their trunks\nhave twisted and turned with the wind, some cascading, others\njust leaning. Most of the trees here are from the pine and fir\nfamilies. Their bark is as tough as their will to live.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18235"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18243"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18233"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18235": {
+      "vnum": "18235",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends eastward and westward. From\nhere you can tell that it encircles a miniature garden, or\nperhaps a garden, and forest, in miniature. The sun beats\ndown upon this part of the garden during the day, for there\nare no tall trees to lend shading. To the north of the path,\nrocks rise up that have become home to various small, hardy\ntrees whose weather-toughened trunks have twisted over time\nwith the winds. Rough roots dig into the boulders, cracking\nthem. Most of the trees are of the fir and pine variety, with\nsmall, hard green needles and a certain prehistoric look. To\nthe south, the ground is covered with moss and grasses, and\nthe small trees growing there are of the deciduous kind, their\nbranches following the will of the natural seasons, with leaves\nbudding, growing, turning darker green, then to brilliant golds\nand scarlets, and then, brown, falling to the ground and leaving\nbare branches to rustle in the winter winds. In miniature, these\ntrees are exquisite, no matter the season.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18236"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18234"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18236": {
+      "vnum": "18236",
+      "title": "Along the garden path",
+      "description": "The natural rock path turns toward the west and south here,\nencircling a miniature forest garden. To the north and east,\ncracked boulders serve as a perch for a number of small but\nweather-hardy pine and fir trees whose trunks have been blown\nin different directions over time, resulting in some rather\ntwisted shapes. They remain alive, however, and cling to life,\never green. To the southwest, the ground is covered with moss\nand grasses, and the small trees growing there are deciduous,\ntheir branches following the will of the seasons, with leaves\nbudding, growing, turning darker green, then to brilliant golds\nand scarlets, and then, brittle brown, falling to the ground\nand leaving bare branches to rustle in the winter winds. In\nminiature, these trees are exquisite, regardless of the season.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18237"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18235"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18237": {
+      "vnum": "18237",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends to the north and south as it\nencircles a miniature forest garden. To the east, cracked\nboulders serve as a perch for a number of small weather-\nhardy pine and fir trees whose trunks have been blown in\ndifferent directions over time, resulting in twisted trunks\nand cascading branches. They remain alive and cling to life.\nTo the west, the ground is covered with moss and grasses,\nand the small trees growing there are deciduous, subject to\nthe will of the seasons, with leaves budding, growing, turning\ndarker green and then brilliant gold and scarlet, and finally,\nbrittle brown, falling from bare winter branches rustling in\nthe boreal winds. In miniature, these trees are exquisite at\nany time of the year.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18236"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18238"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18238": {
+      "vnum": "18238",
+      "title": "Along the garden path",
+      "description": "The natural rock path converges from three directions,\nextending to the north, south, and west as it encircles\na miniature forest garden. To the east, cracked boulders\nserve as a perch for a number of small weather-hardy fir\nand pine trees, whose trunks, over the years, have been\ntwisted and bent by the wind, resulting in cascades and\nleaning trees. Clinging to life, and those cracked boulders\nwith their weatherbeaten roots, they remain ever green.\nIn contrast, trees of a more deciduous nature dwell within\na miniature forest garden. Moss and grasses cover the\nground around these trees, whose leaves annually undertake\na journey of life all their own, as a metaphor for mortality:\nbudding, growing, turning darker green, then brilliant gold\nand scarlet, finally brittle brown, falling from the branches,\nleaving them bare in the boreal winds.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18237"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18239"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18240"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18239": {
+      "vnum": "18239",
+      "title": "The end of the garden path",
+      "description": "The natural rock path extends to the north from here,\nleading toward a path encircling a miniature forest\ngarden of deciduous trees amid grasses and moss. To\nthe east and south are well-kept flowerbeds. A bench\nis here for resting and enjoying the view of the\nminiature garden to the northnorth-west. To the west,\na few fern trees grow, surrounded by small bushes\nwith tiny, brilliant red roses blooming within thorny\ncages.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18238"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "bench"
+          ],
+          "description": "It appears to be made of sturdy stone, and large enough\nto hold two heavy people without cracking."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18240": {
+      "vnum": "18240",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends eastward and westward as it\nencircles a miniature forest garden. To the south, cracked\nboulders serve as a perch for a number of small weather-\nhardy pine trees whose trunks have been blown in different\ndirections over time, resulting in cascading branches and\ntwisted trunks. Ever green, they cling to life on those\nboulders. To the north, the ground is covered with moss and\ngrasses, and the small trees growing there are subject to\nthe will of the seasons, with leaves budding, growing,\nturning darker green and then brilliant gold and scarlet,\nand finally, brittle brown, falling from bare branches\nrustling in the chill winter winds. These miniature trees\nare exquisite at any time of the year. To the south, a\nfew fern trees grow, surrounded by small bushes with tiny,\nbrilliant red roses blooming within thorny cages.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18238"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18242"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18241": {
+      "vnum": "18241",
+      "title": "The end of the garden path",
+      "description": "The natural rock path extends to the north from here,\nleading toward a path encircling a miniature forest\ngarden of deciduous trees amid grasses and moss. To\nthe south is a well-kept flowerbed. To the east and\nthe west of the path, a few fern trees grow amidst\nsmall bushes with tiny, brilliant red roses blooming\nwithin thorny cages. A bench is here for resting and\nenjoying the view of the miniature garden to the north-\nnorth-east.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18242"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "bench"
+          ],
+          "description": "It appears to be made of sturdy stone, and large enough\nto hold two heavy people without cracking."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18242": {
+      "vnum": "18242",
+      "title": "Along the garden path",
+      "description": "The natural rock path converges from three directions,\nextending to the north, south, and east as it encircles\na miniature forest garden. To the northeast, the ground\nis covered with moss and grasses, and the small trees\ngrowing there are deciduous, their branches following the\nwill of the seasons, with leaves budding, growing, turning\ndarker green, then to brilliant golds and scarlets, and\nthen, brittle brown, falling to the ground and leaving\nbare branches to rustle in the winter winds. In miniature,\nthese trees are exquisite, regardless of the season. To\nthe west, a couple of fern trees grow, surrounded by small\nbushes with tiny, brilliant red roses blooming within\nthorny cages.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18243"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18240"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18241"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18243": {
+      "vnum": "18243",
+      "title": "Along the garden path",
+      "description": "The natural rock path extends to the north and south as it\nencircles a miniature forest garden. To the west, the\nground is covered with moss and grasses, and the small trees\ngrowing there are deciduous, subject to the will of the\nseasons, with leaves budding, growing, turning darker green\nand then brilliant gold and scarlet, and finally, brittle\nbrown, falling from bare winter branches rustling in the\nboreal winds. In miniature, these trees are exquisite at any\ntime of the year. To the west, a couple of fern trees grow\namidst small bushes with tiny, brilliant red roses blooming\nwithin thorny cages.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18234"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18242"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18244": {
+      "vnum": "18244",
+      "title": "Along the natural rock path",
+      "description": "A path formed of natural rock leads eastward toward what appears\nto be a huge forest. To the west is the cooking area of Castle\nBoovair, and to the south you see the great stone edifice rising\nhigh, its northeast tower way above you.",
+      "flags": [],
+      "sector": "SECT_CITY",
+      "exits": {
+        "east": {
+          "description": "You see the thick trees and a path running through them.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18201"
+        },
+        "west": {
+          "description": "You see the cooking area used by the cooks of Castle Boovair.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18729"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18245": {
+      "vnum": "18245",
+      "title": "Along a path of polished stone",
+      "description": "The stone beneath you is polished almost to a perfect shine. There\nare some imperfections, though, as if someone had chipped at it in\nplaces, though not too many places. To the east, a rocky cliff rises.\nSouthward, the path is rougher and begins to rise. To the west you\nsee lush green grass dotted with flowers of brilliant hues. The\nsound of water falling rapidly into a pool delights your ears from\nthe north, and looking in that direction, you see that the path\ncontinues, polished and flat as it is here.",
+      "flags": [],
+      "sector": "SECT_HILLS",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18246"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18232"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18246": {
+      "vnum": "18246",
+      "title": "Along a path of polished stone",
+      "description": "The stone beneath you is polished almost to a perfect shine. The few\nimperfections you see serve only to highlight the smoothness of the\nsurface. To the east, a sheer cliff of craggy rock rises upward. West-\nward is a modest body of water, of a clear blue, reflecting the sky\nand yet allowing you to see the floor of this large spring, where you\ncan view small plant life, multicolored rocks and stones, and maybe,\njust maybe, a glimpse of something living down there. The delightful\nsound of falling water comes to you from the north, and you see that\nthe path continues in that direction, polished and flat as it is here.\nWater falls into the spring from about halfway up the rock wall to the\nnorth, splashing into the clear blue water. Directly to the west across\nthe spring is another sheer cliff, and about two-thirds up, a waterfall\nrushes to a ledge, where the water seems to gather and rush along to the\nnorth and then falls rapidly down into the spring. Some overflow streams\ndownward along that western cliff face as the water makes its way north-\nward toward the final fall.",
+      "flags": [],
+      "sector": "SECT_HILLS",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18247"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18245"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18247": {
+      "vnum": "18247",
+      "title": "Along a path of polished stone",
+      "description": "The stone beneath you is polished almost to a perfect shine. There\nare few imperfections in the stone here. A sheer cliff of craggy\nrock rises upward to the east of you, and to the west is a modest\nbody of clear blue water. The loud sound of falling water comes\nfrom the north, where you see it landing into the large spring\nfrom a height about halfway up the rock face. As your eyes follow\nthe waterfall upward, you see that there is a second waterfall:\nDirectly to the west across the spring is another sheer cliff, and\nabout two-thirds up, a waterfall rushes to a ledge, where the water\nseems to gather and rush along to the north and then falls rapidly\ndown into the spring. Some overflow streams downward along that\nwestern cliff face as the water makes its way northward toward the\nfinal fall.",
+      "flags": [],
+      "sector": "SECT_HILLS",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18248"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18246"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18248": {
+      "vnum": "18248",
+      "title": "A bend in the path of polished stone",
+      "description": "The stone beneath you is polished almost to a perfect shine. There are\nfew imperfections, if any at all, in the stone here. The rock wall forms\nan overhang, a sort of ceiling, above you, and you are protected from a\nstraight downfall of water. There is such a downfall of water to your\nwest, but remaining on the path of polished stone will prevent you being\ndashed to the rocks below which sit in the clear blue spring of water.\nThe path continues to the west and to the south.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18247"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18249"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18249": {
+      "vnum": "18249",
+      "title": "Behind the waterfall",
+      "description": "The stone beneath you is polished almost to a perfect shine. Above you,\nthe rock wall has formed an overhanging ceiling. A waterfall forms a very\nwet wall to the south, occasionally spraying water upon you where you\nstand. Remaining on the path will prevent a slip and a fall to the rocks\nbelow, where the waterfall plunges. To the north is an opening in the rock\nwall, leading perhaps into a cavern. The path of polished stone extends to\nthe east and west.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18255"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18248"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18250"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18250": {
+      "vnum": "18250",
+      "title": "A bend in the path of polished stone",
+      "description": "The stone beneath you is polished almost to a perfect shine. There are\nfew imperfections, if any at all, in the stone here. The rock wall forms\nan overhanging ceiling above you, and you are protected from a straight\ndownfall of water. There is such a downfall of water to your east, but\nremaining on the path of polished stone will prevent you being dashed to\nthe rocks below which sit in the clear blue spring of water. The path\ncontinues to the east and to the south.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18249"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18251": {
+      "vnum": "18251",
+      "title": "Along a path of polished stone",
+      "description": "The stone beneath you is polished to what appears to be a perfect shine.\nOverhead is a ceiling of rock, extending from the wall to the west. To\nthe east is a spring of clear blue water. The path is wider here than to\nthe north, and from the look of it, might be wider to the south than here.\nYou hear the sound of water falling, both above you and to the north. If\nyou are careful, you can enter the spring to the east.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "description": "You see a sparkling spring fed by a thundering waterfall. Entering\nthe spring from here looks safe enough, if you avoid getting too close\nto the crashing water in the northern part.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18254"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18252"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18252": {
+      "vnum": "18252",
+      "title": "Along a path of polished stone",
+      "description": "The stone beneath you is polished to a perfect shine, with few or no\nimperfections. It is wide here, wide enough to enjoy a picnic or lie\ndown and stare up at the stars at night beyond the canopy of leaves\nup above, a canopy which has opened up above the clear blue spring to\nthe east. The path extends northward, where it narrows a little. To\nthe south is an impassable wall of rock extending upward. You hear\nthe sound of water falling, both above you, and to the north. If\nyou are careful, you can enter the spring to the east. To the west\nis an opening in the rock, leading to a cavern.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18251"
+        },
+        "east": {
+          "description": "You see a sparkling spring fed by a waterfall.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18253"
+        },
+        "west": {
+          "description": "You see a well-lit cavern.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18269"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18253": {
+      "vnum": "18253",
+      "title": "Wading in the Spring",
+      "description": "You found your way into the spring water which forms a small shallow lake\nat the base of the rocky cliffs. The water is a clear blue color, reflecting\nthe sky above, yet allowing one to see the lakebed below. You can tell that\nthere are little plants growing there, and small fish occasionally show\nthemselves as they dart from one plant to another. The shallow lake extends\nto the north, where a waterfall fills it constantly. Looking at the lakebed\nagain, you do not see where the water might be draining, and yet the level\nis always the same.",
+      "flags": [],
+      "sector": "SECT_WATER_SWIM",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18254"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18252"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "water"
+          ],
+          "description": "You look at the water in the spring and notice how clear it is, blue-tinted\nreflecting the sky above, yet allowing you to look at the lakebed below. The\nlakebed is of various sized stones, clean and polished smooth. The water of\nthe spring has a fresh water scent."
+        },
+        {
+          "keywords": [
+            "fish"
+          ],
+          "description": "The fish are gold and silver, with fanning tails and long fins. They swim in\nclose pairs."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18254": {
+      "vnum": "18254",
+      "title": "Wading in the Spring near the Waterfall",
+      "description": "You found your way into the spring water which forms a small shallow lake\nat the base of the rocky cliffs. The water is a clear blue color, reflecting\nthe sky above, yet allowing one to see the lakebed below. You can tell that\nthere are little plants growing there, and small fish occasionally show\nthemselves as they dart from one plant to another. Rocks abound in the\nnorthern section, where a waterfall crashes down, sending watery spray\neverywhere. Looking at the lakebed again, you don't see where the water\nmight be draining, and yet the water level is always the same. The shallow\nlake extends to the south.",
+      "flags": [],
+      "sector": "SECT_WATER_SWIM",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18253"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18251"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "water"
+          ],
+          "description": "You look at the water in the spring and notice how clear it is, blue-tinted\nreflecting the sky above, yet allowing you to look at the lakebed below. The\nlakebed is of various sized stones, clean and polished smooth. The water of\nthe spring has a fresh water scent."
+        },
+        {
+          "keywords": [
+            "fish"
+          ],
+          "description": "The fish are gold and silver, with fanning tails and long fins. They swim in\nclose pairs."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18255": {
+      "vnum": "18255",
+      "title": "Behind the Waterfall",
+      "description": "You stand in a cavern north of the waterfall. From that waterfall water\nsprays in. The cavern itself is moderately lit by silver torches on the\neastern half, and wooden torches set in silver sconces on the western\nhalf. The flames burn a brilliant blue, rather than the usual fiery hues\nof orange and yellow. Between the torches on the eastern half are large\nshields bearing the Lechium Family Crest. Between the torches on the\nwestern half are jeweled mosaics in the shape of a deep blue rose whose\ngreen thorny stem ends in a quill tip. There is no furniture here, but\nyou do see a sign above an open entrance to the east. Where one would\nexpect to see an open entrance to the west is, instead, a silver-barred\ngate which leaves no room to sneak through, under, or over.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18256"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18249"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18261"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "sign",
+            "east"
+          ],
+          "description": "The sign is of silver, engraved with but one word:\nKrazar"
+        },
+        {
+          "keywords": [
+            "west",
+            "gate"
+          ],
+          "description": "The gate allows a limited visibility as to what might lay beyond.\nAttached to the bars is a silver plate with a single word engraved\nupon it:\nJoja"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18256": {
+      "vnum": "18256",
+      "title": "The Massive Cavern of the Lord of Fear",
+      "description": "As you enter this mammoth cave, you are immediately\nstruck not only by its huge proportions, but also by the\nwarm moist air that is very fresh and crisp in your lungs.\nThe smooth walls are a clay red color and are lined with\nflickering torches of pure silver. Between each torch\nare large shields bearing the Lechium Family Crest. You\nnotice a large inscription upon the floor.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18257"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18255"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "inscription"
+          ],
+          "description": "Those that here enter:  Lay aside ye arms, for this\nis a place of study and peace. Those that seek the\nCrest are like family and should not attempt to injure\neach other. Penalties for shedding blood here are quite\nsevere."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18257": {
+      "vnum": "18257",
+      "title": "The Massive Cavern of the Lord of Fear",
+      "description": "The walls broaden and part here to reveal a room full of\nlight from a staircase leading to the top of what appears\nto be a tower built through the top of the cavern. The\nfloor of the cavern is lined with beautiful rugs of many\ndifferent cultures. Upon the walls hang tapestries alive\nwith many different hues.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18258"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18256"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18266"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18258": {
+      "vnum": "18258",
+      "title": "The Massive Cavern of the Lord of Fear",
+      "description": "Upon the far wall of the cavern a huge hearth radiates a\nwarm and cozy heat. The massive fire crackles amiably\nand sends light bouncing everywhere. Over the hearth are\ntwo magnificent portraits. On the left is a massive portrait\nof Krazar in full battledress. Upon the right is a glowing\nportrait of Joja.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18259"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18257"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "krazar"
+          ],
+          "description": "His Lechium Family Sword is wielded in his right hand, and his\nVery Heavy Sword is in his left. His face is stoic and seems\nchisled in stone."
+        },
+        {
+          "keywords": [
+            "joja"
+          ],
+          "description": "Her majestic wings are outstretched and illuminated by a blinding\nlight behind her. Her face is highlighted by crown of blue roses\nand she has a determined yet peaceful look upon her visage."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18259": {
+      "vnum": "18259",
+      "title": "The Massive Cavern of the Lord of Fear",
+      "description": "You are struck by the sheer size of Krazar's library. Even\nmore dazzling is the centerpiece of the room, a pedestal\nmade of pure platinum on which sits the huge compendium of\nfamily history. As you move to the pedestal, it automatically\nadjusts to your size so that you can easily access the compendium.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18258"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18260"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18260": {
+      "vnum": "18260",
+      "title": "The Massive Cavern of the Lord of Fear",
+      "description": "Lining the walls of the cavern here are glorious suits of\narmor. The many different varieties of battlegear glimmer\nin the torch light. Above each suit of armor hang weapons\nof every variety and size. This part of the cavern appears\nto be a monument to the warrior guild.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18259"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18261": {
+      "vnum": "18261",
+      "title": "Behind the Silver Gate",
+      "description": "As you enter this dark passage, you see smooth stone walls of a\nclay red hue lined with flickering dark blue wax candles in shiny\nsilver sconces. Between each candle are tapestries depicting the\ndeep blue rose whose green, thorny stem ends in a quill tip. In\neach tapestry the quill tip appears to have written words upon a\nparchment. The first one on the right says, 'Love'. The first on\nthe left says, 'Loyalty'. The second on the right says, 'Diplomacy',\nand the second on the left says, 'Natural Power.' The floor is of\nthe same clay red stone as the walls. The ceiling, however, is so\nhigh you cannot see it, but you know it is there.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18255"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18262"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18262": {
+      "vnum": "18262",
+      "title": "The Massive Cavern of the Lady of Purity",
+      "description": "The walls broaden and part here to reveal a room full of light.\nA silver staircase leads upward to the top of what appears to be\na tower built through the top of the cavern. The floor of the\ncavern is lined with beautiful rugs of swirly designs, with greens\nand blues predominating, as though they were mimicking water. Upon\nthe walls hang tapestries alive with many different hues,\nportraying woodlands, prairies, meadows, hillocks, mountains,\ndeserts, water, and tunnels beneath the ground.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18261"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18263"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18267"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18263": {
+      "vnum": "18263",
+      "title": "The Massive Cavern of the Lady of Purity",
+      "description": "Upon the far wall of the cavern, a huge hearth radiates a warm and\ncozy heat. The massive fire crackles amiably and sends light\nbouncing all over. Above the hearth are two magnificent portraits.\nOn the left is a massive portrait of Joja wearing hunter-crafted\nleathers. On the right is a portrait of Krazar wearing an open-\nneck tunic and leathers. Along the north wall, in silver frames\nthat set them apart from the clay red walls, are six smaller\npictures, labelled with the names, Kalkyr, Burthain, Dalvimyr,\nTrevyr, Agharil, and Jyracil. On the western wall beside the\nfireplace are two tall pictures, labelled with the names Bludgwuar\nand Agryr. A smaller picture between these two is labelled with the\nname, Sengeril.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18262"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18264"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "krazar"
+          ],
+          "description": "The large rectangular picture has a swirly silver frame\nreminiscent of a unicorn's horn. Within that frame is a\nbackground of a forest of oak trees with golden leaves,\ntall ones and very small ones, though the small ones look\nabout as old as the tall ones. The forest floor is\ncovered in leaves of gold and scarlet. Leaning against\none tree is a huge shield bearing three six-pointed stars\nazure on a field blank, two above, one below, centered.\nStanding next to the tree is a huge man, with muscles\nseemingly of iron, leathery skin tanned from spending much\ntime in the sun. His long, black hair streams down his\nmassive shoulders and flows down his back. His legs are as\nthick as the tree supporting the shield. His tunic is open,\nexposing a muscular chest adorned with a tattoo of an eagle\nsoaring over an enraged viper. Across this tattoo is\nanother one, that of a well-etched battleaxe. His bare arms\nbear tattoos as well. On his right forearm you see a dagger,\nabove the dagger and running the rest of the span of his\nmassive arm is a finely etched broadsword. On his left arm,\na large warhammer is deeply engraved in his calloused flesh.\nAn aura of light blue surrounds Krazar Lechium, and he carries\na very heavy sword engraved with his name, a sword bearing\nvery sharp edges and appearing to be of forged iron."
+        },
+        {
+          "keywords": [
+            "joja"
+          ],
+          "description": "The large rectangular picture has a swirly silver frame\nreminiscent of a unicorn's horn. Within that frame is a\nbackground of a forest of oak trees with golden leaves,\ntall ones and very small ones, though the small ones look\nabout as old as the tall ones. The forest floor is covered\nin leaves of gold and scarlet. In the foreground is a small\ntree with green leaves and deep blue roses growing upon it.\nThe trunk of the little rose tree is covered with thorns.\nStanding by the tree is a beautiful grey-elven lady. She\nis slim and wears leathers which appear to be crafted by a\nhunter. Dark brown in color, they match her dark hair\nstreaked with red which flows freely down from her head\nand way down her back, blown a little by the forest breeze.\nHer green eyes gaze in many directions at once, very much\nlike one of those portraits that seem to follow you as you\nwalk past them. Behind her, huge wings with feathers\nreminiscent of a giant eagle's rise up. While obviously\nhers, the wings seem slightly out of place, as though they\nshould have been granted to a giant. They arch gracefully\nbehind her. Despite being winged, the Angel Joja firmly\nstands upon the ground. Next to her on one side, a white\nbaby unicorn rubs its neck against her legs. On the other\nside, a trollish looking thing crouches on all fours,\nreaching her shoulder in its lowered height. One of her\nhands gently touches the baby unicorn behind the ears,\nthe other hand gently rests upon the trollish beast's\nshoulder. A smile on her face speaks of the joy she feels\namong the beasts and the woods."
+        },
+        {
+          "keywords": [
+            "kalkyr"
+          ],
+          "description": "An extremely large troll stands by a massive iron gate by\na stone wall into which battle runes and mottos have been\ninscribed. His clothes are a dark greyish-green that would\nfade easily into leaf or shadow. Kalkyr Krull is tall and\nhard, broad-shouldered, with blue eyes like frozen mountain\nlakes. His skin is a dark green color, almost brown, making\nhis clothes seem almost a second skin, and his almond eyes\nstand out like sapphires. His face is one that does not\nresemble most trolls, as it is unmarred by scars and far too\nbeautiful in a way. Elven-like ears add to the peculiarity of\nhis face and diminish his trollish features perhaps beyond\ncertainty. There is a touch of inky black in his fiery red\nhair held back by a woven leather cord. Although his features\nseem to be mixed from many descents, his stance can only be\ndescribed as determined. Beyond his greyish-green cloak you\nsee a glimmering tattoo of a dagger on his left forearm. On\nhis right forearm is a similarly glimmering tattoo, this one\nof a broadsword. Around his neck hangs a blood red necklace\nwith the insignia of the Bloodknights of Steel etched upon it.\nOne hand rests on the long hilt of his huge battleaxe, the\nshaft of which extends beyond the sharp curved blades and\nrests upon the hard stone ground."
+        },
+        {
+          "keywords": [
+            "burthain"
+          ],
+          "description": "A female troll stands by a tapestry of an intricately woven\npentagram, her stance reminiscent of a flirty barmaid. Her\nclothing accentuates her noticeable bust, and you can see\nthe smooth purple skin of her legs. Her face is also purple,\nwith a bronzed shine to it, and flawless. Her deep crimson\neyes match her lips, under which two small white fangs\nprotrude. Long elven ears peek out from her dull blonde hair,\ntied in a myriad of braids. She has multiple piercings in\nher nose. The expression on her face is difficult to place,\nalthough most who have viewed this picture have concluded\nthat Burthain Krull did not want to pose for any artist at\nthe time."
+        },
+        {
+          "keywords": [
+            "dalvimyr"
+          ],
+          "description": "A young giant of a man with almond-shaped green eyes,\nDalvimyr Krull regards you from a portrait. He is standing\nby a fir tree, two hunting hounds at his ankles. His long\ndark hair is tied back with a leather strap, pulling it\nclose enough to his head that his pointed elvish ears stick\nup and out through it. His skin is flawless and unblemished,\nand he wears clothing as seen on noblemen and royals, satins\nand velvets, fur linings and trim. Around his neck a golden\nchain bears an amulet of a leaf, wrought in gold also, and\nstudded with emeralds. Dalvimyr's fingers are adorned with\nmany bejeweled rings, a veritable rainbow in faceted gems\nreflecting light."
+        },
+        {
+          "keywords": [
+            "trevyr"
+          ],
+          "description": "A stocky, greenish-grey man clad in very little armor stands\nwith an unexpected grace. Trevyr Krull's coarse, mottled\ngreenish-brown hair cascades past his short, sharply pointed\nears down to the middle of his back. His pink, almond-shaped\neyes are sunken into his head, gazing out over an almost\ntroll-like muzzle. A thin, hawk-like nose projects itself from\nthe muzzle. Very muscular, his body is larger and perhaps\nclumsier than that of most who wear a belt of rank within the\nmartial arts. Yet he must move with extreme grace and fluidity,\nfor the belt around his waist is black, adorned with silvery\npraying mantises. His hands are grotesquely marred with burns.\nVisible on his left pectoral is an intricate tatoo of a\nsilvery dagger. Around the silvery dagger is a tatoo of a\nblood red broadsword, ripping down his abdomen and disappearing\njust beneath his belt. Down his right arm, a huge tatoo of a\nbrown-handled warhammer with a silver head designates his\nlast ranking within the Steel Clan before he was named as\nEnvoy."
+        },
+        {
+          "keywords": [
+            "agharil"
+          ],
+          "description": "A large man in monk garb stands with ease amid a forest of\nautumnal trees, their crimson, gold, and orange leaves a bright\ncontrast to the man with the serious demeanor. Agharil Krull\nappears to be of trollish descent, however, he is obviously not\na pureblooded troll. His hulking, chiseled body and olive-\ncolored skin bely the maredly elven features which are apparent\nin his countenance. With almond-shaped eyes and a rather\nhandsome face by trollish standards, Agharil is very unique-\nlooking. He wears only the simple garb of a monk: a light robe,\nsome rings and bracers, and a pair of simple necklaces. His\nlong, sable hair is silkier and straighter than the average\ntroll would have. This mane of hair frames a face free of warts\nand hair, but marked by several small scars. In his eyes one\ncan detect intelligence and awareness, and despite his muscular\nframe, he probably moves quite deftly, for it takes some grace\nto earn a brown belt. Mantises outlined in gold thread cavort\non his belt. A runic symbol has been burned into the flesh of\nhis right arm, and on his left arm is the mark of a dagger."
+        },
+        {
+          "keywords": [
+            "jyracil"
+          ],
+          "description": "The boyish face and slim body which regard you from this\nportrait belong to Jyracil Krull. He stands by a garden\nof brilliantly hued flowers. Jyracil wears a plain tunic of\nforest green, and leather breeches. His light hair is\nshoulder-length and thick, but the points of his elvish ears\npeek out at the sides of his head. Around his neck are two\ngolden chains. On his ring fingers he wears two plain silver\nrings. In one hand he holds a sword somewhat incorrectly. It\nis a gleaming silver blade with many runes inscribed upon it,\nand probably a ceremonial blade rather than a serious sharp one."
+        },
+        {
+          "keywords": [
+            "bludgwuar"
+          ],
+          "description": "Standing amidst a summer-green forest thick with trees is a\ngreen-skinned troll, Bludgwuar Stregheria. Behind him, to\nleft and right, are two hounds, dark brown and black their\ncoats, with black noses, and sharp eyes. The troll wields a\nknife in one hand, a staff in the other. His body is covered\nwith furs and tanned skins, stretching over swelled muscles.\nDark yellow eyes keenly gaze at you from the picture, the look\nof a killer. Sticking out between Bludgwuar's lips are pointy\nteeth. Wavy black hair thickly covers his head, a lock of it\nfalling away from the rest and curving to the right between\nhis eyebrows. Carved as though with a blade dipped in acid\ninto his left arm are the words, 'veneratio, proelium, rectus-\nordinarius'. On Bludgwuar's right arm, in the same fashion, is\nthe word, 'daiitokumyouou'. Many colorful tatoos stand out\nagainst his dark green skin, many of swords and other weapons\ncrossed. A battleaxe stands out above the others. Around his\nneck, a dull grey chain holds a fearsome amulet, a bloodied\ngauntlet mounted upon a sword, the symbol of a BloodKnight of\nSteel, the most feared of Crusaders."
+        },
+        {
+          "keywords": [
+            "agryr"
+          ],
+          "description": "Agryr Stregheria stands in a field of green grass and multi-\ncolored wildflowers. By his side two lean hounds stand with\nears and eyes alert. His green-tinted skin contrasts with\nhis red-streaked black hair which grows thickly on his head.\nPointed ears stick out. His eyes, bright green like twin\nemeralds, sit perfectly in a face of smooth, flawless skin.\nAgryr appears to be more trollish than elvish, yet elements\nof both races are present in his physique. He has the slender\nlook of an elf, yet is broader and more muscular. A fiery red\nand orange comet tatoo flies above an intricate battleaxe\nwhose handle is wrapped by leafy vines. The colors of the\ntatoos are vibrant and compelling, peeking out from a V-neck\nopening of his fur and tanned leather armor. Upon his left\nforearm is a blood-red dagger. At the center of his forehead\nis a small but beautifully worked broadsword pointing down\nsuch that its hilt acts as crossarms in a 'cross'. As you\nlook more closely at this small broadsword, you notice tiny\nwords worked into the blade, 'Honor' and 'Courage in the\nHunt'. Above his forearm just above the blood-red dagger is\na detailed warhammer done in pure white, contrasting with\nAgryr's green skin."
+        },
+        {
+          "keywords": [
+            "sengeril"
+          ],
+          "description": "A large warrior with heavily trollish features stands by an\niron gate and a smooth rock wall. Sengeril Stregheria is\ndressed in beautifully detailed armor. His skin is a flawless\nebony-green, but his pointed ears and narrow bone structure\nin his face give him a very elfin look. Unlike most trolls\nwho are incredibly large built masses of meat and muscle,\nSengeril is incredibly lean. His muscle and sinew look almost\nunnatural, as if sculpted from solid rock. Long, snow-white\nhair flows down onto Sengeril's shoulders with the exception\nof a small, red line. A dull glow radiates from pupilless\nblood-red eyes which stare at you from the picture and yet\nseem unfocused. His armor is finely crafted mithril engraved\nwith many symbols of the royal family of Dhaes Drae Aesilon.\nA blood red cape of fine silk hangs down from his neck, caught\nby a breeze. A large sword is strapped over his shoulder,\nits blade seemingly tinted with blood. Carved into the blade\nare the words, 'ELF SLAYER'."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18264": {
+      "vnum": "18264",
+      "title": "The Massive Cavern of the Lady of Purity",
+      "description": "You are struck by the sheer size of Joja's library. A number\nof books grace the bookshelves here which were carved from\nthe stone itself. Throughout the library a number of chairs\nare scattered. Next to each chair is a standing sconce bearing\na single dark blue candle kept constantly lit. The hard rock\nfloor is covered by a huge carpet of many colors, with dark\nblue dominating and contrasting with gold, crimson, green,\npurple, and orange.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18263"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18265"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18265": {
+      "vnum": "18265",
+      "title": "The Massive Cavern of the Lady of Purity",
+      "description": "Lining the walls of the cavern here are a number of staffs,\nknives, and pelts. A shelf carved in the stone wall holds\na number of jars containing herbs. A collection of seeds\nsits within a box set on one shelf. Polished horns and\nantlers adorn part of the wall, as well as a few trophy\nheads from various animals. A large club leans against\nthe corner of two of the walls. This part of the cavern\nappears to be a monument to the ranger guild.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18268"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18264"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18266": {
+      "vnum": "18266",
+      "title": "The Trebuchet Above the Lechium Cavern",
+      "description": "Looking about the tower, you realize that you are\nstanding within a huge trebuchet. The entire tower is\nsurrounded by huge redwood trees which block your view\nof the surrounding forest. Standing where you are, it\nseems as if you only need utter the word \"Release\", and\nyou would be flung halfway across Thera!",
+      "flags": [],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18257"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18267": {
+      "vnum": "18267",
+      "title": "The Greenhouse Above the Lechium Cavern",
+      "description": "Looking about the tower, you realize that you are standing\nwithin a glass structure. The smooth stone floor rises up\nat the walls to about six inches. Then the stone walls end\nand the walls of glass begin. These walls are very thick\nand by no means weak and shatter prone. Along the glass\nwalls are wooden tables fit perfectly with the curve. Upon\nthose tables are a number of small pots containing plants\nin various stages of growth. The air here is humid and warm.\nBeyond the thick panes you see a forest, and a garden with\na pathway running through it that seems to spell something.\nGlittering in the light, a shiny silver stair leads downward.",
+      "flags": [],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18262"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18268": {
+      "vnum": "18268",
+      "title": "The Massive Cavern of the Lady of Purity",
+      "description": "The walls of the cavern here are adorned with silver sconces\nand dark blue candles kept burning. Between the sconces are\nparchments framed with polished wood. You see a number of\nsuch parchments, each one numbered and worded in Common. The\nfloor is covered with a number of throw rugs made from the\npelts of large beasts. The pelts are soft to the touch and\nclean, somehow, despite the fact that people walk through\nhere with their outdoor boots on.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18265"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18269"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "1",
+            "one"
+          ],
+          "description": "The framed parchment marked with a '1' contains the words,\nOur achievements are shaped by the terrain of our lives and\nthe strength of the foundations we set. In building the\nlife we have imagined, we must be true to our beliefs\ndare to be ethical, and strive to be honorable.\nFor Integrity is the highest ground\nto which we can aspire."
+        },
+        {
+          "keywords": [
+            "2",
+            "two"
+          ],
+          "description": "The framed parchment marked with a '2' contains the words,\nThou canst choose thine actions,\nbut thou canst not choose the outcomes.\nNatural law doth govern outcomes."
+        },
+        {
+          "keywords": [
+            "3",
+            "three"
+          ],
+          "description": "The framed parchment marked with a '3' contains the words,\nWhat people do to us hurteth us not.\n'Tis our chosen response to what\nthey do which inflicteth pain."
+        },
+        {
+          "keywords": [
+            "4",
+            "four"
+          ],
+          "description": "The framed parchment marked with a '4' contains the words,\nNothing canst make thee to feel inferior\nwithout thine own consent.\nNobody canst take from thee thy self-respect\nif thou givest it not to them."
+        },
+        {
+          "keywords": [
+            "5",
+            "five"
+          ],
+          "description": "The framed parchment marked with a '5' contains the words,\nWhat is important to another person\nmust be as important to thyself\nas that other person is to thee."
+        },
+        {
+          "keywords": [
+            "6",
+            "six"
+          ],
+          "description": "The framed parchment marked with a '6' contains the words,\nStrength lieth in differences,\nnot in similarities."
+        },
+        {
+          "keywords": [
+            "7",
+            "seven"
+          ],
+          "description": "The framed parchment marked with a '7' contains the words,\nMore noble 'tis to give thyself completely\nto one individual,\nthan to seek to give thyself in part\nto the masses."
+        },
+        {
+          "keywords": [
+            "8",
+            "eight"
+          ],
+          "description": "The framed parchment marked with an '8' contains the words,\nLove dieth not a natural death.\nIt dieth because we know not how to replenish its source.\nIt dieth of blindness, errors, and betrayals.\nIt dieth of illness and wounds, weariness,\nwitherings,tarnishings, and neglect."
+        },
+        {
+          "keywords": [
+            "9",
+            "nine"
+          ],
+          "description": "The framed parchment marked with a '9' contains the words,\nAll love that hath not a base in friendship\nis like a castle with a base upon the sand."
+        },
+        {
+          "keywords": [
+            "10",
+            "ten"
+          ],
+          "description": "The framed parchment marked with a '10' contains the words,\nWhen the power of love overcometh the love of power\nthe soul willt know peace."
+        },
+        {
+          "keywords": [
+            "11",
+            "eleven"
+          ],
+          "description": "The framed parchmet marked with an '11' contains the words,\nLet thy quest not be to seek for love,\nbut to seek and find\nall barriers within thyself\nthat thou hast built against it."
+        },
+        {
+          "keywords": [
+            "12",
+            "twelve"
+          ],
+          "description": "The framed parchment marked with a '12' contains the words,\nEverything in nature containeth\nall the power of nature."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "18269": {
+      "vnum": "18269",
+      "title": "The Massive Cavern of the Lady of Purity",
+      "description": "Blazing cressets atop natural rock columns light the rocky\nwalls and floor. The rock floor is bare of any cloth or\nfur, and you can see where water has collected in the few\nlow spots, undoubtedly tracked in from a wet place. More\nthan a few huge glass-topped tables formed of stone protrude\nfrom the walls, the stone part of the wall, but the glass\nobviously added later. Within the tables are collections\nof things. Each table is labelled by number.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18268"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "18252"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "1",
+            "one"
+          ],
+          "description": "You look through the glass of the stone table marked '1'\nand see an exhibit marked,\n\"Trophies from the Outlaw War\":\na poncho from the carcass of Crulthix\n( 3) a steak of Namar            a steak of Leila\n( 5) a steak of Sorin            a steak of Tauvi\na steak of Krizin      ( 3) a steak of Zinfister\na steak of Splythe     ( 2) a steak of Thedus\na steak of Ranthir     ( 6) a steak of Amenotep\n( 3) a steak of Gharien          a steak of Sterbefall\n( 3) a steak of Aerdrie          a steak of Grimark\n( 2) a steak of Ventar           a steak of A cloaked figure\n( 7) a steak of Zhentrezes  ( 2) a steak of Blemdumen\n( 2) a steak of Cethegis         a steak of Lyllewl\n( 2) a steak of Bainus           a steak of Vindillas\na steak of Supatha          a steak of Avaisil\n( 4) a steak of Murdok           a steak of Luin\n( 2) a steak of Kithis           a steak of Janoplin\n( 3) a steak of Vrith            a steak of Kyista\n( 2) a steak of Veth             a steak of Gorlab\na steak of Norlys           a steak of Karvik\na steak of Alunan      ( 3) a steak of Connell\na steak of Arog             a steak of Pirlisia\n( 3) a steak of Dahrisha    ( 2) a steak of Krosis\na steak of Alexia           a steak of Carolinas\na steak of Vartan           a steak of Malywn\na steak of Dreihr"
+        },
+        {
+          "keywords": [
+            "2",
+            "two"
+          ],
+          "description": "You look through the glass of the stone table marked '2'\nand see an exhibit marked,\n\"Trophies from the War with Conclave\":\na steak of Maethen         a steak of Rausch\n( 2) a steak of Cullyn          a steak of Aldinoth\n( 6) a steak of Stashz          a steak of Donalde\na steak of Delante         the skeleton of Gary\n( 7) a steak of Ayladriah  ( 2) a steak of Ilsyara\n( 9) a steak of Liment          a steak of Saelyth\n( 8) a steak of Alysien         a steak of Adilus\na wholesome section of a steak of Margoth\n( 5) a steak of Nyrisia         a steak of Teriach\n( 8) a steak of Margoth    ( 6) a steak of Stelerex\n( 8) a steak of Araucarias      a steak of Zahin\na steak of Niephdel        a steak of Byru\n( 4) a steak of Grimelly        a steak of Taklen\na steak of Aelin           a steak of Railen\n( 4) a steak of Deornoth   ( 4) a steak of Bherunda\n( 3) a steak of Eromond    ( 3) a steak of Vandokken\n( 5) a steak of Baraquois  ( 4) a steak of Golodhis\na steak of Cruadorn        a steak of Velag\na steak of Studge          a steak of Balzahir\na steak of Rees            a steak of a spirit unicorn\na steak of Malachi    ( 6) a steak of Dyomsis\n( 2) a steak of Meursault       a steak of Gelador\na steak of Galalith        a steak of Yavilir\n( 3) a steak of Linosis         a steak of Nahndel\n( 2) a steak of Denafil         a steak of Urobach\na steak of Mogheidu        a steak of Trizzle\na steak of Amar            a steak of Gariek"
+        },
+        {
+          "keywords": [
+            "3",
+            "three"
+          ],
+          "description": "You look through the glass of the stone table marked '3'\nand see an exhibit marked,\n\"Joja's Earliest Collection of Gifts and Things\":\na poncho from the carcass of the Spectre\na steak of Roscoe                a steak of Tauvi\na steak of Girlal                a steak of Sieweid\na steak of Elbert                a steak of Nerduk\na steak of a branded man\na Darkwood action figure with real deathblow action\n(Glowing) (Humming) a glowing bloodstone\na Medallion bearing the crest of the Clan Delrist\n(Deathly) (Blood-Stained) A midnight-colored veil, swaying gently in the breeze\n( 2) a huggable Princess Jojain doll\nA Pirate hat with the symbol of the Skull and Crossbones\nPlate of the Knights of the White Mountain\na plush Vorpal Bunny doll    ( 4) a steak of Hervin\na steak of Corwyn                 a steak of Vorquinch\na steak of Medjai                 a steak of Chasitie\na steak of Zeratul                a steak of Gowand\na steak of Radik                  a steak of Ghrumsh\na steak of Birneko           ( 2) a steak of Tokei\na steak of Rykimthal         ( 2) a steak of Theablar\na steak of a falcon          ( 3) a steak of Restalon\n( 3) a steak of Darr                   a steak of Streeve\n( 2) a steak of Crono                  a steak of Hilborn\na steak of Tymoran                a steak of Armok\na steak of Diroth                 a steak of Krothar\na steak of Slyte                  a steak of Frel\na steak of Mtheiln                a steak of Terryll\na steak of Karaktora              a steak of Krakaz\na steak of Sirik                  a steak of Aszeron\na steak of Krizin                 a steak of Lantrip\na steak of Mantuki           ( 2) a steak of Renton\na steak of Ghabriel               a steak of Xanthor\na steak of Durden                 a steak of Telinithix\na steak of Bastet            ( 2) a steak of Sorin\na steak of Kivante                a steak of Zynthrak\na steak of Bramble                a steak of Indreju\na steak of Alexia                 a steak of Puimen\n( 2) a steak of Battalgazi        ( 2) a steak of Jehryn\n( 3) a steak of Hutrides          ( 2) a steak of Ungarun\na steak of Visceryn               a steak of Agryr\na steak of Raagden                a steak of Vorinth\na steak of Jenaru            ( 2) a steak of Morgruzal\na steak of Lazirous               a steak of Donk\na steak of Yildizabakan      ( 2) a steak of Strobrook\na steak of The Basilisk           a steak of Tziensarith\na steak of Gherun                 a steak of Astarte\na steak of Horragoth              a steak of Glykon\nThe Inherent Strength of Self     a steak of Odel\n( 2) a steak of Kithis                 a steak of Meilin\na steak of Dromatis               a steak of Xuthen\n( 2) a steak of Krazar                 a steak of Targin\na steak of Wintroklin        ( 3) a steak of Darnel\na steak of Deathstream            a steak of the Ancient Red Dragon\na \"Crusader Immortals\" deck of cards\nan \"Immortals of Light\" deck of cards\na carved wooden angel with wings\na wooden statue of a tall, proud swashbuckler\n( 4) a purple-backed card with two unicorn heads against a golden disk\nan \"Arcana Immortals\" deck of cards\na \"Valorian Immortals\" deck of cards\nan \"Outlaw Immortals\" deck of cards\nan \"Enforcer Immortals\" deck of cards\na \"Legion Immortals\" deck of cards\nan \"Ancient Immortals\" deck of cards\na \"Brethren Immortals\" deck of cards\na steak of Krosis                  a steak of Taun\na steak of Vycias"
+        },
+        {
+          "keywords": [
+            "4",
+            "four"
+          ],
+          "description": "You look through the glass of the stone table marked '4'\nand see an exhibit marked,\n\"A Collection of Gifts\":\n(labelled \"Gifts from Myrrin\"):\n( 5) a dozen blue roses left at the shrine by Myrrin\n( 4) a dozen red roses left at the shrine by Myrrin\n(Glowing) a circlet of braided centaur hair from Myrrin\n( 2) a single black Rose\na nosegay of rosebuds\n(labelled \"Gifts from the Steel Clan\"):\n( 4) a wildflower           ( 4) a Lily of the Valley\n( 8) a violet               ( 4) a vase of snow poppies\na rose from Kuzume     ( 3) a golden rose\na single black Rose         a golden rose from Zar\n(Glowing) red dragonscale from Zar\nwhite dragonscale from Zar\n(labelled \"Gifts of Food and Drink from Monezel, well-preserved\"):\n( 6) a chilled goblet of icewine    ( 6) a carafe of fine elvish wine\n( 6) a flagon of ale                (10) chocolate cake\n(labelled \"Gifts from Yanwei\"):\na water jug                    a tub of bright yellow crocuses\na casket of Fairy Dandelions   a bunch of tulips\nEnglish Irises                 a nosegay of rosebuds\n( 3) a Lily of the Valley\n(labelled \"Gifts of Flowers from Leifdei\"):\n( 7) a dozen red roses       ( 7) a dozen blue roses\na steak of Darnel            a violet\na pink flower                a tiny yellow buttercup\n(labelled \"Gifts from Tarthos\"):\na teddy bear\na badly-written love sonnet\nwild flowers\n(labelled \"Gifts from Tymoran\"):\n(Glowing) a druid's dark blue robe   (Glowing) a druid's yellow robe\n(Glowing) a druid's jade robe       (Purified) a fiery knife\ngreen dragonscale                              half-moon blade\nbloodstone pendant necklace               ( 2) ruby-studded belt\na Blood-Red Diamond Necklace                   a spear\n( 4) a parchment containing musical notations       box of cards\n(Glowing) the Kobold Lord's iron axe          Emblem of Air\nEmblem of Earth                               Emblem of Fire\nEmblem of Water\n(labelled \"Gifts from Sinnus\"):\na tiny yellow buttercup\na pink flower\n( 2) a violet\n(labelled \"Gift from Grenthulf\"):\na steak of Mondzo\n(labelled \"Gift from Thrition\"):\na dozen red roses\n(labelled \"Gift from Abasdarhon\"):\na stuffed Gecko covered in purple and green stripes"
+        },
+        {
+          "keywords": [
+            "5",
+            "five"
+          ],
+          "description": "You look through the glass of the stone table marked '5'\nand see an exhibit marked,\n\"Trophies from the War with Justicar\":\na steak of Meriath      ( 3) a steak of Anthatal\na steak of Olienaer     ( 6) a steak of Grysl\na steak of Kurthar           a steak of Semlin\na steak of Vexor             a steak of Nalune\n( 2) a steak of Herberacht        a steak of a blood hound\nand another exhibit marked,\n\"Trophies from the Deaths of Valorians\":\nthe bloody scalp of Satine    the skeleton of Farelel\n( 2) a steak of Njien              a steak of Mtheiln\n( 3) a steak of Satine            the bloody scalp of Mtheiln\nthe skeleton of Melinara     the skeleton of Tirius\na steak of Tirius            a steak of Lamarr"
+        },
+        {
+          "keywords": [
+            "6",
+            "six"
+          ],
+          "description": "You look through the glass of the stone table marked '6'\nand see an exhibit marked,\n\"Steaks from Raagden\":\na steak of Tokei          a steak of Pykale\n( 3) a steak of Tauvi          a steak of Kliever\na steak of Lindern   ( 2) a steak of Thaust\n( 2) a steak of A cloaked figure\na steak of Shaega    ( 3) a steak of Krosis\na steak of Zar            a steak of Alam\na steak of Davryn         a steak of Zeruon\na steak of Dualik         a steak of Stromgald\na steak of Grunk     ( 2) a steak of an enforcer guard\na steak of Birneko   ( 2) a steak of Darkon\na steak of Femin          a steak of Durden\na steak of Theoclymenus   a steak of Mtarl\na steak of Kircheis       a steak of Serin\na steak of Morkar         a steak of Hervin\na steak of Restalon       a steak of Krazar\na steak of Thelyn         a steak of Medjai\na steak of Ranthir        a steak of Zyeria\na steak of Knirja         a steak of Etenah\na steak of Caldo          a steak of Morgruzal\n( 2) a steak of Theablar       a steak of Slyte\na steak of Sorin          a steak of Eaji\na steak of Bastet         a steak of Jehryn\na steak of Yophlin        a steak of Gherun\na steak of Necyda         a steak of Xuthen\na steak of Fern           a steak of Rennyn\na steak of Shyenth        a steak of Sirik\na steak of Engerek        a steak of Vezir\na steak of Kizein         a steak of Bryl\na steak of Yaguara        a steak of Thiamus\na steak of Benge          a steak of Callad\na steak of Visceryn"
+        },
+        {
+          "keywords": [
+            "7",
+            "seven"
+          ],
+          "description": "You look through the glass of the stone table marked '7'\nand see an exhibit marked,\n\"More Collections of Historic Steaks\":\n(labelled, \"Steaks from Femin to Prove He is a BlodKnight\"):\na steak of Crulthix      ( 2) a steak of Sieweid\na steak of Setaria       ( 3) a steak of Tauvi\n( 4) a steak of Sorin         ( 2) a steak of Girlal\na steak of Krosis             a steak of Yophlin\na steak of Formido            a steak of Splythe\na steak of Zinfister          a single black Rose\na steak of Zelith\n(labelled, \"Steaks of the Enemies of Thera\"):\n( 2) a steak of Chester          a steak of Penddar\na steak of Seuhtimot        a steak of Hozali\n(labelled \"Steaks from Morgawr for his Quest\"):\na steak of Etenah\na steak of Ithrandil\na steak of Durden"
+        },
+        {
+          "keywords": [
+            "8",
+            "eight"
+          ],
+          "description": "You look through the glass of the stone table marked '8'\nand see an exhibit marked,\n\"A Varied and Sundry Collection Including Steaks\":\n( 7) a good berry                       some honey\na Cucumber Bug doll with movable limbs\nDragonkind and the Weave           The Art of Torture\n( 5) a Hellshot (Cuniar Specialty) in a shot glass\nThe Book of the Living Battleaxe\na steak of Cytheria           ( 2) a steak of Getho\na steak of Calimer                 a steak of Nydakoth\na steak of Kreen                   a steak of Sinnus\na steak of Pipinor                 a steak of Thydust\na steak of Dolrien                 a steak of Zarlos\na steak of Elandil                 a steak of Dariana\na steak of Broyden                 a steak of Martine\na steak of Dravus             ( 4) a freshly bloody mage steak\na steak of Fueren                  a steak of A cloaked figure\na steak of Kezwyk                  a steak of Hervin\na steak of Malywn                  a steak of Nydalen\na steak of Alexis                  a steak of Zherition\na steak of Nerrul                  a steak of Vrith\n( 2) a steak of Thorbicus               a steak of Prasit\na steak of Renton                  a steak of Tahann\na steak of Krosis                  a steak of Tiamat"
+        },
+        {
+          "keywords": [
+            "9",
+            "nine"
+          ],
+          "description": "You look through the glass of the stone table marked '9'\nand see an exhibit marked,\n\"Steaks collected by Lazaron during the Latter\nPart of His Lifetime\"\na steak of Thirgud           a steak of Pisacas\na steak of Yugoiik           a steak of Brebshrib\na steak of Kilincustadi      a steak of Kithis\na steak of Yugati            a steak of Zurignull\n( 5) a steak of Lazaron      ( 2) a steak of Hervin\na steak of Zaraxkiz          a steak of Yanwei\na steak of Avisos            a steak of Kurthar\na steak of Ixion             a steak of Apla\n( 2) a steak of Sualti            a steak of Proudhon\na steak of Monkifer          a steak of Saldiray\na steak of Phage             a steak of Uherka\na steak of Murdok            a steak of Thelyn\na steak of Kairien      ( 2) a steak of Jetfadil\na steak of Grick             a steak of Ronith\na steak of Kimyaci           a steak of Renton"
+        },
+        {
+          "keywords": [
+            "10",
+            "ten"
+          ],
+          "description": "You look through the glass of the stone table marked '10'\nand see an exhibit marked,\n\"Another Large Steak Collection\"\n( 2) a steak of Gralthgeran     ( 2) a steak of Sarina\na steak of Barsk           (17) a steak of A cloaked figure\na steak of Nerrul          ( 2) a steak of Rokhomaas\na steak of Dracil               a steak of Drimear\na steak of Rayoness        ( 2) a steak of Elfort\n( 2) a steak of Zlenrith             a steak of Ilztrysn\n( 2) a steak of Giovanni             a steak of Ilivril\na steak of Menel                a steak of Xupreth\na steak of Xy                   a steak of Yusonge\na steak of Tyrahuld             a steak of Maxious\na steak of Driniryn             a steak of Medshar\na steak of Vorin                a steak of Mustesna\na steak of A cloaked figure named Deathblade from Handersith\na steak of Callerik        ( 2) a steak of Preyn\na steak of Bostric              a steak of a cloaked figure (Deathblade)\na steak of Blixx                a steak of Grifith\na steak of Orville         ( 2) a steak of Istrovir\na steak of Shouzo               a steak of Siazair\na steak of Vrothgar             a steak of Nasendur\n( 2) a steak of Yophlin         ( 3) a steak of Aluc\na steak of Carchemish           a steak of Alamar\na steak of Xendien              a steak of Amyr\na steak of Etyls                a steak of Kirackus\na steak of Lugor                a steak of Razzi\na steak of Sutcu                a steak of Cracious\na steak of Sacali               a steak of Lonningham\na steak of A cloaked figure from Mangrir\n( 2) a steak of Tulock               a steak of Zeramus\na steak of Altov                a steak of Splythe\na steak of Loktar               a steak of Lekesh\na steak of Dexlyn          ( 2) a steak of Slythern\na steak of Mlaaden              a steak of Adilus\na steak of Mergus               a steak of Inthir\na steak of A cloaked figure (Nightmare) from Vrothgar\n( 2) a steak of Hanenway             a steak of Talus\na steak of Wulfe                a steak of Salix\na steak of a cloaked figure (Nightmare) from Krelix\na steak of Zirek                a steak of Alysien\na steak of Vyatroc              a steak of Mortasak\na steak of Ryokoko              a steak of Gimby\na steak of Quarkli         ( 3) a steak of Rasrin\na steak of Plexi                a steak of Tirinius\na steak of Arcmin               a steak of Khoresh\na steak of Tanquist        ( 2) a steak of Gerient\na steak of Drasarak        ( 3) a steak of Victor\na steak of Lenthan              a steak of Seulav\n( 2) a steak of Onemas               a steak of Shigeru\na steak of Uregihs              a steak of Gelienth\na steak of Talrec               a steak of Daxtren\na steak of Reztir          ( 2) a steak of Jarendon\na steak of Kaj                  a steak of Allen\na steak of Guanzyr              a steak of Vythuen\na steak of Dradyn               a steak of Yvetha\n( 3) a steak of Byru                 a steak of Magromor\n( 7) a steak of Hayyam               a steak of Ananais\na steak of Zrithintar      ( 2) a steak of Croll\na steak of Debashe              a steak of Cuneit\na steak of Agacsacan            a steak of Sithis\na steak of Kenai                a steak of Doobish\na steak of Pisacas              a steak of Thulko\na steak of Esel            ( 2) a steak of Velag\na steak of Dionisio             a steak of Plexus\na steak of Titmus               a steak of Xhanjin\na steak of Brebshrib       ( 5) a steak of Adolaphus\na steak of Darvitam        ( 2) a steak of Tavis\na steak of Laudi           ( 6) a steak of Dunyayikurta\na steak of Avek                 a steak of Granlartan\n( 2) a steak of Yimar                a steak of Malinsine\n( 2) a steak of Mitaxal              a steak of Eldarion\n( 4) a steak of Faermon         ( 3) a steak of Shenlorn\na steak of Hozali               a steak of Stykai\na steak of Nadelles             a steak of Trellis\n( 2) a steak of Zurignull            a steak of Jastin\na steak of Zydrunas             a steak of Triulidu\na steak of Guruk                a steak of Lethzenterm\na steak of Eqbuyuler            a steak of Shrixxlish\na steak of Koftehor        ( 3) a steak of Jaque\na steak of Sarinost             a steak of Senikusa\na steak of Drikar          ( 2) a steak of Vindraam\na steak of Lester               a steak of Wijdanslz\n( 2) a steak of Karei                a steak of Vladistan\na steak of Lugovnik             a steak of Gorek\na steak of Kokujin              a steak of Warrax\n( 2) a steak of Arkeidavyck          a steak of Grobyo\na steak of Gorgunch             a steak of Alenavia\na steak of Kevinlape            a steak of Yavilir\na steak of Marhael              a steak of Jexin\n( 2) a steak of Bainus          ( 2) a steak of Asgart\na steak of Vesath               a steak of Dondelius\na steak of Xyrellorrn           a steak of Qwintis\na steak of Vagoric              a steak of Golodhis\na steak of Denafil              a steak of Linosis\na steak of Deornoth             a steak of Zar\na steak of Chit                 a steak of Gelador\na steak of A cloaked figure (Enigma) from Gelador\na steak of A cloaked figure (Nemasis)\n( 2) a steak of Phage                a steak of Aciliadana\n( 3) a steak of Grysl                a steak of Therdrim\na steak of A cloaked figure, Eater of Children, from Zar\na steak of Herberacht      ( 2) a steak of Vexor\na steak of Vezir                a steak of Eowaeron\na steak of Adriza               a steak of Kojin\na steak of Boramei              a steak of Antribes\na steak of Legelavudd           a steak of Essal\na steak of Driskal              a steak of Jebereuen\na steak of Likroan              a steak of Amenotep\na steak of Kathleen             a steak of Proudhon\na steak of Xythanes             a steak of Malywn\na steak of Carolinas            a steak of Zimir\na steak of a cloaked figure (Carnage)\na steak of a cloaked figure (Dirge)\na steak of Kitanai              a steak of Kvalnir\na steak of Raydon          ( 2) a steak of Krosis\n( 2) a steak of Hervin               a steak of Palinto\na steak of Nalune               a steak of Goordok\na steak of Kestrel              a steak of Smirley\na steak of Kocatier             a steak of Metztlaxym\na steak of Heifton              a steak of Rurratae\na steak of Soloson              a steak of Durden\na steak of Mumak                a steak of Tokei"
+        },
+        {
+          "keywords": [
+            "11",
+            "eleven"
+          ],
+          "description": "You look through the glass of the stone table marked '11'\nand see an exhibit marked,\n\"A collection of gifts set here 20th the Month of the\nWinter Wolf in the year 139\"\n(Glowing) a minute from Fizzfaldt\nwild flowers from Herstal\nwild flowers from Nixalis\na Lily of the Valley from Herstal\na Lily of the Valley Aiolos\na golden rose from Vainni\na golden rose from Leofrick\na golden rose from Istrovir\na golden rose from Duritz\na golden rose from Quazal\na golden rose from Sengeril\na golden rose from Aiolos\na golden rose from Nwarzek\na golden rose from Wildereth\na golden rose from Xartaul\na golden rose from Wildereth\na golden rose from Quazal\n(Humming) a mysterious cube of chance from Quazal\na dozen blue roses from Murfon\na dozen blue roses from Aiolos\na dozen blue roses from Aiolos\na dozen blue roses from Itolimal\na dozen blue roses from Herman\na dozen blue roses from Ervasti\na dozen blue roses from Aga\na dozen blue roses from Kooga\na dozen red roses from Aiolos\na black orchid from Aiolos\na black orchid from Aiolos\nEnglish Irises from Aiolos\na dozen pink carnations from Aiolos\na vase of snow poppies from Aiolos\na box of downy violets from Aiolos\na casket of Fairy Dandelions from Aiolos\na single black Rose from Aiolos\na chrysanthemum from Nixalis\na sunflower bouquet from Nevlin\nthe decapitated head of a neohydra from Korebnileo\nthe decapitated head of a neohydra from Duritz\na white-feathered quill pen with deep blue ink from Kraleth\na jar of deep blue ink from Kraleth\n(Green Aura) A Darkwood campaign sign\n(Humming) a blue crystal rose from Jalaluddin\n(Humming) (Purified) a massive broadsword named 'Splashy' from Dervine\n(Glowing) a circlet of braided centaur hair from Rilth\nthe boots of forest walk from Varuk\na pale blue rose from Nixalis\n(Humming) a blue crystal rose from Jalaluddin\na shirt with the slogan \"My name is Duritz, and I was at the arena tourney.\" from Duritz\nA statue of Istrovir and Moyet from Istrovir\n(Glowing) (Humming) a Crusader Battleshield from Dielantha\na flag bearing a pulsating octopus from Xurinos\n(Purified) a heartstone dagger from Grugotch\n(Purified) the dragon dagger from Gibbons"
+        },
+        {
+          "keywords": [
+            "12",
+            "twelve"
+          ],
+          "description": "You look through the glass of the stone table marked '12'\nand see an exhibit marked,\n\"A collection of skeletons from Ninetjer the Marauder\":\nthe skeleton of Arothius         the skeleton of Varrex\nthe bloody scalp of Aoife        the bloody scalp of Grummit\na steak of Balthium              a steak of A cloaked figure\na steak of Balrock               a steak of Saldek\na steak of Aoife                 the skeleton of Gaulnir\nthe skeleton of Vailde\n\"A collection of skeletons from the Assassin known as Suffering\":\nthe bloody scalp of Ngila        ( 2) the bloody scalp of Dazhdebog\nthe bloody scalp of Balthor           the bloody scalp of Eyiun\n( 2) the bloody scalp of Aethor            the bloody scalp of Kaijin\na steak of Drizlyn               ( 2) a steak of Eyiun\na steak of Kaijin                     a steak of a Justicar sentry\n( 2) a steak of Schenkal              ( 2) a steak of Ngila\n( 2) a steak of Dazhdebog                  a steak of Carlos\na steak of Misslyn                    a steak of Balthor\na steak of Mariano                    a steak of Janzul\na steak of Aethor                     a steak of Neebly\n( 2) a steak of Sacha                      a steak of Ashraena\nthe bloody scalp of Xartaul           the bloody scalp of Nwagh\nthe bloody scalp of Gaulnir           the bloody scalp of Neebly\nthe bloody scalp of Raulkor           the bloody scalp of Feronia\nthe bloody scalp of Sacha             the bloody scalp of Ashraena\n\"A collection of steaks from Titan\":\n( 2) a steak of A cloaked figure        a steak of Vailde\na steak of Marton             ( 2) a steak of Hagen\na steak of Arkeidavyck             a steak of Morrail\na steak of Fastolph                a steak of Ginalfna\na steak of Thibodeaux              a steak of Dhringalshol\na steak of Relepete                a steak of Yinnai\na steak of Kovu                    a steak of Kilopa\na steak of Eyiun                   a steak of Ballador\na steak of Malevon                 a steak of Bellick\n( 2) a steak of Verrus             ( 2) a steak of Zrixt\na steak of A citizen               a steak of Quintun\na steak of Holly                   a steak of Serintak\n( 2) a steak of Leidon                  a steak of Lucious\na steak of Balthor                 a steak of Helel\na steak of Rhyae                   a steak of Blake\na steak of Yophlin                 a steak of Balinor\na steak of Bartholomew             a steak of Marrkus\na steak of Naglimund               a steak of Jargus\na steak of Vilhelm                 a steak of oid corpse"
+        },
+        {
+          "keywords": [
+            "13",
+            "thirteen"
+          ],
+          "description": "You look through the glass of the stone table marked '13'\nand see an exhibit marked,\n\"A collection of skeletons from Mortasak\":\nthe skeleton of Tinkretel           the skeleton of Jarendon\n( 2) the skeleton of Feliciene           the skeleton of Tsung\nthe skeleton of Monkifer            the skeleton of Orgus\nthe skeleton of Stashz              the skeleton of Fosco\nthe skeleton of a clerk which was Rubalrut in shape-change\nthe skeleton of Ghaizhan            the skeleton of Blorgoth\nthe skeleton of Lucenjere           the skeleton of Sieweids\nthe skeleton of Yugoiik        ( 2) the skeleton of Darkenth\n( 2) the skeleton of Randulph            the skeleton of Ignazio\nthe skeleton of Mukilat             the skeleton of Darshau\nthe skeleton of Elueth         ( 2) the skeleton of Jhyn\nthe skeleton of Douglas        ( 2) the skeleton of A cloaked figure\nthe skeleton of Noriel              the skeleton of Ananais\nthe skeleton of Vorgoth             the skeleton of Mackie\nthe skeleton of Harralae       ( 2) the skeleton of Jakad\nthe skeleton of Aristo              the skeleton of Istrovir\nthe skeleton of Kerje               the skeleton of Fragonis\n( 2) the skeleton of Ladro"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

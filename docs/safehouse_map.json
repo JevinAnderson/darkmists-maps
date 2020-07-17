@@ -1,0 +1,96 @@
+{
+  "filename": "safehouse.are",
+  "name": "Syndicate Safe House",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        {
+          "vnum": "48008",
+          "title": "A Large Study",
+          "exits": {
+            "east": "48007"
+          }
+        },
+        {
+          "vnum": "48007",
+          "title": "A Silent Landing",
+          "exits": {
+            "west": "48008",
+            "down": "48006"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        {
+          "vnum": "48000",
+          "title": "A Dark Entryway",
+          "exits": {
+            "east": "48001",
+            "south": "48005",
+            "west": "848"
+          }
+        },
+        {
+          "vnum": "48001",
+          "title": "A Long Hallway",
+          "exits": {
+            "east": "48003",
+            "south": "48002",
+            "west": "48000"
+          }
+        },
+        {
+          "vnum": "48003",
+          "title": "Junction in the Hallway",
+          "exits": {
+            "east": "48006",
+            "south": "48004",
+            "west": "48001"
+          }
+        },
+        {
+          "vnum": "48006",
+          "title": "A Creaky Stairway",
+          "exits": {
+            "west": "48003",
+            "up": "48007"
+          }
+        }
+      ],
+      [
+        {
+          "vnum": "48005",
+          "title": "A Comfortable Parlor",
+          "exits": {
+            "north": "48000"
+          }
+        },
+        {
+          "vnum": "48002",
+          "title": "A Guest Room",
+          "exits": {
+            "north": "48001"
+          }
+        },
+        {
+          "vnum": "48004",
+          "title": "A Decrepit Kitchen",
+          "exits": {
+            "north": "48003"
+          }
+        },
+        "*"
+      ]
+    ]
+  ]
+}

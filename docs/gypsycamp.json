@@ -1,0 +1,3671 @@
+{
+  "filename": "gypsycamp.are",
+  "name": "Gypsy Camp",
+  "listing": "{30 51} Aityhrein Gypsy Camp",
+  "range": "20500 20599",
+  "rooms": {
+    "20500": {
+      "vnum": "20500",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. Half\nburied in the sand, nearly covered over by time, is the end of a\nwhite stone.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand..",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "24036"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand..",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20501"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "stone"
+          ],
+          "description": "As you peer closer at the stone you see the following engraved\ninto it.\nThis area is protected by DarkMists and its pantheon.\nPermission to use this area must be gained from Xyza,\nAityhrein, or Tiltan. Thank you and enjoy the area."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20501": {
+      "vnum": "20501",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20502"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20500"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20503"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20505"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20502": {
+      "vnum": "20502",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20503"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20504"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20503": {
+      "vnum": "20503",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20501"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20506"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20504": {
+      "vnum": "20504",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20502"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20505"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20505": {
+      "vnum": "20505",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20504"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20501"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20506"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20507"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted palm tree."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20506": {
+      "vnum": "20506",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20505"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20503"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20508"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20507": {
+      "vnum": "20507",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20505"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20508"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20508": {
+      "vnum": "20508",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20507"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20506"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20509"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20510"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20509": {
+      "vnum": "20509",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20508"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20511"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20510": {
+      "vnum": "20510",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20508"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20511"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20511": {
+      "vnum": "20511",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20510"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20509"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20512"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20513"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted hut."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20512": {
+      "vnum": "20512",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20511"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20513": {
+      "vnum": "20513",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20511"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20516"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20514": {
+      "vnum": "20514",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20515"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20518"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20515": {
+      "vnum": "20515",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20514"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20516"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20519"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20516": {
+      "vnum": "20516",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20515"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20513"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20517"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20517": {
+      "vnum": "20517",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20516"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20520"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20518": {
+      "vnum": "20518",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20514"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20519"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20521"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20519": {
+      "vnum": "20519",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20518"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20515"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20522"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted fish."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20520": {
+      "vnum": "20520",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20517"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20524"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20521": {
+      "vnum": "20521",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20518"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20522"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20527"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20522": {
+      "vnum": "20522",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20521"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20519"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20523"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20528"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20523": {
+      "vnum": "20523",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20522"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20524"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20524": {
+      "vnum": "20524",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20523"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20520"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20525"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted pig."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20525": {
+      "vnum": "20525",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20524"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20526"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20530"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20526": {
+      "vnum": "20526",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20525"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20531"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20527": {
+      "vnum": "20527",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20521"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20528"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20532"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20528": {
+      "vnum": "20528",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20527"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20522"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20529"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20533"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted pond."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20529": {
+      "vnum": "20529",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20528"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20534"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20530": {
+      "vnum": "20530",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20525"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20531"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20531": {
+      "vnum": "20531",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20530"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20526"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20532": {
+      "vnum": "20532",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20527"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20533"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20536"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20533": {
+      "vnum": "20533",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20532"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20528"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20534"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20537"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20534": {
+      "vnum": "20534",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20533"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20529"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20535"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20535": {
+      "vnum": "20535",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20534"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20538"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20536": {
+      "vnum": "20536",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20532"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20537"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20540"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20537": {
+      "vnum": "20537",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20536"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20533"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20541"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted humanoid."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20538": {
+      "vnum": "20538",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20535"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20539"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20543"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted humanoid."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20539": {
+      "vnum": "20539",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20538"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20544"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20540": {
+      "vnum": "20540",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20536"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20541"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20541": {
+      "vnum": "20541",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20540"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20537"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20542"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20542": {
+      "vnum": "20542",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20541"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20543"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20545"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20543": {
+      "vnum": "20543",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20542"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20538"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20544"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20544": {
+      "vnum": "20544",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20543"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20539"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20545": {
+      "vnum": "20545",
+      "title": "A Break in the Sea of Sands",
+      "description": "Finally! You have managed to see something in this vast wasteland\nof sand. Off to the west, through the shimmering heat of the sand,\nyou see something other than sand. But whatever it is, it is too\nfar away to be identifiable. But whatever it is, it is something\nyou can focus on and use as a marker in this endless sea of sand.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20542"
+        },
+        "west": {
+          "description": "Is that a mirage you see in this direction?",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20546"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20546": {
+      "vnum": "20546",
+      "title": "A Break in the Sea of Sands",
+      "description": "The closer you travel toward the west, the clearer your objective\nbecomes. Even through the blistering shimmering heat of the desert\nyou can see what it was that caught you attention. It appears to\nbe an oasis. But is it a mirage or is it real?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20545"
+        },
+        "west": {
+          "description": "Is that a mirage you see in this direction?",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20548"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20547": {
+      "vnum": "20547",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the west the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20548"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20548": {
+      "vnum": "20548",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. Even from this distance you can hear\nthe sound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20547"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20546"
+        },
+        "south": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20549"
+        },
+        "west": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20552"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20549": {
+      "vnum": "20549",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the west the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20548"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20550": {
+      "vnum": "20550",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhearty grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the south the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "west": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20556"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20551": {
+      "vnum": "20551",
+      "title": "Within a Tent",
+      "description": "Out from under the harsh glare of the sun, this tent feels cool and\ncomfortable. All about you there boxes and crates, vases the size of\nhalflings, and coffers overflowing with ungents and spices. It's a\nmerchants dream having so many rare commodities under one roof. The\nair is stuffy in this tent; a mixture of sweat, dust, and a myriad of\nspices and scents the likes you can not put your finger on.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "description": "Into the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20552"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20552": {
+      "vnum": "20552",
+      "title": "On a Path in the Oasis",
+      "description": "You stand within the oasis with life flourishing all around. Dates and\nfigs hang ripe from the trees while colorful birds chirp away on the\nbranches. Ferns, scrub brushes, and hearty tall grass is all around you.\nEvidence of humanity is everywhere. Clothes dripping from makeshift\nclothing lines while baskets of woven hemp scattered here and there\nfilled with all manners of items. Sounds of people laughing and shouting\ncan be heard coming from the west. To the west you see the source of\nincredible life saving oasis, a huge placid pond. To the north and south\nthere are openings leading into the cool shade of medium sized tents.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "Into the cool shade of the tent.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20551"
+        },
+        "east": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20548"
+        },
+        "south": {
+          "description": "Into the cool shade of the tent.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20553"
+        },
+        "west": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20558"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20553": {
+      "vnum": "20553",
+      "title": "Within a Tent",
+      "description": "Out from under the harsh glare of the sun, this tent feels cool and\ncomfortable. All about you there boxes and crates, vases the size of\nhalflings, and coffers overflowing with ungents and spices. It's a\nmerchants dream having so many rare commodities under one roof. The\nair is stuffy in this tent; a mixture of sweat, dust, and a myriad of\nspices and scents the likes you can not put your finger on.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "description": "Into the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20552"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20554": {
+      "vnum": "20554",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the north the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "west": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20560"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20555": {
+      "vnum": "20555",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. Even from this distance you can hear\nthe sound of animals and..people? To the west an enormous pavilion\nrises out of the sands.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20556"
+        },
+        "west": {
+          "description": "A strange aura seems to surround the pavilion in this direction.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "70401"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20556": {
+      "vnum": "20556",
+      "title": "Within the Oasis",
+      "description": "You stand within the oasis with life flourishing all around. Dates and\nfigs hang ripe from the trees while colorful birds chirp away on the\nbranches. Ferns, scrub brushes, and hearty tall grass is all around you.\nEvidence of humanity is everywhere. Clothes dripping from makeshift\nclothing lines while baskets of woven hemp scattered here and there\nfilled with all manners of items. Sounds of people laughing and shouting\ncan be heard coming from the south and west.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20555"
+        },
+        "east": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20550"
+        },
+        "south": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20557"
+        },
+        "west": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20562"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20557": {
+      "vnum": "20557",
+      "title": "Within the Oasis",
+      "description": "You stand within the oasis with life flourishing all around. Dates and\nfigs hang ripe from the trees while colorful birds chirp away on the\nbranches. Ferns, scrub brushes, and hearty tall grass is all around you.\nEvidence of humanity is everywhere. Clothes dripping from makeshift\nclothing lines while baskets of woven hemp scattered here and there\nfilled with all manners of items. Sounds of people laughing and shouting\ncan be heard coming from all around. To the east and west the sides of\nmedium sized tents blocks your view. From here you can easily see the\nsource of this oasis's life, a large pond of crystal clear water.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20556"
+        },
+        "south": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20558"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20558": {
+      "vnum": "20558",
+      "title": "In the Center of the Oasis",
+      "description": "You stand in the center of the oasis. A large clear pond lies here in\nstark contrast to the blistering heat and sand that surrounds the oasis.\nDates and figs hang ripe from the trees as they hang over the pond,\nprotecting it from the harsh desert sun. Tropical birds chirp away as\nthey dive into the water to grab a quick drink. Evidence of humanity is\neverywhere. Clothes dripping from makeshift clothing lines while baskets\nof woven hemp scattered here and there filled with all manners of items.\nSounds of people laughing and shouting can be heard coming from all around.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20557"
+        },
+        "east": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20552"
+        },
+        "south": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20559"
+        },
+        "west": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20564"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20559": {
+      "vnum": "20559",
+      "title": "Within the Oasis",
+      "description": "You stand within the oasis with life flourishing all around. Dates and\nfigs hang ripe from the trees while colorful birds chirp away on the\nbranches. Ferns, scrub brushes, and hearty tall grass is all around you.\nEvidence of humanity is everywhere. Clothes dripping from makeshift\nclothing lines while baskets of woven hemp scattered here and there\nfilled with all manners of items. Sounds of people laughing and shouting\ncan be heard coming from all around. To the east and west the sides of\nmedium sized tents blocks your view. From here you can easily see the\nsource of this oasis's life, a large pond of crystal clear water.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20558"
+        },
+        "south": {
+          "description": "In the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20560"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20560": {
+      "vnum": "20560",
+      "title": "Within the Oasis",
+      "description": "You stand within the oasis with life flourishing all around. Dates and\nfigs hang ripe from the trees while colorful birds chirp away on the\nbranches. Ferns, scrub brushes, and hearty tall grass is all around you.\nEvidence of humanity is everywhere. Clothes dripping from makeshift\nclothing lines while baskets of woven hemp scattered here and there\nfilled with all manners of items. Sounds of people laughing and shouting\ncan be heard coming from the north and west.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20559"
+        },
+        "east": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20554"
+        },
+        "south": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20561"
+        },
+        "west": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20566"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20561": {
+      "vnum": "20561",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. Even from this distance you can hear\nthe sound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20560"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20562": {
+      "vnum": "20562",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the south the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people? To the north you see an enormous\npavilion rising up out of the sands.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20556"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20563": {
+      "vnum": "20563",
+      "title": "Within a Tent",
+      "description": "Out from under the harsh glare of the sun, this tent feels cool and\ncomfortable. All about you there boxes and crates, vases the size of\nhalflings, and coffers overflowing with ungents and spices. It's a\nmerchants dream having so many rare commodities under one roof. The\nair is stuffy in this tent; a mixture of sweat, dust, and a myriad of\nspices and scents the likes you can not put your finger on.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "description": "To a worn path in the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20564"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20564": {
+      "vnum": "20564",
+      "title": "On a Path in the Oasis",
+      "description": "You stand within the oasis with life flourishing all around. Dates and\nfigs hang ripe from the trees while colorful birds chirp away on the\nbranches. Ferns, scrub brushes, and hearty tall grass is all around you.\nEvidence of humanity is everywhere. Clothes dripping from makeshift\nclothing lines while baskets of woven hemp scattered here and there\nfilled with all manners of items. Sounds of people laughing and shouting\ncan be heard coming from the west. To the west you see the source of\nincredible life saving oasis, a huge placid pond. To the north and south\nthere are openings leading into the cool shade of medium sized tents.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "Into the cool shade of the tent.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20563"
+        },
+        "east": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20558"
+        },
+        "south": {
+          "description": "Into the cool shade of the tent.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20565"
+        },
+        "west": {
+          "description": "To a worn path in the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20568"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20565": {
+      "vnum": "20565",
+      "title": "Within a Tent",
+      "description": "Out from under the harsh glare of the sun, this tent feels cool and\ncomfortable. All about you there boxes and crates, vases the size of\nhalflings, and coffers overflowing with ungents and spices. It's a\nmerchants dream having so many rare commodities under one roof. The\nair is stuffy in this tent; a mixture of sweat, dust, and a myriad of\nspices and scents the likes you can not put your finger on.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_INDOORS",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "description": "To a worn path in the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20564"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20566": {
+      "vnum": "20566",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the north the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20560"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20567": {
+      "vnum": "20567",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the east the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20568"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20568": {
+      "vnum": "20568",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. Even from this distance you can hear\nthe sound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20567"
+        },
+        "east": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20564"
+        },
+        "south": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20569"
+        },
+        "west": {
+          "description": "Into the cool shade of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20571"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20569": {
+      "vnum": "20569",
+      "title": "Edge of the Oasis",
+      "description": "Your senses do not deceive you, it is in fact an oasis that you saw\nso long ago. Date and fig trees surrounded by copious amounts of\nhardy grass and scrub brushes fill the oasis. You stand at the outer\nmost fringes of the Oasis where the sand continually tries to bury\nthe foliage but to no avail. To the east the side of a medium sized\ntent blocks your view. Even from this distance you can hear the\nsound of animals and..people?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Edge of the Oasis.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20568"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20570": {
+      "vnum": "20570",
+      "title": "A Break in the Sea of Sands",
+      "description": "The closer you travel toward the east, the clearer your objective\nbecomes. Even through the blistering shimmering heat of the desert\nyou can see what it was that caught you attention. It appears to\nbe an oasis. But is it a mirage or is it real?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Is that a mirage you see in this direction?",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20568"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20571"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20571": {
+      "vnum": "20571",
+      "title": "A Break in the Sea of Sands",
+      "description": "The closer you travel toward the east, the clearer your objective\nbecomes. Even through the blistering shimmering heat of the desert\nyou can see what it was that caught you attention. It appears to\nbe an oasis. But is it a mirage or is it real?",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Is that a mirage you see in this direction?",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20570"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20572"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20572": {
+      "vnum": "20572",
+      "title": "A Break in the Sea of Sands",
+      "description": "Finally! You have managed to see something in this vast wasteland\nof sand. Off to the east, through the shimmering heat of the sand,\nyou see something other than sand. But whatever it is, it is too\nfar away to be identifiable. But whatever it is, it is something\nyou can focus on and use as a marker in this endless sea of sand.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Is that a mirage you see in this direction?",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20571"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20573"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20573": {
+      "vnum": "20573",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20574"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20572"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20576"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted pig."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20574": {
+      "vnum": "20574",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20575"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20573"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20577"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20575": {
+      "vnum": "20575",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20574"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20578"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20576": {
+      "vnum": "20576",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20577"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20573"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20577": {
+      "vnum": "20577",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20578"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20574"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20576"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20579"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20578": {
+      "vnum": "20578",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20575"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20577"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20580"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20579": {
+      "vnum": "20579",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20580"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20577"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20583"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted fish."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20580": {
+      "vnum": "20580",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20581"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20578"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20579"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20584"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20581": {
+      "vnum": "20581",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20582"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20580"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20585"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20582": {
+      "vnum": "20582",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20581"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20586"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20583": {
+      "vnum": "20583",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20584"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20579"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20587"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20584": {
+      "vnum": "20584",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20585"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20580"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20583"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20588"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20585": {
+      "vnum": "20585",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20586"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20581"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20584"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20589"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted hut."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20586": {
+      "vnum": "20586",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20582"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20585"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20590"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20587": {
+      "vnum": "20587",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20588"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20583"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20588": {
+      "vnum": "20588",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20589"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20584"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20587"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20589": {
+      "vnum": "20589",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20590"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20585"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20588"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20590": {
+      "vnum": "20590",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20586"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20589"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20591"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20591": {
+      "vnum": "20591",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. The endless\nsand is broken by a white stone that appears quite out of place here.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20592"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20590"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20594"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "white",
+            "stone"
+          ],
+          "description": "This stone is about as large as a fully grown halfling and is painted\nall white. In the center of the stone is the picture of a crudely\npainted palm tree."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20592": {
+      "vnum": "20592",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20593"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20591"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20593": {
+      "vnum": "20593",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20592"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20595"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20594": {
+      "vnum": "20594",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20591"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20596"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20595": {
+      "vnum": "20595",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20593"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20598"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20596": {
+      "vnum": "20596",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20597"
+        },
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20594"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20597": {
+      "vnum": "20597",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "north": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20598"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20596"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20598": {
+      "vnum": "20598",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20595"
+        },
+        "south": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20597"
+        },
+        "west": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20599"
+        }
+      },
+      "extras": [],
+      "hp_mod": 50,
+      "mana_mod": 50
+    },
+    "20599": {
+      "vnum": "20599",
+      "title": "Sea of Sand",
+      "description": "In all directions, as far as you can sense, all you see is sand. It\nis aptly named the Sea of Sand since the winds shift and churns the\nsands into almost peaceful patterns. If it were not for the\noppressive heat that seems to suck the very life from your body the\nconstant motion of the sands might very well be soothing. Half\nburied in the sand, nearly covered over by time, is the end of a\nwhite stone.",
+      "flags": [
+        "ROOM_NO_BLITZ",
+        "ROOM_NO_RECALL",
+        "ROOM_NO_GATE",
+        "ROOM_NO_SUMMON",
+        "ROOM_NO_CONSECRATE"
+      ],
+      "sector": "SECT_DESERT",
+      "exits": {
+        "east": {
+          "description": "Lost in the Sea of Sand.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20598"
+        },
+        "west": {
+          "description": "The Sands of Sorrow can be seen in this direction.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "5078"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "stone"
+          ],
+          "description": "As you peer closer at the stone you see the following engraved\ninto it.\nThis area is protected by DarkMists and its pantheon.\nPermission to use this area must be gained from Xyza,\nAityhrein, or Tiltan. Thank you and enjoy the area."
+        }
+      ],
+      "hp_mod": 50,
+      "mana_mod": 50
+    }
+  }
+}

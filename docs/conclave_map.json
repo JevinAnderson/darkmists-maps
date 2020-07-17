@@ -1,0 +1,176 @@
+{
+  "filename": "conclave.are",
+  "name": "The Hourglass Tower",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21513",
+          "title": "The Matrix",
+          "exits": {
+            "down": "21512"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21512",
+          "title": "The Tower Library",
+          "exits": {
+            "up": "21513",
+            "down": "21508"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21509",
+          "title": "Office of The Master of the Tower",
+          "exits": {
+            "south": "21508"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "21507",
+          "title": "Top Level in the Tower",
+          "exits": {
+            "east": "21508",
+            "down": "21502"
+          }
+        },
+        {
+          "vnum": "21508",
+          "title": "Rotunda",
+          "exits": {
+            "east": "21510",
+            "north": "21509",
+            "south": "21511",
+            "west": "21507",
+            "up": "21512"
+          }
+        },
+        {
+          "vnum": "21510",
+          "title": "High Altar of the Conclave of Wizardry",
+          "exits": {
+            "west": "21508"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21511",
+          "title": "Large Alcove",
+          "exits": {
+            "north": "21508"
+          }
+        },
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21504",
+          "title": "Common Room: Circle of Dawn",
+          "exits": {
+            "south": "21503"
+          }
+        },
+        "*"
+      ],
+      [
+        {
+          "vnum": "21501",
+          "title": "Forest Clearing",
+          "exits": {
+            "east": "21502",
+            "west": "22177"
+          }
+        },
+        {
+          "vnum": "21502",
+          "title": "Main Entryway",
+          "exits": {
+            "east": "21503",
+            "up": "21507",
+            "west": "21501"
+          }
+        },
+        {
+          "vnum": "21503",
+          "title": "Hall of Equality",
+          "exits": {
+            "north": "21504",
+            "east": "21505",
+            "south": "21506",
+            "west": "21502"
+          }
+        },
+        {
+          "vnum": "21505",
+          "title": "Common Room: Circle of Twilight",
+          "exits": {
+            "west": "21503"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21506",
+          "title": "Common Room: Circle of Night",
+          "exits": {
+            "north": "21503"
+          }
+        },
+        "*"
+      ]
+    ]
+  ]
+}

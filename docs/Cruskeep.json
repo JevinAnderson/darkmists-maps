@@ -1,0 +1,334 @@
+{
+  "filename": "Cruskeep.are",
+  "name": "Crusader Keep",
+  "listing": "{ALL} Aegnor/Julive/Xyza Crusader Keep Ruins",
+  "range": "4200 4210",
+  "rooms": {
+    "4201": {
+      "vnum": "4201",
+      "title": "Entrance to the Crusader Keep",
+      "description": "You stand at the only entrance to House Crusader.  The walls have been\ncarved from the solid earth by divine power.  Located deep underground,\nit was constructed by Lord Julive after the original keep was destroyed.\nHowever, as long as it lasted since then, it was no match for the wrath\nof Lady Xyza who blasted it with her immortal magic after the gods of\nthis House attacked hers. The rest of the Keep, what is left of it, is\nto the east. Druvka's ruined house is to the west.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "description": "The hallway leads east.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4202"
+        },
+        "west": {
+          "description": "You can head back into the ruined home of Druvka to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "15253"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4202": {
+      "vnum": "4202",
+      "title": "In the Keep",
+      "description": "You are in the main hall of the keep.  There is a pit on the ground\nhere, for those that have just entered to give donation to the needy.\nThe stone walls are blackened and pitted, and the floor is littered\nwith rubble from what did not remain whole during the conflagration\nof immortal magic which attacked this place.\nTo the north appears to be a barracks of some sort, and the main hall\ncontinues to the south.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "description": "Sleeping quarters lie to the north.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4203"
+        },
+        "south": {
+          "description": "The main hall continues.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4204"
+        },
+        "west": {
+          "description": "The entrance to the keep is to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4201"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4203": {
+      "vnum": "4203",
+      "title": "Crusader Barracks",
+      "description": "Rows and rows of hard cots used to fill this room. Only one remains,\nmostly in good shape. The others are twisted, burnt, not fit to sleep\nupon.  To the south is the main hall of the keep.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "description": "A small bar lies to the east.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4209"
+        },
+        "south": {
+          "description": "The main hall of the keep lies to the south.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4202"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4204": {
+      "vnum": "4204",
+      "title": "Main Hall",
+      "description": "You are in the main hallway of the keep.  Torches in mangled sconces\nline the blackened walls of this underground compound. The light flickers\non the walls, casting an eerie glow. Rubble on the floor makes walking\nthrough a little dangerous.  It is relatively quiet here, except for the\npasserby heading to or fro deeper within the compound.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "description": "The entryway and donation pit lie to the north.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4202"
+        },
+        "east": {
+          "description": "You see a rectangular room to the east.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4205"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4205": {
+      "vnum": "4205",
+      "title": "The Chamber of Decisions",
+      "description": "A long charred table passes through the center of the room. Its legs\nare uneven, causing it to rock at the slightest touch. With a seating\ncapacity of 12, it requires the lower ranked Crusaders to stand. On\nthe blackened wall is a charred mural which covers most of the eastern\nwall.  In the eastern corner of the north wall is a passage leading\nfurther to the north.  Opposite it on the southern wall is a passage\nleading to the south.  The Chamber of Decisions is where Crusaders come\nto discuss problems and solve arguments.  In the middle of the table is\na large hole, charred and jagged, as though gouged by lightning.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4207"
+        },
+        "south": {
+          "description": "The library is to the south.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4206"
+        },
+        "west": {
+          "description": "The main hall heads back to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4204"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "oak",
+            "table",
+            "chairs"
+          ],
+          "description": "The table is made of sturdy oak.  The chairs are also of oak and look\nlike most races could sit comfortably in them, if they were not charred\nto a weakness, their legs ruined and uneven."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4206": {
+      "vnum": "4206",
+      "title": "Library of the Crusaders",
+      "description": "Unfortunately, upon the destruction of the original keep, all of the\nprevious books and knowledge was lost from the world.  Currently, there\nare only a few books on the spacious shelf.  This is a quiet room, and\nsometimes Crusaders come here to just sit and meditate, in addition to\nthe usual reading. Amazingly enough, the destruction which seems to have\nhit the rest of the Keep did not touch this room. You see not a charred\nwall, not a charred bit of wood in the shelf. Near the entrances are\na few pieces of rubble from other ruined places within the Keep however.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "description": "A large rectangular room lies to the north.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4205"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "books",
+            "shelf"
+          ],
+          "description": "A few books catch your eye.  They are titled \"Beginning\", \"Recent History\",\n\"Patience\", \"Ranks\", \"Banned\" and \"Battle."
+        },
+        {
+          "keywords": [
+            "beginning"
+          ],
+          "description": "The gnome Crusader, Druvka, offered his home to be the location of the\nnew Crusader Keep.  Combining the efforts of Lord Julive's divine power,\nand the few gnomes that were willing to volunteer their services, the\nnew keep was constructed."
+        },
+        {
+          "keywords": [
+            "recent",
+            "history"
+          ],
+          "description": "Since the rebuilding of the Crusader Keep, many things have happened.\nMany who were impure and weak found ways to sneak within the ranks brought\nmuch shame and disgrace upon the House. However, through the strong\nleadership of Ripsaw, and then Nycholas, these members have been purged and\nthe Army shall once more rise to power and glory.\nFollowing Nycholas' ascension to the heavens, Galad, then Korth, lead\nthe Crusades to much glory. All went well under the subsequent leadership of\nMeldrad Ironwood, but then things degraded, and started to stagnate. Meldrad\nfaded into the mists, and the Keep was purged yet again.\nOut of this purge, few Crusaders remained standing. One of these,\nGryleth, eventually led the Army of the Crusades. Under a newly refined\nCode, more strict, but as well more honorable, the ranks of the Crusades\nswelled, as did the honor of the Army. The purity of Thera was well on the\nrise. During that time of prosperity for the Crusades, then Leader Gryleth\nShortleg had need to depart Thera for a short visit of a personal nature.\nIt was then that Xaithius stepped forth and lead the Crusades in Gryleth's\nabsence. Time passed and Gryleth returned. Upon his return, Xaithius quietly\nretired and passed the position back to Gryleth. All seemed well. Suddenly,\nand seemingly without warning, dishonor and treachery reared its ugly head.\nMany fell to dishonor through selfish or prideful acts. To this day, the\nnames of the dishonored fallen are rarely spoken for fear of the same\nhappening again. Time passed and the wounded healed, and the glory of the\nCrusades was again on the rise.\nHouses rise and fall, leaders come and go, and the Crusades shall ever\nremain pure and vigilant. Having lived many hundreds of years, most in\nservice to the Crusades, Gryleth Shortleg passed from his corporeal body and\nascended to the heavens. A call to arms was made for a replacement, and one\nKalibrak Tarrasque heeded that call. He most recently took up the mantle to\nbe that  Leader of the Crusades.\nOnly the Gods know what the future may bring....\n(and in a beautiful runic hand, the following words: The forces of magic\nand the wrath of the Rebel Goddess prevail over mortal weakness when the\nexercise of body is overindulged and the exercise of spirit and mind are\nignored. It took your gods to weaken the magic in my Library, so I have\ndestroyed this foul anti-magic force which your gods graced you with, and\nwhich for too long you have hidden behind.\n---Lady Xyza, Rebel Goddess of Magic)"
+        },
+        {
+          "keywords": [
+            "patience"
+          ],
+          "description": "Since time and blood have proven only that magic is a force overwhelming in\nits nature, it has been decreed that time and patience shall prove the\nCrusade's mightiest ally.  With constant effort and wise leadership, the\nCrusade shall grow in strength as Therans realize that magic is a thing best\nleft in divine hands, and that combat is the purist art form there is.\nOn the day when the day when all of Thera stands behind the Crusade, then\nthe final points of resistance shall be swept from Thera in a tide of steel!\n(and in a beautiful runic hand the following was added: Constant effort\nand wise leadership, two important aspects which your House sadly lacks.\n---Lady Xyza, Rebel Goddess of Magic)"
+        },
+        {
+          "keywords": [
+            "ranks"
+          ],
+          "description": "The ranking system of the great Army of the Crusade is as follows:\nDaggers     - These are the lowest ranks, usually fairly new members.  The\nDaggers often run errands for the higher-ranked members\nof The Army, and are expected to offer their gear to naked\nmembers that rank above them.\nBroadswords - The Broadswords have proven themselves to be valuable members\nof The Army through Valorous combat.  Most Crusaders are\nat this rank, and they are expected to show unfailing\nbravery in the face of any and all danger.\nWarHammers  - Those Crusaders who time and time again prove themselves to be\nWarriors of a truly exceptional caliber are often granted\nthe rank of WarHammer.  Much of the burden of raiding and\ndefense falls to the Warhammers, since they are adept at\nall manners and styles of combat.\nBattleAxes  - When a Warrior demonstrates prowess above and beyond his peers\nin all things desired from a Crusader, he is granted the\ntitle of BattleAxe.  Battleaxes are those who have found\ntrue union with the spirit of battle, and understand the\nspiritual nature of the hunt and the fight.\nWarlord     - The Warlord of The Army is chosen from the ranks of the\nBattleAxes, and is expected to lead The Army in matters\nmilitary.  In matters military, only the Leader can overrule\nthe word of the Warlord.\nEnvoy       - The Envoy is the political leader of The Army, and is\nresponsible for interviewing applicants and negotiating\nwith members of other Houses.  In matters political, only\nthe Leader can overrule the word of the Envoy.\nLeader      - The Leader is the most elite member of The Army.  Chosen from\neither the Warlords or the Envoy, the word of the Leader is\nlaw for the rest of The Army.\n(and in a beautiful runic hand at the bottom, you read:\nStrong-Willed High-Ranked Non-Leader    - This one usurps the power of the\nleadership and cows the leadership\ninto submission, reveling in the\nability to overrule the elders and\npush his/her own agenda. May wind\nup as a leader in his/her own right\nafter proving the incompetence of\ncurrent leadership. This one exists\nonly when the established leaders\nare too weakminded to keep the\nArmy in line.)"
+        },
+        {
+          "keywords": [
+            "Banned"
+          ],
+          "description": "The following items are specifically banned by the Crusade:\nAny item with one or more of the following qualities:\nFlaming Bite\tFreezing Bite\nVampiric\tDrowning\nWrath\nStrange Girdle\t\tWinged Sandals\nHands of Infernus\tRing of Chaos\n(and in a beautiful runic hand below: Nice of the gods not to insist\nthat you use your common sense, if you have any, to determine what\nelse in the world is magical. As you refuse to think, you come closer\nto being mine.\n---Lady Xyza, Rebel Goddess of Magic)"
+        },
+        {
+          "keywords": [
+            "Battle"
+          ],
+          "description": "A Crusader is an elite warrior and is expected to act with Valor and\nDiscipline.  Intent and action are judged independently when the Batle\nCode is applied, so a Crusader is responsible both for their intent AND\nthe outcome of their actions.  Ignorance and errors are not acceptable\nexcuses.  Unless stated otherwise, the following rules apply to all\nsituations where a Crusader anticipates combat with another mortal soul.\nBATTLE CODE OF THE CRUSADES\nI.    A true Warrior must fight alone.  Do not group with or work with any\nother when fighting, whether intentionally or incidentally.  This\nmeans no bouncing a target between attackers.  There is NO excuse\nfor breaking this rule.\nII.   The resources of the Crusade should focus on those who use sorcerous\nWe have no desire to alienate those who walk the line, rather we\nwould see them converted to the ways of purity.\nIII.  When attacking an enemy, a Crusader is to announce that target over\nthe House channel, This then means no other Crusader can touch that\ntarget until:\nA. The target dies.\nB. The Crusader hunting dies, in which case the Crusader who\nwishes to attack the killer/target must yell out that\ntarget's name and alert them to vengeance in the name of\nhonor as well as making the House channel announcement.\nC. The Crusader who first called the target announces over the\nHouse channel that they no longer hunt the target and is\nwell out of the area of the target.  Those that wish to hunt\nthen announce the name over the House channel.\nIV.   A mortal is considered one target. Only one Crusader may attack one\ntarget at a time, no matter the number of pets, slaves, or soldiers\nthat target controls.  Any Crusader in range may attack those\ncreatures that follow the target in the interest of evening the odds\nfor the hunting Crusader as long as they DO NOT interfere with the\nactual target.\nV.    Under no circumstances should the followers of a Crusader (Ranger pets\nor enlisted help) outnumber those of the target at the initiation of\na fight.  This applies equally to hunting, raiding, defending, and\nduelling.  ANY ABUSE of this privilege will result in harsh\npunishment and full revocation of this privilege.\nVI.   Thieves and Monks of Crusaders are expected to have a higher honor\nthan others of their guild. This means before they use their stealthy\ntactics (such as Blackjack, Backstab, Strangle and Assassinate) They\nare to alert the opponent that they are being hunted.\nVII.  When The Gauntlet is lost Crusaders are to offer a duel to those who\nhold it, if refused they are to retrieve it.\nVIII. If the item of another house is held within the Keep, a duel offered by\nthe enemy must be accepted (if fair) for a chance to regain it.  Any\nCrusader within the range of the challenging party may be chosen as\nthe House's champion, it need not be the person asked to duel.\nIX.   The rare exception that Crusaders can attack one or more mages\ntogether is this: Only when the Gauntlet is lost and a duel not\naccepted for it. Then The Crusaders may unite to retrieve it.  After\nits return no such ganging is allowed.\nX.    Those that take advantage of honor and repeatedly attack in groups or\nwith unfair numbers will be judged. The leaders will judge those that\nforsake honor, and when approved by the Immortal leaders of the\nCrusade the \"Forsaken\" will be added to a list. Those on this list\nare without honor and shall not receive any any protection from it.\nThey can be killed in groups by Crusaders and stripped completely of\ngear. ONLY THOSE ON THE FORSAKEN LIST MAY BE DEALT THIS WAY, ANY\nCRUSADER ATTACKING THOSE WHO ARE NOT WILL BE PUNISHED.\nXI.   Crusaders may not raid a house unless that house has a member to\ndefend (the member does not have to be in range, immortals do not\ncount).  Crusaders may also raid if the Gauntlet is missing and\nbelieved to be in another house, if it is not that house is not to\nbe raided further.\nXII.  Duels are matches or combat between two (2) people. Crusaders may\nduel for honor, to test themselves, or to retrieve the Gauntlet.\nA duel is suppose to be between two people solely, but a Crusader can\nagree to handicap him/herself by allowing the rival to use slaves as\nhelp. Also the duel can be to the death or until one loses the will\nto go on and flees. The match can have equipment at stake or be merely\nfor challenge. Before a duel is fought a Crusader should do two\nthings, make sure the terms are clear and have the opponent give a\nready signal.  The opponent is to do likewise. In the event that you\nduel for a House item, no trophy is to be taken, the corpse of the\nloser is to be left untouched, and fallen weapons not taken. Only the\nHouse item is at stake. The House item is to be handed to the enemy\nif he/she is victorious, not sacrificed.\nXIII. When an opponent falls to a Crusader, no more than 1/2 of his/her\npossessions may be taken from his/her corpse.  This is for the\ntotal looting, not just what the Crusader takes.  However, a Crusader\ncan keep 1 piece of equipment as a trophy of victory no matter what.\nIf someone else loots the corpse the crusader is to try to post a\nscroll to the victim stating who if he knows and may only keep 1\npiece of eq, returning the rest. Magical devices such as potions,\nstaves, wands, etc., are to be sacrificed to the gods. No Crusader\nshall loot a wedding ring/band or a leader weapon or item from anyone,\nto do so is to bring shame and the wrath of the gods upon oneself."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4207": {
+      "vnum": "4207",
+      "title": "The Final Defense",
+      "description": "The walls in this room are reinforced by strong dwarvish steel, but this\nsteel was not strong enough to withstand the wrath of the Goddess of Magic.\nA single torch hangs over the passage to the east, giving the room a darkened\nappearance. The charred remains of something covering the mangled walls does\nnot lend any extra light.  Crusaders often use this as an ambush point to\nsubdue those raiding to steal the War Gauntlet.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "description": "You see the altar.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4208"
+        },
+        "south": {
+          "description": "You see a rectangular room.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4205"
+        },
+        "west": {
+          "description": "You see the ruddy glow of a large forge.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4210"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4208": {
+      "vnum": "4208",
+      "title": "The Altar of the Never Ending Crusades",
+      "description": "A simplistic granite block rests in the middle of the room here.  In\nthis block is housed the sacred War Gauntlet.  Only the Wise One is\nallowed to touch its surface without divine retribution.  This room\nof the Keep was also left unscathed by the Goddess's wrath, but there\nis something changed about it, something very different indeed. Perhaps\nit is the very light blue-greenish tint to everything. To the west,\nthe rest of the keep awaits.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "description": "You see a passage exiting to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4207"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4209": {
+      "vnum": "4209",
+      "title": "The Crusader Bar",
+      "description": "Broken bottles, a twisted and mangled bar, charred stools: This was once\na place for Crusaders to come and relax and talk about battles, but there\nis nowhere to relax in this mess now. You see no sign of the barkeep either.\nDid he get away with some of his stock of drinks? Did he get away at all?\nYou see no sign of his having died here...",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "description": "The barracks lie to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4203"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "4210": {
+      "vnum": "4210",
+      "title": "The Smithy of the Crusades",
+      "description": "You might think that the extreme heat of the huge forge and the vats of\nmolten steel could withstand the wrath of the Goddess, but instead you\nnote that the fires are out, and the vat solid rock. Indeed, the walls\nare cracked, as though struck with extreme cold. The forge itself is\ncracked. Rubble is strewn everywhere on the ground. You touch a metal\nblade on the floor, it shatters, weakened by a force unknown to mortals.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "description": "A large steel archway leads to the Final Defense.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "4207"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

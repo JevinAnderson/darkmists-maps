@@ -1,0 +1,179 @@
+{
+  "filename": "ValorCastle.are",
+  "name": "Valor Castle",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "82814",
+          "title": "The Northwest Turret",
+          "exits": {
+            "down": "82808"
+          }
+        },
+        "*",
+        {
+          "vnum": "82813",
+          "title": "The Northeast Turret",
+          "exits": {
+            "down": "82806"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "82815",
+          "title": "The Southwest Turret",
+          "exits": {
+            "down": "82804"
+          }
+        },
+        "*",
+        {
+          "vnum": "82816",
+          "title": "The Southeast Turret",
+          "exits": {
+            "down": "82803"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "82808",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "east": "82809",
+            "south": "82807",
+            "up": "82814"
+          }
+        },
+        {
+          "vnum": "82809",
+          "title": "Before the Altar",
+          "exits": {
+            "east": "82806",
+            "south": "82810",
+            "west": "82808"
+          }
+        },
+        {
+          "vnum": "82806",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "south": "82805",
+            "west": "82809",
+            "up": "82813"
+          }
+        },
+        "*"
+      ],
+      [
+        {
+          "vnum": "82811",
+          "title": "The Room of Preparation",
+          "exits": {
+            "east": "82807"
+          }
+        },
+        {
+          "vnum": "82807",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "north": "82808",
+            "south": "82804",
+            "west": "82811"
+          }
+        },
+        {
+          "vnum": "82810",
+          "title": "The Altar of Valor, Honor and Courage",
+          "exits": {
+            "north": "82809"
+          }
+        },
+        {
+          "vnum": "82805",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "north": "82806",
+            "east": "82812",
+            "south": "82803"
+          }
+        },
+        {
+          "vnum": "82812",
+          "title": "The stables",
+          "exits": {
+            "west": "82805"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "82804",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "north": "82807",
+            "east": "82802",
+            "up": "82815"
+          }
+        },
+        {
+          "vnum": "82802",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "east": "82803",
+            "south": "82801",
+            "west": "82804"
+          }
+        },
+        {
+          "vnum": "82803",
+          "title": "Within the Halls of Valor",
+          "exits": {
+            "north": "82805",
+            "west": "82802",
+            "up": "82816"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "82801",
+          "title": "The Gates of the Castle",
+          "exits": {
+            "north": "82802",
+            "south": "1133"
+          }
+        },
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

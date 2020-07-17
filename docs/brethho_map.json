@@ -1,0 +1,212 @@
+{
+  "filename": "brethho.are",
+  "name": "Underworld - The Brethren",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "1000",
+          "title": "The Once Burning Circle",
+          "exits": {
+            "up": "24881",
+            "down": "1001"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "1001",
+          "title": "A Charred Platform",
+          "exits": {
+            "east": "1014",
+            "west": "1012",
+            "up": "1000",
+            "down": "1002"
+          }
+        },
+        {
+          "vnum": "1013",
+          "title": "The Headflow of Blood",
+          "exits": {
+            "west": "1001",
+            "down": "1004"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        {
+          "vnum": "1012",
+          "title": "The Headflow of Blood",
+          "exits": {
+            "down": "1003",
+            "east": "1001"
+          }
+        },
+        {
+          "vnum": "1001",
+          "title": "A Charred Platform",
+          "exits": {
+            "east": "1014",
+            "west": "1012",
+            "up": "1000",
+            "down": "1002"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "1004",
+          "title": "The Eastern Bloodfall",
+          "exits": {
+            "up": "1014",
+            "south": "1006",
+            "west": "1002"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        {
+          "vnum": "1003",
+          "title": "The Western Bloodfall",
+          "exits": {
+            "east": "1002",
+            "south": "1009",
+            "up": "1012"
+          }
+        },
+        {
+          "vnum": "1002",
+          "title": "The Gruesome, the Macabre, the Ghastly",
+          "exits": {
+            "up": "1001",
+            "down": "1007",
+            "east": "1004",
+            "west": "1003"
+          }
+        },
+        {
+          "vnum": "1004",
+          "title": "The Eastern Bloodfall",
+          "exits": {
+            "up": "1014",
+            "south": "1006",
+            "west": "1002"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "1009",
+          "title": "The End",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "1006",
+          "title": "The Past",
+          "exits": {
+            "north": "1004"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "1007",
+          "title": "Upon the Red Stair",
+          "exits": {
+            "up": "1002",
+            "down": "1008"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        {
+          "vnum": "1011",
+          "title": "A Break in the Webs - the Spiked",
+          "exits": {
+            "east": "1008"
+          }
+        },
+        {
+          "vnum": "1008",
+          "title": "The Lower Hall - Ahzra In'trea",
+          "exits": {
+            "east": "1010",
+            "south": "1005",
+            "west": "1011",
+            "up": "1007"
+          }
+        },
+        {
+          "vnum": "1010",
+          "title": "The Eternally Bound",
+          "exits": {
+            "west": "1008"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1005",
+          "title": "Hell's Gate - The Brethren",
+          "exits": {
+            "north": "1008"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

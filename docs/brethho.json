@@ -1,0 +1,406 @@
+{
+  "filename": "brethho.are",
+  "name": "Underworld - The Brethren",
+  "listing": "{HOUSE} Rantialen The Brethren",
+  "range": "1000 1050",
+  "rooms": {
+    "1000": {
+      "vnum": "1000",
+      "title": "The Once Burning Circle",
+      "description": "There is a narrow walkway around what appears to be a gaping hole\nin the ground. Ash and dust litter the ground, as if this patch of\nground once housed the very fires of hell, having burned away all\nlife near it. The circular walkway is made of dark stone, debris\nfrom the meteor that devastated the land. The destruction of the Havens\nhas led to this rift, a rift that seems as if it once reached downward\ninto the depths of Hell itself. The blaze that once burned here had\nbeen beyond any flame created by mortal means. Though the flame has\nlong been extinguished, one can still feel the residual heat from the\nonce great fire, stifling and nearly unbearable though it no longer\nburns. One can make out words nearly hidden by the ash that ring the\nmelted rock that forms the outline of the circle. They are written\nin some long-unknown tongue - words from the Lower Planes.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "24881"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1001"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1001": {
+      "vnum": "1001",
+      "title": "A Charred Platform",
+      "description": "The platform you stand on is a circular manifestation that runs\naround the sides of this cylindrical chamber. There is a huge gap\nin the center of the floor, giving way to a ledge that runs around\na huge totem in the center of the room. The ledge gradually spirals\ndownward, leading through the center of this abyss. The totem is a\nhorrific pillar - it is as a pile of corpses, thrown haphazardly\nupon the other. It is rendered in horrid detail, so that every\nexpression, every position, every aspect of death - all are contained.\nThe pillar serves as some sort of stairway, allowing one to venture\ndownward, deeper within, or upward, freedom from this hellish venue.\nA veil of darkness covers the room, a perpetual black that the strongest\nlights cannot vanquish fully.  The shadows cover stones around you,\nclimbing upwards, straining to overwhelm the little light that\nreaches down into the cavern. The veil gives way to your east and west,\nseething openings that waver in the heat.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1014"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1012"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1000"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1002"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1002": {
+      "vnum": "1002",
+      "title": "The Gruesome, the Macabre, the Ghastly",
+      "description": "The cylindrical chamber gives way unto a two-level chamber, deep\nwithin the depths of Thera. To the northern end of the chamber, upon\na platform of shiny black obsidian, is an intricately carved pillar.\nIt is surrounded by a curtain of shadow, flickering, extending through\nthe ceiling of dark stone. The central platform, running east and west,\nis lined with statues - horrific figures of the Brethren, portrayed in\nintimate detail. They extend to the east and west of the obsidian dais,\nlining the raised platform. Beyond the statues, you can glimpse the\nlower hall, the Ahzra In'trea. To the east and west, through the central\nhall, a thick splashing noise can be heard. Archways above the dark\npassageways bear a disturbing message, obviously directed at intruders.\nSteps lead downward another level, extending into the lower tier of\nthis dark room. The steps are carved from red stone, as though a dull\nrendition of ruby. They are heavily carved with archaic sigils, similar\nto those covering the rest of the chamber.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1001"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1007"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1004"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1003"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1003": {
+      "vnum": "1003",
+      "title": "The Western Bloodfall",
+      "description": "This room is lit only by torchlight, giving it an ominous glow.\nIt seems that the torches continue to burn without end, an eternal\nhunger of flame and light. The light flickers, casting many\nshadows throughout this chamber of gargantuan proportions. The\ntorches, set into stands of dark wrought-iron, reveal shadowy\nforms. The northeastern end of the chamber is nothing but a river\nof swirling blood, extending eastward, going into a rather large\nhole worn into the wall. The blood cascades into the pool from\nabove, a bloodfall. No natural occurrence, this must have been\nwrought of some dark will, for a reason so twisted as to be\nunderstood only to the Creator. A stone ledge is set around the\npool, spattered with little splashes of dried blood. The tunnel\nthat leads the blood to the east is dark, revealing nothing within.\nThrough the flickering firelight, you can barely make out a set of\nsteep stone stairs leading upward, to the source of the falls.\nSouth, the natural stone succumbs to carved marble once more.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1002"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1009"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1012"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1004": {
+      "vnum": "1004",
+      "title": "The Eastern Bloodfall",
+      "description": "A huge chamber, looking to be worn out of the raw stone, lit with\nbut a few torches. The torches flare with raw flame, almost sentient,\nalive and angry. The northwestern end of the chamber is but a pool\nflowing into a tunnel of blood. The tunnel has been worn into the\nwall, smooth, quiet. The blood bubbles, suggesting something beneath\nthe surface. Though not visible to you, it may be wise to remain at\na safe distance from whatever lurks within. The sticky ichor cascades\ninto the pool from above, a maroon stream of liquid. The stone you\nstand upon gradually descends into the pool, there being no ledge\nfrom the stone to the pool. The tunnel to the west is dark, uninviting,\nand silent. To the west is the Central Hall, and upward descends a\nrough stairway, leading to the top of the Bloodfall. A shrine of some\nsort appears to the south, emanating a sickly yellow light.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1014"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1006"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1002"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1005": {
+      "vnum": "1005",
+      "title": "Hell's Gate - The Brethren",
+      "description": "The Sanctum of the Brethren, the link to the Underworld, the Solace\nof Darkness. This room is utterly black, wholly consumed by the\nshadow, save for one image that is thrust upon you, burned into\nyour brain. It is the Gate of Hell, the field of energy that\nwill be Thera's ultimate demise. This is the main gate, it cannot\nbe destroyed - its power can be reduced, but it is here, permanently.\nThe Gate draws your gaze, a plethora of images within. When your\neyes light upon it, energy pulses through you. It is not a pleasant\nfeeling, for it creeps within you, touching you, within. It invades\nyour privacy, pulls your soul, and makes you feel unclean. Within\nthis portal resides your nightmares, your hates, your guilty desires,\nand, possibly most intense of all, your mortal fears. Though the\ncavern beyond has long been abandoned, this room seems as if it has\nnever been altered by mortal hands, a constant reminder of the\ninhabitants who once called this tortured place home.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1008"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1006": {
+      "vnum": "1006",
+      "title": "The Past",
+      "description": "Seemingly out of place, this room is an oddity. It feels wrong,\nmisplaced, out of its climate. The walls are of blue marble, the\nfloor of a deep green. They are vibrant, colorful - at least, they\nshould be. A sickly film has settled over everything. Not wet,\nexactly, but filmy, sticky; it is unsettling. It mutes the colors,\nsomewhat, casting a shadow over this room. It attempts to be vibrant,\nbut fails miserably at the task. In the upper right hand corner is\na fairly visible crack, black, cold against the attempts at bright\ncolor. As you look more carefully, however, hairline cracks are\npresent all over the marble, leaving no corner untouched.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1004"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1007": {
+      "vnum": "1007",
+      "title": "Upon the Red Stair",
+      "description": "You are upon a stair of dull red rock, a short passage, but one\nthat draws your eye. Black sigils have been pressed into the smooth\nstone, written in the tongue of the Underworld. An orb of swirling\nquicksilver rests upon the floor to either side of the stair. The\nclear orb reveals the turbulence of the liquid metal contained within.\nAbove your head, the ceiling slopes downward, the smooth obsidian\nglowing in the flickering of torchlight. The torchlight emanates from\nbraziers, lit upon each step. Deep claw marks mar the black glass,\notherwise clean, smooth. Random scrawls, as though some powerful\nbeast had been released, and attacked the very structure around it.\nUpward, a twisted tower can be observed on a raised dais. Downward\nlies a landing, the lower halls of the Ahzra In'trea.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1002"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1008"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1008": {
+      "vnum": "1008",
+      "title": "The Lower Hall - Ahzra In'trea",
+      "description": "Dark energy flows through this place, a feeling that permeates your\nentire form. You feel it, physically - it grows as you stand within,\nescalating almost to the point of pain. A deep channel flows through\nthe center of this long, endless room. It extends endlessly, eternally,\nflowing with a small stream of thick black liquid. The liquid\nappears scummy, an oily film floating on the surface of the liquid.\nThe chamber is open, huge; the floor is far below the surface of the\nland, and the room is expansive. There are no divisions in the Ahzra\nIn'trea, the chamber is whole, though dark. No light sources are\nvisible in the room, yet an eerie white glow sneaks through the\ndarkness. The chamber is almost foggy, thick strands of gossamer\nspanning the entire ceiling of the chamber. The silky strands move,\npropelled by some unseen force. They are silhouetted white against the\ndarkness, few can be seen, but they are certainly there. Images appear\nand fade, indescribable, without comprehension - yet their presence\nis clear. To the south, twin pentagrams burn through the air, flanking\na swirling, crackling mass of demonic energy.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1010"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1005"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1011"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1007"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1009": {
+      "vnum": "1009",
+      "title": "The End",
+      "description": "This room is fashioned of slate-gray marble, a thick mist hanging at\nthe top of the room, making the ceiling nearly invisible. The marble,\nonce smooth, is now rough and cracked. A huge crack has been torn in\nthe center of the room, a hindrance, though it will not stop one with\ndetermination from walking around the room. The rock is crumbling,\ncoating the floor near the crack with wet sludge. The rest of the room\nis damp, wet, uncomfortable. The mist that holds the room in its grasp\ntaints the room with a foul odor, reminiscent of sulfur. The walls are\ncovered in miniscule cracks, chips of stone flaking onto the floor. The\nonly object of interest in this dismal room is an orb, rotating slowly.\nThe globe is blackened, charred, attacked by cracks of bright, orange.\nThe colors bubble and move, black clouds spawning violent storms upon\nthe surface, revealing only a fraction of the chaos within. The only\nexit is to the north, the aged marble giving way to raw rock.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {},
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1010": {
+      "vnum": "1010",
+      "title": "The Eternally Bound",
+      "description": "A punishment, a binding. A deep channel flows through the center\nof this long, endless chamber. Black liquid floats stagnantly\nwithin, but an irregularity interrupts the stream. The channel\nbecomes a pool, a few feet across. The long dead corpse of a wretch\nstares up at you with its cold gaze. Chains still hold the beast\nto the one time place of its imprisonment, a captive even in death.\nIt is not wise to cross the Dark Lords, it would seem. The chamber\nis open, huge; the floor is far below the surface of the land, and\nthe chamber is expansive. The floor is littered with charred remains,\nflakes of stone, cracked pieces of dull rock. Puddles of sticky film\nare spotted about, dark splotches on dark rock. The channel, cut\ninto the ground, extends to your east and west. To the southwest, a\nfiery glow reflects upon the strands of gossamer that cloak the entire\nchamber. An unsettling feeling takes you as you search the room with\nyour gaze, as if someone, or something, watches you.  A chill runs\nup your spine as a hollow scream of agony, of utmost despair echoes\nin your mind.  Only after you stop shivering do you begin to realize\nthat there had been no sound.  A need to leave this place begins\nto overwhelm you.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1008"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1011": {
+      "vnum": "1011",
+      "title": "A Break in the Webs - the Spiked",
+      "description": "The strands of gossamer grow thick here, the sticky webs clinging\nto your face and body as you venture through this dim chamber. It\nreeks of death, of sulfur - it leaves a bitter taste upon your tongue.\nThrough the thick webs, a clearing emerges. It is spherical in shape,\nthe web a physical boundary around the outside. Only one path is open\nto your travel, as the floor is rudely interrupted by rows upon rows\nof jagged spikes. Their heights are uniform, the only interruption\nin their shape is the occasional heap of bones. Tatters of cloth\nlay in some areas, still adorning their dead owners. The path leads\nforward, into a circle void of spikes. The circle is ringed by a\nstrange roofless structure of black iron, contrasting deeply against\nthe white spidersilk threads. The iron is thin, rusted and bent into\ncontaining bars. They are not wide enough to stop a mortal's exit,\nbut once, perhaps, it was used to contain another sort of beast.\nOutside of the circle, a bed of spikes has been fashioned from broken\nand jagged shards, floating a few inches above the actual circle.\nSpots of blood adorn the tips of every spike, the remnants of those\nwho dared to rest upon it. The only exit from this Dead Grotto is to\nyour east, the path from which you entered.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1008"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1012": {
+      "vnum": "1012",
+      "title": "The Headflow of Blood",
+      "description": "This place is barren, the rock untouched by the chisel or the dark\nmagic that has touched the rest of the complex. It is dark, slimy\ncreatures thriving on the filth. A sharp, coppery smell prevails\nwithin the chamber, filling your throat, burning your eyes. It is\na familiar stench, associated with the casualties of war, flanked\nalways by Death itself. You stand upon a ledge, small, a rough\npath resembling stairs leading downward. The entire western half\nof the room is but a sea of churning blood. It rushes over stained\nrocks, soaked for all time in the ichor of tainted innocence. Upon\none of the dryer rocks, a skull has been laid, cracked, yet almost\nuntouched by the scarlet flow. A smaller, thinner skeleton is curled\nthrough the sockets of the eyes. It is a snake, a foolish serpent\nthat somehow stranded itself, a mistake that evidently was its end.\nThe roar of the falling blood echoes from the walls, filling your\nears, making almost all other sound inaudible. You can follow the\ntwisting path downward, to the base of the Bloodfall, or east, out\nof this cavernous room.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1003"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1001"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "1013": {
+      "vnum": "1013",
+      "title": "The Headflow of Blood",
+      "description": "This place is barren, ancient and imbued with dark hatred, yet seems\nuntouched by mortal power. A roaring sound fills the room, echoing\noff of the slimy, pitted walls. The roar is emitted from the east,\na deluge cascading from a sharp cliff. It is the roar of the blood\nthirst, a primal scream known to all, known in the deepest depths\nof the subconscious. Dredged up only in the Nightmare, it haunts\nthis place eternally. Bones lay about the chamber, shattered,\nsplintered into dozens of pieces. They appear to have been thrown,\ncast away in a violent rage. Some bones have been lodged into the\nwalls themselves, the rock around the stone beaten with an unholy\nrage, a fury borne of unholy power. The floor is wet with blood,\ncracks jumping across the floor, holes at irregular intervals.\nCrumbling rock makes step precarious, especially those leading\ndownward, to the eastern base of the bloodfall. To the west, the\nuntouched rock gives way to the image of some grotesque tower.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1001"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1004"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "filename": "legion_compound.are",
+  "name": "Legion Compound",
+  "listing": "{ALL} Jeriath The Legion Compound",
+  "range": "82851 82880",
+  "rooms": {
+    "82851": {
+      "vnum": "82851",
+      "title": "Entrance to the compound",
+      "description": "The thick wall that surrounds the compound is broken by a large gate here. The\ndouble doors of the gate are reinforced by thick bands of mithril, and they\nstand open. What can be seen of the inside of the compound is stone and\nmarble, hallways stretching into darkness beyond.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "22007"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82852"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82852": {
+      "vnum": "82852",
+      "title": "Within the compound",
+      "description": "The compound stretches out before you, a featureless mass of stone and marble.\nThe floor is polished to a shine, reflecting the light from the glowing globes\nthat hang suspended, seemingly magically, in the air. To the north and south,\nthe featureless stone walls can be seen, and any sound made is amplified by\nthe polished marble floor. A hallway extends to the west.\nHanging on the south wall is a framed parchment entitled, TREATY.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82854"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82851"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82853"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "treaty"
+          ],
+          "description": "TREATY BETWEEN THE ORDER OF LEGION AND THE CONCLAVE OF WIZARDS\nTo: Legion and Conclave\nTerm 1\nNo wizard will be marked a rebel for battling soldiers of the order for religous reasons.\nReligous battles are dealt with on their own, however the numbers for these\nbattles shall be meant for a fair fight in which it is one foe against another,\nor two foes against one.\nTerm 2\nAll rebel flags will be removed from every wizard. These flags were only created\nand given on the account of a war being started bewtween the two factions. These\nflags can be rearned if the actions show that the wizard is against the order\nand is not just enjoying battles with soldiers for personal reasons, or\nenjoyment.\nTerm 3\nAll battles that will take place between both factions will be without the\ninvolvement of each others known enemeis. For instance, conclave will not strike\nsoldiers of the order with valor, or rebels.\nThis also means that soldiers of order will not strike wizards with the\nsteel clan members. Any battles that occur with either faction fighting their\nenemies and the waiting to strike a weakened foe will not be tolerated.\nNo soldier of my army will wait for a wizard raiding the steel confines, no\nwizard will wait to attack a soldier of mine raiding the valorian castle. If\nthere is to be battle between us\nit will be done when we are only fighting against each other for pride,\nreligion, cause, or desire.\nTerm 4\nThese battles will all be done in fair numbers, a foe against a foe, or two foes\nagainst one foe. Any numbers larger than that and punishment will be fierce,\nalso name calling and teasing will follow because of this pathetic display.\nFoes may enter battle in odd numbers only if another opponent has been added to\nthe battle. Such as, Quenton battles Evret and Criollo. Arion joins the battle\nso now one from either faction may join in without punishment.\nTerm 5\nThere is no allowance period to enter the magic tower or the compounds barracks.\nThere is absolutely no reason to go into these places unless your part of that\nfaction. The tower represents magic, the spectre, and the cubee all represent\nwhat that tower is.\nThe compound, the black dragon, and the sword of obsidian represent all that the\narmy is. To enter is to attack our beliefs and is an attack against what each\nother believes in.\nNO ENTRANCE AT ALL FOR ANY REASON, this can't be made any clearer.\nTerm 6\nAny enemies of either faction that are not well known for religous reasons, or\npersonal will be notified to each others factions so that there is no mistake of\nhelping each others enemies against one another.\nTerm 7\nWhen scrolls are penned about a break in the treaty it will contain this\ninformation.\nThe date, situation, place, people involved and be sent to Quenton and myself\ndirectly.\nQuenton and I will be taking stories from both sides, and finding the person of\nblame so that no one is pointing fingers or tentacles around until a war breaks\nout.\nAs previously stated, information from an outside source is welcome and can\ncontain multiple rewards for the person giving it.\nThis scroll will be finalized with the signatures of both parties in seperate\nparchments and is meant to contain the people from a pointless war that only\ndistracts them from their true callings.\nEvret the unfettered living hell, General of the Order"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82853": {
+      "vnum": "82853",
+      "title": "An intersection in the hallway",
+      "description": "The hallway branches into three directions here, the stone walls leading\nnorth, south, and west. The polished marble floors reflect the light from the\nglowing suspended globes, and sounds echo through the featureless hallways.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82855"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82852"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82859"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82858"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82854": {
+      "vnum": "82854",
+      "title": "Near the outer wall",
+      "description": "The stone wall of the compound towers above you, and passage to the north is\nimpossible. To the west, the wall continues, leading into a hallway. Glowing\nballs of light hang suspended in the air, and the polished marble floor\namplifies and echoes sound.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82852"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82855"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82855": {
+      "vnum": "82855",
+      "title": "A hallway within the compound",
+      "description": "The stone walls of the compound continue to the west, while the hallway opens\ninto a room to the north. The polished marble floors reflect the light from\nthe globes suspended in the air, and sounds echo through the halls.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82856"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82854"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82853"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82857"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82856": {
+      "vnum": "82856",
+      "title": "The compound barracks",
+      "description": "The barracks of the compound are made of the same stone and polished marble as\nthe rest of the building. Bunk beds line the stone walls, and there is a large\nwoven rug covering the cold marble floor. Overall, the room seems rather\nspartan, lacking in the usual comforts associated with sleeping chambers.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82855"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82857": {
+      "vnum": "82857",
+      "title": "A hallway within the compound",
+      "description": "The stone walls of the compound continue to the west, while the hallway opens\ninto a room in the north. The polished marble floors reflect the light from\nthe globes suspended in the air, and sounds echo through the halls.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82861"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82855"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82862"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82858": {
+      "vnum": "82858",
+      "title": "A hallway within the compound",
+      "description": "The stone walls of the compound continue to the west. The polished marble\nfloors reflect the light from the globes suspended in the air, and sounds echo\nthrough the halls.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82853"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82863"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82859": {
+      "vnum": "82859",
+      "title": "A hallway within the compound",
+      "description": "The stone walls of the compound continue to the west, while the hallway opens\ninto a room to the south. The polished marble floors reflect the light from\nthe globes suspended in the air, and sounds echo through the halls.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82853"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82865"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82860"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82860": {
+      "vnum": "82860",
+      "title": "A hallway within the compound",
+      "description": "The stone walls of the compound continue to the west, while the hallway opens\ninto a room to the south. The polished marble floors reflect the light from\nthe globes suspended in the air, and sounds echo through the halls.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82859"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82867"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82866"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82861": {
+      "vnum": "82861",
+      "title": "The compound armory",
+      "description": "The armory of the compound is made of the same stone and polished marble as\nthe rest of the building. Lining the walls are weapon racks, with an\nassortment of various weapons, from pikes to swords to daggers. Armor stands\nhold an equally varied selection of armor, whether plate, scale or leather.\nGlowing balls of light hang in the air, and they are reflected by the polished\nmarble floor.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82857"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82862": {
+      "vnum": "82862",
+      "title": "The end of a hallway within the compound",
+      "description": "The hallway ends abruptly here. The stone walls seem to press down upon you,\nand there is no way to go but to the east. A tapestry covers the west wall, a\nweaving depicting the capture of a black dragon. The polished marble floor\nreflects the light of the suspended globes, and sounds echo through the air.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82857"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "tapestry"
+          ],
+          "description": "The tapestry depicts three soldiers battling a black dragon. One of the\nsoldiers holds a long length of gleaming chain that he is throwing over the\ndragon, while the other two hold the dragon at bay with long spears. A figure\ncan be seen in the corner of the tapestry. Shrouded in shadows, it is hard to\ndetermine who or what it is, but it appears to be watching the soldiers and\ndragon."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82863": {
+      "vnum": "82863",
+      "title": "The end of a hallway within the compound",
+      "description": "The hallway ends here, stone walls opening into a room to the west, but\nallowing no passage to the north or south. The polished floors reflect the\nlight from the suspended globes, and sounds can be heard echoing though the\nhall.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82858"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82864"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82864": {
+      "vnum": "82864",
+      "title": "The compound triage",
+      "description": "The triage is made from the same stone and marble as the rest of the compound,\nbut is stained in places with old blood. A tapestry hangs on the north wall\ndepicting a soldier kneeling in front of a shadowy figure. The polished marble\nfloor, at least the spots not stained with blood, reflects the light from\nsuspended glowing spheres.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82863"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "tapestry"
+          ],
+          "description": "The tapestry depicts a soldier kneeling before a shadowy figure. The figure\nholds a sword, which is touching the right shoulder of the soldier."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82865": {
+      "vnum": "82865",
+      "title": "The compound training room",
+      "description": "The stone walls of the training room are covered in tapestries depicting\nsoldiers in battle with one another. They serve not only as decoration, but to\ndampen the sound of metal on metal that emanates from this room when the\nsoldiers of legion practice. The marble floor is covered with practice mats,\nwhich have spots of dried blood where a careless blow struck a bit too close\nto home. A few weapon racks line the walls, and a training dummy sits in the\nsouth corner of the room.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82859"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82866": {
+      "vnum": "82866",
+      "title": "The end of a hallway within the compound",
+      "description": "The hallway ends here. Stone walls open into a room to the south, but allow no\npassage to the north or west. The polished floors reflect the light from the\nsuspended globes, and sounds can be heard echoing though the hall.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82860"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82868"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82867": {
+      "vnum": "82867",
+      "title": "The compound supply room",
+      "description": "The supply room is a necessity, and thus is decorated sparsely. The stone\nwalls are bereft of any tapestries, and the marble floor seems scuffed and not\nas highly polished as the rest of the compound.  A wooden counter sits at the\nwestern end of the room.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82860"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82868": {
+      "vnum": "82868",
+      "title": "The altar of Legion",
+      "description": "The altar room of Legion is bereft of all decoration. The stone walls are\nbare, and the polished marble floor appears to have never been set foot upon.\nAn altar sits in the center of the room, and next to it, a stone statue\nstands.",
+      "flags": [
+        "ROOM_INDOORS",
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "82866"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

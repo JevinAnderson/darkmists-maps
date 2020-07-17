@@ -1,0 +1,41 @@
+{
+  "filename": "crusrec.are",
+  "name": "Crusader Recruiting Centers",
+  "map": [
+    [
+      [
+        {
+          "vnum": "18147",
+          "title": "The Crusader Recruiting Center",
+          "exits": {
+            "south": "8821"
+          }
+        },
+        "*",
+        {
+          "vnum": "18148",
+          "title": "The Crusader Recruiting Center",
+          "exits": {
+            "south": "10642"
+          }
+        },
+        "*",
+        {
+          "vnum": "18149",
+          "title": "The Crusader Recruiting Center",
+          "exits": {
+            "east": "27790"
+          }
+        },
+        "*",
+        {
+          "vnum": "18150",
+          "title": "The Crusader Recruiting Center",
+          "exits": {
+            "east": "70022"
+          }
+        }
+      ]
+    ]
+  ]
+}

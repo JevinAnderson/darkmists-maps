@@ -1,0 +1,175 @@
+{
+  "filename": "legion_compound.are",
+  "name": "Legion Compound",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        {
+          "vnum": "82861",
+          "title": "The compound armory",
+          "exits": {
+            "south": "82857"
+          }
+        },
+        {
+          "vnum": "82856",
+          "title": "The compound barracks",
+          "exits": {
+            "south": "82855"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "82862",
+          "title": "The end of a hallway within the compound",
+          "exits": {
+            "east": "82857"
+          }
+        },
+        {
+          "vnum": "82857",
+          "title": "A hallway within the compound",
+          "exits": {
+            "north": "82861",
+            "east": "82855",
+            "west": "82862"
+          }
+        },
+        {
+          "vnum": "82855",
+          "title": "A hallway within the compound",
+          "exits": {
+            "north": "82856",
+            "east": "82854",
+            "south": "82853",
+            "west": "82857"
+          }
+        },
+        {
+          "vnum": "82854",
+          "title": "Near the outer wall",
+          "exits": {
+            "south": "82852",
+            "west": "82855"
+          }
+        },
+        "*"
+      ],
+      [
+        {
+          "vnum": "82864",
+          "title": "The compound triage",
+          "exits": {
+            "east": "82863"
+          }
+        },
+        {
+          "vnum": "82863",
+          "title": "The end of a hallway within the compound",
+          "exits": {
+            "east": "82858",
+            "west": "82864"
+          }
+        },
+        {
+          "vnum": "82858",
+          "title": "A hallway within the compound",
+          "exits": {
+            "east": "82853",
+            "west": "82863"
+          }
+        },
+        {
+          "vnum": "82853",
+          "title": "An intersection in the hallway",
+          "exits": {
+            "north": "82855",
+            "east": "82852",
+            "south": "82859",
+            "west": "82858"
+          }
+        },
+        {
+          "vnum": "82852",
+          "title": "Within the compound",
+          "exits": {
+            "north": "82854",
+            "east": "82851",
+            "west": "82853"
+          }
+        },
+        {
+          "vnum": "82851",
+          "title": "Entrance to the compound",
+          "exits": {
+            "east": "22007",
+            "west": "82852"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "82866",
+          "title": "The end of a hallway within the compound",
+          "exits": {
+            "east": "82860",
+            "south": "82868"
+          }
+        },
+        {
+          "vnum": "82860",
+          "title": "A hallway within the compound",
+          "exits": {
+            "east": "82859",
+            "south": "82867",
+            "west": "82866"
+          }
+        },
+        {
+          "vnum": "82859",
+          "title": "A hallway within the compound",
+          "exits": {
+            "north": "82853",
+            "south": "82865",
+            "west": "82860"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "82868",
+          "title": "The altar of Legion",
+          "exits": {
+            "north": "82866"
+          }
+        },
+        {
+          "vnum": "82867",
+          "title": "The compound supply room",
+          "exits": {
+            "north": "82860"
+          }
+        },
+        {
+          "vnum": "82865",
+          "title": "The compound training room",
+          "exits": {
+            "north": "82859"
+          }
+        },
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

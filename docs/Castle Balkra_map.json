@@ -1,0 +1,365 @@
+{
+  "filename": "Castle Balkra.are",
+  "name": "Castle Balkra",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "5712",
+          "title": "The Top of the Northwest Tower",
+          "exits": {
+            "down": "5711"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "5714",
+          "title": "The Top of the Northeast Tower",
+          "exits": {
+            "down": "5713"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "5725",
+          "title": "The Top of the Southwest Tower",
+          "exits": {
+            "down": "5724"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "5720",
+          "title": "The Top of the Southeast Tower",
+          "exits": {
+            "down": "5719"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "5711",
+          "title": "The Northwest Tower",
+          "exits": {
+            "east": "5705",
+            "up": "5712"
+          }
+        },
+        {
+          "vnum": "5705",
+          "title": "The Hall of History",
+          "exits": {
+            "east": "5707",
+            "south": "5709",
+            "west": "5711"
+          }
+        },
+        {
+          "vnum": "5707",
+          "title": "East side of the Keep",
+          "exits": {
+            "east": "5713",
+            "south": "5706",
+            "west": "5705"
+          }
+        },
+        {
+          "vnum": "5713",
+          "title": "The Northeast Tower",
+          "exits": {
+            "west": "5707",
+            "up": "5714"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "5710",
+          "title": "Library of the Crusades",
+          "exits": {
+            "east": "5709"
+          }
+        },
+        {
+          "vnum": "5709",
+          "title": "The Chamber of Decisions",
+          "exits": {
+            "north": "5705",
+            "west": "5710"
+          }
+        },
+        {
+          "vnum": "5706",
+          "title": "Further in the Keep",
+          "exits": {
+            "north": "5707",
+            "east": "5715",
+            "south": "5704"
+          }
+        },
+        {
+          "vnum": "5715",
+          "title": "A large Crusader Barracks",
+          "exits": {
+            "west": "5706"
+          }
+        },
+        "*"
+      ],
+      [
+        {
+          "vnum": "5701",
+          "title": "The Gates of Castle Balkra",
+          "exits": {
+            "east": "5702",
+            "west": "2316"
+          }
+        },
+        {
+          "vnum": "5702",
+          "title": "The Halls of Memory",
+          "exits": {
+            "east": "5703",
+            "west": "5701"
+          }
+        },
+        {
+          "vnum": "5703",
+          "title": "The Halls of Memory",
+          "exits": {
+            "east": "5704",
+            "west": "5702"
+          }
+        },
+        {
+          "vnum": "5704",
+          "title": "The Inner Keep",
+          "exits": {
+            "north": "5706",
+            "east": "5729",
+            "south": "5716",
+            "west": "5703"
+          }
+        },
+        {
+          "vnum": "5729",
+          "title": "Foyer to the Altar Room",
+          "exits": {
+            "east": "5708",
+            "west": "5704"
+          }
+        },
+        {
+          "vnum": "5708",
+          "title": "The Altar of The Never Ending Crusades",
+          "exits": {
+            "west": "5729"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "5723",
+          "title": "The Crusader Forge",
+          "exits": {
+            "east": "5722"
+          }
+        },
+        {
+          "vnum": "5722",
+          "title": "The Battle Room",
+          "exits": {
+            "south": "5721",
+            "west": "5723"
+          }
+        },
+        {
+          "vnum": "5716",
+          "title": "Further into the Keep",
+          "exits": {
+            "north": "5704",
+            "east": "5717",
+            "south": "5718"
+          }
+        },
+        {
+          "vnum": "5717",
+          "title": "A moderate Crusader barracks",
+          "exits": {
+            "west": "5716"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "5724",
+          "title": "The Southwest Tower",
+          "exits": {
+            "east": "5721",
+            "up": "5725"
+          }
+        },
+        {
+          "vnum": "5721",
+          "title": "An intersection",
+          "exits": {
+            "north": "5722",
+            "east": "5718",
+            "west": "5724",
+            "down": "5726"
+          }
+        },
+        {
+          "vnum": "5718",
+          "title": "The Green Room",
+          "exits": {
+            "north": "5716",
+            "east": "5719",
+            "south": "5730",
+            "west": "5721"
+          }
+        },
+        {
+          "vnum": "5719",
+          "title": "The Southeast Tower",
+          "exits": {
+            "west": "5718",
+            "up": "5720"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "5730",
+          "title": "Altar to Nature",
+          "exits": {
+            "north": "5718"
+          }
+        },
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "5726",
+          "title": "The Armory",
+          "exits": {
+            "south": "5727",
+            "up": "5721"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "5727",
+          "title": "The Crusader Bar",
+          "exits": {
+            "north": "5726",
+            "east": "5728"
+          }
+        },
+        {
+          "vnum": "5728",
+          "title": "The Crusader Canteen",
+          "exits": {
+            "west": "5727"
+          }
+        },
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

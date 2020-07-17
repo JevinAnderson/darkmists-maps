@@ -1,0 +1,213 @@
+{
+  "filename": "ancient.are",
+  "name": "Sanctuary of the Ancients",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "21401",
+          "title": "Outside the entrance to a cave",
+          "exits": {
+            "north": "10047",
+            "south": "21402"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "21426",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "east": "21427",
+            "south": "21429"
+          }
+        },
+        {
+          "vnum": "21427",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "east": "21428",
+            "south": "21430",
+            "west": "21426"
+          }
+        },
+        {
+          "vnum": "21428",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "south": "21431",
+            "west": "21427"
+          }
+        }
+      ],
+      [
+        {
+          "vnum": "21408",
+          "title": "The Ancient Library",
+          "exits": {
+            "south": "21405"
+          }
+        },
+        {
+          "vnum": "21402",
+          "title": "Within the cave",
+          "exits": {
+            "north": "21401",
+            "south": "21403"
+          }
+        },
+        {
+          "vnum": "21407",
+          "title": "The Torture Chamber",
+          "exits": {
+            "south": "21404",
+            "down": "21409"
+          }
+        },
+        "*",
+        {
+          "vnum": "21429",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "north": "21426",
+            "east": "21430",
+            "south": "21432"
+          }
+        },
+        {
+          "vnum": "21430",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "north": "21427",
+            "east": "21431",
+            "south": "21433",
+            "west": "21429"
+          }
+        },
+        {
+          "vnum": "21431",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "north": "21428",
+            "south": "21434",
+            "west": "21430"
+          }
+        }
+      ],
+      [
+        {
+          "vnum": "21405",
+          "title": "Western Womb",
+          "exits": {
+            "north": "21408",
+            "east": "21403"
+          }
+        },
+        {
+          "vnum": "21403",
+          "title": "Center Womb",
+          "exits": {
+            "north": "21402",
+            "east": "21404",
+            "west": "21405",
+            "south": "21406"
+          }
+        },
+        {
+          "vnum": "21404",
+          "title": "Eastern Womb",
+          "exits": {
+            "north": "21407",
+            "west": "21403"
+          }
+        },
+        "*",
+        {
+          "vnum": "21432",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "north": "21429",
+            "east": "21433"
+          }
+        },
+        {
+          "vnum": "21433",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "north": "21430",
+            "east": "21434",
+            "west": "21432"
+          }
+        },
+        {
+          "vnum": "21434",
+          "title": "A dark and peaceful place",
+          "exits": {
+            "north": "21431",
+            "west": "21433"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "21406",
+          "title": "The Merchant's Lair",
+          "exits": {
+            "north": "21403"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "21409",
+          "title": "The Inner Sanctuary",
+          "exits": {
+            "up": "21407"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

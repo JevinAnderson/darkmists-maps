@@ -1,0 +1,75 @@
+{
+  "filename": "enforcer5.are",
+  "name": "The Citadel of Justice",
+  "map": [
+    [
+      [
+        {
+          "vnum": "23601",
+          "title": "The Citadel of Justice: Drawbridge",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23602",
+          "title": "Courtyard",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23603",
+          "title": "Altar of Law",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23604",
+          "title": "Enforcer Barracks",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23605",
+          "title": "Council Room",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23606",
+          "title": "Eastern Hallway",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23607",
+          "title": "Citadel of Justice: Main Foyer",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23609",
+          "title": "Eastern Corner",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23610",
+          "title": "Western Corner",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23624",
+          "title": "Main Gateway of the Citadel",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23625",
+          "title": "Western Hallway",
+          "exits": {}
+        }
+      ]
+    ]
+  ]
+}

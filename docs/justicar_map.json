@@ -1,0 +1,123 @@
+{
+  "filename": "justicar.are",
+  "name": "Justicar's Stronghold",
+  "map": [
+    [
+      [
+        {
+          "vnum": "23600",
+          "title": "Before the Justicar stronghold",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23601",
+          "title": "Entrance to the Justicar stronghold",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23602",
+          "title": "Grand foyer",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23603",
+          "title": "Apothecary",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23604",
+          "title": "Training grounds",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23605",
+          "title": "Commissary",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23606",
+          "title": "Justicar barracks",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23607",
+          "title": "Base of the grand stairwell",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23608",
+          "title": "Above the grand stairwell",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23609",
+          "title": "Council of the Justicars",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23610",
+          "title": "Shrine of Law",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23611",
+          "title": "Justicar barracks",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23612",
+          "title": "High Arbiter's Office",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23613",
+          "title": "Chief Magistrate's Office",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23614",
+          "title": "A Suspended Walkway",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23615",
+          "title": "The Great Hall",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23616",
+          "title": "A Wooded Yard",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23617",
+          "title": "A Wooded Yard",
+          "exits": {}
+        },
+        "*",
+        {
+          "vnum": "23618",
+          "title": "A Wooded Yard",
+          "exits": {}
+        }
+      ]
+    ]
+  ]
+}

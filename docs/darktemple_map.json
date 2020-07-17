@@ -1,0 +1,177 @@
+{
+  "filename": "darktemple.are",
+  "name": "The Dark Temple",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "4212",
+          "title": "Before a Yawning Pit",
+          "exits": {
+            "up": "5674",
+            "down": "4213"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        {
+          "vnum": "4221",
+          "title": "Within a Charred Tunnel",
+          "exits": {
+            "east": "4222",
+            "south": "4220"
+          }
+        },
+        {
+          "vnum": "4222",
+          "title": "The Totem Cave",
+          "exits": {
+            "west": "4221"
+          }
+        },
+        "*"
+      ],
+      [
+        {
+          "vnum": "4219",
+          "title": "A Very Unholy Place",
+          "exits": {
+            "south": "4218"
+          }
+        },
+        "*",
+        {
+          "vnum": "4220",
+          "title": "Under a Burning Archway",
+          "exits": {
+            "south": "4213",
+            "north": "4221"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "4218",
+          "title": "A Fiery Passage",
+          "exits": {
+            "north": "4219",
+            "east": "4217"
+          }
+        },
+        {
+          "vnum": "4217",
+          "title": "Under a Burning Archway",
+          "exits": {
+            "east": "4213",
+            "west": "4218"
+          }
+        },
+        {
+          "vnum": "4213",
+          "title": "Bottom of the Pit",
+          "exits": {
+            "north": "4220",
+            "east": "4223",
+            "south": "4214",
+            "west": "4217",
+            "up": "4212"
+          }
+        },
+        {
+          "vnum": "4223",
+          "title": "Under a Burning Archway",
+          "exits": {
+            "east": "4224",
+            "west": "4213"
+          }
+        },
+        {
+          "vnum": "4224",
+          "title": "A Dark Tunnel",
+          "exits": {
+            "south": "4225",
+            "west": "4223"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "4214",
+          "title": "Under a Burning Archway",
+          "exits": {
+            "north": "4213",
+            "south": "4215"
+          }
+        },
+        "*",
+        {
+          "vnum": "4225",
+          "title": "The Cavern of Recuperation",
+          "exits": {
+            "north": "4224"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "4216",
+          "title": "The Torture Wing",
+          "exits": {
+            "east": "4215"
+          }
+        },
+        {
+          "vnum": "4215",
+          "title": "Within a Charred Tunnel",
+          "exits": {
+            "north": "4214",
+            "west": "4216"
+          }
+        },
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

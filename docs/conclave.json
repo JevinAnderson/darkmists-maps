@@ -1,0 +1,343 @@
+{
+  "filename": "conclave.are",
+  "name": "The Hourglass Tower",
+  "listing": "{HOUSE} Riallus The Hourglass Tower",
+  "range": "21500 21599",
+  "rooms": {
+    "21501": {
+      "vnum": "21501",
+      "title": "Forest Clearing",
+      "description": "A large clearing here in the forest has a singular focus: an enormous tower.\nJutting out from the very center of the clearing, puncturing the canopy and\nstabbing the sky, the Hourglass Tower, home to the Conclave of Wizardry.  The\ntower is truly a magnificent structure, perfectly cylindrical in form with a\nslight pinch in the middle, it is composed of a white marble with veins of\nblack and grey.  Windows circle up the entire length, some are lit.  A small\nbridge crosses a pool surrounding the tower and ends in a large gateway\nleading deeper into the edifice.  From 3 visible square holes in the tower,\napproximately 30 feet off the ground, water flows down into the small circular\npool currently coursing around the tower.  Some form of magic allows the water\nto part around the bridge on either side to keep the bridge occupants dry.\nThere is a wide area separating the forest from the start of the bridge, it is\ncovered in simple grass, which seems to be largely trodden upon by countless\nvisitors.",
+      "flags": [],
+      "sector": "SECT_CITY",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21502"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "22177"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21502": {
+      "vnum": "21502",
+      "title": "Main Entryway",
+      "description": "The interior of the tower is a magnificent spectacle to behold.  This main\nentryway serves as the hub of all movement into and out of the Hourglass\ntower.  People of all races, cultures and backgrounds are here, moving about\nfreely.  Some wish you well as they pass with a slight nod, others give you\ndarting looks.  A large staircase is set into the northern wall of the area,\nleading up to the higher levels of the tower.  Looking up, you can see walk-\nways set into the side of the tower, circling its edge.  Upon these, you see\neven more people moving along.  Looking straight up, you can almost see the\ntop of the tower, it appears to be many miles away.  To the east is a\ncorridor leading off, and the west will take one of the tower, and out toward\nthe forest.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "21503"
+        },
+        "up": {
+          "keywords": [],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "21507"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21501"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21503": {
+      "vnum": "21503",
+      "title": "Hall of Equality",
+      "description": "The Hall of Equality was a concept of Lord Riallus, and was made to recognize\nthat all wizards, regardless of their paths or devotions, can come together\nand work for the betterment of magic.  This hall holds the three common rooms\nof the Circles of Conclave.  Straight ahead to the east, and in the middle of\nthe hallway, is the common room of the Circle of Twilight.  The room to the\nnorth belongs to the Circle of Dawn, and the south, the Circle of Night (it\nsmells a little 'funny' in that direction).",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21504"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21505"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21506"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21502"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21504": {
+      "vnum": "21504",
+      "title": "Common Room: Circle of Dawn",
+      "description": "This room is rather bright and airy.  A row of windows look out into the\nforest, and let a significant amount of air in, as well as sunshine when the\nsun is out.  Potted plants and soft rugs have been placed around the room for\naesthetics.  Thick tables have been placed here so that people may converse or\nstudy, and soft velvet couches provide a cushioned seat for a well needed\nrest.  A small fountain is set in the side of the wall, to provide the\nharmonious sound of trickling and splashing water to help soothe the weary\nminds of the magi of the tower.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21503"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21505": {
+      "vnum": "21505",
+      "title": "Common Room: Circle of Twilight",
+      "description": "This room is very simple.  Along the eastern wall, a couple windows look\nout into the depths of the forest.  One has been left open to provide a small\nbit of circulation to the occupants.  A fireplace has been set in the northern\nwall, but is currently unlit.  Heavy oak tables with stiff chairs are here for\nthe purpose of debate and discussion, as well as for focusing the mind when\nstudying.  Small plants have been placed around the room to make the room\nmore appealing, with mixed results.  A small fountain in the southern wall\ngurgles softly, as if it were afraid to disturb the people in here.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21503"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21506": {
+      "vnum": "21506",
+      "title": "Common Room: Circle of Night",
+      "description": "Entering this common room, you get the distinct feeling that you might not\nwant to remain here.  The room is unbearably hot and stuffy.  On the southern\nwall where you might suspect windows to be, there are thick velvet curtains.\nA fire in the fireplace set in the northern wall provides lacklustre light\nthrough the room, and makes it all the more eerie from the shadows it\nproduces.  You can make out a couch, and some tables, but the finer detail is\nlost in the shadow.  Small candles have been placed on some of the tables, in\ncase the occupants wished light to study by.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21503"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21507": {
+      "vnum": "21507",
+      "title": "Top Level in the Tower",
+      "description": "Standing on the topmost level of the Hourglass tower, you feel slightly short\nof breath.  The air appears significantly thinner.  Peering over the ledge of\nthe platform you are on, you can see that it's quite a long drop down.  Thank-\nfully, surrounding the platform is a 5 foot high wall, preventing you from\nslipping out into the air.  Up ahead to the east you can see a large circular\nroom.  You can head back down to the main foyer of the tower if you so choose.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21508"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21502"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21508": {
+      "vnum": "21508",
+      "title": "Rotunda",
+      "description": "The walls of this circular room are covered in paintings.  The paintings seem\nto be depictions of former ArchMages of Arcana, and some that you recognize from\nthe Conclave.  You see names that are now legends, and others that are more\nobscure. A beautiful red carpet takes up the entire room, and you almost sink\ninto its comfortable texture.  As you continue looking at the paintings, which\nalmost have a life of their own, you suddenly notice two large exits from the\nroom which you would swear weren't there a moment ago.  In the eastern wall, a\nglowing archway is set into the wall, and you can feel the sheer, raw power\nfrom that direction. In the northern wall is a set of double doors that are\nclosed and covered with runes. To the south is a large alcove, set off from\nthe rest of the room. Three intertwining columns composed of blue, white and\nblack energies support a semi-translucent spiral stairway leading upwards.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21510"
+        },
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21509"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21511"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21507"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21512"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21509": {
+      "vnum": "21509",
+      "title": "Office of The Master of the Tower",
+      "description": "Resplendent.  That is all that can describe this room, and not even that can\noffer a modicum of the wonder that it is.  Bookshelves line the walls of this\ncircular room.  They are filled to the point of being overstuffed with\nmanuals, grimoires, tomes, books, codexes, scrolls and any other form of\nprinted word imaginable.  Each one has a resonance all its own, each one\nbeckons you to read its secrets.  As if that were not enough to keep a mortal\nmagus busy for a lifetime, small podiums and cabinets interspace the book-\nshelves at points, and hold some of the most powerful and legendary magical\nitems that you have ever heard of.  Collected over the years by the Lord of\nMagic and former Tower Masters, these relics are kept here for safekeeping.\nEach one has an eternity of stories to tell.  A large desk, made from an\nenormous granite slab sits at the northern end of the room, right in front of\na large glass window that looks over the whole of the Theran landscape.  In\nfront of the desk stand two chairs, to welcome those who would speak with the\nMaster of the Hourglass Tower.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21508"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21510": {
+      "vnum": "21510",
+      "title": "High Altar of the Conclave of Wizardry",
+      "description": "You can barely stand to be here.  The force of the power contained here is\nalmost too much for you to bear.  The eastern wall is curved, and covered in a\nrow of windows that overlook all the lands of Thera.  Standing in the center\nof this wall is a statue of the Lord of Magic, Riallus.  It is made of\npristine marble and is so extraordinarily detailed that you think it might\ncome to life.  In his left hand he holds a replica of his staff.  His right\nhand is held to his heart and is clasping something.  You are unable to see\nwhat it is, but it shines so brilliantly that light streams from between the\nfingers of the statue and plays all over the room.  This is the heart of the\ntower, and truly a divine sanctuary.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21508"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21511": {
+      "vnum": "21511",
+      "title": "Large Alcove",
+      "description": "This room is dedicated to the Lady Xyza, and is a place where members of the\nConclave come to commune, receive healing, and to donate items for use by\nother members.  This place has an extreme aura of peace and divinity.  The\nsouthern wall holds an immaculate statue of the Mistress of Magic, who looks\nupon those who serve her cause with eyes of mercy and hope.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "21508"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21512": {
+      "vnum": "21512",
+      "title": "The Tower Library",
+      "description": "Perched atop the Hourglass Tower, the view here of the surrounding\nforest is spectacular. The floor was cut from a single massive sliver\nof clear quartz, not an imperfection nor streak can be seen upon it.\nFraming the circular floor are several free-floating railings of similar\ntranslucent mineral, keeping any preoccupied visitors from tumbling over\nthe side. Several gently humming bookcases slowly rotate in a deliberate\npattern, as though floating on an unseen carousel. The domed ceiling is\netched with grooves on the outside to allow for any precipitation to roll\noff easily in miniature waterfalls. Blue, white and black columns rise to\nthe center of ceiling and downward, giving support to a spiral stairway.\nA strange and dark cloud hovers at the center of the dome, revealing the\noccasional geometric lightning.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21513"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21508"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "21513": {
+      "vnum": "21513",
+      "title": "The Matrix",
+      "description": "Black walls lined with a translucent silver enclose this entire space.\nReflective light from an unknown source shines all about in a mirror-like\nfashion. Geometric shapes float all around, and some even phase through you\nas a ghost would. Looking closer at them, folds unfold and seams burst, forming\na differing view of each shape at any given time. A set of gleaming green\nobjects float downward at a fast pace, forming what look to be akin to lines.\nA light of almost star quality bounces around the entire matrix, slowly and\nthen quickly in a chaotic fashion.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_CITY",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "21512"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

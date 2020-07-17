@@ -1,0 +1,4974 @@
+{
+  "filename": "cotp.are",
+  "name": "City of the Pure",
+  "listing": "{10 25} Joja   City of the Pure",
+  "range": "20300 20499",
+  "rooms": {
+    "20301": {
+      "vnum": "20301",
+      "title": "Path sloping downward",
+      "description": "The forest path slopes downward toward the west, and the trees seem to gain\nin height and in girth. The path is hard packed, and above, a canopy of\nleaves stretches overhead, forming a natural tunnel. The happy chirping of\nbirds reaches your ears. Looking toward the west you see something dark and\nstriped. Toward the east is more forest land, though the trees are smaller.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "5256"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20302"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20302": {
+      "vnum": "20302",
+      "title": "Path between pillars",
+      "description": "The forest path slopes downward toward the east, upward toward the west. Here\nthe trees are very thick, both in girth and proximity. Overhead a thick\ncanopy of leaves forms a natural tunnel. The chirping of birds is audible. To\nthe west is a stone structure, perhaps a huge monolith as never seen in Thera\nanywhere else. Hewn into it is a passage large enough to admit the largest of\ngiants, yet the stone rises well above the ceiling point. The stone is\nstriated brown and grey. To the east, the path slopes upward toward more\nforest.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20301"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20303"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20303": {
+      "vnum": "20303",
+      "title": "By the Pillars",
+      "description": "Two great pillars of smooth brown and grey striated stone stand at either\nside of a huge opening in similarly striated rock. Polished, it gleams in the\navailable light. The rock face seems to have always been exposed to the air,\nbut old musty tomes speak of a time when this thing was unseen, covered\nperhaps by dirt and soil, held by the roots of trees. Huge towering trees do\ngrow here, however, and they lend a canopy covering as though a natural\ntunnel led to this place. To enter through the opening in the striated rock\nface is to enter a more closed-in tunnel. Eastward, the pathway slopes upward\ninto forest land.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20302"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20304"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20304": {
+      "vnum": "20304",
+      "title": "Path within the tunnel",
+      "description": "The smooth brown and grey striation of the rock to the east and west of you\nis illuminated by a natural glowing lichen which grows in various parts of\nthe tunnel. A number of clumps of it are on the walls, while others are on\nthe ceiling. None of it grows on the ground. To the east you can sense a\nlight of a different kind. Westward the tunnel opens up.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20303"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20305"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20305": {
+      "vnum": "20305",
+      "title": "Path within the tunnel",
+      "description": "The tunnel branches out in all cardinal directions. In the corners are what\nappears to be striated stone arches lit by naturally glowing lichen. The\ntunnel extends to the north, south, east, and west.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20313"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20304"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20318"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20306"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "stone"
+          ],
+          "description": "The stone is smooth to the look, smooth to the touch. It is striated in brown\nand grey, very pretty."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20306": {
+      "vnum": "20306",
+      "title": "Path within the tunnel",
+      "description": "The smooth striation of rock to your north and south is lit by the naturally\nglowing lichen growing in clumps on the walls and ceiling. The only way to\ntravel here is to the east or west. To the east the tunnel opens up, and to\nthe west the tunnel continues its narrow way.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20305"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20307"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striation",
+            "rock"
+          ],
+          "description": "The rock is smooth to the touch and the eye. Brown\nand grey striations lend it a natural beauty."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20307": {
+      "vnum": "20307",
+      "title": "Path within the tunnel",
+      "description": "Clumps of naturally glowing lichen grow on the walls\nand ceiling, shedding light upon the striated rock\nwhich form the walls to the north and south. To the\nwest the tunnel seems to widen.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20306"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20308"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "rock"
+          ],
+          "description": "The rock is striated in grey and brown, a combination of natural beauty. To\nthe eye and the touch, it is smoothly polished."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20308": {
+      "vnum": "20308",
+      "title": "Path within the tunnel",
+      "description": "You stand in a crossway of three tunnels. One extends to the east, one to the\nnorth, one to the south. Striated rock form the walls and ceiling, which are\nlit by clumps of naturally glowing lichen.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20309"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20307"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20311"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "rock"
+          ],
+          "description": "Brown and grey striations give this huge stone monolith though which you walk\na natural beauty all its own. In the light available, the rock seems smooth."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20309": {
+      "vnum": "20309",
+      "title": "Path within the tunnel",
+      "description": "The tunnel stretches northward and southward here, its striated walls and\nceiling adorned with naturally glowing lichens which light the way. To the\nsouth is an open area, to the north a turn in the tunnel path.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20310"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20308"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated"
+          ],
+          "description": "The walls and ceiling are striated in grey and brown. In the available light,\nthe stone is smooth and polished."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20310": {
+      "vnum": "20310",
+      "title": "Path within the tunnel",
+      "description": "The stony tunnel path curves westward and southward here. Naturally glowing\nlichens grow in clumps on the walls and ceiling of the striated stone tunnel,\nshedding a soft light to give sight to those passing through.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20309"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20350"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "stone"
+          ],
+          "description": "Brown and grey striations lend a natural beauty to the smooth stone which\ngleams in the available light."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20311": {
+      "vnum": "20311",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends north and south here, the way lit by clumps of\nnaturally glowing lichen which cling to the striated walls and ceiling. To\nthe north is a widening of the cavern. Southward is another widening of the\ncavern.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20308"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20312"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20312": {
+      "vnum": "20312",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends north, east, and west here, the T-section lit by\nclumps of naturally glowing lichen which cling to the walls and ceiling.\nNorthward the passage is straight, likewise westward. To the east the path\ntakes a turn and seems to have a different hue of light.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20311"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20322"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20336"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20313": {
+      "vnum": "20313",
+      "title": "Path within the tunnel",
+      "description": "The stony path within the tunnel leads southward to a widening cavern to the\nsouth and a turn in the path to the north. Lichen clinging to the striated\nwalls and ceiling lend light.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20314"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20305"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20314": {
+      "vnum": "20314",
+      "title": "Path within the tunnel",
+      "description": "The path turns to the east and south here. Striated rock bearing light-giving\nlichen make up the walls and ceiling, and the floor is darkened stone. To the\neast you see lights and hear some activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20315"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20313"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20315": {
+      "vnum": "20315",
+      "title": "Path within the tunnel",
+      "description": "The stony path leads to the west toward a turn southward, but otherwise to\nthe north and east to alcoves in the expertly hewn and smooth striated stone.\nLichen clinging to the walls and ceiling lend light to the passage. You hear\nthe sounds of activity to the north and east. A vaulted opening leads to the\nnorth, from which a great heat emerges. Another vaulted opening leads to an\nalcove to the east.  At the arch is a wooden sign.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20316"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20317"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20314"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "sign",
+            "wooden"
+          ],
+          "description": "+------------------------------------+\n|                                    |\n|  Willow-Wing's Wears and Weaponry  |\n|                                    |\n+------------------------------------+"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20316": {
+      "vnum": "20316",
+      "title": "Blacksmith's Forge",
+      "description": "The walls are formed of striated rock, polished to a sheen, and of the same\nstriated grey and brown that is found elsewhere in this underground part of\nthe city. A vaulted opening to the south allows passage out into the tunnels.\nThe northern wall is a built-in fireplace where very hot fire burns at all\ntimes of the day and night. A chimney cut into the stone allows the smoke to\nrise upward. The striated walls are bare of the glowing lichen found else-\nwhere, for this forge creates too much heat for the lichen. Out a ways from\nthe forge fires is a great anvil, and the blacksmith's tools of the trade are\nnearby. Along the walls are various pieces that the blacksmith has been work-\ning on, in various states of creation or repair.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20315"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "anvil"
+          ],
+          "description": "The anvil is huge and black, perhaps formed of cast iron. It is strong enough\nto withstand tremendous heat and the pounding of a huge mallet by arms long\ntrained to heavy work. The blacksmith using this anvil can as easily forge a\npiece of armor or weapon for the largest of giants, as for the smallest of\nhalflings or gnomes."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20317": {
+      "vnum": "20317",
+      "title": "Willow-Wing's Wears and Weaponry",
+      "description": "Three solid walls are lined with various pieces of armor and weapons. The\nfourth wall, at the west, has a vaulted opening toward the tunnels. A small\ncounter formed of striated stone rises up from the floor to the east, not of\na piece with the floor, but brought in from elsewhere. Nature itself formed\nit, smoothing its edges and polishing it over time. The high ceiling is also\nof the same stone. Glowing lichen covers much of the walls, lending a soft\nlight to this alcove.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20315"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "counter"
+          ],
+          "description": "Nature took this striated grey and brown stone and battered it with its\nforces over time, forming a smooth, rectangular, box-shaped mass. It is\nsmall, compared to the room, but large enough for its purposes. Sitting upon\nit are various quill pens and a bound journal for recording sales. A locked\nmetal box sits upon the counter top as well."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20318": {
+      "vnum": "20318",
+      "title": "Path within the tunnel",
+      "description": "The stony path leads north and south, and the walls of striated stone on the\neast and west lend light due to the lichen clinging to them. Lichen clings\nalso to the ceiling, but the floor is of dark stone and well trodden: No\nlichen grows there. To the north the cavern seems to open up. To the south is\na straight path.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20305"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20319"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20319": {
+      "vnum": "20319",
+      "title": "Path within the tunnel",
+      "description": "The stony path lit by lichen clinging to the ceiling and the east and west\nwalls leads north and south. The walls are of striated grey and brown stone,\nbut the floor is dark stone without striations.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20318"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20320"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20320": {
+      "vnum": "20320",
+      "title": "Path within the tunnel",
+      "description": "The stony path leads northward and to the south, where it seems to turn. To\nthe east and west are walls of striated stone to which glowing lichen clings.\nHigh overhead, the ceiling seems dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20319"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20321"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20321": {
+      "vnum": "20321",
+      "title": "Path within the tunnel",
+      "description": "The stony path within the tunnel turns toward the north and west here. On the\nstriated walls and ceiling, glowing lichen lend light to the passage. The\npath northward is straight, as is the path westward.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20320"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20324"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20322": {
+      "vnum": "20322",
+      "title": "Sloping path within the tunnel",
+      "description": "The stony path slopes upward toward the north, downward toward the west. The\nstriated walls and ceiling seem devoid of lichen as there is some light\ncoming from the north and above. Toward the west the path runs fairly\nstraight.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20312"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20323"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown. Unlike other parts of the tunnel, there is no lichen growing here to\nlend light."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20323": {
+      "vnum": "20323",
+      "title": "Downward sloping path",
+      "description": "The path slopes downward toward the south, into a tunnel in the striated\nrock. Up here, off the stony path, you see shrubs lush with green growth and\na few tall trees. Near the ground, small wildflowers grow, their bright green\nleaves forming a ground cover. The buzzing of honey bees is evident here, but\nonly once in a while do you see one sipping nectar from the little flowers.\nTo the north and the east you see a dark, woody area, where the trees have\nformed a tunnel of arching branches and a canopy of leaves.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20413"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20404"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20322"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20324": {
+      "vnum": "20324",
+      "title": "Path within the tunnel",
+      "description": "To the east and west the stony path extends. On the north and south are\nstriated walls, and a high ceiling. Clinging to the walls are glowing lichen,\nlending light along the passage.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20321"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20325"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20325": {
+      "vnum": "20325",
+      "title": "Path within the tunnel",
+      "description": "The path branches out in a T-shape, leading to the east, west, and south. On\nthe striated rock walls are glowing lichen, lending light to the pathway. You\nhear the sound of activity to the south.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20324"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20326"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20328"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20326": {
+      "vnum": "20326",
+      "title": "Path within the tunnel",
+      "description": "The path leads northward to a widening of the cavern, and southward to an\nalcove beyond a vaulted opening, through which bright yet soft light seems\nto emanate. Peering southward through that vaulted opening, you see a dark\nshape amid the brilliant glow of gold and orange lichen, a dark shape that\nresembles an anvil and yet is not being used as such. On the striated walls\nto the east and west, here, you see glowing lichen clinging, lending a soft\nlight to your passage.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20325"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20327"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20327": {
+      "vnum": "20327",
+      "title": "Shrine to Gryleth",
+      "description": "A few pebbles on the dark floor of this alcove testify to the fact that nobody\nhas really been careful about cleaning. The smooth striated walls have become\nhome to glowing lichen which clings in small streaks, giving light in hues of\nbrilliant orange and gold. The high ceiling is dark. In the center of the room\nis an iron anvil, brought in from somewhere out there, certainly forged by\nsomeone's hands, though whether those hands were mortal or divine is a subject\nfor discussion. Its darkness is a contrast to the brightness of the colored\nlichen all around. Upon its surface lay the implements of a blacksmith, forged\nof steel. They appear clean and unused, as though waiting for an immortal smith\nto lift them and put them to use. Near one end of the anvil sits a steel mug,\nempty. A curious inscription is engraved upon its side.  A vaulted opening leads\nto the north.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20326"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "inscription"
+          ],
+          "description": "Fill Lord Gryleth's steel mug with the finest ale, make a worthy sacrifice unto\nthe Lord, and thank Him for his guidance and aid."
+        },
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20328": {
+      "vnum": "20328",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends east and west. Here, on the walls and ceiling, lichen\nclings to the rock, glowing softly and lighting the passage. To the west you\nsee that the cavern widens.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20325"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20329"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20329": {
+      "vnum": "20329",
+      "title": "Path within the tunnel",
+      "description": "The stony path leads east and west. To the south you see a sloping path which\nis lit differently from the way the tunnel is lit. Here, lichen covers the\nwalls and ceiling, glowing with a light of its own and lending that light to\nthe passageway.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20328"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20333"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20330"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20330": {
+      "vnum": "20330",
+      "title": "Path within the tunnel",
+      "description": "The pathway here branches in a T, leading north, south, and east. The\nstriated walls are covered with glowing lichen which light the passage.\nHigh overhead, the ceiling is dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20335"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20329"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20331"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20331": {
+      "vnum": "20331",
+      "title": "Path within the tunnel",
+      "description": "The pathway leads northward. To the south is a vaulted arch, beyond which is\na quiet alcove. The rock walls are covered with lichen which glows with a soft\nlight of its own, brightening the passageway. The ceiling is high and dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20330"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20332"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20332": {
+      "vnum": "20332",
+      "title": "Shrine to Restin",
+      "description": "Streaks of glowing lichen run along the striated walls, lending a little\nlight, enough to see the little bits of gravel and dust on the floor. Up\nabove, the ceiling is dark, and rather high. Within the quiet alcove, on the\ncenter of the floor, is a pyramid-shaped crystal, a prism, through which the\nlight of the bright lichen passes, breaking apart and defracting to various\ncolors, catching some of the wall lichen and coloring them. The prism slowly,\nquietly rotates, floating just a wee bit above the floor, so that the color\ndoes not remain on the same set of lichen, but is shared by all at one time\nor other. In the course of the day, the pyramidal prism rotates one full\nrotation. The rest of the underground cavern is to the north, beyond the huge\nvaulted opening.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20331"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20333": {
+      "vnum": "20333",
+      "title": "Sloping path within the tunnel",
+      "description": "The stony path slopes upward toward the east, downward toward the north. The\nstriated walls and ceiling seem devoid of lichen as there is some light\ncoming from the east and above. Toward the north the path runs into a widened\ncavern.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20329"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20334"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20334": {
+      "vnum": "20334",
+      "title": "Downward sloping path",
+      "description": "The path slopes downward toward the west, into a tunnel in the striated rock.\nAs the path curves downward, you see more grass and a few wild flowers which\nfill the air with a sweet scent.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20395"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20333"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20335": {
+      "vnum": "20335",
+      "title": "Path within the tunnel",
+      "description": "The pathway leads northward and southward. The rock walls are covered with\nlichen which glows with a light of its own, brightening the passageway. The\nceiling is high and dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20337"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20330"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20336": {
+      "vnum": "20336",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends east and west. The walls of the tunnel are of striated\nrock. Naturally glowing lichen clings to this rock, lending a light to\nbrighten the passageway. The ceiling is high here, high and dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20312"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20337"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20337": {
+      "vnum": "20337",
+      "title": "Path within the tunnel",
+      "description": "The stony path within the striated rock tunnel branches in three directions\nhere. To the south, the west, and the east are paths leading through the\nrock, lit by lichen glowing naturally and clinging to the stone. The ceiling\nis high and dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20336"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20335"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20338"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling",
+            "stone"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20338": {
+      "vnum": "20338",
+      "title": "Path within the tunnel",
+      "description": "The stony path stretches from east to west. The walls of striated rock to the\nnorth and south are covered with a glowing lichen whose light comes naturally\nand brightens the passageway. The ceiling is high and dark, and you can hear\nlow echoing sounds from a distance.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20337"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20339"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "stone",
+            "walls"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20339": {
+      "vnum": "20339",
+      "title": "Path within the tunnel",
+      "description": "A cavern seems to have opened up here, with stony paths stretching out to the\nwest, east, and south. The northern wall of striated rock is covered with\nsoftly glowing lichen which lend light to the passage. High above is the dark\nceiling.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20338"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20340"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20346"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20340": {
+      "vnum": "20340",
+      "title": "Path within the tunnel",
+      "description": "The stony passage stretches north and south. To the east and west of you are\nwalls of striated stone, to which naturally glowing lichen cling, lighting the\npassageway. The ceiling is high and dark. You hear echoes of activity coming\nfrom the south.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20339"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20341"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20341": {
+      "vnum": "20341",
+      "title": "Path within the tunnel",
+      "description": "Striated rock walls on either side of you guide you along this north-south\npassageway through the stone. Clinging to the walls, naturally glowing lichen\nlend light to your passage. The ceiling is high and dark. From the south come\nechoing sounds of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20340"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20342"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20342": {
+      "vnum": "20342",
+      "title": "Path within the tunnel",
+      "description": "The stony passage curves to the north and west here. All along the striated\nrock walls are naturally glowing lichen which light the passage. High above,\nthe ceiling is dark. From the west you hear soft noises of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20341"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20343"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20343": {
+      "vnum": "20343",
+      "title": "Bank of Thera",
+      "description": "The first thing you notice when you enter this branch of the Bank of Thera is\nthe row and column panel covering the back wall, west of you. There are a\nnumber of squares set in rows and columns on a panel of shimmering mithril.\nSconces on tripod stands hold flaming torches. In the light of their flames,\na smooth, striated stone counter gleams, its brown and grey surface smooth.\nThe walls and ceiling are of the same polished, striated stone. Just to the\nnorth of the counter is a marble statue, its alabaster hue in contrast with\nthe natural stone surroundings.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20342"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "statue",
+            "gawaiin"
+          ],
+          "description": "The marble statue depicts a man. He has the look of a thief in his posture,\nand the signature sack at his side is proof that the sculptor did, indeed,\nmean to depict a thief in marble. On the pedestal, also made of marble, is a\ngold plaque."
+        },
+        {
+          "keywords": [
+            "gold",
+            "plaque"
+          ],
+          "description": "+---------------------+\n|o                   o|\n|      GAWAAIIN       |\n|                     |\n| He contributed  the |\n| most  gold  to have |\n| This City,  Pure of |\n| Magic, Constructed. |\n|o                   o|\n+---------------------+"
+        },
+        {
+          "keywords": [
+            "counter"
+          ],
+          "description": "The counter appears to be of a piece with the floor until one looks more\nclosely at it. Unhewn by mortal hands, this mass of stone was blasted by\nnature's forces over time, smoothing edges and corners, while at the same\ntime polishing the surfaces."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20344": {
+      "vnum": "20344",
+      "title": "Downward sloping path",
+      "description": "The path slopes downward toward the west, into a tunnel in the striated rock.\nTo either side of the stony path here you see small bits of growth, grass, a\nfew wild flowers.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20389"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20345"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20345": {
+      "vnum": "20345",
+      "title": "Sloping path within the tunnel",
+      "description": "The stony path slopes upward toward the east, downward toward the south. The\nstriated walls and ceiling seem devoid of lichen as there is some light\ncoming from the east and above. Toward the north the path runs into a widened\ncavern.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20346"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20344"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20346": {
+      "vnum": "20346",
+      "title": "Path within the tunnel",
+      "description": "The stony path leads east and west. To the north you see a sloping path which\nis lit differently from the way the tunnel is lit. Here, lichen covers the\nwalls and ceiling, glowing with a light of its own and lending that light to\nthe passageway.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20345"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20339"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20347"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20347": {
+      "vnum": "20347",
+      "title": "Path within the tunnel",
+      "description": "The stony path wends its way east and west here, and branches also to the\nsouth, making this part of the underground a widened cavern. Lichen clings to\nthe striated walls, glowing softly with a natural light, brightening the\npassageway. High above, the ceiling is dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20346"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20348"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20362"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20348": {
+      "vnum": "20348",
+      "title": "Path within the tunnel",
+      "description": "Northward and southward the stony path stretches, bordered on east and west\nby striated rock to which clings a naturally glowing lichen. The ceiling is\nhigh and dark. Looking southward, you see a number of stone columns, shaped\nas an hourglass, if one were made of a knit fabric and stretched from top to\nbottom.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20347"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20349"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20349": {
+      "vnum": "20349",
+      "title": "Shrine to Nixalis",
+      "description": "High above, the ceiling is dark. By the entrance in the north, reaching upward\ntoward the ceiling, several columns of stone stand like stretched hourglasses,\nin shape at least, for they are neither formed of glass nor keep the hour with\nfalling sand within. These columns do not carry the same color and striation\nas the rest of the rock down here. They seem a little more rough, and the\nlichen which has attached to them are of wildly bright colors, oranges, golds\nand bright greens. There is space enough between them for the thickest giant\nto pass through without bumping into one or another of them. Within this\nalmost enclosed place is a similarly bright slab of stone, seemingly formed of\nthe same material as the shapely columns. Lichen of fuscia, gold, and purple\nhave made this slab their home. Interestingly enough, they seem to have formed\na pattern which is, from a short distance, recognizable as a rough picture of\na coiled asp. Mounted on the slab of stone is a small plaque.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20348"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "small",
+            "plaque"
+          ],
+          "description": "The small plaque contains the following words: \"If you have come to seek\npassage to the Sanctuary of the Asp, simply tell the old man 'I have been\nbrought by the Endless Circle to this place and wish passage.'\""
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20350": {
+      "vnum": "20350",
+      "title": "Path within the tunnel",
+      "description": "To the east and west the stony passage stretches, the walls on your north and\nsouth of striated stone covered with softly glowing lichen which lends its\nlight to the pathway. High above, the ceiling is dark. To the east, the path\ntakes a turn. To the west you see a T-shaped intersection where the cavern\nhas widened.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20310"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20351"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20351": {
+      "vnum": "20351",
+      "title": "Path within the tunnel",
+      "description": "A T-intersection within a widened cavern is here, with stony pathways leading\nto the north, east, and south. Striated stone walls hold up a high, dark\nceiling. Softly glowing lichen cling to those walls, their light lending\nbrightness to the tunnels.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20372"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20350"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20352"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20352": {
+      "vnum": "20352",
+      "title": "Path within the tunnel",
+      "description": "The stony path veers to the north and west here, lit by the softly glowing\nlichen that clings to the striated rock walls. High above, the ceiling is\ndark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20351"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20353"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20353": {
+      "vnum": "20353",
+      "title": "Path within the tunnel",
+      "description": "The stony path stretches to the east and west. Clinging to the striated walls\non the north and south are naturally glowing lichen which lend light to the\npassageway. Above you, the ceiling is high and dark. You hear the sounds of\nactivity coming from the west.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20352"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20354"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20354": {
+      "vnum": "20354",
+      "title": "Path within the tunnel",
+      "description": "The stony path stretches to the east and west. Clinging to the striated wall\non the south are naturally glowing lichen which light the passageway. To the\nnorth is an alcove, from which you hear the sound of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20355"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20353"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20356"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20355": {
+      "vnum": "20355",
+      "title": "Festes Ryalle",
+      "description": "Three solid walls of grey and brown striated stone are spottily covered with\nsoftly glowing lichen. The southern wall opens through a vaulted arch into\nthe tunnels. In here, however, is one of the finest food shops in Thera. A\ncooking pit at the west wall contains a steady fire, and cauldrons hang over\nit, steam rising from them. The steam, and smoke from the flames below, rise\nupward into a conic opening in the ceiling. A smooth counter rises up from\nthe floor. Here the cooks prepare the food for cooking or for packaging for\nfolk to take home with them. A list of the foods sold here hangs against the\neastern wall.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20354"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "list"
+          ],
+          "description": "+------------------------+\n|   pyke and eles        |\n|      in balloke broth  |\n|   ledlardes            |\n|   boiled lamprey       |\n|   chopped sparrow      |\n|   roast cygnet         |\n|   roast antelope       |\n|   roast peacock        |\n|   roast ganot          |\n+------------------------+"
+        },
+        {
+          "keywords": [
+            "counter"
+          ],
+          "description": "Formed of striated stone, it appears to be of a piece with the rest of\nthe surroundings, until one looks more closely at the base and notices\na separation between the smooth stone and the floor. Blasted over time\nby the weather, its edges and corners are smoothed, and its surfaces\ngleam as though lovingly polished by mortal hands."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20356": {
+      "vnum": "20356",
+      "title": "Path within the tunnel",
+      "description": "The stony path stretches eastward and westward. Clinging to the southern wall\nare naturally glowing lichen which softly light the passageway. From the\nnorth you hear the sounds of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20357"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20354"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20358"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20357": {
+      "vnum": "20357",
+      "title": "The Cokery",
+      "description": "A stone counter separates the cooking area from the common area in this\nunderground shop of pastries and other dessert delights. It appears to\nhave been formed from several blocks of stone imported from outside this\narea. The counter top is smooth, and each block fits next to its neighbor\nperfectly. On the grey and brown striated wall behind the counter is a\nwooden sign. A pit kept hot with burning wood keeps the cubic iron oven\nhanging above it hot enough for baking, but not hot enough to burn the\npastries cooked within. Softly glowing lichen streak across the walls\nfar from the hot pit and iron oven, lending some light to this sweetly\nfragrant shop.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20356"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "wooden",
+            "wood",
+            "sign"
+          ],
+          "description": "+-----------------+\n|                 |\n|   THE COKERY:   |\n|  FINE PASTRIES  |\n|    NO MAGIC     |\n|  ALL  NATURAL   |\n|                 |\n|   crispels      |\n|   gyngebrede    |\n|   snow          |\n|   trifle        |\n|                 |\n+-----------------+"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20358": {
+      "vnum": "20358",
+      "title": "Path within the tunnel",
+      "description": "Westward toward a widening in the cavern, eastward straight on for a while,\nthe stony pathway stretches, its north and south walls, striated in grey and\nbrown, lit by naturally glowing lichen clinging to the rock. The ground\nbeneath, and the high ceiling above, are both dark. From the east you hear\nthe sounds of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20356"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20359"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20359": {
+      "vnum": "20359",
+      "title": "Path within the tunnel",
+      "description": "You are standing at a T-intersection which branches to the north, south, and\neast. From the east and south you hear some sounds of activity. Naturally\nglowing lichen cling to the striated walls here, lending light to the\npassageway. The floor and the high ceiling are both dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20363"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20358"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20360"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20360": {
+      "vnum": "20360",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends north and south. To the west is a vaulted opening,\nlarge enough for a giant or two to pass through. Peering toward that\ndirection, you see what appear to be stone shelves and a quiet place to\nread. The striated rock on the eastern wall is covered with naturally\nglowing lichen. The floor below and the high ceiling are both dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20359"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20361"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20382"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20361": {
+      "vnum": "20361",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends north and south. From the north you hear the sounds of\nactivity. The eastern and western walls are of striated rock, to which cling\nsome naturally glowing lichen which graciously lend light to the passage.\nBelow you, and high above, the floor and ceiling are dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20360"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20362"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "rock",
+            "striated",
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20362": {
+      "vnum": "20362",
+      "title": "Path within the tunnel",
+      "description": "The stony path meanders to the north and east here. The striated walls are\ncovered with naturally glowing lichen, lighting the way. Looking to the north\nyou see a straight path. Looking to the east, you see another straight path.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20361"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20347"
+        },
+        "west": {
+          "description": "Through an arch you see an open, but rocky, area.",
+          "keywords": [
+            "arch",
+            "archway"
+          ],
+          "state": [],
+          "key": "-1",
+          "vnum": "21701"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20363": {
+      "vnum": "20363",
+      "title": "Path within the tunnel",
+      "description": "The stony path extend north and south, its bordering walls covered with a\nnaturally glowing lichen which lend soft light to the passageway. High above,\nthe ceiling is dark. From the south you hear soft sounds of activity. Or are\nthey coming from the north?",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20364"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20359"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20364": {
+      "vnum": "20364",
+      "title": "Path within the tunnel",
+      "description": "Lit by naturally glowing lichen clinging to the walls, the stony path turns\nto the east and south here. The sounds of activity echo softly against the\nwalls, seeming to come from the east. Darkness hangs overhead from the high\nceiling.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20365"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20363"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20365": {
+      "vnum": "20365",
+      "title": "Path within the tunnel",
+      "description": "Turning to the north and west, the stony path is lit by naturally glowing\nlichen which cling to the walls. Underfoot, the rock is dark, as above, the\nhigh ceiling also is dark. From the north you hear the sound of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20367"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20364"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20366": {
+      "vnum": "20366",
+      "title": "Shrine to Nycholas",
+      "description": "You can see bits of gravel and dust on the ground by grace of the softly\nglowing lichen which clings, in red and gold streaks, to the striated walls.\nThe high ceiling looms darkly above, unseen through the gloom. In the center\nof this quiet place is a block of stone. It resembles granite, and is smooth\nto the touch. In bas-relief, on each side, is the form of a muscular centaur\nwearing a crown. Upon the stone block is a candelabra in the shape of a\nhorseshoe holding nine candles, each burning at a different rate.  To the\nside of the horseshoe candelabra is an iron crown. A vaulted archway to the\neast, almost resembling a horseshoe, leads out to the tunnel. On closer\nexamination, where the 'holes' would be for 'nails' to attach the 'horseshoe',\nyou see small bas-relief crowns.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20367"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and brown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20367": {
+      "vnum": "20367",
+      "title": "Path within the tunnel",
+      "description": "To the west is a vaulted archway, vaguely reminiscent of a horseshoe, beyond\nwhich is a quiet alcove. Peering through the archway, you see a dark block of\nstone, upon which are nine candles, each lit. The stony path twists here,\nleading southward along a twisty way, and eastward for a straight run. Lichen\nclinging to the walls here glow with a natural soft light, brightening the way.\nHigh above, the ceiling is dark, as is the floor below you.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20368"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20365"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20366"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "horseshoe"
+          ],
+          "description": "Looking closely at the horseshoe-shaped archway, you see, in place of what\nwould be 'holes' for 'nails' to attach a horseshoe to a hoof, small bas-\nrelief crowns."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20368": {
+      "vnum": "20368",
+      "title": "Path within the tunnel",
+      "description": "The stony path leads in three directions here. From the west you hear the\nsounds of activity. Northward, you sense a difference in the light within the\ntunnel, for it is a little different from the soft glow of the lichen which\nlends its natural light to the underground here, clinging to striated stone\nwalls. To the east, the path seems to stretch for a long way.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20373"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20369"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20367"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20369": {
+      "vnum": "20369",
+      "title": "Path within the tunnel",
+      "description": "The stony path extends to the east and west. Lit by naturally glowing lichen\nwhich cling to the striated walls, it seems to stretch far in either direc-\ntion. High above, the ceiling is dark. Faint sounds can be heard to echo, but\nthey are not discernible.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20370"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20368"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20370": {
+      "vnum": "20370",
+      "title": "Path within the tunnel",
+      "description": "Lit by naturally glowing lichen clinging to the walls, the stony path extends\nto the east and west. Toward the east, it seems to widen, opening into a\nlarger cavern. Faint noises echo against the walls. High above, the ceiling\nis dark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20371"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20369"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20371": {
+      "vnum": "20371",
+      "title": "Path within the tunnel",
+      "description": "In three directions the path branches off, to the east, the west, and the\nsouth. Clinging to the striated walls, naturally glowing lichen light the\nway. High above you, the ceiling is dark, as below you the floor is also\ndark.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20375"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20372"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20370"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20372": {
+      "vnum": "20372",
+      "title": "Path within the tunnel",
+      "description": "Lit by naturally glowing lichen clinging to the striated walls, the stony\npath stretches to the north and south here. High above you is a dark ceiling,\nas below you a dark floor where the lichen dare not grow. Faint echoes of\nnoises bounce around, but are not discernible as to what exactly causes them.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20371"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20351"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20373": {
+      "vnum": "20373",
+      "title": "Sloping path within the tunnel",
+      "description": "The stony path slopes upward toward the east, downward toward the south. The\nstriated walls and ceiling seem devoid of lichen as there is some light\ncoming from the east and above. Toward the north the path runs into a widened\ncavern.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20368"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20374"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20374": {
+      "vnum": "20374",
+      "title": "Downward sloping path",
+      "description": "The path slopes downward toward the west, into a tunnel in the striated rock.\nTo either side of the stony path here you see small bits of growth, grass, a\nfew wild flowers.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20430"
+        },
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20373"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20375": {
+      "vnum": "20375",
+      "title": "Path within the tunnel",
+      "description": "The stony path branches off to the north, east, and west. Softly glowing\nlichen clinging to the striated walls lend light to the passageway, and you\nhear the sounds of activity coming from the east. High above you, the ceiling\nis dark. From the east you hear some noise, and your olfactory nerves detect\nthe pleasant aroma of herbs and spices. A shingle hangs on silvery mithril\nchains extending from the high ceiling.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20378"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20376"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20371"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "shingle"
+          ],
+          "description": "On the shingle is a picture of a frothy mug of ale. Below it, in neat, almost\nrunic lettering, are the words:\nBarr's Bar"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20376": {
+      "vnum": "20376",
+      "title": "Barr's Bar",
+      "description": "The smell of authenticity welcomes you as you enter this place.  The unique\nfragrance of blended herbs and spices brings your senses to a certain bliss.\nThe tavern is dimly illuminated from the candles and oil lamps in all\ncorners. The central bar counter, with its stools, seems to have been taken\nfrom similar rock to that of the surrounding cavern, but unhewn, a counter\nformed by nature.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20377"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20375"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20377": {
+      "vnum": "20377",
+      "title": "Barr's Brewery",
+      "description": "Huge barrels line the northern rock wall in Barr's Brewery. The spigots\nremain locked in place, keeping the brew inside the barrels so that it may\nage properly. The eastern wall is lined with tables, upon which are herbs and\nspices being mixed to be added to the special drinks served here. Along the\nsouthern wall is what can only be called a distillery: A huge vat is\nsuspended by huge iron chains over a hot fire, and the liquid being boiled\nwithin is allowed to escape through a series of thick glass tubes, ending up\nin a huge barrel sitting on its side near the eastern wall. It is assumed\nthat when a barrel is emptied by the patrons of the bar, the new brew is set\nin its place to age, and the empty barrel set up to receive the next new brew.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20376"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20378": {
+      "vnum": "20378",
+      "title": "Path within the tunnel",
+      "description": "To the north and south this stony path extends, lit by naturally glowing\nlichen which cling to the walls of striated stone. High above you, the\nceiling is dark. Below you, the floor is likewise dark. Echoing all around\nyou are sounds of activity.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20379"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20375"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20379": {
+      "vnum": "20379",
+      "title": "Path within the tunnel",
+      "description": "The stony path veers to the west and south here. It is lit by naturally glow-\ning lichen which cling to the walls. High above you is a dark ceiling, and\nbelow you the stone floor is dark as well. To the north, a pair of silvery\nmithril chains bearing a shingle hangs from the high, dark ceiling.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20378"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20380"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "shingle"
+          ],
+          "description": "The shingle bears a complex picture of a number of common items. You see a\nlamp, a sack, a skiff with a pair of oars, a bolt of cloth, a belt with a\nsimple buckle, a sack clearly marked 'FLOUR'. Below all this, you see an\narrow pointing to the left."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20380": {
+      "vnum": "20380",
+      "title": "General Shoppe within the tunnel",
+      "description": "The striated walls to the north and south are covered with softly glowing\nlichen whose natural light brightens the environs. Toward the west appears to\nbe an alcove filled with stuff. A naturally hewn counter holds a number of\nitems. Behind it stands a slim fellow who is the proprietor of this shoppe.\nHigh above you, the ceiling is dark. Below you, the ground is also dark. To\nthe east is a turn in the passage through the underground hewn into this huge\nstone.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20379"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20381"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20381": {
+      "vnum": "20381",
+      "title": "Alcove",
+      "description": "This part of the underground tunnels is obviously a storage room. Standing\nagainst the striated walls, shelves hold a number of items which are put on\nsale to the east. Other things are piled up on the hard rock floor. Softly\nglowing lichen lend a bit of light without giving off nasty smoke as a fire\nwould do. The ceiling is too high to see clearly.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20380"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20382": {
+      "vnum": "20382",
+      "title": "Shrine to Jord",
+      "description": "Streaks of softly glowing gold lichen run across the striated walls above the\ntwenty-foot mark, and reach upward toward the ceiling where they glow very\nsoftly, almost a pastel yellow. The bottom twenty feet of wall on the north,\nwest, and south, are hollowed out just enough to form natural rock shelves.\nIn the middle of the dark floor is a table-like altar formed of the same stone\nas the walls. A perfectly sized slab of bloodstone rests upon the top of this\naltar stone, and upon it rests a book. There is just enough light to read this\nbook, and any other which is to be found on the shelves here. In the northwest\ncorner a marble statue rises up, tall as a giant, of a warrior in spiked armor\nwielding a battlestaff in one hand and a shield in the other, one foot upon\nthe body of what appears to be a fallen mage, whose left hand holds a broken\nstave carved with magical runes. To the east is a vaulted archway, huge and\nwide, such that a giant or two might pass through without touching rock.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20360"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "walls",
+            "ceiling"
+          ],
+          "description": "The walls and ceiling here are of a polished stone, striated in grey and\nbrown."
+        },
+        {
+          "keywords": [
+            "statue"
+          ],
+          "description": "The marble statue might well be life-size, for it is a likeness of Lord Jord\nRoshnak, Lord of Transcendence, according to the small plate of silver at\nthe base."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20383": {
+      "vnum": "20383",
+      "title": "On a path by an herb garden",
+      "description": "The path beneath you is of hard stone covered liberally with soil. Depending\non your point of view, the path either ends or begins here. To your north is\na vast garden of herbs and spices. To the west and south is forest, not so\nmuch impenetrable as those who designed this natural city did not wish to\nextend the path farther in, thus giving the trees peace to grow unhindered.\nYet a path seems to have formed here, a dirt path unplanned, and the trees and\nshrubs part grudgingly to allow passage to the south.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20384"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20450"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20384": {
+      "vnum": "20384",
+      "title": "On a path",
+      "description": "The path here leads westward, northward, and eastward. It is hard stone,\nliberally covered with soil, from which the occasional blade of grass or\nleafy ground cover sort of plant attempts to grow. To the south is a forest,\nthrough which the city designers chose not to extend the pathway. The trees\nthere grow unhindered. To the northwest is a garden of herbs and spices.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20438"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20389"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20383"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20385": {
+      "vnum": "20385",
+      "title": "Southern viewpoint",
+      "description": "The rock-hard path begins here, or ends here, depending on your point of\nview. The designers of the natural city chose not to extend it farther into\nthe natural woodland to the west, which grows unhindered by mortal civiliza-\ntion. As a result you find yourself gazing upon pure natural beauty. You hear\na constant roar from the south. Looking to the south, you see a breathtaking\nview of a natural waterfall. A river flows east and west, from high ground\nto the west to considerably lower ground to the east. The spray of the water\noccasionally blows up toward you, cooling your face. A fence of striated\nzebrawood prevents the foolhardy from venturing further south and taking a\nsuicidal leap into the river far below, while serving as a fine place to\nlean, relax, and enjoy the view.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20386"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20386": {
+      "vnum": "20386",
+      "title": "On a path",
+      "description": "The rock-hard path splits toward the north, south, and east here. To the west\nis a woodland which the city planners chose to leave be, to grow unhindered.\nLeft to themselves, the trees have grown high and thick, lending a canopy of\nleaves to give the natural city a pleasant shade. Thick shrubs attempt to\nprevent easy passage through this wild woodland. Looking south, you see a\nstriped fence.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20387"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20390"
+        },
+        "south": {
+          "description": "You see a striped fence at the end of the path.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20385"
+        },
+        "west": {
+          "keywords": [],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "20446"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20387": {
+      "vnum": "20387",
+      "title": "On a path",
+      "description": "The soil-strewn, hard path leads north and south, surrounded by tall trees.\nTo the northwest is a field of herbs and spices. To the west are trees\nunhindered in their growth. All the world smells naturally fresh and clean as\nthough newly rained upon.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20388"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20386"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20388": {
+      "vnum": "20388",
+      "title": "On a path",
+      "description": "The rock-hard path strewn liberally with soil leads north and south. To the\nwest are tall trees unhindered in their growth. Northwest you see a field of\nherbs and spices. The atmosphere here is thick with the scent of greenness.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20389"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20387"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20389": {
+      "vnum": "20389",
+      "title": "On a path",
+      "description": "Rock-hard, strewn with soil, the path beneath you leads in several directions.\nTo the north, it seems to slope downward. More level travelling is to be had\nto the east, south, and west. Toward the northwest you see herbs and spice\nplants. Southwest and southeast are tall trees.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20344"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20435"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20388"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20384"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20390": {
+      "vnum": "20390",
+      "title": "On a path",
+      "description": "The rock-hard, soil-strewn path here leads east and west. Toward the west are\ntall trees left to grow unhindered. From the east you hear sounds of fighting\nand grunting. A wooden sign is planted in the ground near the edge of the\npath toward the east. The atmosphere is thick with the scent of green leaves.\nToward the south is a small but sturdy cottage. A neat path leads through the\ntrees to the open front door.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "description": "You see what looks like a practice yard.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20392"
+        },
+        "south": {
+          "description": "You see a neat path leading to a small cottage nestled within the trees.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20457"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20386"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "sign"
+          ],
+          "description": "+---------------------+\n| Practice Yard Ahead |\n|  No Mages Allowed!  |\n+---------++----------+\n||\n||\n||\n\\\\\\//\\/\\\\/\\/\\///\\\\\\//////"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20391": {
+      "vnum": "20391",
+      "title": "The yard",
+      "description": "The ground is smooth and rock-hard, formed of dark, striated stone. To the\nwest, a number of thickly growing trees blocks your view, as to the east. A\nfence formed of striated zebrawood prevents your movement toward the south,\nwhere the ground falls quite suddenly to a ravine where a river flows. To the\nwest-south-west you see a breathtaking waterfall, whose water spray occasion-\nally blows into your face to treat you to a fresh coolness. Beyond that\nlovely waterfall is more of the river, flowing on high ground from west to\neast. The practice yard stretches to the north.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "description": "You see more of the training yard.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20392"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20392": {
+      "vnum": "20392",
+      "title": "The yard",
+      "description": "Rock-hard, formed of dark, striated stone, the ground is smooth. To the east\nand southwest are bits of the forest, natural, untouched by mortals. The yard\nextends toward the south. Paths leading away from the practice yard stretch\ntoward the west and north.",
+      "flags": [],
+      "sector": "SECT_UNDERGROUND",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20393"
+        },
+        "south": {
+          "description": "You see more of the training yard, and a striped fence",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20391"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20390"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20393": {
+      "vnum": "20393",
+      "title": "On a path",
+      "description": "The path here curves to the east and south. It is formed of hard rock and\nstrewn with soil. Toward the west are tall trees left to grow unhindered.\nFrom the south you hear sounds of fighting and grunting. Near the edge of\nthe path, a wooden sign stands about eye-level to a halfling.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20394"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20392"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "sign"
+          ],
+          "description": "+---------------------+\n| Practice Yard Ahead |\n|  No Mages Allowed!  |\n+---------++----------+\n||\n||\n||\n\\\\\\//\\/\\\\/\\/\\///\\\\\\//////"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20394": {
+      "vnum": "20394",
+      "title": "On a path",
+      "description": "The rock-hard path here leads east and west. To the north and south you see\nwoods, the unhindered growth of shrubs and trees. From the southwest come the\nsounds of grunting and fighting.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20395"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20393"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20395": {
+      "vnum": "20395",
+      "title": "On a path",
+      "description": "The rock-hard, soil-strewn path branches to the west, south, and east. To the\nnorth is unhindered tree growth. The path seems to slope downward toward the\nsouth. All around you, the atmosphere is fresh and clean.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20396"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20334"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20394"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20396": {
+      "vnum": "20396",
+      "title": "On a path",
+      "description": "The rock-hard path here leads east and west. Strewn with soil, it shows signs\nof returning to the woodland bordering it on the north and south. Small plants\nwith brave leaves attempt to grow on the path, risking being stomped down. The\nwoodland north and south grows fearlessly, untouched by civilization. All\naround you is the sweet scent of green growth.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20398"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20395"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20397": {
+      "vnum": "20397",
+      "title": "Southern viewpoint",
+      "description": "The rock-hard path begins here, or ends here, depending on your point of view.\nLooking to the south, you see a deep ravine through which flows a sparkling\nblue river. A fence of striated zebrawood prevents the foolhardy from taking\na suicidal leap to that river far below, while at the same time lending a\ncomfortable place to lean and relax while enjoying the view. Gazing westward\nfrom here, you see mostly trees, but from time to time a wispy spray of water\nseems to shoot outward from beyond. You can hear the dull roar of the water-\nfall which must be located to the west beyond all those trees. To the east is\na large log cabin, comfortably situated among the trees. A thin wisp of smoke\nrises from a short chimney in the wood-shingled roof, and you smell the very\ndistinctive scent of meat cooking.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20398"
+        },
+        "east": {
+          "description": "You see a huge log cabin situated within the trees. The distinctive\nodor of cooked meat wafts toward you from the cabin, borne on the wispy\nsmoke which rises from its short chimney.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20455"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20398": {
+      "vnum": "20398",
+      "title": "On a path",
+      "description": "The soil-strewn, rock-hard path splits here in three directions. Toward the\nsouth you see a striped fence. To the west and north, the path extends through\nwoodland. All around you is the scent of fresh, green growth.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20399"
+        },
+        "south": {
+          "description": "You see a striped fence at the end of the path.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20397"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20396"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20399": {
+      "vnum": "20399",
+      "title": "On a path",
+      "description": "The path extends north and south, with a turn-off toward the east. Rock-hard,\nstrewn with soil, it seems destined to be a battleground between stomping\nfeet and small plants seeking to grow beyond their safe limits. The atmosphere\nis fresh and clean here, thick with the smell of a healthy forest.",
+      "flags": [],
+      "sector": "SECT_FIELD",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20401"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20400"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20398"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20400": {
+      "vnum": "20400",
+      "title": "On a path",
+      "description": "Depending on your point of view, the path either begins or ends here.\nSurrounded on all but one side by beautiful, thick woodland, it is a quiet\nplace for contemplation or the sheer enjoyment of looking at trees unmarred\nby civilization. Someone realized the value of this place and set a smooth,\nzebrawood bench here to facilitate quiet contemplation. At the edges of the\npath are tiny flowering plants, their soft violet flowers emitting a light\nfragrance, and beyond them, thick green shrubs bearing sweet berries are to\nbe seen. The buzzing of honey bees can be heard, but only occasionally do\nyou see one sipping nectar from the tiny violet blooms.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20399"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20401": {
+      "vnum": "20401",
+      "title": "On a dark path",
+      "description": "The hard path below you is liberally covered with soil, but clearly stone-\nbased. On either side of you to the east and west are thick woods. The canopy\nof leaves arches over the path, lending a lovely shade but also darkening the\nway. Small plants grow at the edges of the path, their leaves a light green,\ntheir tiny flowers a pretty light violet. The buzzing of bees is audible here,\nthough only occasionally do you see one sipping the nectar from a tiny bloom.\nBeyond those little flowering plants, there are lush green shrubs bearing\nsweet berries. The path stretches to the north and south.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20404"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20399"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20402": {
+      "vnum": "20402",
+      "title": "Woodland practice yard",
+      "description": "Thick, impassable shrubs and trees surround this 'practice yard' on the north,\neast, and south. The ground is hard rock covered with soil, but nothing\nattempts to grow upon it, for the students who practice here keep it well\ntamped down. A thick canopy of leaves keeps this area dark, even during day-\nlight hours. Toward the west the 'practice yard' continues.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "west": {
+          "description": "You see that the practice yard extends further to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20403"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20403": {
+      "vnum": "20403",
+      "title": "Woodland practice yard",
+      "description": "Thick, impassable woods surround this 'practice yard' on the north,and south,\nbut the 'yard' extends toward the east. The 'yard' ground is hard rock\ncovered with soil, upon which nothing grows, for the students who practice\nhere keep it well tamped down. Beyond the tamped ground, however, are lush\ngreen shrubs. A thick canopy of leaves keeps this area dark, even during day-\nlight hours. To the west is a path and a sign.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "You see that the practice yard extends further to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20402"
+        },
+        "west": {
+          "description": "You see a path and a small sign facing away from you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20404"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20404": {
+      "vnum": "20404",
+      "title": "On a dark path",
+      "description": "The hard rock path strewn liberally with soil branches in all cardinal direc-\ntions. High trees lend a canopy cover to keep it well shaded. A few lush\ngreen bushes grow here, their branches somehow well tended. To the north and\nsouth the path merely stretches on through the woodland tunnel. To the west,\nit slopes downward. Toward the east it leads into a woodland area, from which\nyou hear the sounds of battle and grunting. Near the edge of the path leading\neastward, a wooden sign stands about eye-level to a halfling.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The canopy of leaves forms a tunnel leading northward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20405"
+        },
+        "east": {
+          "description": "You see what looks like a wooded practice yard.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20403"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20401"
+        },
+        "west": {
+          "description": "You see that the hard path slopes downward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20323"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "sign"
+          ],
+          "description": "+---------------------+\n|      Woodland       |\n| Practice Yard Ahead |\n|  No Mages Allowed!  |\n+---------++----------+\n||\n||\n||\n\\\\\\//\\/\\\\/\\/\\///\\\\\\//////"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20405": {
+      "vnum": "20405",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arcs over the hard path beneath you. To the\neast are woods, growing thickly, unhindered. The soil-strewn path stretches\nnorthward and southward, with a fork heading toward the west. Little plants\nline the path, their light green and bright yellow blooms lending a little\ncolor to the darkness. Berry-bearing shrubs grow beyond the little flowering\nplants, their leaves lush and dark green. You near the buzzing of a honey bee\nor two, but only rarely do you see the little insect sipping nectar from one\nof the pretty yellow blossoms.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20406"
+        },
+        "east": {
+          "description": "You see a sort of opening between shrubs that might give way if the branches\nare pushed aside, and a pathway opened.",
+          "keywords": [
+            "path",
+            "through",
+            "the",
+            "shrubs"
+          ],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "20452"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20404"
+        },
+        "west": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20413"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20406": {
+      "vnum": "20406",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arcs over the hard path beneath you. To either\nside of you, eastward and westward, are woods growing thick and unhindered.\nThe soil-strewn path stretches northward and southward. Little plants line\nthe hard path, their light green and bright pink blooms lending a little\ncolor to the darkness. The buzzing of honey bees is evident, but only occas-\nionally do you see one sipping nectar from the pink blossoms below. Beyond\nthe low growing plants are shrubs with dark green leaves.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20407"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20405"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20407": {
+      "vnum": "20407",
+      "title": "On a dark path",
+      "description": "A high, dark canopy of green leaves arcs over the hard, soil-strewn path\nbeneath you. To the west is a thick wood, growing unhindered. The path\nextends toward the north and south, branching to the east. Little plants with\ntiny blooms grow at the side of the path, lending color with their light\ngreen leaves and pretty red flowers. Occasionally you see a honey bee sipping\nnectar from one of the small red blooms. Beyond the little plants, thick\nbushes grow here, their foliage lush and green.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20410"
+        },
+        "east": {
+          "description": "The woodland tunnel extends eastward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20408"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20406"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20408": {
+      "vnum": "20408",
+      "title": "On a dark path",
+      "description": "A green leafy canopy shades this east and west stretch of hard, soil-strewn\npathway, shading it so much that you need a light source if your eyes do not\notherwise discern things in the dark. Along the path on the north and south,\nsmall plants grow, their green leaves and pretty red and pink flowers giving\ncolor to the darkness. Their fragrance fills the air here, and it attracts\nhoney bees. You hear their buzzing, but only occasionally do you notice one\nsipping nectar from a red or pink blossom. Just beyond those low growing\nplants are thick shrubs bearing sweet berries.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The woodland tunnel extends eastward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20409"
+        },
+        "west": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20407"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20409": {
+      "vnum": "20409",
+      "title": "Shrine to Julive",
+      "description": "You are surrounded from north, east, and south with thick woodland. High\nabove you the trees have formed a natural canopy, blocking much of the sun-\nlight. At the edges of the stone-hard, soil-strewn path are low to the ground\nplants, with bright green leaves and soft orange and white blossoms about the\ndiameter of a human thumbnail. Just beyond them are low growing shrubs bear-\ning sweet berries. A sweet fragrance fills the air here, and you see honey\nbees visiting the flowers. Yet their buzzing is muted, as though silenced.\nThe branches of one tree to the east seem to have curled back to the trunk,\nforming a natural cradle along the western side of the trunk. Resting on its\nback within the cradle is a large parrot. It does not appear to be moving at\nall, though, not even breathing. You see small letters carved into the wood\nof the branches forming the cradle. The leaves rustle in the breeze, but you\nhear no rustling noise. In here the silence is almost deafening.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "west": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20408"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "letters",
+            "carving"
+          ],
+          "description": "Silence is golden. Actions speak louder than words."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20410": {
+      "vnum": "20410",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arcs over the hard path beneath you. To either\nside of you, eastward and westward, are woods growing thick and unhindered,\nwith berry-rich bushes lending a lovely greenness at eye-level. The soil-\nstrewn path stretches northward and southward. Little plants line the hard\npath, their light green leaves and scarlet blossoms lending a little color\nto the darkness. The buzzing of honey bees is evident, but only occasionally\ndo you see one sipping nectar from the blossoms below.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20411"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20407"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20411": {
+      "vnum": "20411",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arches over the hard, soil-strewn path beneath\nyou. To the west are thick woods and lush, berry-rich bushes growing unhin-\ndered. The path forks to the east and extends northward and southward. Little\nplants line the hard path, their light green leaves and blossoms of golden\nyellow lending a little color to the darkness. You hear the buzzing of honey\nbees, but only occasionally do you see one sipping nectar from the blossoms\nat the edges of the path.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20421"
+        },
+        "east": {
+          "description": "The woodland tunnel extends eastward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20412"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20410"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20412": {
+      "vnum": "20412",
+      "title": "A woody alcove",
+      "description": "You are surrounded from north, east, and south by thick woodland, tall trees\nand lush green bushes. High above you the trees have formed a natural canopy,\nblocking much of the sunlight. At the edges of the stone-hard, soil-strewn\npath are low growing flowering plants with bright green leaves and tiny blos-\nsoms of deep purple. A sweet fragrance fills the air here, and the sound of\nbuzzing alerts you to the presence of honey bees. Once in a while you see one\nsipping nectar from the human thumbnail-sized deep purple flowers.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "west": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20411"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20413": {
+      "vnum": "20413",
+      "title": "On a dark path",
+      "description": "The hard rock, soil-strewn path branches to the south, east, and west. High\ntrees lend a canopy cover to keep it well shaded. A few lush green bushes\ngrow here, their branches somehow well tended. To the east and west the path\nmerely stretches on through the woodland tunnel. To the south, however, it\nslopes downward.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The canopy of leaves forms a tunnel leading eastward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20405"
+        },
+        "south": {
+          "description": "You see a downward sloping path and what looks like a striated rock cave.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20323"
+        },
+        "west": {
+          "description": "The canopy of leaves forms a tunnel leading westward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20414"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20414": {
+      "vnum": "20414",
+      "title": "On a dark path",
+      "description": "The path curves here, stretching before you to the north and east. Arching\nabove you, the tree branches form a tunnel from their canopy of leaves.\nBushes lush with green leaves grow near the path. At the base of their\nslender trunks are ground cover plants, little yellow blossoms and bright\ngreen leaves lending a little color to the soil-strewn path.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The canopy of leaves forms a tunnel leading northward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20415"
+        },
+        "east": {
+          "description": "The canopy of leaves forms a tunnel leading eastward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20413"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20415": {
+      "vnum": "20415",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arcs over the hard path beneath you. To either\nside of you, eastward and westward, woods grow thick and unhindered, with\nberry-rich bushes lending a lovely greenness at eye-level. The soil-strewn\npath stretches northward and southward. Little plants line the hard path,\ntheir light green leaves and brilliant red blossoms lending a little color to\nthe darkness. The buzzing of honey bees is evident, but only occasionally do\nyou see one sipping nectar from the blossoms below.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20416"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20414"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20416": {
+      "vnum": "20416",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arches over the hard, soil-strewn path beneath\nyou. To the east thick woods and lush, berry-rich bushes grow unhindered. The\npath forks to the west and extends northward and southward. Little plants\nline the hard path, their light green leaves and pink blossoms lending a\nlittle color to the darkness. You hear the buzzing of honey bees, but only\noccasionally do you see one sipping nectar from the pink flowers at the edges\nof the path.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20417"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20415"
+        },
+        "west": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20420"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20417": {
+      "vnum": "20417",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arcs over the hard path beneath you. To either\nside of you, eastward and westward, are woods growing thick and unhindered.\nThe soil-strewn path stretches northward and southward. Little plants line\nthe hard path, their light green and bright orange blooms lending a little\ncolor to the darkness. The buzzing of honey bees is evident, but only occas-\nionally do you see one sipping nectar from the orange flowers below. Beyond\nthe low growing plants are shrubs with lush, dark green leaves and sweet\nberries.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20418"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20416"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20418": {
+      "vnum": "20418",
+      "title": "On a dark path",
+      "description": "The rock-hard, soil-strewn path curves here, stretching before you to the\nwest and the south. Arching above you, the tree branches form a tunnel from\ntheir canopy of leaves. Lush, green leafy bushes grow near the path. At the\nbase of their trunks are ground cover plants, little scarlet flowers and\nbright green leaves lending a little color to the dark path.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "south": {
+          "description": "The canopy of leaves forms a tunnel leading southward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20417"
+        },
+        "west": {
+          "description": "The canopy of leaves forms a tunnel leading westward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20419"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20419": {
+      "vnum": "20419",
+      "title": "On a dark path",
+      "description": "A green leafy canopy shades this east and west stretch of hard, soil-strewn\npathway, shading it so much that you need a light source if your eyes do not\notherwise discern things in the dark. Along the path on the north and south,\nsmall plants grow, their green leaves and pretty white and violet flowers\ngiving color to the darkness. Their fragrance fills the air here, and it\nattracts honey bees. You hear their buzzing, but only occasionally do you\nnotice a honey bee sipping nectar from one of the little flowers. Just beyond\nthe low growing plants are thick, green-leaved shrubs. The dark path stretches\neastward. To the west you see some light, and what appears to be a pond.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The woodland tunnel extends eastward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20416"
+        },
+        "west": {
+          "description": "You see what appears to be a pond of clear blue water.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20426"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20421": {
+      "vnum": "20421",
+      "title": "On a dark path",
+      "description": "The hard path below you is liberally covered with soil, but clearly stone-\nbased. It stretches to the north and south. On either side of you to the east\nand west are thick woods. Nestled within the woods to the west is a sturdy\ncottage, a neat pathway of smooth white stones leading to the open doorway.\nA canopy of leaves arcs over the pathway of white stones to the west as well\nas over this main path, lending a lovely shade but also darkening the way.\nAt the edges of the path, small plants grow, their leaves a light green, their\ntiny flowers a pretty light violet. The buzzing of bees is audible here,\nthough only once in a while do you see a bee sipping the nectar from a tiny\nviolet bloom. Beyond those little plants, there are lush green shrubs bearing\nsweet berries.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20422"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20411"
+        },
+        "west": {
+          "description": "A pathway of smooth white stones leads to the open doorway of a sturdy cottage\nnestled within the forest to the west.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20458"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20422": {
+      "vnum": "20422",
+      "title": "A woody alcove",
+      "description": "You are surrounded from north, east, and west by thick woodland, tall trees\nand lush green bushes. The trees have formed a natural canopy high above you,\nblocking much of the sunlight. At the edges of the stone-hard, soil-strewn\npath are low growing flowering plants with bright green leaves and tiny blos-\nsoms of light blue and burnished gold. A sweet fragrance fills the air here,\nand the sound of buzzing alerts you to the presence of honey bees. Once in a\nwhile you see one sipping nectar from the human thumbnail-sized flowers. To\nthe west, the trees appear to have grown together in a curious fashion, as\nif forming a dwelling of some sort. An opening between trunks is large\nenough for a giant to pass through.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20421"
+        },
+        "west": {
+          "description": "You see shadows within darkness, yet feel no ominous presence from there.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20449"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20423": {
+      "vnum": "20423",
+      "title": "By the pond",
+      "description": "The hard soil-strewn path curves to the east, toward a dark foresty tunnel,\nand toward the north, alongside a crystalline pond, its blue waters sparkling.\nAlong the edge of the pond, water herbs grow. The grass is green and healthy. Occasionally you notice a little movement beneath the surface of the pond\nwater, and can see some silvery fish swimming.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20424"
+        },
+        "east": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20419"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20424": {
+      "vnum": "20424",
+      "title": "By the pond",
+      "description": "The hard soil-strewn path stretches northward and southward, alongside a\ncrystalline pond, its blue waters sparkling. Along the edge of the pond,\nwater herbs grow. The grass is green and healthy. Occasionally you notice a\nlittle movement beneath the surface of the pond water, and you can see some\nsilvery fish swimming.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20425"
+        },
+        "south": {
+          "description": "The path extends southward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20423"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20425": {
+      "vnum": "20425",
+      "title": "Shrine to Maelstrom",
+      "description": "The hard soil-strewn path leads to the end of a peninsula jutting north-\nward into the crystalline blue pond. At the tip of this peninsula is a\ncuriosity: Formed of something stone and yet not stone, is a whirlwind\nor tornado, stopped in time. As you gaze upon it, you see little things,\nbits of things, like so much stone dust and gravel, and sometimes something\ngreen, as a leaf from an herb plant found growing by water, as though Lord\nMaelstrom himself had sent the storm to aid in the cleanup of the tunnels\nbelow, and then stopped the action of his storm to preserve in time and\nspace the shavings from the stonework done below. Above this curious\ncollection, a dark, roiling cloud hovers, small lightning bolts sometimes\njutting out. You hear little snapping noises as they do, much as you\nwould when you touch someone while carrying a charge and shock them with\nstatic. Around the stationary tornado, the grass is green and healthy,\nkept well watered by the dark cloud. Small water herbs cling to the soil\nand attempt to grow here, unaffected by the time-stopped storm. As you\ngaze at the pond, occasionally you notice a little movement beneath the\nsurface, and you see some silver fish swimming.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "south": {
+          "description": "The path extends southward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20424"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20426": {
+      "vnum": "20426",
+      "title": "By the pond",
+      "description": "The hard soil-strewn path stretches toward the east and west. Bordering it on\nthe north is a crystalline blue pond, its waters mostly still. Along the edge\nof the pond, water herbs grow. The grass is green along the path. Occasionally\nyou notice a little movement beneath the surface of the pond water, and you\ncan see some silvery fish swimming. The path also branches to the south,\ntoward a darker, more foresty area.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "You see a woodland tunnel stretching eastward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20420"
+        },
+        "south": {
+          "description": "You see a woodland tunnel stretching southward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20432"
+        },
+        "west": {
+          "description": "The path extends westward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20427"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20427": {
+      "vnum": "20427",
+      "title": "By the pond",
+      "description": "The hard soil-strewn path stretches toward the east and west. To the north is\na crystalline blue pond, its waters mostly still. Water herbs grow along the\nedge of the pond. Along the path, the grass is green and healthy. Occasionally\nyou notice a little movement just beneath the surface of the pond water, and\nyou can make out some silvery fish swimming. Toward the south is a dark,\nlovely forest.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The path extends eastward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20426"
+        },
+        "west": {
+          "description": "The path extends westward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20428"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20428": {
+      "vnum": "20428",
+      "title": "By the pond and herb garden",
+      "description": "Curving toward the north and east, the hard soil-strewn path makes its way by\na clear, crystalline blue pond. The surface waters are mostly still, but\noccasionally you notice a little movement just below the surface, and you can\nmake out some silvery fish swimming. Water herbs grow along the edge of the\npond. Along the path, the grass is green and healthy, except at the western\nedge of the path, where a hole, measuring about two human foot-lengths in\ndiameter and lined with dark stone, rises like a well. But this is no water\nwell. From the depths, smoke rises, carrying with it interesting scents of\nburning wood, cooking pastries, and roasting meat. Beyond this smoke well is\nan herb garden. The path branches to the south through the garden on one side\nand unhindered woodland on the other.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20429"
+        },
+        "east": {
+          "description": "The path extends eastward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20427"
+        },
+        "south": {
+          "description": "You see a path leading through a woodland.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20431"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20429": {
+      "vnum": "20429",
+      "title": "By the pond",
+      "description": "Stretching northward and southward, the hard, soil-strewn path runs alongside\na crystalline blue pond, its waters clear enough to see fish swimming just\nbelow the surface. Along the edge of the pond, water herbs grow. The path\nhere branches toward the west, through an herb garden.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20430"
+        },
+        "south": {
+          "description": "You see a curve in the path, and that it continues toward the south through\na woodland.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20428"
+        },
+        "west": {
+          "description": "You see a path pushing through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20442"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20430": {
+      "vnum": "20430",
+      "title": "By the pond",
+      "description": "The hard soil-strewn path stretches southward, alongside a crystalline pond,\nits blue waters sparkling. Along the edge of the pond, water herbs grow. The\ngrass is green and healthy. Occasionally you notice a little movement beneath\nthe surface of the pond water, and you can see some silvery fish swimming.\nToward the north, the path leads downward away from the pond.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends downward away from the pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20374"
+        },
+        "south": {
+          "description": "The path extends southward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20429"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20431": {
+      "vnum": "20431",
+      "title": "By the herb garden",
+      "description": "The path curves here, extending toward the north and the west. To the north-\nwest is a pretty herb garden, the herbs flowering prettily, and honey bees\nbuzzing throughout. Along the soil-strewn path toward the north is the garden\nto the west, and a crystalline, blue pond to the east. The path to the west\nleads straight into the garden.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20428"
+        },
+        "west": {
+          "description": "You see a path leading through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20436"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20432": {
+      "vnum": "20432",
+      "title": "On a dark path",
+      "description": "A dark canopy of green leaves arcs over the hard path beneath you. To the\neast and west are woods, growing thickly, unhindered. The soil-strewn path\nstretches northward and southward. Little plants line the path, their light\ngreen and bright yellow blooms lending a little color to the darkness. Berry-\nbearing shrubs grow beyond the little flowering plants, their leaves lush and\ndark green. You near the buzzing of a honey bee or two, but only rarely do\nyou see the little insect sipping nectar from one of the pretty yellow\nblossoms.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward alongside a clear blue pond.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20426"
+        },
+        "south": {
+          "description": "The woodland tunnel extends southward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20433"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20433": {
+      "vnum": "20433",
+      "title": "On a dark path",
+      "description": "The hard rock path strewn liberally with soil stretches toward the north and\nsouth. High trees lend a canopy cover to keep it well shaded. A few lush\ngreen bushes grow here, their branches somehow well tended. To the north and\nsouth the path merely stretches on through the woodland tunnel. At the edges\nof the path are low to the ground plants, with bright green leaves and soft\norange and white blooms about the diameter of a human thumbnail. Just beyond\nthem are low growing shrubs bearing sweet berries. A sweet scent fills the\nair here, and the sound of buzzing alerts you to the presence of honey bees.\nOnce in a while you see one sipping nectar from the little orange and white\nflowers.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The canopy of leaves forms a tunnel leading northward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20432"
+        },
+        "south": {
+          "description": "The canopy of leaves forms a tunnel leading southward.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20445"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20434": {
+      "vnum": "20434",
+      "title": "On a dark path",
+      "description": "The soil-strewn, rock hard path curves toward the north and west, darkened by\nthe arching branches and their full canopy of leaves forming a tunnel. Off to\nthe sides of the path are many trees and shrubs, growing thick and uninhib-\nited. Flowers grow close to the ground, their light green leaves and bright\npink flowers lending color to the darkness.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The woodland tunnel extends northward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20445"
+        },
+        "west": {
+          "description": "The woodland tunnel extends westward before you.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20435"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20435": {
+      "vnum": "20435",
+      "title": "On a dark path",
+      "description": "Extending toward east and west, the soil-strewn, rock hard path is darkened\nby arching branches and a full canopy of leaves forming a tunnel. The trunks\nof the lush trees act as structural guidance to a pair of 'walls' formed by\nmany shrubs growing thick and uninhibited on the north and south sides of\nthe path. Bright pink flowers grow close to the ground, lending color to the\ndarkness.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20434"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20389"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20436": {
+      "vnum": "20436",
+      "title": "By the herb garden",
+      "description": "The rock hard, soil-strewn path extends east and west here, with a branch off\nheading southward. On all sides you see an herb garden, the herb plants blos-\nsoming nicely. Honey bees buzz about, and sometimes you see one sipping\nnectar from a nearby herbal flower. At the far western end of the path you\nsee a neat looking wooden structure, its doorway open.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The path extends westward. You see woods beyond the curve.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20431"
+        },
+        "south": {
+          "description": "You see a path passing through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20437"
+        },
+        "west": {
+          "description": "You see a path passing through an herb garden, and a small house with an\nopen doorway at the end of the path.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20439"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20437": {
+      "vnum": "20437",
+      "title": "By the herb garden",
+      "description": "The rock hard, soil-strewn path extends northward and southward here. On the\nwest side, you see an herb garden, the herb plants blossoming nicely. Honey\nbees buzz about, and sometimes you see one sipping nectar from a nearby\nherbal flower. To the east of this path, trees grow, their trunks surrounded\nby short shrubs and ground cover plants.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "The path extends northward through the herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20436"
+        },
+        "south": {
+          "description": "The path extends southward through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20438"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20438": {
+      "vnum": "20438",
+      "title": "On a path",
+      "description": "The path here leads north and south. It is hard stone, liberally covered with\nsoil, from which the occasional blade of grass or leafy ground cover sort of\nplant attempts to grow. To the west is a well-kept herb garden, its flowers\nsending spicy scents into the air. Honey bees flit and buzz by those spicy\nflowers, gathering nectar.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20437"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20384"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20439": {
+      "vnum": "20439",
+      "title": "Within the herb garden",
+      "description": "The smooth stone path is lined with herbs, and the herbs stretch out beyond\nin a neat garden. The edges of the path are kept clean and tidy. Not much in\nthe way of dirt and soil is scattered upon this part of the path. The clean\npath extends eastward and westward. Toward the west you see a neat looking\nwooden structure with an open doorway.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The path extends eastward through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20436"
+        },
+        "west": {
+          "description": "The path extends westward through an herb garden, and at the end of the path\nyou see a small wooden house with an open doorway.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20440"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20440": {
+      "vnum": "20440",
+      "title": "Within the herb garden",
+      "description": "The smooth stone path is clear of soil and dirt, its edges tidy where the\nspicy-scented herb garden meets it. Honeybees flit and buzz from bloom to\nbloom, reveling in the spicy fragrances and collecting nectar. The path\nextends eastward. To the west is a small, neat wooden house with an open\ndoorway and a woven 'welcome' mat. A shingle hanging from an iron hook in the\nouter wall bears the picture of a hoe and a broom crossed at the handles.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "The path extends eastward through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20439"
+        },
+        "west": {
+          "description": "You peer at the open doorway to the small wooden house with the shingle hang-\ning on the iron hook and see a number of gardening implements leaning against\nthe western wall.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20441"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20441": {
+      "vnum": "20441",
+      "title": "Within the gardener's house",
+      "description": "A simple, low, wooden-frame bed covered with a mattress of fresh herbs and\nlinen cloth sits against the northern wall, its 'head' against the eastern\nwall near the open doorway. A similar wooden frame, without legs, is\nattached a bit higher on the walls, and a sturdy wooden ladder leads up to it.\nAgainst the western wall, gardening tools lean. Above them, hanging on small\niron hooks, are small gardening trowels. An L-shaped table carved from\nmahogany and polished to a pleasant shine seems to serve double duty as a\nfood table as well as a shop counter. It is against the southern wall, and\nbehind it, a short man with a ruddy face and a short beard sits upon a wooden\nstool, eating from a bowl of food whose steam fills the little building with\na delicious aroma.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "You see a smooth stone path through an herb garden.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20440"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20442": {
+      "vnum": "20442",
+      "title": "Within the herb garden",
+      "description": "The smooth stone path here is well kept, free of pebbles or bits of soil.\nAlong the north and south edges of the path, you can tell that a gardener has\nkept the small plant growth from extending beyond the garden. Within the\ngarden itself, herbs thrive, their spicy blooms attracting honeybees. The\npath extends eastward and westward from here.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20429"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20443"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20443": {
+      "vnum": "20443",
+      "title": "Within the herb garden",
+      "description": "The smooth stone path here is well swept, free of pebbles or bits of soil. It\nextends eastward and westward through a spicy herb garden. Along the north\nand south edges of the path, you can tell that a gardener has kept the small\nplant growth from extending beyond the garden. Within the garden itself,\nherbs thrive, their spicy blooms attracting numerous buzzing honeybees.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20442"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20444"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20444": {
+      "vnum": "20444",
+      "title": "Within the herb garden",
+      "description": "The smooth stone path extends no farther westward, but continues on eastward\nfrom here. The path's surface is cleanly swept, without sign of stray pebble\nor bits of soil. Along the edges where the path and the garden soil meet, a\nline of trimming shows where the diligent gardener has kept things tidy.\nSmall yellow and black striped honeybees buzz and flit about from spicy blos-\nsom to spicy blossom, collecting nectar and spreading pollen.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20443"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20445": {
+      "vnum": "20445",
+      "title": "On a dark path",
+      "description": "The hard rock path is strewn liberally with soil. It stretches toward the\nnorth and south. High trees lend a dark canopy cover to keep it well shaded.\nA few lush green bushes grow here, their leafy branches somehow well tended.\nTo the north and south the path stretches on through the woodland tunnel. At\nthe edges of the path are plants growing low to the ground, with bright\ngreen leaves and soft orange and white blooms about the diameter of a human\nthumbnail. Just beyond them are low growing shrubs bearing sweet berries. A\nsweet scent fills the air here, and the sound of buzzing alerts you to the\npresence of busy honey bees. Once in a while you see one sipping nectar from\nthe little orange and white flowers.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20433"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20434"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20446": {
+      "vnum": "20446",
+      "title": "Dirt path through the wild woodland",
+      "description": "Pushing past the shrubbery growing thick in this region, you find a crude\ndirt path leading westward. Those who planned the natural city did not set\nthis path here. You notice that the path branches here, one fork heading\ndue north, one fork heading due south, the other due west to a huge,\nshadowy tree stump rising up about forty feet before having been cut square\nacross the top. This stump appears to have been hollowed out, and is large\nenough that a giant can enter it without trouble. Thick, soft moss covers\nmost of its dark brown bark. The path to the north appears to be dark and\nforeboding.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "You scan to the north and see darker woods.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20451"
+        },
+        "east": {
+          "keywords": [],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "20386"
+        },
+        "south": {
+          "description": "You scan to the south and notice a rose garden in a clearing.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20447"
+        },
+        "west": {
+          "description": "You scan to the west and peer into a huge tree stump.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20448"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20447": {
+      "vnum": "20447",
+      "title": "Shrine to Joja",
+      "description": "The trees have given way to a clearing, hidden from the main walkway in the\ncity, hidden from the southern viewpoint overlooking the roaring waterfall.\nFrom here you can see that waterfall to the south and down, a breathtaking\nsight within the east-west river below. The spray from the nearby waterfall\noccasionally blows up toward you, cooling your face and sprinkling the roses\nhere with fresh water. These miniature, deep blue roses grow on what appear\nto be miniature trees. Their thorns are likewise tiny, though still sharp.\nBy the trees shielding them from the harsh afternoon sun is a simple struc-\nture of living wood, formed of the trees themselves, roofed by a canopy of\nleaves.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20446"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "simple",
+            "structure"
+          ],
+          "description": "On close examination, you see that the structure is all natural. There are no\nsigns of anyone having trimmed any branches to allow for the cavity. It is as\nthough the trees themselves grew in this manner on purpose. Upon the ground,\nwhere only stone shows through, a small mat was placed, upon which the shrine\nguardian sits in silent meditation. Above, the ceiling and roof of this all-\nnatural structure is formed by branches and leaves."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20448": {
+      "vnum": "20448",
+      "title": "Shrine to Krazar",
+      "description": "Within the huge stump darkness pervades, but for a large hole about twenty\nfeet up the south side. You look up and barely see what could be called a\nceiling, near the top of the giant stump. Little footfalls and chittering\nreaches your ears: A colony of chipmunks has made this stump their home. Bits\nof grass and nut shell litter the floor in places.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20446"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20449": {
+      "vnum": "20449",
+      "title": "Shrine to Darkwood",
+      "description": "You are surrounded by a number of tree trunks which have grown together,\ncuriously, to form a sort of natural building. Here on the 'inside' you notice\nthat the 'ceiling' is none other than a canopy of leaves and branches, thickly\nsituated, yet not thick enough to keep the weather out. Little spaces between\nthe trees act as tall windows to the world beyond, allowing you to see the\nweather, and sometimes feel it as it blows through. In the middle of the\nnatural building is a stump. At first it appears to be the left over of a\ntree chopped down. Then you look at it more closely and notice that it grew\nthat way, and never actually formed a tree. It is, more accurately, a root on\nthe surface, rising up in the shape of a stump. Vines of ivy swirl around it,\nrooted to it and yet a part of it. The dark green leaves move as though in a\nbreeze, and the ends push out with bright, living young green. Ever growing,\nand yet ever the same size, the ivy captures the imagination with its paradox.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20422"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "root",
+            "stump"
+          ],
+          "description": "The so-called stump being actually a root, has not the same rough bark upon it\nas the trunks of the trees forming the walls. Looking at it closely, you see\nthat it does resemble a tree stump, and yet it does not. A closer examination\nof this phenomenon reveals that someone carefully engraved the picture of a\n'living battleaxe' within the root. Extremely tiny green leaves grow around\nthe 'handle' of the 'battleaxe' as a living illustration of its 'living'\nproperties. The part of the engraving which is the double curved blade of the\n'battleaxe' seems to shine with a metallic glint, and yet there is no metal\nhere, but root material. At the base of the root, several vines of ivy grow,\nrooted to the root and yet a part of the root, deep green leaves moving as in\na breeze, and its tips growing with bright green, new leaves, yet its size\ndoes not increase, and it remains roughly the same size at all times."
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20450": {
+      "vnum": "20450",
+      "title": "Shrine to Aegnor",
+      "description": "Within the thick, wild-grown trees is a small clearing. Carpet grass covers\nthe ground, blades thickly close together, giving one a sense of lightness\nwhile walking upon it. In the center of this clearing is a throne formed, as\nit appears, from granite. Its shape is simple, a block of stone with solid\nstone armrests and a solid stone backrest standing straight up, formed with\nattentiveness in mind, not comfort. Upon the top of the austere backrest is\na curiosity: The backrest itself is a slab of five sides, the top side rising\nto a point as in a shape of a house that a child might draw. At the top point,\nhowever, is a granite globe, balancing upon it. Along the edge of the throne\nare runic letters.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20383"
+        }
+      },
+      "extras": [
+        {
+          "keywords": [
+            "globe"
+          ],
+          "description": "The globe is balancing upon the 'roof' shaped top of the throne's backrest.\nClose inspection shows that it is NOT attached in any way, but simply rests\nthere upon the point, sometimes spinning slowly, but mostly just there, in\nperfect balance. The globe itself is perfect in its roundness, and chips of\nmica within the granite sparkle in the light."
+        },
+        {
+          "keywords": [
+            "runic",
+            "rune",
+            "runes",
+            "letters"
+          ],
+          "description": "\"A purpose to each, and an enemy. And so shall the balance remain.\" -- Aegnor"
+        }
+      ],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20451": {
+      "vnum": "20451",
+      "title": "Dark, enclosed path",
+      "description": "The path here is darker than any of the surrounding environs. Trees, gnarled\nand skeletal, encroach on the path, inspiring feelings of claustrophobia, and\nthoughts that a branch might of its own will reach out and grab you. To the\nnorth is a clearing where these trees give way to a small, broken tower. The\nrock wall facing you is smashed, so that you can look through it and see a\nlarge throne made entirely of skulls located in the center of the floor of\nthe tower. There is not a doorway to enter by, so much as a large smashed-in\nsection of the wall through which a giant could pass.",
+      "flags": [],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "north": {
+          "description": "You see a small, broken tower with a throne of skulls sitting within.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20454"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20446"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20452": {
+      "vnum": "20452",
+      "title": "Path through the shrubs",
+      "description": "The woodland is very thick here, yet there is a small pathway meandering\nthrough the thick shrubs. You hear the brushing of branches and leaves\nagainst you and feel the pressure of the woodland as you travel along\nthe path. To the east is what appears to be a log house big enough for\na giant to live in. A thick metallic cylinder erupts from the sturdy\nwood tiled roof, and a thin continuous grey smoke rises from it. An herb\ngarden graces the front side of the house on either side of the doorway,\nthe only controlled growing done here. Everything else grows wild and\nfree.",
+      "flags": [
+        "ROOM_DARK"
+      ],
+      "sector": "SECT_FOREST",
+      "exits": {
+        "east": {
+          "description": "You see a huge log house. The doorway appears to be without a door.",
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "20453"
+        },
+        "west": {
+          "description": "You see a main pathway beyond the thick shrubs.",
+          "keywords": [
+            "path",
+            "through",
+            "the",
+            "shrubs"
+          ],
+          "state": [
+            "IS_DOOR"
+          ],
+          "key": "-1",
+          "vnum": "20405"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20453": {
+      "vnum": "20453",
+      "title": "Huge log house",
+      "description": "This house was built from logs from wood from a forest far away. The\nlogs themselves are stripped of their bark inside here, showing off\na nicely polished light-hued wood with dark-striped grain. The furn-\niture is all made of the same zebrawood, one of the stronger woods\nin the world. If the outside of this house seemed huge, the inside\nseems much larger. Two beds in the far corners are constructed of a\nsize capable of allowing two giants to sleep upon them. A table in\nthe middle of the house is surrounded by four chairs, all of them\nscaled for a giant's comfort. You do notice one chair has an extra\n'seat' set upon it, higher up, so as to allow someone of a smaller\nsized race to sit comfortably at the table with the giants. That\nchair has a nice cushion on it, too, made of brocaded cloth and\nstuffed almost to bursting. A fireplace with a thick chimney, all\nmade from cast iron or some other strong, dark metal, serves as the\nfocal point of the kitchen area. A number of knives, forks, and\nspoons hang nearby, and a stained table shows where butchering and\nmeal preparation is done.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20452"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20454": {
+      "vnum": "20454",
+      "title": "Shrine to Tyberius",
+      "description": "You are within a small, broken tower. A cracked, spiral stair leads up to\nnowhere, for there is no upper level. The walls on this level are smashed so\nthat you can see outside toward the dark and skeletal trees. In the center of\nthis ground level is a large throne formed entirely of skulls, their socket-\nless eyes staring at you. On either side of the throne, a crackling brazier\nstands, causing the shadows to writhe and dance as though alive. What is left\nof the walls are covered with bookshelves full of countless dusty books and\ntomes. High on the cracked wall behind the throne, one of the few patches\nwhere the stones still look sturdy, is a massive bronze relief: a rapier\ncrossing a war gauntlet.",
+      "flags": [
+        "ROOM_DARK",
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "description": "You look toward the south, through the smashed wall, and see the dark path.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20451"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20455": {
+      "vnum": "20455",
+      "title": "Kevinlape's Butchery",
+      "description": "The front room of the huge cabin, obviously built for a giant to live\nwithin, is devoted to the preparation of meat and the selling of those\ndelightful dishes. This store is filled with the aroma of roasting meats,\nthankfully overpowering the smell of raw meat hanging behind the wooden\ncounter. You see a huge fireplace along the eastern wall, where the\nmeats are being roasted. The countertop is stained with blood, but it is\notherwise kept clean for safe preparation of food.",
+      "flags": [],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "description": "You peer toward the north and see what appears to be a huge bedroom/\nsitting room combination, a place for the butcher to relax when he is\nnot working.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20456"
+        },
+        "west": {
+          "description": "You see the end of the path and the fence which keeps people from\naccidently falling down to the river way below.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20397"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20456": {
+      "vnum": "20456",
+      "title": "Inside the cabin",
+      "description": "Kevinlape's large log cabin affords him a comfortable place to sleep.\nThe huge bedframe is made from zebrawood, one of the strongest woods\nin the world. This structure stands along the eastern wall, and is\ncovered with an assortment of fur blankets. Elsewhere in the room you\nsee a few chairs and a table.",
+      "flags": [],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "description": "To the south is Kevinlape's butcher shoppe. You can see raw meat hanging\nfrom hooks in the ceiling, and smell the pleasant aroma of roasting meats\nover his warm cooking fire.",
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20455"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20457": {
+      "vnum": "20457",
+      "title": "Small Cottage",
+      "description": "While it isn't much, this cottage is neat and clean. The interior is\ndecorated with the necessities: a comfortable but firm bed, a table\nwith chairs, a counter for preparations. Various weapons adorn the\nwalls, as much decoration as useful, blades clean and sharp. While\nthere is a rocking chair in the corner, one gets the impression that\nwhoever lives here is not exactly retired and on his deathbed. A\nhook in the wall near the rocker holds a bright brass lantern.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20390"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "20458": {
+      "vnum": "20458",
+      "title": "Small Cottage",
+      "description": "This small cottage is neat and clean. The interior is decorated with\nnecessities: a mat for two for sleeping, a low table with pillows\nfor eating, a counter for food preparation. On the table is a simple\nbrass vase, holding a bouquet of pink carnations. The only sharp tools\nin the cottage are food preparation tools, a set of knives and\ncleavers hanging on one wall above the counter. Below the counter\nare a collection of metal pans and pots. On hooks along another\nwall is a collection of dainty tea cups made of porcelain.",
+      "flags": [
+        "ROOM_INDOORS"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "-1",
+          "vnum": "20421"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

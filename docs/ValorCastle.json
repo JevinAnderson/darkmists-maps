@@ -1,0 +1,430 @@
+{
+  "filename": "ValorCastle.are",
+  "name": "Valor Castle",
+  "listing": "{HOUSE} Alrec Valor Castle",
+  "range": "82801 82850",
+  "rooms": {
+    "82801": {
+      "vnum": "82801",
+      "title": "The Gates of the Castle",
+      "description": "Swung wide open the gates of this castle stand nearly 20 feet tall.\nMade of solid wood, they are polished to perfection.  A large crossbeam\nsits suspended from the rampart above, ready to be lowered into place\nshould the gates be closed.  The halls of the castle can be seen to\nthe North.  The marble floors shine on either side of the blue carpet\nthat runs down the center of the walkway.  A large shield engraved\nwith a blue cross hangs on the front of both gates.  Directly over head\na blue cross sits in a prominent position over the gates.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82802"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "1133"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82802": {
+      "vnum": "82802",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination.  A\nmasterfully crafted tower shield is mounted on the Northern wall.\nBelow it a sign can be seen with the simple word of \"Courage\" engraved\nupon it.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82803"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82801"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82804"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82803": {
+      "vnum": "82803",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination.  Upon\nthe eastern wall a beautiful tapestry hangs.  It depecits a knight in\nshing armor, standing beside a beautiful white steed.  The knight is\nhanding food to a small child and what would appear to be his mother.\nA set of stairs lead up from the corner of the room into a turret above.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82805"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82802"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82816"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82804": {
+      "vnum": "82804",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination.  Upon\nthe Western wall a beautiful tapestry hangs.  It depicts a group of\nknights chasing an ancient red dragon out of a partially burning hamlet.\nA set of stairs lead up from the corner of the room into a turret above.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82807"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82802"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82815"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82805": {
+      "vnum": "82805",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination. This\nroom bears a much different smell than the rest of the castle.  Just\nto the East the stables can be seen.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82806"
+        },
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82812"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82803"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82806": {
+      "vnum": "82806",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination.  Upon\nthe Eastern wall a beautiful tapestry hangs.  The scene of a great feast\nis shown here.  Knights, squires, and the villagers all taking part in\na merry celebration. A set of stairs lead up from the corner of the room\ninto a turret above.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82805"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82809"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82813"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82807": {
+      "vnum": "82807",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination. A\nlarge frame for a portrait hangs along the Eastern wall, though no\nportrait currently fills the space.  To the west a room looks to be\nfilled with things that would be useful in training squires and\nknights alike.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82808"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82804"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82811"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82808": {
+      "vnum": "82808",
+      "title": "Within the Halls of Valor",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination.  Upon\nthe Western wall a beautiful tapestry hangs.  A squire bravely is\ndragging an injured knight from the battlefield, while risking his own\nlife in the process.   A set of stairs lead up from the corner of the room\ninto a turret above.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82809"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82807"
+        },
+        "up": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82814"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82809": {
+      "vnum": "82809",
+      "title": "Before the Altar",
+      "description": "The halls of the castle are simple yet elegant.  A finely woven blue\ncarpet runs down the middle of the walkway.  Small crosses in a darker\nhue of blue are sewn into the carpet at equal intervals.  Beautiful\nwhite marble tile can be seen to either side of the carpet.  Torches\nare lit along the hallway giving off a flickering illumination. To the\nSouth, a place of reverance can be seen.  An altar sits dedicated to\nthe tenants of Valor, Courage, and Honor.  In this room, the knights\ncan prepare themselves to go before the altar to meditate.  A fountain\nflows here, quenching their thirst, and also allowing them to properly\nwash themselves before going into the holy room to the South.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82806"
+        },
+        "south": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82810"
+        },
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82808"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82810": {
+      "vnum": "82810",
+      "title": "The Altar of Valor, Honor and Courage",
+      "description": "A large white marble altar sits in a prominent place in this room.  It\nappears to be carved of one single piece of marble with intricate scroll\ndesigns.  A strip of royal blue cloth runs across the length of the altar,\nand upon the cloth many crosses are embroidered.  Around the room more\ntorches hang than through the rest of the castle.  Light sparkles in this\nroom and illuminates it as if you were standing under the noonday sun.\nTapestries line the walls, depicting ancient knights serving the kingdoms\nof the land as all knights should.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "north": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82809"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82811": {
+      "vnum": "82811",
+      "title": "The Room of Preparation",
+      "description": "In many ways this room looks like the rest of the castle, blue hues\ndecorate the floors and walls.  Torches hang on the wall giving off\nenough light to see by easily.  This room however is setup to help\ntrain young squires and even the knights in their continued training.\nRacks of weapons sit along the wall, and a knight stands in the room\nready to spar with all who wish to learn.  A cot sits along the wall\nto give those training a comfortable place to rest.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "east": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82807"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82812": {
+      "vnum": "82812",
+      "title": "The stables",
+      "description": "In the stables an air of animal musk hangs heavily.  Straw covers\nmuch of the floor here.  Channels in the floor are used to wash away\nthe muck and grime that comes from the steeds themselves.  Along the\nwalls, various tools can be seen for shoeing horses.  Feed buckets\nsit nicely along one wall.  Another wall holds many harness, bit, and\nbridle.  A stack of beautiful blue cloth sits in one corner, that is\nused to drape over the steeds.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "west": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82805"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82813": {
+      "vnum": "82813",
+      "title": "The Northeast Turret",
+      "description": "The turret is simple in adornment, and meant to serve a specific purpose.\nit grants a view of the grounds around the castle, so that intruders can\nbe watched for.  This turret overlooks the forests to the North, while also\ngranting a partial view of the marketplace of Lacunae.  The fine marble of\nthe rest of the place is not to be found here.  Only the soft blue carpets\nstill look like the rest.  The stairs lead back down to the castle proper,\nand are also covered in the fine blue carpetting.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82806"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82814": {
+      "vnum": "82814",
+      "title": "The Northwest Turret",
+      "description": "The turret is simple in adornment, and meant to serve a specific purpose.\nit grants a view of the grounds around the castle, so that intruders can\nbe watched for.  This turret overlooks the forests to the North, as well\nas the path to the Grey Havens to the West.  The fine marble of the rest\nof the place is not to be found here.  Only the soft blue carpets still\nlook like the rest.  The stairs lead back down to the castle proper,\nand are also covered in the fine blue carpetting.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82808"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82815": {
+      "vnum": "82815",
+      "title": "The Southwest Turret",
+      "description": "The turret is simple in adornment, and meant to serve a specific purpose.\nit grants a view of the grounds around the castle, so that intruders can\nbe watched for.  This turret overlooks the path to the Grey havens, as\nwell as providing a slightly blocked view of the halflings den to the\nSouthwest.  It also provides a fine view of the path leading right up\nto the castle itself.  The fine marble of the rest of the place is not to\nbe found here.  Only the soft blue carpets still look like the rest.  The\nstairs lead back down to the castle proper, and are also covered in the\nfine blue carpetting.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82804"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    },
+    "82816": {
+      "vnum": "82816",
+      "title": "The Southeast Turret",
+      "description": "The turret is simple in adornment, and meant to serve a specific purpose.\nit grants a view of the grounds around the castle, so that intruders can\nbe watched for.  This turrent grants a fine view of the marketplace of\nLacunae.  And also allows for the castle to have a perfect view of the\npath leading to the walls as well. The fine marble of the rest of the\nplace is not to be found here.  Only the soft blue carpets still look\nlike the rest.  The stairs lead back down to the castle proper, and\nare also covered in the fine blue carpetting.",
+      "flags": [
+        "ROOM_HOUSE"
+      ],
+      "sector": "SECT_INSIDE",
+      "exits": {
+        "down": {
+          "keywords": [],
+          "state": [],
+          "key": "0",
+          "vnum": "82803"
+        }
+      },
+      "extras": [],
+      "hp_mod": 100,
+      "mana_mod": 100
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "filename": "arcana5.are",
+  "name": "The Library of Thera",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "4896",
+          "title": "Sixth Floor",
+          "exits": {
+            "down": "4895"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        {
+          "vnum": "4898",
+          "title": "Dark Research Room",
+          "exits": {
+            "east": "4895"
+          }
+        },
+        {
+          "vnum": "4895",
+          "title": "Fifth Floor",
+          "exits": {
+            "east": "4897",
+            "west": "4898",
+            "up": "4896",
+            "down": "4894"
+          }
+        },
+        {
+          "vnum": "4897",
+          "title": "Research Room",
+          "exits": {
+            "west": "4895"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "4894",
+          "title": "Fourth Floor",
+          "exits": {
+            "up": "4895",
+            "down": "4893"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "4893",
+          "title": "Third Floor",
+          "exits": {
+            "south": "4899",
+            "up": "4894",
+            "down": "4892"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "4899",
+          "title": "Artifact Room",
+          "exits": {
+            "north": "4893"
+          }
+        },
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "4892",
+          "title": "Second Floor",
+          "exits": {
+            "up": "4893",
+            "down": "4891"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "4891",
+          "title": "First Floor",
+          "exits": {
+            "north": "2650",
+            "up": "4892"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

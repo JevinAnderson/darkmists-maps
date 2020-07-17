@@ -1,0 +1,1012 @@
+{
+  "filename": "manor.are",
+  "name": "The Manor",
+  "map": [
+    [
+      [
+        {
+          "vnum": "2701",
+          "title": "Small Road",
+          "exits": {
+            "east": "2702",
+            "west": "10619"
+          }
+        },
+        {
+          "vnum": "2702",
+          "title": "Small Road",
+          "exits": {
+            "east": "2703",
+            "west": "2701"
+          }
+        },
+        {
+          "vnum": "2703",
+          "title": "Small Road",
+          "exits": {
+            "south": "2704",
+            "west": "2702"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "2704",
+          "title": "Path in the Desert",
+          "exits": {
+            "north": "2703",
+            "east": "2705"
+          }
+        },
+        {
+          "vnum": "2705",
+          "title": "Path in the Desert",
+          "exits": {
+            "south": "2706",
+            "west": "2704"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2797",
+          "title": "On a path",
+          "exits": {
+            "north": "4530",
+            "south": "2796"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2706",
+          "title": "Path in the Desert",
+          "exits": {
+            "north": "2705",
+            "south": "2707"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2796",
+          "title": "Bridge Over the River",
+          "exits": {
+            "north": "2797",
+            "south": "2795"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2707",
+          "title": "Bridge",
+          "exits": {
+            "north": "2706",
+            "south": "2708"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2795",
+          "title": "On a Path",
+          "exits": {
+            "north": "2796",
+            "south": "2727"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2708",
+          "title": "Path in the Desert",
+          "exits": {
+            "north": "2707",
+            "east": "2709"
+          }
+        },
+        {
+          "vnum": "2709",
+          "title": "Path in the Desert",
+          "exits": {
+            "south": "2710",
+            "west": "2708"
+          }
+        },
+        "*",
+        {
+          "vnum": "2790",
+          "title": "Field",
+          "exits": {
+            "east": "2791",
+            "south": "2784"
+          }
+        },
+        {
+          "vnum": "2791",
+          "title": "Field",
+          "exits": {
+            "east": "2792",
+            "south": "2785",
+            "west": "2790"
+          }
+        },
+        {
+          "vnum": "2792",
+          "title": "Field",
+          "exits": {
+            "east": "2793",
+            "south": "2786",
+            "west": "2791"
+          }
+        },
+        {
+          "vnum": "2793",
+          "title": "Field",
+          "exits": {
+            "east": "2794",
+            "south": "2787",
+            "west": "2792"
+          }
+        },
+        {
+          "vnum": "2794",
+          "title": "Field",
+          "exits": {
+            "south": "2788",
+            "west": "2793"
+          }
+        },
+        {
+          "vnum": "2753",
+          "title": "Silo",
+          "exits": {
+            "south": "2789"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "2727",
+          "title": "At the Well",
+          "exits": {
+            "north": "2795",
+            "east": "2732",
+            "south": "2726"
+          }
+        },
+        {
+          "vnum": "2732",
+          "title": "School",
+          "exits": {
+            "west": "2727",
+            "down": "16500"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2710",
+          "title": "Path in the Desert",
+          "exits": {
+            "north": "2709",
+            "south": "2711"
+          }
+        },
+        "*",
+        {
+          "vnum": "2784",
+          "title": "Field",
+          "exits": {
+            "north": "2790",
+            "east": "2785",
+            "south": "2778"
+          }
+        },
+        {
+          "vnum": "2785",
+          "title": "Field",
+          "exits": {
+            "north": "2791",
+            "east": "2786",
+            "south": "2779",
+            "west": "2784"
+          }
+        },
+        {
+          "vnum": "2786",
+          "title": "Field",
+          "exits": {
+            "north": "2792",
+            "east": "2787",
+            "south": "2780",
+            "west": "2785"
+          }
+        },
+        {
+          "vnum": "2787",
+          "title": "Field",
+          "exits": {
+            "north": "2793",
+            "east": "2788",
+            "south": "2781",
+            "west": "2786"
+          }
+        },
+        {
+          "vnum": "2788",
+          "title": "Field",
+          "exits": {
+            "north": "2794",
+            "east": "2789",
+            "south": "2782",
+            "west": "2787"
+          }
+        },
+        {
+          "vnum": "2789",
+          "title": "Field",
+          "exits": {
+            "north": "2753",
+            "south": "2783",
+            "west": "2788"
+          }
+        },
+        "*",
+        {
+          "vnum": "2731",
+          "title": "Blacksmith",
+          "exits": {
+            "east": "2726"
+          }
+        },
+        {
+          "vnum": "2726",
+          "title": "On a Path",
+          "exits": {
+            "north": "2727",
+            "south": "2725",
+            "west": "2731"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2711",
+          "title": "Path in the Desert",
+          "exits": {
+            "north": "2710",
+            "south": "2712"
+          }
+        },
+        "*",
+        {
+          "vnum": "2778",
+          "title": "Field",
+          "exits": {
+            "north": "2784",
+            "east": "2779",
+            "south": "2714"
+          }
+        },
+        {
+          "vnum": "2779",
+          "title": "Field",
+          "exits": {
+            "north": "2785",
+            "east": "2780",
+            "south": "2715",
+            "west": "2778"
+          }
+        },
+        {
+          "vnum": "2780",
+          "title": "Field",
+          "exits": {
+            "north": "2786",
+            "east": "2781",
+            "south": "2716",
+            "west": "2779"
+          }
+        },
+        {
+          "vnum": "2781",
+          "title": "Field",
+          "exits": {
+            "north": "2787",
+            "east": "2782",
+            "south": "2717",
+            "west": "2780"
+          }
+        },
+        {
+          "vnum": "2782",
+          "title": "Field",
+          "exits": {
+            "north": "2788",
+            "east": "2783",
+            "south": "2718",
+            "west": "2781"
+          }
+        },
+        {
+          "vnum": "2783",
+          "title": "Field",
+          "exits": {
+            "north": "2789",
+            "south": "2719",
+            "west": "2782"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "2725",
+          "title": "On a Path",
+          "exits": {
+            "north": "2726",
+            "south": "2722"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "2740",
+          "title": "Library",
+          "exits": {
+            "east": "2741",
+            "south": "2738"
+          }
+        },
+        {
+          "vnum": "2741",
+          "title": "Study",
+          "exits": {
+            "east": "2744",
+            "south": "2739",
+            "west": "2740"
+          }
+        },
+        {
+          "vnum": "2744",
+          "title": "Bedroom",
+          "exits": {
+            "west": "2741"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2712",
+          "title": "Path in the Desert",
+          "exits": {
+            "north": "2711",
+            "east": "2713"
+          }
+        },
+        {
+          "vnum": "2713",
+          "title": "By the White-Washed Gate",
+          "exits": {
+            "east": "2714",
+            "west": "2712"
+          }
+        },
+        {
+          "vnum": "2714",
+          "title": "By the White-Washed Gate",
+          "exits": {
+            "north": "2778",
+            "east": "2715",
+            "south": "2772",
+            "west": "2713"
+          }
+        },
+        {
+          "vnum": "2715",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "north": "2779",
+            "east": "2716",
+            "south": "2773",
+            "west": "2714"
+          }
+        },
+        {
+          "vnum": "2716",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "north": "2780",
+            "east": "2717",
+            "south": "2774",
+            "west": "2715"
+          }
+        },
+        {
+          "vnum": "2717",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "north": "2781",
+            "east": "2718",
+            "south": "2775",
+            "west": "2716"
+          }
+        },
+        {
+          "vnum": "2718",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "north": "2782",
+            "east": "2719",
+            "south": "2776",
+            "west": "2717"
+          }
+        },
+        {
+          "vnum": "2719",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "north": "2783",
+            "east": "2720",
+            "south": "2777",
+            "west": "2718"
+          }
+        },
+        {
+          "vnum": "2720",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "east": "2721",
+            "west": "2719"
+          }
+        },
+        {
+          "vnum": "2721",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "east": "2722",
+            "west": "2720"
+          }
+        },
+        {
+          "vnum": "2722",
+          "title": "Intersection",
+          "exits": {
+            "north": "2725",
+            "east": "2723",
+            "south": "2728",
+            "west": "2721"
+          }
+        },
+        {
+          "vnum": "2723",
+          "title": "On a Well-Trodden Path",
+          "exits": {
+            "east": "2724",
+            "west": "2722"
+          }
+        },
+        {
+          "vnum": "2724",
+          "title": "Before the Great House",
+          "exits": {
+            "east": "2738",
+            "west": "2723"
+          }
+        },
+        {
+          "vnum": "2738",
+          "title": "Entrance to the Great House",
+          "exits": {
+            "north": "2740",
+            "east": "2739",
+            "south": "2742",
+            "west": "2724"
+          }
+        },
+        {
+          "vnum": "2739",
+          "title": "Hall",
+          "exits": {
+            "north": "2741",
+            "east": "2745",
+            "south": "2743",
+            "west": "2738"
+          }
+        },
+        {
+          "vnum": "2745",
+          "title": "Bedroom",
+          "exits": {
+            "west": "2739"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2771",
+          "title": "Pasture",
+          "exits": {
+            "east": "2772"
+          }
+        },
+        {
+          "vnum": "2772",
+          "title": "Pasture",
+          "exits": {
+            "north": "2714",
+            "east": "2773",
+            "west": "2771"
+          }
+        },
+        {
+          "vnum": "2773",
+          "title": "Pasture",
+          "exits": {
+            "north": "2715",
+            "east": "2774",
+            "south": "2766",
+            "west": "2772"
+          }
+        },
+        {
+          "vnum": "2774",
+          "title": "Pasture",
+          "exits": {
+            "north": "2716",
+            "east": "2775",
+            "south": "2767",
+            "west": "2773"
+          }
+        },
+        {
+          "vnum": "2775",
+          "title": "Pasture",
+          "exits": {
+            "north": "2717",
+            "east": "2776",
+            "south": "2768",
+            "west": "2774"
+          }
+        },
+        {
+          "vnum": "2776",
+          "title": "Pasture",
+          "exits": {
+            "north": "2718",
+            "east": "2777",
+            "south": "2769",
+            "west": "2775"
+          }
+        },
+        {
+          "vnum": "2777",
+          "title": "Pasture",
+          "exits": {
+            "north": "2719",
+            "east": "2747",
+            "south": "2770",
+            "west": "2776"
+          }
+        },
+        {
+          "vnum": "2747",
+          "title": "House",
+          "exits": {
+            "west": "2777"
+          }
+        },
+        "*",
+        {
+          "vnum": "2728",
+          "title": "On a Path",
+          "exits": {
+            "north": "2722",
+            "south": "2729"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "2742",
+          "title": "Sitting Room",
+          "exits": {
+            "north": "2738"
+          }
+        },
+        {
+          "vnum": "2743",
+          "title": "Dining Room",
+          "exits": {
+            "north": "2739",
+            "east": "2746"
+          }
+        },
+        {
+          "vnum": "2746",
+          "title": "Kitchen",
+          "exits": {
+            "west": "2743"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2754",
+          "title": "Barn",
+          "exits": {
+            "east": "2755",
+            "south": "2756"
+          }
+        },
+        {
+          "vnum": "2755",
+          "title": "Entrance to the Barn",
+          "exits": {
+            "east": "2766",
+            "south": "2757",
+            "west": "2754"
+          }
+        },
+        {
+          "vnum": "2766",
+          "title": "Pasture",
+          "exits": {
+            "north": "2773",
+            "east": "2767",
+            "south": "2761",
+            "west": "2755"
+          }
+        },
+        {
+          "vnum": "2767",
+          "title": "Pasture",
+          "exits": {
+            "north": "2774",
+            "east": "2768",
+            "south": "2762",
+            "west": "2766"
+          }
+        },
+        {
+          "vnum": "2768",
+          "title": "Pasture",
+          "exits": {
+            "north": "2775",
+            "east": "2769",
+            "south": "2763",
+            "west": "2767"
+          }
+        },
+        {
+          "vnum": "2769",
+          "title": "Pasture",
+          "exits": {
+            "north": "2776",
+            "east": "2770",
+            "south": "2764",
+            "west": "2768"
+          }
+        },
+        {
+          "vnum": "2770",
+          "title": "Pasture",
+          "exits": {
+            "north": "2777",
+            "east": "2748",
+            "south": "2765",
+            "west": "2769"
+          }
+        },
+        {
+          "vnum": "2748",
+          "title": "House",
+          "exits": {
+            "west": "2770"
+          }
+        },
+        "*",
+        {
+          "vnum": "2729",
+          "title": "On a Path",
+          "exits": {
+            "north": "2728",
+            "south": "2730"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2756",
+          "title": "Barn",
+          "exits": {
+            "north": "2754",
+            "east": "2757"
+          }
+        },
+        {
+          "vnum": "2757",
+          "title": "Barn",
+          "exits": {
+            "north": "2755",
+            "west": "2756"
+          }
+        },
+        {
+          "vnum": "2761",
+          "title": "Pasture",
+          "exits": {
+            "north": "2766",
+            "east": "2762",
+            "south": "2759"
+          }
+        },
+        {
+          "vnum": "2762",
+          "title": "Pasture",
+          "exits": {
+            "north": "2767",
+            "east": "2763",
+            "south": "2760",
+            "west": "2761"
+          }
+        },
+        {
+          "vnum": "2763",
+          "title": "Pasture",
+          "exits": {
+            "north": "2768",
+            "east": "2764",
+            "south": "2752",
+            "west": "2762"
+          }
+        },
+        {
+          "vnum": "2764",
+          "title": "Pasture",
+          "exits": {
+            "north": "2769",
+            "east": "2765",
+            "south": "2751",
+            "west": "2763"
+          }
+        },
+        {
+          "vnum": "2765",
+          "title": "Pasture",
+          "exits": {
+            "north": "2770",
+            "east": "2749",
+            "south": "2750",
+            "west": "2764"
+          }
+        },
+        {
+          "vnum": "2749",
+          "title": "House",
+          "exits": {
+            "west": "2765"
+          }
+        },
+        "*",
+        {
+          "vnum": "2730",
+          "title": "Before the Chapel",
+          "exits": {
+            "north": "2729",
+            "east": "2733"
+          }
+        },
+        {
+          "vnum": "2733",
+          "title": "Chapel",
+          "exits": {
+            "east": "2734",
+            "south": "2736",
+            "west": "2730"
+          }
+        },
+        {
+          "vnum": "2734",
+          "title": "Chapel",
+          "exits": {
+            "east": "2735",
+            "west": "2733"
+          }
+        },
+        {
+          "vnum": "2735",
+          "title": "Private Room",
+          "exits": {
+            "west": "2734"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2758",
+          "title": "Sheep Barn",
+          "exits": {
+            "east": "2759"
+          }
+        },
+        {
+          "vnum": "2759",
+          "title": "Pasture",
+          "exits": {
+            "north": "2761",
+            "east": "2760",
+            "west": "2758"
+          }
+        },
+        {
+          "vnum": "2760",
+          "title": "Pasture",
+          "exits": {
+            "north": "2762",
+            "west": "2759"
+          }
+        },
+        {
+          "vnum": "2752",
+          "title": "House",
+          "exits": {
+            "north": "2763"
+          }
+        },
+        {
+          "vnum": "2751",
+          "title": "House",
+          "exits": {
+            "north": "2764"
+          }
+        },
+        {
+          "vnum": "2750",
+          "title": "House",
+          "exits": {
+            "north": "2765"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "2736",
+          "title": "Small Graveyard",
+          "exits": {
+            "north": "2733",
+            "east": "2737"
+          }
+        },
+        {
+          "vnum": "2737",
+          "title": "Small Graveyard",
+          "exits": {
+            "west": "2736"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

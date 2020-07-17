@@ -1,0 +1,195 @@
+{
+  "filename": "marauder.are",
+  "name": "The Marauder's Den",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "9810",
+          "title": "The Guildmaster's Den",
+          "exits": {
+            "south": "9809"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "9811",
+          "title": "Narrow Hallway",
+          "exits": {
+            "east": "9809",
+            "down": "9800"
+          }
+        },
+        {
+          "vnum": "9809",
+          "title": "Hall",
+          "exits": {
+            "north": "9810",
+            "south": "9806",
+            "west": "9811"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "9806",
+          "title": "Hall",
+          "exits": {
+            "down": "9803",
+            "east": "9808",
+            "north": "9809"
+          }
+        },
+        {
+          "vnum": "9808",
+          "title": "The Thug's Den",
+          "exits": {
+            "west": "9806"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "9812",
+          "title": "The Godfathers Abode",
+          "exits": {}
+        }
+      ],
+      [
+        {
+          "vnum": "9800",
+          "title": "The Marauder's Shrine",
+          "exits": {
+            "up": "9811"
+          }
+        },
+        {
+          "vnum": "9804",
+          "title": "Dining Hall",
+          "exits": {
+            "south": "9803"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "9803",
+          "title": "An Intersection",
+          "exits": {
+            "east": "9802",
+            "north": "9804",
+            "south": "9805",
+            "up": "9806"
+          }
+        },
+        {
+          "vnum": "9802",
+          "title": "Entry Hall",
+          "exits": {
+            "east": "9801",
+            "west": "9803"
+          }
+        },
+        {
+          "vnum": "9801",
+          "title": "Corridor",
+          "exits": {
+            "south": "558",
+            "west": "9802"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "9805",
+          "title": "Closet",
+          "exits": {
+            "north": "9803",
+            "down": "9807"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "9807",
+          "title": "The Vault",
+          "exits": {
+            "up": "9805"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}
