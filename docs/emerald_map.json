@@ -1,0 +1,1497 @@
+{
+  "filename": "emerald.are",
+  "name": "Emerald Forest",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "265",
+          "title": "The Tree House",
+          "exits": {
+            "down": "264"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        {
+          "vnum": "290",
+          "title": "Outside the Wall of the Monastery",
+          "exits": {
+            "east": "289"
+          }
+        },
+        {
+          "vnum": "289",
+          "title": "The Chapel of Saint Sebastian",
+          "exits": {
+            "east": "288",
+            "west": "290"
+          }
+        },
+        {
+          "vnum": "288",
+          "title": "The Ruined Monastery",
+          "exits": {
+            "west": "289",
+            "south": "215"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "215",
+          "title": "An Old Dirt Track",
+          "exits": {
+            "north": "288",
+            "south": "214"
+          }
+        },
+        {
+          "vnum": "216",
+          "title": "Farmer Griff's Farm",
+          "exits": {
+            "south": "213"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "223",
+          "title": "The Wall of Shadows",
+          "exits": {
+            "east": "224",
+            "south": "222"
+          }
+        },
+        {
+          "vnum": "224",
+          "title": "The Cavern of the Witch Sisters",
+          "exits": {
+            "west": "223"
+          }
+        },
+        {
+          "vnum": "214",
+          "title": "An Old Dirt Track",
+          "exits": {
+            "north": "215",
+            "east": "213"
+          }
+        },
+        {
+          "vnum": "213",
+          "title": "The Village Square",
+          "exits": {
+            "north": "216",
+            "south": "210",
+            "west": "214"
+          }
+        },
+        {
+          "vnum": "212",
+          "title": "A Secluded Corner of the Meadow",
+          "exits": {
+            "south": "211"
+          }
+        },
+        {
+          "vnum": "203",
+          "title": "Near the Summit",
+          "exits": {
+            "down": "202",
+            "south": "204"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "295",
+          "title": "A Broken Jetty",
+          "exits": {
+            "east": "222"
+          }
+        },
+        {
+          "vnum": "222",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "223",
+            "east": "220",
+            "south": "225",
+            "west": "295"
+          }
+        },
+        {
+          "vnum": "220",
+          "title": "The Witch Wood",
+          "exits": {
+            "east": "221",
+            "south": "219",
+            "west": "222"
+          }
+        },
+        {
+          "vnum": "221",
+          "title": "The Witch Wood",
+          "exits": {
+            "west": "220"
+          }
+        },
+        {
+          "vnum": "210",
+          "title": "In Clover",
+          "exits": {
+            "north": "213",
+            "east": "211",
+            "south": "209"
+          }
+        },
+        [
+          {
+            "vnum": "206",
+            "title": "A Thickly-Wooded Dell",
+            "exits": {
+              "east": "205",
+              "west": "209",
+              "south": "207",
+              "down": "299"
+            }
+          },
+          {
+            "vnum": "211",
+            "title": "A Green Hillock",
+            "exits": {
+              "north": "212",
+              "west": "210"
+            }
+          }
+        ],
+        {
+          "vnum": "204",
+          "title": "A Mountain Pass",
+          "exits": {
+            "north": "203",
+            "south": "205",
+            "down": "297"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "225",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "222",
+            "east": "219",
+            "south": "226"
+          }
+        },
+        {
+          "vnum": "219",
+          "title": "The Altar of Sacrifice",
+          "exits": {
+            "north": "220",
+            "east": "218",
+            "south": "227",
+            "west": "225"
+          }
+        },
+        {
+          "vnum": "218",
+          "title": "The Witch Wood",
+          "exits": {
+            "south": "217",
+            "west": "219"
+          }
+        },
+        {
+          "vnum": "209",
+          "title": "Road to the Vale of Clover",
+          "exits": {
+            "north": "210",
+            "east": "206"
+          }
+        },
+        {
+          "vnum": "206",
+          "title": "A Thickly-Wooded Dell",
+          "exits": {
+            "east": "205",
+            "west": "209",
+            "south": "207",
+            "down": "299"
+          }
+        },
+        {
+          "vnum": "205",
+          "title": "A Mountain Pass",
+          "exits": {
+            "west": "206",
+            "north": "204"
+          }
+        },
+        {
+          "vnum": "235",
+          "title": "The Guildmaster's Cabin",
+          "exits": {
+            "south": "234"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "226",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "225",
+            "east": "227",
+            "south": "294"
+          }
+        },
+        {
+          "vnum": "227",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "219",
+            "east": "217",
+            "south": "228",
+            "west": "226"
+          }
+        },
+        {
+          "vnum": "217",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "218",
+            "south": "229",
+            "west": "227"
+          }
+        },
+        {
+          "vnum": "208",
+          "title": "A Fae Crossing",
+          "exits": {
+            "east": "207",
+            "south": "230"
+          }
+        },
+        {
+          "vnum": "207",
+          "title": "A Signpost in the Enchanted Forests",
+          "exits": {
+            "north": "206",
+            "east": "233",
+            "west": "208",
+            "south": "231"
+          }
+        },
+        {
+          "vnum": "233",
+          "title": "A Well-Used Trail Through The Forest",
+          "exits": {
+            "east": "234",
+            "south": "232",
+            "west": "207"
+          }
+        },
+        {
+          "vnum": "234",
+          "title": "The Woodkeepers' Outpost",
+          "exits": {
+            "north": "235",
+            "east": "236",
+            "south": "296",
+            "west": "233"
+          }
+        },
+        {
+          "vnum": "236",
+          "title": "Smokey's Supplies",
+          "exits": {
+            "west": "234"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "294",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "226",
+            "east": "228",
+            "south": "292"
+          }
+        },
+        {
+          "vnum": "228",
+          "title": "The Witch Wood",
+          "exits": {
+            "north": "227",
+            "east": "229",
+            "south": "293",
+            "west": "294"
+          }
+        },
+        {
+          "vnum": "229",
+          "title": "The Entrance of the Witch Wood",
+          "exits": {
+            "north": "217",
+            "east": "230",
+            "west": "228"
+          }
+        },
+        {
+          "vnum": "230",
+          "title": "Under Dark Woods",
+          "exits": {
+            "north": "208",
+            "south": "248",
+            "west": "229"
+          }
+        },
+        {
+          "vnum": "231",
+          "title": "The Emerald Forest",
+          "exits": {
+            "north": "207",
+            "east": "232",
+            "south": "247"
+          }
+        },
+        {
+          "vnum": "232",
+          "title": "The Emerald Forest",
+          "exits": {
+            "north": "233",
+            "south": "237",
+            "west": "231"
+          }
+        },
+        {
+          "vnum": "296",
+          "title": "A Woodkeeper's Cabin",
+          "exits": {
+            "north": "234"
+          }
+        },
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "292",
+          "title": "The Dead Moors",
+          "exits": {
+            "north": "294",
+            "east": "293",
+            "south": "291"
+          }
+        },
+        {
+          "vnum": "293",
+          "title": "The Dead Moors",
+          "exits": {
+            "north": "228",
+            "east": "249",
+            "south": "251",
+            "west": "292"
+          }
+        },
+        {
+          "vnum": "249",
+          "title": "The Dead Moors",
+          "exits": {
+            "south": "250",
+            "west": "293"
+          }
+        },
+        {
+          "vnum": "248",
+          "title": "The Forest Road",
+          "exits": {
+            "north": "230",
+            "east": "247",
+            "south": "255"
+          }
+        },
+        {
+          "vnum": "247",
+          "title": "The Emerald Forest",
+          "exits": {
+            "north": "231",
+            "east": "237",
+            "south": "246",
+            "west": "248"
+          }
+        },
+        {
+          "vnum": "237",
+          "title": "The Emerald Forest",
+          "exits": {
+            "north": "232",
+            "east": "238",
+            "south": "245",
+            "west": "247"
+          }
+        },
+        {
+          "vnum": "238",
+          "title": "In the Emerald Forest",
+          "exits": {
+            "east": "239",
+            "west": "237"
+          }
+        },
+        {
+          "vnum": "239",
+          "title": "Before the Great Tree",
+          "exits": {
+            "south": "243",
+            "west": "238"
+          }
+        },
+        {
+          "vnum": "240",
+          "title": "The Lost Grotto",
+          "exits": {
+            "south": "241"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "291",
+          "title": "The Dead Moors",
+          "exits": {
+            "north": "292",
+            "east": "251"
+          }
+        },
+        {
+          "vnum": "251",
+          "title": "The Dead Moors",
+          "exits": {
+            "north": "293",
+            "east": "250",
+            "south": "252",
+            "west": "291"
+          }
+        },
+        {
+          "vnum": "250",
+          "title": "The Dead Moors",
+          "exits": {
+            "north": "249",
+            "south": "253",
+            "west": "251"
+          }
+        },
+        {
+          "vnum": "255",
+          "title": "The Forest Road",
+          "exits": {
+            "north": "248",
+            "south": "254"
+          }
+        },
+        {
+          "vnum": "246",
+          "title": "The Only Stump in the Forest",
+          "exits": {
+            "north": "247",
+            "east": "245"
+          }
+        },
+        {
+          "vnum": "245",
+          "title": "The Emerald Forest",
+          "exits": {
+            "north": "237",
+            "east": "244",
+            "west": "246"
+          }
+        },
+        {
+          "vnum": "244",
+          "title": "In the Emerald Forest",
+          "exits": {
+            "east": "243",
+            "south": "262",
+            "west": "245"
+          }
+        },
+        {
+          "vnum": "243",
+          "title": "In the Emerald Forest",
+          "exits": {
+            "north": "239",
+            "east": "241",
+            "south": "261",
+            "west": "244"
+          }
+        },
+        {
+          "vnum": "241",
+          "title": "By a Stream",
+          "exits": {
+            "north": "240",
+            "south": "242",
+            "west": "243"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "252",
+          "title": "The Dead Moors",
+          "exits": {
+            "north": "251",
+            "east": "253"
+          }
+        },
+        {
+          "vnum": "253",
+          "title": "A Hill in the Marsh",
+          "exits": {
+            "north": "250",
+            "west": "252"
+          }
+        },
+        {
+          "vnum": "254",
+          "title": "The Forest Road",
+          "exits": {
+            "north": "255",
+            "south": "256"
+          }
+        },
+        {
+          "vnum": "264",
+          "title": "A Woody Copse",
+          "exits": {
+            "east": "263",
+            "up": "265"
+          }
+        },
+        {
+          "vnum": "263",
+          "title": "The Emerald Forest Choir",
+          "exits": {
+            "east": "262",
+            "west": "264"
+          }
+        },
+        {
+          "vnum": "262",
+          "title": "In the Emerald Forest",
+          "exits": {
+            "north": "244",
+            "south": "259",
+            "west": "263"
+          }
+        },
+        {
+          "vnum": "261",
+          "title": "A Woodland Trail",
+          "exits": {
+            "north": "243",
+            "south": "260"
+          }
+        },
+        {
+          "vnum": "242",
+          "title": "The Waterfall Glade",
+          "exits": {
+            "north": "241"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "253",
+          "title": "A Hill in the Marsh",
+          "exits": {
+            "north": "250",
+            "west": "252"
+          }
+        },
+        {
+          "vnum": "256",
+          "title": "A Trail",
+          "exits": {
+            "north": "254",
+            "east": "257",
+            "south": "270"
+          }
+        },
+        {
+          "vnum": "257",
+          "title": "A Shady Bridge",
+          "exits": {
+            "west": "256",
+            "east": "258"
+          }
+        },
+        {
+          "vnum": "258",
+          "title": "The Shady bridge",
+          "exits": {
+            "west": "257",
+            "east": "259"
+          }
+        },
+        {
+          "vnum": "259",
+          "title": "A Woodland Trail",
+          "exits": {
+            "west": "258",
+            "east": "260",
+            "north": "262",
+            "south": "267"
+          }
+        },
+        {
+          "vnum": "260",
+          "title": "A Dense Path",
+          "exits": {
+            "north": "261",
+            "west": "259",
+            "south": "266"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "271",
+          "title": "A Forest Trail",
+          "exits": {
+            "north": "253",
+            "east": "270",
+            "south": "273"
+          }
+        },
+        {
+          "vnum": "270",
+          "title": "The three way woodland",
+          "exits": {
+            "north": "256",
+            "east": "269",
+            "west": "271"
+          }
+        },
+        {
+          "vnum": "269",
+          "title": "A fairly large clearing",
+          "exits": {
+            "east": "268",
+            "west": "270",
+            "south": "281"
+          }
+        },
+        {
+          "vnum": "268",
+          "title": "The Honey Bun",
+          "exits": {
+            "east": "267",
+            "south": "283",
+            "west": "269"
+          }
+        },
+        {
+          "vnum": "267",
+          "title": "The Ragged Trail",
+          "exits": {
+            "north": "259",
+            "east": "266",
+            "south": "284",
+            "west": "268"
+          }
+        },
+        {
+          "vnum": "266",
+          "title": "A Small Clearing",
+          "exits": {
+            "north": "260",
+            "west": "267"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "272",
+          "title": "A Dwindling Forest Path",
+          "exits": {
+            "east": "273",
+            "south": "274",
+            "west": "18999"
+          }
+        },
+        {
+          "vnum": "273",
+          "title": "A Lovely Trail",
+          "exits": {
+            "north": "271",
+            "west": "272",
+            "south": "275"
+          }
+        },
+        "*",
+        {
+          "vnum": "281",
+          "title": "The Bonanza",
+          "exits": {
+            "north": "269",
+            "east": "283",
+            "south": "280"
+          }
+        },
+        {
+          "vnum": "283",
+          "title": "The Bonanza",
+          "exits": {
+            "north": "268",
+            "east": "284",
+            "south": "282",
+            "west": "281"
+          }
+        },
+        {
+          "vnum": "284",
+          "title": "South-easterly end of the forest",
+          "exits": {
+            "north": "267",
+            "east": "285",
+            "west": "283"
+          }
+        },
+        {
+          "vnum": "285",
+          "title": "Within a garden",
+          "exits": {
+            "east": "286",
+            "south": "287",
+            "west": "284"
+          }
+        },
+        {
+          "vnum": "286",
+          "title": "A peaceful rock pool",
+          "exits": {
+            "north": "2108",
+            "west": "285"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "274",
+          "title": "The Tombstone",
+          "exits": {
+            "north": "272",
+            "east": "275"
+          }
+        },
+        {
+          "vnum": "275",
+          "title": "The Wood-Path",
+          "exits": {
+            "north": "273",
+            "west": "274",
+            "south": "276"
+          }
+        },
+        {
+          "vnum": "278",
+          "title": "The Silent Grove",
+          "exits": {
+            "south": "277"
+          }
+        },
+        {
+          "vnum": "280",
+          "title": "The Wood Area",
+          "exits": {
+            "north": "281",
+            "east": "282",
+            "south": "279"
+          }
+        },
+        {
+          "vnum": "282",
+          "title": "In a Myrtle Shade",
+          "exits": {
+            "north": "283",
+            "west": "280"
+          }
+        },
+        "*",
+        {
+          "vnum": "287",
+          "title": "Yun Fei Yang's humble abode",
+          "exits": {
+            "north": "285"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "276",
+          "title": "Woodkeeper's Clearing",
+          "exits": {
+            "north": "275",
+            "east": "277"
+          }
+        },
+        {
+          "vnum": "277",
+          "title": "The Green Vines",
+          "exits": {
+            "north": "278",
+            "east": "279",
+            "south": "17801",
+            "west": "276"
+          }
+        },
+        {
+          "vnum": "279",
+          "title": "The Southern border",
+          "exits": {
+            "north": "280",
+            "west": "277"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "202",
+          "title": "The Haunted Pine Forest",
+          "exits": {
+            "up": "203",
+            "down": "201"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "299",
+          "title": "The Mountain Forge",
+          "exits": {
+            "east": "297",
+            "up": "206"
+          }
+        },
+        {
+          "vnum": "297",
+          "title": "Inside the mountain",
+          "exits": {
+            "west": "299",
+            "up": "204"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "299",
+          "title": "The Mountain Forge",
+          "exits": {
+            "east": "297",
+            "up": "206"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "201",
+          "title": "A Fog-Shrouded Trail",
+          "exits": {
+            "up": "202",
+            "east": "3522"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

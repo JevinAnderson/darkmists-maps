@@ -1,0 +1,831 @@
+{
+  "filename": "castleb.are",
+  "name": "Joja's Garden",
+  "map": [
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18267",
+          "title": "The Greenhouse Above the Lechium Cavern",
+          "exits": {
+            "down": "18262"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18266",
+          "title": "The Trebuchet Above the Lechium Cavern",
+          "exits": {
+            "down": "18257"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        {
+          "vnum": "18200",
+          "title": "Joja's and Krazar's Garden",
+          "exits": {
+            "west": "7066"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18209",
+          "title": "End of the garden path",
+          "exits": {
+            "east": "18210"
+          }
+        },
+        {
+          "vnum": "18210",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18211",
+            "south": "18208",
+            "west": "18209"
+          }
+        },
+        {
+          "vnum": "18211",
+          "title": "End of the garden path",
+          "exits": {
+            "west": "18210"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        [
+          {
+            "vnum": "18208",
+            "title": "Along the garden path",
+            "exits": {
+              "north": "18210",
+              "south": "18207"
+            }
+          },
+          {
+            "vnum": "18263",
+            "title": "The Massive Cavern of the Lady of Purity",
+            "exits": {
+              "east": "18262",
+              "south": "18264"
+            }
+          }
+        ],
+        {
+          "vnum": "18262",
+          "title": "The Massive Cavern of the Lady of Purity",
+          "exits": {
+            "east": "18261",
+            "west": "18263",
+            "up": "18267"
+          }
+        },
+        {
+          "vnum": "18261",
+          "title": "Behind the Silver Gate",
+          "exits": {
+            "east": "18255",
+            "west": "18262"
+          }
+        },
+        {
+          "vnum": "18255",
+          "title": "Behind the Waterfall",
+          "exits": {
+            "east": "18256",
+            "south": "18249",
+            "west": "18261"
+          }
+        },
+        {
+          "vnum": "18256",
+          "title": "The Massive Cavern of the Lord of Fear",
+          "exits": {
+            "east": "18257",
+            "west": "18255"
+          }
+        },
+        {
+          "vnum": "18257",
+          "title": "The Massive Cavern of the Lord of Fear",
+          "exits": {
+            "east": "18258",
+            "west": "18256",
+            "up": "18266"
+          }
+        },
+        {
+          "vnum": "18258",
+          "title": "The Massive Cavern of the Lord of Fear",
+          "exits": {
+            "south": "18259",
+            "west": "18257"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        [
+          {
+            "vnum": "18207",
+            "title": "Along the garden path",
+            "exits": {
+              "north": "18208",
+              "south": "18206"
+            }
+          },
+          {
+            "vnum": "18264",
+            "title": "The Massive Cavern of the Lady of Purity",
+            "exits": {
+              "north": "18263",
+              "east": "18265"
+            }
+          }
+        ],
+        {
+          "vnum": "18265",
+          "title": "The Massive Cavern of the Lady of Purity",
+          "exits": {
+            "south": "18268",
+            "west": "18264"
+          }
+        },
+        [
+          {
+            "vnum": "18222",
+            "title": "Along the garden path",
+            "exits": {
+              "east": "18221",
+              "south": "18213"
+            }
+          },
+          {
+            "vnum": "18250",
+            "title": "A bend in the path of polished stone",
+            "exits": {
+              "east": "18249"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "18221",
+            "title": "Along the garden path",
+            "exits": {
+              "east": "18220",
+              "west": "18222"
+            }
+          },
+          {
+            "vnum": "18249",
+            "title": "Behind the waterfall",
+            "exits": {
+              "north": "18255",
+              "east": "18248",
+              "west": "18250"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "18220",
+            "title": "Along the garden path",
+            "exits": {
+              "east": "18223",
+              "south": "18219",
+              "west": "18221"
+            }
+          },
+          {
+            "vnum": "18248",
+            "title": "A bend in the path of polished stone",
+            "exits": {
+              "south": "18247",
+              "west": "18249"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "18223",
+            "title": "Along the garden path",
+            "exits": {
+              "east": "18224",
+              "west": "18220"
+            }
+          },
+          {
+            "vnum": "18260",
+            "title": "The Massive Cavern of the Lord of Fear",
+            "exits": {
+              "east": "18259"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "18224",
+            "title": "Along the garden path",
+            "exits": {
+              "east": "18233",
+              "south": "18225",
+              "west": "18223"
+            }
+          },
+          {
+            "vnum": "18259",
+            "title": "The Massive Cavern of the Lord of Fear",
+            "exits": {
+              "north": "18258",
+              "west": "18260"
+            }
+          }
+        ],
+        {
+          "vnum": "18233",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18234",
+            "west": "18224"
+          }
+        },
+        {
+          "vnum": "18234",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18235",
+            "south": "18243",
+            "west": "18233"
+          }
+        },
+        {
+          "vnum": "18235",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18236",
+            "west": "18234"
+          }
+        },
+        {
+          "vnum": "18236",
+          "title": "Along the garden path",
+          "exits": {
+            "south": "18237",
+            "west": "18235"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18206",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18207",
+            "east": "18212",
+            "south": "18205"
+          }
+        },
+        [
+          {
+            "vnum": "18212",
+            "title": "Along the garden path",
+            "exits": {
+              "east": "18213",
+              "west": "18206"
+            }
+          },
+          {
+            "vnum": "18268",
+            "title": "The Massive Cavern of the Lady of Purity",
+            "exits": {
+              "north": "18265",
+              "south": "18269"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "18213",
+            "title": "Along the garden path",
+            "exits": {
+              "north": "18222",
+              "south": "18214",
+              "west": "18212"
+            }
+          },
+          {
+            "vnum": "18251",
+            "title": "Along a path of polished stone",
+            "exits": {
+              "east": "18254",
+              "south": "18252"
+            }
+          }
+        ],
+        {
+          "vnum": "18254",
+          "title": "Wading in the Spring near the Waterfall",
+          "exits": {
+            "south": "18253",
+            "west": "18251"
+          }
+        },
+        [
+          {
+            "vnum": "18219",
+            "title": "On the garden path",
+            "exits": {
+              "north": "18220",
+              "south": "18218"
+            }
+          },
+          {
+            "vnum": "18247",
+            "title": "Along a path of polished stone",
+            "exits": {
+              "north": "18248",
+              "south": "18246"
+            }
+          }
+        ],
+        "*",
+        {
+          "vnum": "18225",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18224",
+            "south": "18226"
+          }
+        },
+        "*",
+        {
+          "vnum": "18243",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18234",
+            "south": "18242"
+          }
+        },
+        "*",
+        {
+          "vnum": "18237",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18236",
+            "south": "18238"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "18244",
+          "title": "Along the natural rock path",
+          "exits": {
+            "east": "18201",
+            "west": "18729"
+          }
+        },
+        {
+          "vnum": "18201",
+          "title": "Along the garden path",
+          "exits": {
+            "south": "18202",
+            "west": "18244"
+          }
+        },
+        "*",
+        {
+          "vnum": "18205",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18206",
+            "south": "18204"
+          }
+        },
+        {
+          "vnum": "18269",
+          "title": "The Massive Cavern of the Lady of Purity",
+          "exits": {
+            "north": "18268",
+            "east": "18252"
+          }
+        },
+        [
+          {
+            "vnum": "18214",
+            "title": "The bridge over the gurgling stream",
+            "exits": {
+              "north": "18213",
+              "south": "18215"
+            }
+          },
+          {
+            "vnum": "18252",
+            "title": "Along a path of polished stone",
+            "exits": {
+              "north": "18251",
+              "east": "18253",
+              "west": "18269"
+            }
+          }
+        ],
+        {
+          "vnum": "18253",
+          "title": "Wading in the Spring",
+          "exits": {
+            "north": "18254",
+            "west": "18252"
+          }
+        },
+        [
+          {
+            "vnum": "18218",
+            "title": "Along the garden path",
+            "exits": {
+              "north": "18219",
+              "south": "18217"
+            }
+          },
+          {
+            "vnum": "18246",
+            "title": "Along a path of polished stone",
+            "exits": {
+              "north": "18247",
+              "south": "18245"
+            }
+          }
+        ],
+        "*",
+        {
+          "vnum": "18226",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18225",
+            "south": "18227"
+          }
+        },
+        "*",
+        {
+          "vnum": "18242",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18243",
+            "east": "18240",
+            "south": "18241"
+          }
+        },
+        {
+          "vnum": "18240",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18238",
+            "west": "18242"
+          }
+        },
+        {
+          "vnum": "18238",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18237",
+            "south": "18239",
+            "west": "18240"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18202",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18201",
+            "east": "18203"
+          }
+        },
+        {
+          "vnum": "18203",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18204",
+            "west": "18202"
+          }
+        },
+        {
+          "vnum": "18204",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18205",
+            "west": "18203"
+          }
+        },
+        "*",
+        {
+          "vnum": "18215",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18214",
+            "east": "18216"
+          }
+        },
+        {
+          "vnum": "18216",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18217",
+            "west": "18215"
+          }
+        },
+        [
+          {
+            "vnum": "18217",
+            "title": "Along the garden path",
+            "exits": {
+              "north": "18218",
+              "west": "18216"
+            }
+          },
+          {
+            "vnum": "18245",
+            "title": "Along a path of polished stone",
+            "exits": {
+              "north": "18246",
+              "south": "18232"
+            }
+          }
+        ],
+        "*",
+        {
+          "vnum": "18227",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18226",
+            "south": "18228"
+          }
+        },
+        "*",
+        {
+          "vnum": "18241",
+          "title": "The end of the garden path",
+          "exits": {
+            "north": "18242"
+          }
+        },
+        "*",
+        {
+          "vnum": "18239",
+          "title": "The end of the garden path",
+          "exits": {
+            "north": "18238"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18232",
+          "title": "End of the garden path",
+          "exits": {
+            "north": "18245",
+            "south": "18231"
+          }
+        },
+        "*",
+        {
+          "vnum": "18228",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18227",
+            "south": "18229"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "18231",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18232",
+            "east": "18230"
+          }
+        },
+        {
+          "vnum": "18230",
+          "title": "Along the garden path",
+          "exits": {
+            "east": "18229",
+            "west": "18231"
+          }
+        },
+        {
+          "vnum": "18229",
+          "title": "Along the garden path",
+          "exits": {
+            "north": "18228",
+            "west": "18230"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

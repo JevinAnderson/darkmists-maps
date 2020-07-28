@@ -1,0 +1,1171 @@
+{
+  "filename": "gypsycamp.are",
+  "name": "Gypsy Camp",
+  "map": [
+    [
+      [
+        {
+          "vnum": "20599",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20598",
+            "west": "5078"
+          }
+        },
+        {
+          "vnum": "20598",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20595",
+            "south": "20597",
+            "west": "20599"
+          }
+        },
+        {
+          "vnum": "20595",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20593",
+            "west": "20598"
+          }
+        },
+        {
+          "vnum": "20593",
+          "title": "Sea of Sand",
+          "exits": {
+            "south": "20592",
+            "west": "20595"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "20597",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20598",
+            "south": "20596"
+          }
+        },
+        "*",
+        {
+          "vnum": "20592",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20593",
+            "south": "20591"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "20596",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20597",
+            "east": "20594"
+          }
+        },
+        {
+          "vnum": "20594",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20591",
+            "west": "20596"
+          }
+        },
+        {
+          "vnum": "20591",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20592",
+            "east": "20590",
+            "west": "20594"
+          }
+        },
+        {
+          "vnum": "20590",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20586",
+            "south": "20589",
+            "west": "20591"
+          }
+        },
+        {
+          "vnum": "20586",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20582",
+            "south": "20585",
+            "west": "20590"
+          }
+        },
+        {
+          "vnum": "20582",
+          "title": "Sea of Sand",
+          "exits": {
+            "south": "20581",
+            "west": "20586"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20589",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20590",
+            "east": "20585",
+            "south": "20588"
+          }
+        },
+        {
+          "vnum": "20585",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20586",
+            "east": "20581",
+            "south": "20584",
+            "west": "20589"
+          }
+        },
+        {
+          "vnum": "20581",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20582",
+            "south": "20580",
+            "west": "20585"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20555",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "south": "20556",
+            "west": "70401"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20588",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20589",
+            "east": "20584",
+            "south": "20587"
+          }
+        },
+        {
+          "vnum": "20584",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20585",
+            "east": "20580",
+            "south": "20583",
+            "west": "20588"
+          }
+        },
+        {
+          "vnum": "20580",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20581",
+            "east": "20578",
+            "south": "20579",
+            "west": "20584"
+          }
+        },
+        {
+          "vnum": "20578",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20575",
+            "south": "20577",
+            "west": "20580"
+          }
+        },
+        {
+          "vnum": "20575",
+          "title": "Sea of Sand",
+          "exits": {
+            "south": "20574",
+            "west": "20578"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20562",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "east": "20556"
+          }
+        },
+        {
+          "vnum": "20556",
+          "title": "Within the Oasis",
+          "exits": {
+            "north": "20555",
+            "east": "20550",
+            "south": "20557",
+            "west": "20562"
+          }
+        },
+        {
+          "vnum": "20550",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "west": "20556"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20540",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20536",
+            "south": "20541"
+          }
+        },
+        {
+          "vnum": "20536",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20532",
+            "south": "20537",
+            "west": "20540"
+          }
+        },
+        {
+          "vnum": "20532",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20527",
+            "south": "20533",
+            "west": "20536"
+          }
+        },
+        {
+          "vnum": "20527",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20521",
+            "south": "20528",
+            "west": "20532"
+          }
+        },
+        {
+          "vnum": "20521",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20518",
+            "south": "20522",
+            "west": "20527"
+          }
+        },
+        {
+          "vnum": "20518",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20514",
+            "south": "20519",
+            "west": "20521"
+          }
+        },
+        {
+          "vnum": "20514",
+          "title": "Sea of Sand",
+          "exits": {
+            "south": "20515",
+            "west": "20518"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20507",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20505",
+            "south": "20508"
+          }
+        },
+        [
+          {
+            "vnum": "20504",
+            "title": "Sea of Sand",
+            "exits": {
+              "east": "20502",
+              "south": "20505"
+            }
+          },
+          {
+            "vnum": "20505",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20504",
+              "east": "20501",
+              "south": "20506",
+              "west": "20507"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "20502",
+            "title": "Sea of Sand",
+            "exits": {
+              "south": "20503",
+              "west": "20504"
+            }
+          },
+          {
+            "vnum": "20501",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20502",
+              "east": "20500",
+              "south": "20503",
+              "west": "20505"
+            }
+          }
+        ],
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20587",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20588",
+            "east": "20583"
+          }
+        },
+        {
+          "vnum": "20583",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20584",
+            "east": "20579",
+            "west": "20587"
+          }
+        },
+        {
+          "vnum": "20579",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20580",
+            "east": "20577",
+            "west": "20583"
+          }
+        },
+        {
+          "vnum": "20577",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20578",
+            "east": "20574",
+            "south": "20576",
+            "west": "20579"
+          }
+        },
+        {
+          "vnum": "20574",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20575",
+            "south": "20573",
+            "west": "20577"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20567",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "south": "20568"
+          }
+        },
+        {
+          "vnum": "20563",
+          "title": "Within a Tent",
+          "exits": {
+            "south": "20564"
+          }
+        },
+        {
+          "vnum": "20557",
+          "title": "Within the Oasis",
+          "exits": {
+            "north": "20556",
+            "south": "20558"
+          }
+        },
+        {
+          "vnum": "20551",
+          "title": "Within a Tent",
+          "exits": {
+            "south": "20552"
+          }
+        },
+        {
+          "vnum": "20547",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "south": "20548"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20541",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20540",
+            "east": "20537",
+            "south": "20542"
+          }
+        },
+        {
+          "vnum": "20537",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20536",
+            "east": "20533",
+            "west": "20541"
+          }
+        },
+        {
+          "vnum": "20533",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20532",
+            "east": "20528",
+            "south": "20534",
+            "west": "20537"
+          }
+        },
+        {
+          "vnum": "20528",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20527",
+            "east": "20522",
+            "south": "20529",
+            "west": "20533"
+          }
+        },
+        {
+          "vnum": "20522",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20521",
+            "east": "20519",
+            "south": "20523",
+            "west": "20528"
+          }
+        },
+        {
+          "vnum": "20519",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20518",
+            "east": "20515",
+            "west": "20522"
+          }
+        },
+        {
+          "vnum": "20515",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20514",
+            "south": "20516",
+            "west": "20519"
+          }
+        },
+        "*",
+        {
+          "vnum": "20510",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20508",
+            "south": "20511"
+          }
+        },
+        [
+          {
+            "vnum": "20507",
+            "title": "Sea of Sand",
+            "exits": {
+              "east": "20505",
+              "south": "20508"
+            }
+          },
+          {
+            "vnum": "20508",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20507",
+              "east": "20506",
+              "south": "20509",
+              "west": "20510"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "20505",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20504",
+              "east": "20501",
+              "south": "20506",
+              "west": "20507"
+            }
+          },
+          {
+            "vnum": "20506",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20505",
+              "east": "20503",
+              "west": "20508"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "20501",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20502",
+              "east": "20500",
+              "south": "20503",
+              "west": "20505"
+            }
+          },
+          {
+            "vnum": "20503",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20501",
+              "west": "20506"
+            }
+          }
+        ],
+        {
+          "vnum": "20500",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "24036",
+            "west": "20501"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20576",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20577",
+            "east": "20573"
+          }
+        },
+        {
+          "vnum": "20573",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20574",
+            "east": "20572",
+            "west": "20576"
+          }
+        },
+        {
+          "vnum": "20572",
+          "title": "A Break in the Sea of Sands",
+          "exits": {
+            "east": "20571",
+            "west": "20573"
+          }
+        },
+        {
+          "vnum": "20571",
+          "title": "A Break in the Sea of Sands",
+          "exits": {
+            "east": "20570",
+            "west": "20572"
+          }
+        },
+        [
+          {
+            "vnum": "20568",
+            "title": "Edge of the Oasis",
+            "exits": {
+              "north": "20567",
+              "east": "20564",
+              "south": "20569",
+              "west": "20571"
+            }
+          },
+          {
+            "vnum": "20570",
+            "title": "A Break in the Sea of Sands",
+            "exits": {
+              "east": "20568",
+              "west": "20571"
+            }
+          }
+        ],
+        [
+          {
+            "vnum": "20564",
+            "title": "On a Path in the Oasis",
+            "exits": {
+              "north": "20563",
+              "east": "20558",
+              "south": "20565",
+              "west": "20568"
+            }
+          },
+          {
+            "vnum": "20568",
+            "title": "Edge of the Oasis",
+            "exits": {
+              "north": "20567",
+              "east": "20564",
+              "south": "20569",
+              "west": "20571"
+            }
+          }
+        ],
+        {
+          "vnum": "20558",
+          "title": "In the Center of the Oasis",
+          "exits": {
+            "north": "20557",
+            "east": "20552",
+            "south": "20559",
+            "west": "20564"
+          }
+        },
+        {
+          "vnum": "20552",
+          "title": "On a Path in the Oasis",
+          "exits": {
+            "north": "20551",
+            "east": "20548",
+            "south": "20553",
+            "west": "20558"
+          }
+        },
+        {
+          "vnum": "20548",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "north": "20547",
+            "east": "20546",
+            "south": "20549",
+            "west": "20552"
+          }
+        },
+        {
+          "vnum": "20546",
+          "title": "A Break in the Sea of Sands",
+          "exits": {
+            "east": "20545",
+            "west": "20548"
+          }
+        },
+        {
+          "vnum": "20545",
+          "title": "A Break in the Sea of Sands",
+          "exits": {
+            "east": "20542",
+            "west": "20546"
+          }
+        },
+        {
+          "vnum": "20542",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20541",
+            "south": "20543",
+            "west": "20545"
+          }
+        },
+        "*",
+        {
+          "vnum": "20534",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20533",
+            "east": "20529",
+            "south": "20535"
+          }
+        },
+        {
+          "vnum": "20529",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20528",
+            "west": "20534"
+          }
+        },
+        {
+          "vnum": "20523",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20522",
+            "south": "20524"
+          }
+        },
+        "*",
+        {
+          "vnum": "20516",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20515",
+            "east": "20513",
+            "south": "20517"
+          }
+        },
+        {
+          "vnum": "20513",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20511",
+            "west": "20516"
+          }
+        },
+        {
+          "vnum": "20511",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20510",
+            "east": "20509",
+            "south": "20512",
+            "west": "20513"
+          }
+        },
+        [
+          {
+            "vnum": "20508",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20507",
+              "east": "20506",
+              "south": "20509",
+              "west": "20510"
+            }
+          },
+          {
+            "vnum": "20509",
+            "title": "Sea of Sand",
+            "exits": {
+              "north": "20508",
+              "west": "20511"
+            }
+          }
+        ],
+        {
+          "vnum": "20506",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20505",
+            "east": "20503",
+            "west": "20508"
+          }
+        },
+        {
+          "vnum": "20503",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20501",
+            "west": "20506"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20569",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "north": "20568"
+          }
+        },
+        {
+          "vnum": "20565",
+          "title": "Within a Tent",
+          "exits": {
+            "north": "20564"
+          }
+        },
+        {
+          "vnum": "20559",
+          "title": "Within the Oasis",
+          "exits": {
+            "north": "20558",
+            "south": "20560"
+          }
+        },
+        {
+          "vnum": "20553",
+          "title": "Within a Tent",
+          "exits": {
+            "north": "20552"
+          }
+        },
+        {
+          "vnum": "20549",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "north": "20548"
+          }
+        },
+        "*",
+        "*",
+        {
+          "vnum": "20543",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20542",
+            "east": "20538",
+            "south": "20544"
+          }
+        },
+        {
+          "vnum": "20538",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20535",
+            "south": "20539",
+            "west": "20543"
+          }
+        },
+        {
+          "vnum": "20535",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20534",
+            "west": "20538"
+          }
+        },
+        "*",
+        {
+          "vnum": "20524",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20523",
+            "east": "20520",
+            "south": "20525"
+          }
+        },
+        {
+          "vnum": "20520",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20517",
+            "west": "20524"
+          }
+        },
+        {
+          "vnum": "20517",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20516",
+            "west": "20520"
+          }
+        },
+        "*",
+        {
+          "vnum": "20512",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20511"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20566",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "east": "20560"
+          }
+        },
+        {
+          "vnum": "20560",
+          "title": "Within the Oasis",
+          "exits": {
+            "north": "20559",
+            "east": "20554",
+            "south": "20561",
+            "west": "20566"
+          }
+        },
+        {
+          "vnum": "20554",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "west": "20560"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20544",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20543",
+            "east": "20539"
+          }
+        },
+        {
+          "vnum": "20539",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20538",
+            "west": "20544"
+          }
+        },
+        "*",
+        {
+          "vnum": "20530",
+          "title": "Sea of Sand",
+          "exits": {
+            "east": "20525",
+            "south": "20531"
+          }
+        },
+        {
+          "vnum": "20525",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20524",
+            "south": "20526",
+            "west": "20530"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20561",
+          "title": "Edge of the Oasis",
+          "exits": {
+            "north": "20560"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "20531",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20530",
+            "east": "20526"
+          }
+        },
+        {
+          "vnum": "20526",
+          "title": "Sea of Sand",
+          "exits": {
+            "north": "20525",
+            "west": "20531"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}

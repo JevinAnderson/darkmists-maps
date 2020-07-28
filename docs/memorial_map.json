@@ -266,14 +266,23 @@
       [
         "*",
         "*",
-        {
-          "vnum": "31401",
-          "title": "A Well-Kept Path",
-          "exits": {
-            "north": "31402",
-            "south": "2095"
+        [
+          {
+            "vnum": "31401",
+            "title": "A Well-Kept Path",
+            "exits": {
+              "north": "31402",
+              "south": "2095"
+            }
+          },
+          {
+            "vnum": "31400",
+            "title": "A Well-Kept Path",
+            "exits": {
+              "south": "2095"
+            }
           }
-        },
+        ],
         "*",
         "*",
         "*",

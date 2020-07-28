@@ -186,14 +186,25 @@
             "west": "20426"
           }
         },
-        {
-          "vnum": "20418",
-          "title": "On a dark path",
-          "exits": {
-            "south": "20417",
-            "west": "20419"
+        [
+          {
+            "vnum": "20418",
+            "title": "On a dark path",
+            "exits": {
+              "south": "20417",
+              "west": "20419"
+            }
+          },
+          {
+            "vnum": "20416",
+            "title": "On a dark path",
+            "exits": {
+              "north": "20417",
+              "south": "20415",
+              "west": "20420"
+            }
           }
-        },
+        ],
         "*",
         {
           "vnum": "20411",
@@ -224,15 +235,26 @@
         "*",
         "*",
         "*",
-        {
-          "vnum": "20428",
-          "title": "By the pond and herb garden",
-          "exits": {
-            "north": "20429",
-            "east": "20427",
-            "south": "20431"
+        [
+          {
+            "vnum": "20428",
+            "title": "By the pond and herb garden",
+            "exits": {
+              "north": "20429",
+              "east": "20427",
+              "south": "20431"
+            }
+          },
+          {
+            "vnum": "20436",
+            "title": "By the herb garden",
+            "exits": {
+              "east": "20431",
+              "south": "20437",
+              "west": "20439"
+            }
           }
-        },
+        ],
         {
           "vnum": "20431",
           "title": "By the herb garden",

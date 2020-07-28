@@ -1,0 +1,104 @@
+{
+  "filename": "Cruskeep.are",
+  "name": "Crusader Keep",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "4203",
+          "title": "Crusader Barracks",
+          "exits": {
+            "east": "4209",
+            "south": "4202"
+          }
+        },
+        {
+          "vnum": "4209",
+          "title": "The Crusader Bar",
+          "exits": {
+            "west": "4203"
+          }
+        },
+        "*"
+      ],
+      [
+        {
+          "vnum": "4201",
+          "title": "Entrance to the Crusader Keep",
+          "exits": {
+            "east": "4202",
+            "west": "15253"
+          }
+        },
+        [
+          {
+            "vnum": "4202",
+            "title": "In the Keep",
+            "exits": {
+              "north": "4203",
+              "south": "4204",
+              "west": "4201"
+            }
+          },
+          {
+            "vnum": "4210",
+            "title": "The Smithy of the Crusades",
+            "exits": {
+              "east": "4207"
+            }
+          }
+        ],
+        {
+          "vnum": "4207",
+          "title": "The Final Defense",
+          "exits": {
+            "east": "4208",
+            "south": "4205",
+            "west": "4210"
+          }
+        },
+        {
+          "vnum": "4208",
+          "title": "The Altar of the Never Ending Crusades",
+          "exits": {
+            "west": "4207"
+          }
+        }
+      ],
+      [
+        "*",
+        {
+          "vnum": "4204",
+          "title": "Main Hall",
+          "exits": {
+            "north": "4202",
+            "east": "4205"
+          }
+        },
+        {
+          "vnum": "4205",
+          "title": "The Chamber of Decisions",
+          "exits": {
+            "north": "4207",
+            "south": "4206",
+            "west": "4204"
+          }
+        },
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "4206",
+          "title": "Library of the Crusaders",
+          "exits": {
+            "north": "4205"
+          }
+        },
+        "*"
+      ]
+    ]
+  ]
+}

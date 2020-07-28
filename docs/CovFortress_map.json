@@ -1,0 +1,565 @@
+{
+  "filename": "CovFortress.are",
+  "name": "Covenant Fortress",
+  "map": [
+    [
+      [
+        "*",
+        {
+          "vnum": "1519",
+          "title": "Chaplain Corps Recreation Room",
+          "exits": {
+            "south": "1507"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1507",
+          "title": "The Shrine of the Dark Covenant",
+          "exits": {
+            "north": "1519",
+            "east": "1506",
+            "south": "1534"
+          }
+        },
+        {
+          "vnum": "1506",
+          "title": "A Dark Hallway",
+          "exits": {
+            "south": "1505",
+            "west": "1507"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1534",
+          "title": "Infirmary",
+          "exits": {
+            "north": "1507"
+          }
+        },
+        {
+          "vnum": "1505",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1506",
+            "south": "1504"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1517",
+          "title": "Covenant Library",
+          "exits": {
+            "east": "1504"
+          }
+        },
+        {
+          "vnum": "1504",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1505",
+            "east": "1518",
+            "south": "1503",
+            "west": "1517"
+          }
+        },
+        {
+          "vnum": "1518",
+          "title": "Infantry Recreation Room",
+          "exits": {
+            "west": "1504"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1515",
+          "title": "Squire Barracks",
+          "exits": {
+            "east": "1503"
+          }
+        },
+        {
+          "vnum": "1503",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1504",
+            "east": "1516",
+            "west": "1515",
+            "down": "1502"
+          }
+        },
+        {
+          "vnum": "1516",
+          "title": "Knight Barracks",
+          "exits": {
+            "west": "1503"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1532",
+          "title": "Western Siege Weapon Tower",
+          "exits": {
+            "down": "1514"
+          }
+        },
+        "*",
+        {
+          "vnum": "1533",
+          "title": "Eastern Siege Weapon Tower",
+          "exits": {
+            "down": "1513"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "1508",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1509",
+            "east": "1520",
+            "west": "1521",
+            "up": "1502"
+          }
+        },
+        "*",
+        {
+          "vnum": "1511",
+          "title": "A Dark Hallway",
+          "exits": {
+            "south": "1513",
+            "west": "1502"
+          }
+        },
+        {
+          "vnum": "1530",
+          "title": "Execution Chamber",
+          "exits": {
+            "west": "1511"
+          }
+        }
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        {
+          "vnum": "1529",
+          "title": "Portal Room",
+          "exits": {
+            "north": "1508",
+            "east": "10601",
+            "south": "8824",
+            "west": "3014",
+            "up": "711",
+            "down": "27815"
+          }
+        },
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "1538",
+          "title": "The Thirsty Soldier Bar",
+          "exits": {
+            "east": "1512"
+          }
+        },
+        {
+          "vnum": "1512",
+          "title": "A Dark Hallway",
+          "exits": {
+            "east": "1502",
+            "south": "1514",
+            "west": "1538"
+          }
+        },
+        {
+          "vnum": "1502",
+          "title": "A Dark Hallway",
+          "exits": {
+            "east": "1511",
+            "south": "1501",
+            "west": "1512",
+            "up": "1503",
+            "down": "1508"
+          }
+        },
+        {
+          "vnum": "1511",
+          "title": "A Dark Hallway",
+          "exits": {
+            "south": "1513",
+            "west": "1502"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        {
+          "vnum": "1537",
+          "title": "Armory",
+          "exits": {
+            "east": "1514"
+          }
+        },
+        {
+          "vnum": "1514",
+          "title": "General Stockroom",
+          "exits": {
+            "north": "1512",
+            "west": "1537",
+            "up": "1532"
+          }
+        },
+        {
+          "vnum": "1501",
+          "title": "The Fortress Ward",
+          "exits": {
+            "north": "1502",
+            "east": "1536",
+            "south": "1500"
+          }
+        },
+        [
+          {
+            "vnum": "1536",
+            "title": "Covenant Bestiary",
+            "exits": {
+              "west": "1501"
+            }
+          },
+          {
+            "vnum": "1513",
+            "title": "Training Room",
+            "exits": {
+              "north": "1511",
+              "up": "1533"
+            }
+          }
+        ],
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        {
+          "vnum": "1500",
+          "title": "At the Fortress Barbican",
+          "exits": {
+            "north": "1501",
+            "south": "17316"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ],
+    [
+      [
+        "*",
+        "*",
+        {
+          "vnum": "1531",
+          "title": "Chamber of Judgement",
+          "exits": {
+            "south": "1526"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1528",
+          "title": "Interrogation Room",
+          "exits": {
+            "east": "1526"
+          }
+        },
+        {
+          "vnum": "1526",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1531",
+            "east": "1527",
+            "south": "1510",
+            "west": "1528"
+          }
+        },
+        {
+          "vnum": "1527",
+          "title": "Dungeon",
+          "exits": {
+            "west": "1526"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1525",
+          "title": "Officers' Quarters",
+          "exits": {
+            "east": "1510"
+          }
+        },
+        {
+          "vnum": "1510",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1526",
+            "east": "1524",
+            "south": "1509",
+            "west": "1525"
+          }
+        },
+        {
+          "vnum": "1524",
+          "title": "General's Quarters",
+          "exits": {
+            "west": "1510"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1523",
+          "title": "Conference Room",
+          "exits": {
+            "east": "1509"
+          }
+        },
+        {
+          "vnum": "1509",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1510",
+            "east": "1522",
+            "south": "1508",
+            "west": "1523"
+          }
+        },
+        {
+          "vnum": "1522",
+          "title": "Ranger Corps Recreation Room",
+          "exits": {
+            "east": "1535",
+            "west": "1509"
+          }
+        },
+        {
+          "vnum": "1535",
+          "title": "Underground Farm",
+          "exits": {
+            "west": "1522"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        {
+          "vnum": "1521",
+          "title": "Workshop",
+          "exits": {
+            "east": "1508"
+          }
+        },
+        {
+          "vnum": "1508",
+          "title": "A Dark Hallway",
+          "exits": {
+            "north": "1509",
+            "east": "1520",
+            "west": "1521",
+            "up": "1502"
+          }
+        },
+        {
+          "vnum": "1520",
+          "title": "Covert Operations Recreation Room",
+          "exits": {
+            "east": "1539",
+            "west": "1508"
+          }
+        },
+        {
+          "vnum": "1539",
+          "title": "Intelligence Office",
+          "exits": {
+            "west": "1520"
+          }
+        },
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ],
+      [
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*",
+        "*"
+      ]
+    ]
+  ]
+}
