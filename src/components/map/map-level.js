@@ -3,6 +3,18 @@ import PropTypes from "prop-types";
 
 import MapRoom from "./map-room";
 
+function renderColumn(column) {
+  if (column === "*") {
+    return <MapRoom placeholder />;
+  }
+
+  if (Array.isArray(column)) {
+    return column.map((element, index) => <MapRoom key={index} {...element} />);
+  }
+
+  return <MapRoom {...column} />;
+}
+
 class MapLevel extends Component {
   state = {};
 
@@ -27,15 +39,7 @@ class MapLevel extends Component {
             {this.props.level.map((row = [], rowIndex) => (
               <tr key={rowIndex} className="map-level-table-row">
                 {row.map((column, colIndex) => (
-                  <Fragment key={colIndex}>
-                    <td>
-                      {column === "*" ? (
-                        <MapRoom placeholder />
-                      ) : (
-                        <MapRoom {...column} />
-                      )}
-                    </td>
-                  </Fragment>
+                  <td key={colIndex}>{renderColumn(column)}</td>
                 ))}
               </tr>
             ))}
