@@ -12,7 +12,37 @@ body {
   margin: auto;
 }
 
+.container,
+.main-footer {
+  margin: 3rem auto;
+}
+
 .main-header-image,
 .main-footer-image {
   max-width: 100%;
+}
+
+.area-toc-header,
+.area-header,
+.room-header {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff4500;
+  font-family: papyrus;
+}
+
+.area-toc-area-anchor,
+.area-room-anchor,
+.room-exit {
+  transition: color ease 300ms;
+  text-decoration: none;
+  font-weight: 700;
+  color: orange;
+  &:hover {
+    color: white;
+  }
+}
+
+.room-exit ~ .room-exit {
+  margin-left: 0.5rem;
 }

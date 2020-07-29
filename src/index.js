@@ -1,4 +1,4 @@
-import './theme.scss'
+import "./theme.scss";
 const mapFile = window._map_filename;
 
 if (mapFile) {

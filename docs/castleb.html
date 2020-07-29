@@ -1,39 +1,534 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta name="author" content="Jevin Anderson">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/main.css">
-  <title>Joja's Garden</title>
-</head>
-<body class="area">
-  
-<header class="main-header">
-  <a href="https://darkmists.org" class="main-header-anchor">
-    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
-  </a>
-</header>
+  <head>
+    <meta name="author" content="Jevin Anderson" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Joja's Garden</title>
+  </head>
+  <body class="area">
+    <header class="main-header">
+      <a href="https://darkmists.org" class="main-header-anchor">
+        <img
+          src="/header.png"
+          alt="Main Header Image"
+          class="main-header-image"
+        />
+      </a>
+    </header>
 
-  <div class="container">
-    <h1 class="area-header">Joja's Garden</h1>
-    <div id="map-controls"></div>
-    <table class="area-rooms-table">
-      <tbody class="area-rooms-table-body">
-        <tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18200.html">Joja's and Krazar's Garden</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18201.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18202.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18203.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18204.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18205.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18206.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18207.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18208.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18209.html">End of the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18210.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18211.html">End of the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18212.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18213.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18214.html">The bridge over the gurgling stream</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18215.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18216.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18217.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18218.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18219.html">On the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18220.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18221.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18222.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18223.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18224.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18225.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18226.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18227.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18228.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18229.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18230.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18231.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18232.html">End of the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18233.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18234.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18235.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18236.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18237.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18238.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18239.html">The end of the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18240.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18241.html">The end of the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18242.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18243.html">Along the garden path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18244.html">Along the natural rock path</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18245.html">Along a path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18246.html">Along a path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18247.html">Along a path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18248.html">A bend in the path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18249.html">Behind the waterfall</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18250.html">A bend in the path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18251.html">Along a path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18252.html">Along a path of polished stone</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18253.html">Wading in the Spring</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18254.html">Wading in the Spring near the Waterfall</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18255.html">Behind the Waterfall</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18256.html">The Massive Cavern of the Lord of Fear</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18257.html">The Massive Cavern of the Lord of Fear</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18258.html">The Massive Cavern of the Lord of Fear</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18259.html">The Massive Cavern of the Lord of Fear</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18260.html">The Massive Cavern of the Lord of Fear</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18261.html">Behind the Silver Gate</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18262.html">The Massive Cavern of the Lady of Purity</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18263.html">The Massive Cavern of the Lady of Purity</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18264.html">The Massive Cavern of the Lady of Purity</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18265.html">The Massive Cavern of the Lady of Purity</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18266.html">The Trebuchet Above the Lechium Cavern</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18267.html">The Greenhouse Above the Lechium Cavern</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18268.html">The Massive Cavern of the Lady of Purity</a></td></tr><tr class="area-room-row"><td class="area-room-column"><a class="area-room-anchor" href="/18269.html">The Massive Cavern of the Lady of Purity</a></td></tr>
-      </tbody>
-    </table>
-  </div>
-  
-<footer class="main-footer">
-  <img src="/footer.png" alt="Main Footer Image" class="main-footer-image"/>
-</footer>
+    <div class="container">
+      <h1 class="area-header">Joja's Garden</h1>
+      <div id="map-controls"></div>
+      <table class="area-rooms-table">
+        <tbody class="area-rooms-table-body">
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18200.html"
+                >Joja's and Krazar's Garden</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18201.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18202.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18203.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18204.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18205.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18206.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18207.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18208.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18209.html"
+                >End of the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18210.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18211.html"
+                >End of the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18212.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18213.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18214.html"
+                >The bridge over the gurgling stream</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18215.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18216.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18217.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18218.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18219.html"
+                >On the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18220.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18221.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18222.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18223.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18224.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18225.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18226.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18227.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18228.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18229.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18230.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18231.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18232.html"
+                >End of the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18233.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18234.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18235.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18236.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18237.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18238.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18239.html"
+                >The end of the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18240.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18241.html"
+                >The end of the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18242.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18243.html"
+                >Along the garden path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18244.html"
+                >Along the natural rock path</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18245.html"
+                >Along a path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18246.html"
+                >Along a path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18247.html"
+                >Along a path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18248.html"
+                >A bend in the path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18249.html"
+                >Behind the waterfall</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18250.html"
+                >A bend in the path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18251.html"
+                >Along a path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18252.html"
+                >Along a path of polished stone</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18253.html"
+                >Wading in the Spring</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18254.html"
+                >Wading in the Spring near the Waterfall</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18255.html"
+                >Behind the Waterfall</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18256.html"
+                >The Massive Cavern of the Lord of Fear</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18257.html"
+                >The Massive Cavern of the Lord of Fear</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18258.html"
+                >The Massive Cavern of the Lord of Fear</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18259.html"
+                >The Massive Cavern of the Lord of Fear</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18260.html"
+                >The Massive Cavern of the Lord of Fear</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18261.html"
+                >Behind the Silver Gate</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18262.html"
+                >The Massive Cavern of the Lady of Purity</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18263.html"
+                >The Massive Cavern of the Lady of Purity</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18264.html"
+                >The Massive Cavern of the Lady of Purity</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18265.html"
+                >The Massive Cavern of the Lady of Purity</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18266.html"
+                >The Trebuchet Above the Lechium Cavern</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18267.html"
+                >The Greenhouse Above the Lechium Cavern</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18268.html"
+                >The Massive Cavern of the Lady of Purity</a
+              >
+            </td>
+          </tr>
+          <tr class="area-room-row">
+            <td class="area-room-column">
+              <a class="area-room-anchor" href="/18269.html"
+                >The Massive Cavern of the Lady of Purity</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-  <script>
-    window._map_filename = 'castleb.map.json';
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="/main.js"></script>
-</body>
+    <footer class="main-footer">
+      <img
+        src="/footer.png"
+        alt="Main Footer Image"
+        class="main-footer-image"
+      />
+    </footer>
+
+    <script>
+      window._map_filename = "castleb.map.json";
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
 </html>

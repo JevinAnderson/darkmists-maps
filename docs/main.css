@@ -1,16 +1,1 @@
-body {
-  font-family: "Calibri";
-  background-color: black;
-  color: white;
-  margin: auto; }
-
-.main-header,
-.container,
-.main-footer {
-  max-width: 688px;
-  margin: auto; }
-
-.main-header-image,
-.main-footer-image {
-  max-width: 100%; }
-
+body{font-family:Calibri;background-color:#000;color:#fff;margin:auto}.container,.main-footer,.main-header{max-width:688px;margin:auto}.container,.main-footer{margin:3rem auto}.main-footer-image,.main-header-image{max-width:100%}.area-header,.area-toc-header,.room-header{font-size:30px;font-weight:700;color:#ff4500;font-family:papyrus}.area-room-anchor,.area-toc-area-anchor,.room-exit{transition:color .3s ease;text-decoration:none;font-weight:700;color:orange}.area-room-anchor:hover,.area-toc-area-anchor:hover,.room-exit:hover{color:#fff}.room-exit~.room-exit{margin-left:.5rem}
