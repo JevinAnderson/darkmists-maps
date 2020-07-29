@@ -4,7 +4,7 @@
   "description": "Repository for hosting Darkmists map web pages",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production --output docs/main.js",
+    "build": "NODE_ENV='production' webpack --mode production --output docs/main.js",
     "dev": "nodemon server.js",
     "prettier": "prettier --write 'server.js' 'docs/**/*.js' 'docs/**/*.html' 'docs/**/*.css' 'src/**/*.js'",
     "watch": "webpack --mode=development --watch --output docs/main.js"
@@ -17,15 +17,23 @@
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
+    "autoprefixer": "^9.8.5",
     "babel-loader": "^8.1.0",
+    "css-loader": "^4.1.0",
     "express": "^4.17.1",
+    "mini-css-extract-plugin": "^0.9.0",
     "morgan": "^1.10.0",
+    "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
     "open": "^7.0.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "sass-loader": "^9.0.2",
+    "terser-webpack-plugin": "^3.0.8",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   }
