@@ -1,7 +1,18 @@
 body {
-  font-family: 'Calibri';
+  font-family: "Calibri";
   background-color: black;
-  color:white;
+  color: white;
   margin: auto;
 }
 
+.main-header,
+.container,
+.main-footer {
+  max-width: 688px;
+  margin: auto;
+}
+
+.main-header-image,
+.main-footer-image {
+  max-width: 100%;
+}
