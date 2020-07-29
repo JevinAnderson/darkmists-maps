@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Barr's Brewery</title>
 </head>
 <body class="room">
-  <h1>Barr's Brewery</h1>
-  <pre>Huge barrels line the northern rock wall in Barr's Brewery. The spigots
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Barr's Brewery</h1>
+    <pre class="room-description">Huge barrels line the northern rock wall in Barr's Brewery. The spigots
 remain locked in place, keeping the brew inside the barrels so that it may
 age properly. The eastern wall is lined with tables, upon which are herbs and
 spices being mixed to be added to the special drinks served here. Along the
@@ -20,8 +29,15 @@ within is allowed to escape through a series of thick glass tubes, ending up
 in a huge barrel sitting on its side near the eastern wall. It is assumed
 that when a barrel is emptied by the patrons of the bar, the new brew is set
 in its place to age, and the empty barrel set up to receive the next new brew.</pre>
-  <br />
-  <a href="/20376.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20376.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

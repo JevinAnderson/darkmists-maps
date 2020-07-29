@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,13 +10,28 @@
   <title>A Mountain Pass</title>
 </head>
 <body class="room">
-  <h1>A Mountain Pass</h1>
-  <pre>You are in a steep pass between mountain peaks.  It descends sharply to
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">A Mountain Pass</h1>
+    <pre class="room-description">You are in a steep pass between mountain peaks.  It descends sharply to
 the south, while heading north towards a summit.  All around you, you
 see only the mountain rises and the wind-swept plateaus of these
 ancient highlands.</pre>
-  <br />
-  <a href="/203.html">north</a><a href="/205.html">south</a><a href="/297.html">down</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/203.html">north</a><a class="room-exit" href="/205.html">south</a><a class="room-exit" href="/297.html">down</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

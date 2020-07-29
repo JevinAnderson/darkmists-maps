@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>East side of the Keep</title>
 </head>
 <body class="room">
-  <h1>East side of the Keep</h1>
-  <pre>This is the far eastern side of the keep. As with the rest of Castle Balkra,
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">East side of the Keep</h1>
+    <pre class="room-description">This is the far eastern side of the keep. As with the rest of Castle Balkra,
 the craftsmanship of stone here is the finest in the land. Torches hung to
 the solid stone walls cast a creepy shadow as you make your way through this
 room. The stone keep seems to offer little comfort as a chill of cool air
@@ -18,8 +27,15 @@ blows through the hall. To the west, east, and south a large Roman arch leads
 to other parts of the castle. Along the floor to the west, a marble pipe runs
 north and south, and at the northern wall turns toward the east, running
 along the base of the wall.</pre>
-  <br />
-  <a href="/5713.html">east</a><a href="/5706.html">south</a><a href="/5705.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/5713.html">east</a><a class="room-exit" href="/5706.html">south</a><a class="room-exit" href="/5705.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

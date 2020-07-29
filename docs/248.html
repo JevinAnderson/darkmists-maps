@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,13 +10,28 @@
   <title>The Forest Road</title>
 </head>
 <body class="room">
-  <h1>The Forest Road</h1>
-  <pre>You are at the head of a long north-south road in the forest.  The
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Forest Road</h1>
+    <pre class="room-description">You are at the head of a long north-south road in the forest.  The
 Greenbrier bushes that grow beside the path have shed their heart-shaped
 leaves on the road.  All is quiet here.  To the north, dark Elder trees
 loom out ominously.  The road continues south.</pre>
-  <br />
-  <a href="/230.html">north</a><a href="/247.html">east</a><a href="/255.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/230.html">north</a><a class="room-exit" href="/247.html">east</a><a class="room-exit" href="/255.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

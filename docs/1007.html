@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Upon the Red Stair</title>
 </head>
 <body class="room">
-  <h1>Upon the Red Stair</h1>
-  <pre>You are upon a stair of dull red rock, a short passage, but one
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Upon the Red Stair</h1>
+    <pre class="room-description">You are upon a stair of dull red rock, a short passage, but one
 that draws your eye. Black sigils have been pressed into the smooth
 stone, written in the tongue of the Underworld. An orb of swirling
 quicksilver rests upon the floor to either side of the stair. The
@@ -22,8 +31,15 @@ otherwise clean, smooth. Random scrawls, as though some powerful
 beast had been released, and attacked the very structure around it.
 Upward, a twisted tower can be observed on a raised dais. Downward
 lies a landing, the lower halls of the Ahzra In'trea.</pre>
-  <br />
-  <a href="/1002.html">up</a><a href="/1008.html">down</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1002.html">up</a><a class="room-exit" href="/1008.html">down</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

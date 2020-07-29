@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Small Cottage</title>
 </head>
 <body class="room">
-  <h1>Small Cottage</h1>
-  <pre>This small cottage is neat and clean. The interior is decorated with
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Small Cottage</h1>
+    <pre class="room-description">This small cottage is neat and clean. The interior is decorated with
 necessities: a mat for two for sleeping, a low table with pillows
 for eating, a counter for food preparation. On the table is a simple
 brass vase, holding a bouquet of pink carnations. The only sharp tools
@@ -18,8 +27,15 @@ in the cottage are food preparation tools, a set of knives and
 cleavers hanging on one wall above the counter. Below the counter
 are a collection of metal pans and pots. On hooks along another
 wall is a collection of dainty tea cups made of porcelain.</pre>
-  <br />
-  <a href="/20421.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20421.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

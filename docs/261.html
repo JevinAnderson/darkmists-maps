@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,12 +10,27 @@
   <title>A Woodland Trail</title>
 </head>
 <body class="room">
-  <h1>A Woodland Trail</h1>
-  <pre>You are following a small woodland trail in the Emerald Forest.  Off in
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">A Woodland Trail</h1>
+    <pre class="room-description">You are following a small woodland trail in the Emerald Forest.  Off in
 the distance to the east, you hear the sound of a roaring waterfall.
 The trail continues to the north and south.</pre>
-  <br />
-  <a href="/243.html">north</a><a href="/260.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/243.html">north</a><a class="room-exit" href="/260.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

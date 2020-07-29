@@ -1,9 +1,1 @@
-.map {
-  background: black;
-  color: white;
-}
-
-/* Probably not great css ;) */
-a {
-  display: block;
-}
+body{font-family:Calibri;background-color:#000;color:#fff;margin:auto}

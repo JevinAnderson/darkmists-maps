@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Along the garden path</title>
 </head>
 <body class="room">
-  <h1>Along the garden path</h1>
-  <pre>To the north of the natural rock path which extends east and
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Along the garden path</h1>
+    <pre class="room-description">To the north of the natural rock path which extends east and
 west, is a deep pool fed by the waters from a gurgling stream
 flowing beneath a rock bridge to the west-north-west. South of
 the natural path, tall trees rise up, their leaves forming a
@@ -21,8 +30,15 @@ between the thick tree trunks, lending foliage to the lower
 levels of the forested garden. The rock path is uneven, and
 the ground slopes, so that the farther east you travel, the
 lower in altitude you become, the farther west, the higher.</pre>
-  <br />
-  <a href="/18217.html">east</a><a href="/18215.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/18217.html">east</a><a class="room-exit" href="/18215.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

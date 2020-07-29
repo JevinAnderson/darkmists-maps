@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Small Road</title>
 </head>
 <body class="room">
-  <h1>Small Road</h1>
-  <pre>A small road has been paved with cobblestones, leading toward
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Small Road</h1>
+    <pre class="room-description">A small road has been paved with cobblestones, leading toward
 Glyndane to the west. The Sands of Sorrow are nearby. You see
 some sand building up between the stones in the road, having
 blown in from the south. To the south, a small path leads toward
 the wasteland.</pre>
-  <br />
-  <a href="/2704.html">south</a><a href="/2702.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/2704.html">south</a><a class="room-exit" href="/2702.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

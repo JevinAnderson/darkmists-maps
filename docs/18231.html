@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Along the garden path</title>
 </head>
 <body class="room">
-  <h1>Along the garden path</h1>
-  <pre>The natural rock path turns toward the north and east here,
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Along the garden path</h1>
+    <pre class="room-description">The natural rock path turns toward the north and east here,
 uneven on uneven ground sloping downward toward the west and
 north, sloping upward toward the east. Looking toward the
 north, you see a rock face cliff, from the craggy side of
@@ -20,8 +29,15 @@ green grass, soft to walk upon. The trees here are a mixture
 of those thin trunked trees with smooth, grey peeling bark, or
 thicker trees of maple and elm, their dark brown bark very
 rough to the touch.</pre>
-  <br />
-  <a href="/18232.html">north</a><a href="/18230.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/18232.html">north</a><a class="room-exit" href="/18230.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

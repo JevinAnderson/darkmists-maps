@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>The Ragged Trail</title>
 </head>
 <body class="room">
-  <h1>The Ragged Trail</h1>
-  <pre>You stand on a ragged forest trail with passage leading in all four
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Ragged Trail</h1>
+    <pre class="room-description">You stand on a ragged forest trail with passage leading in all four
 directions. The pathways to the north, south and east lead deeper
 into the woods, while a winding trail west seems to end in a small
 clearing. From where you stand you can see small movement and
 curious sound which you can't quite make out. The tree branches
 sway softly while you decide your next course.</pre>
-  <br />
-  <a href="/259.html">north</a><a href="/266.html">east</a><a href="/284.html">south</a><a href="/268.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/259.html">north</a><a class="room-exit" href="/266.html">east</a><a class="room-exit" href="/284.html">south</a><a class="room-exit" href="/268.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>The Great Hall</title>
 </head>
 <body class="room">
-  <h1>The Great Hall</h1>
-  <pre>A great hall sits here. The walls are lined with pictures of past
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Great Hall</h1>
+    <pre class="room-description">A great hall sits here. The walls are lined with pictures of past
 distinguished members of the Ancient Order of the Justicar. Other relics
 of the past are framed along the walls. Small inscriptions describe their
 significance. At the eastern end of the hall lies the Council chambers
 while the western side of the hall takes you into a place of great power.
 You may also exit the hall southward along the suspended walkway.</pre>
-  <br />
+    <div class="room-exits">
+      
+    </div>
+  </div>
   
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

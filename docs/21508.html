@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Rotunda</title>
 </head>
 <body class="room">
-  <h1>Rotunda</h1>
-  <pre>The walls of this circular room are covered in paintings.  The paintings seem
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Rotunda</h1>
+    <pre class="room-description">The walls of this circular room are covered in paintings.  The paintings seem
 to be depictions of former ArchMages of Arcana, and some that you recognize from
 the Conclave.  You see names that are now legends, and others that are more
 obscure. A beautiful red carpet takes up the entire room, and you almost sink
@@ -22,8 +31,15 @@ from that direction. In the northern wall is a set of double doors that are
 closed and covered with runes. To the south is a large alcove, set off from
 the rest of the room. Three intertwining columns composed of blue, white and
 black energies support a semi-translucent spiral stairway leading upwards.</pre>
-  <br />
-  <a href="/21510.html">east</a><a href="/21509.html">north</a><a href="/21511.html">south</a><a href="/21507.html">west</a><a href="/21512.html">up</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/21510.html">east</a><a class="room-exit" href="/21509.html">north</a><a class="room-exit" href="/21511.html">south</a><a class="room-exit" href="/21507.html">west</a><a class="room-exit" href="/21512.html">up</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

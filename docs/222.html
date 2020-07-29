@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>The Witch Wood</title>
 </head>
 <body class="room">
-  <h1>The Witch Wood</h1>
-  <pre>You are deep in the Witch Wood.  The evil that taints these woods grows
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Witch Wood</h1>
+    <pre class="room-description">You are deep in the Witch Wood.  The evil that taints these woods grows
 palpable here.  Directly to your north is a wall of shifting shadows that
 your light cannot penetrate.  Tall reeds with thorny blades grow around
 a path that leads west into the mists.  The forest lies to your east and
 south.</pre>
-  <br />
-  <a href="/223.html">north</a><a href="/220.html">east</a><a href="/225.html">south</a><a href="/295.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/223.html">north</a><a class="room-exit" href="/220.html">east</a><a class="room-exit" href="/225.html">south</a><a class="room-exit" href="/295.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

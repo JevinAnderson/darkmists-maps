@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Further in the Keep</title>
 </head>
 <body class="room">
-  <h1>Further in the Keep</h1>
-  <pre>This hall carries you further ino Castle Balkra. Each step sounds off a deep
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Further in the Keep</h1>
+    <pre class="room-description">This hall carries you further ino Castle Balkra. Each step sounds off a deep
 echo carried through the heavy stone halls. To the east under a large Roman
 arch lies a large barracks. To the north one can make their way further to
 the east side of the castle. Along the base of the wall to the west, there is
@@ -18,8 +27,15 @@ a marble pipe stretching toward the north and south. Both east and west walls
 near the Inner Keep are covered with haphazardly spaced human hand prints in
 dried blood.
 A proclamation entitled WAR AGREEMENT hangs on the eastern wall.</pre>
-  <br />
-  <a href="/5707.html">north</a><a href="/5715.html">east</a><a href="/5704.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/5707.html">north</a><a class="room-exit" href="/5715.html">east</a><a class="room-exit" href="/5704.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

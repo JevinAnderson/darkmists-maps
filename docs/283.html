@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>The Bonanza</title>
 </head>
 <body class="room">
-  <h1>The Bonanza</h1>
-  <pre>You are standing at the south-east end of the Brownie-Pixie Bonanza
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Bonanza</h1>
+    <pre class="room-description">You are standing at the south-east end of the Brownie-Pixie Bonanza
 Festival. A major element of the celebration involves the grand
 feasting of the Great Pie of Friendship. A great huge pumpkin pie
 the size of farmer's cart stands proudly on a stone table with a white
@@ -18,8 +27,15 @@ tablecloth amidst a bodyguard regiment of apples, peaches, raspberries
 and cookies. The dozens of eager eaters seem a bit impatient,
 apparently this year's Bonanza Chairman (or Grand Pooh-ba) hasn't
 opened the ceremony yet.</pre>
-  <br />
-  <a href="/268.html">north</a><a href="/284.html">east</a><a href="/282.html">south</a><a href="/281.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/268.html">north</a><a class="room-exit" href="/284.html">east</a><a class="room-exit" href="/282.html">south</a><a class="room-exit" href="/281.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

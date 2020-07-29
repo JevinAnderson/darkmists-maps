@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Sea of Sand</title>
 </head>
 <body class="room">
-  <h1>Sea of Sand</h1>
-  <pre>In all directions, as far as you can sense, all you see is sand. It
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Sea of Sand</h1>
+    <pre class="room-description">In all directions, as far as you can sense, all you see is sand. It
 is aptly named the Sea of Sand since the winds shift and churns the
 sands into almost peaceful patterns. If it were not for the
 oppressive heat that seems to suck the very life from your body the
 constant motion of the sands might very well be soothing.</pre>
-  <br />
-  <a href="/20521.html">north</a><a href="/20519.html">east</a><a href="/20523.html">south</a><a href="/20528.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20521.html">north</a><a class="room-exit" href="/20519.html">east</a><a class="room-exit" href="/20523.html">south</a><a class="room-exit" href="/20528.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>A Long Hallway</title>
 </head>
 <body class="room">
-  <h1>A Long Hallway</h1>
-  <pre>The long rug continues down the mansion, its crimson threads almost
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">A Long Hallway</h1>
+    <pre class="room-description">The long rug continues down the mansion, its crimson threads almost
 appearing as a river of blood gushing through the hallway.  Light is
 dimly provided by a few scattered candles sitting on small tables
 lining the hallway, clearly at one point valuable but now fallen into
@@ -22,8 +31,15 @@ Syndicate has seen fit to disseminate to the public.  To the south a
 discrete door gives entry to a somehow darker room than the rest of
 this actively decaying mansion, while the hallway meanders toward
 the east.</pre>
-  <br />
-  <a href="/48003.html">east</a><a href="/48002.html">south</a><a href="/48000.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/48003.html">east</a><a class="room-exit" href="/48002.html">south</a><a class="room-exit" href="/48000.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

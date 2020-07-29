@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Kitchen</title>
 </head>
 <body class="room">
-  <h1>Kitchen</h1>
-  <pre>Tables for chopping vegetables line one wall, tables for cutting
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Kitchen</h1>
+    <pre class="room-description">Tables for chopping vegetables line one wall, tables for cutting
 meat line another. In the center is an open fire, above which
 is a metallic cone supported by three cast iron posts. A pipe
 leads from the cone to the ceiling, and out through the roof. Two
 sturdy posts support a bar from which hangs a cauldron.</pre>
-  <br />
-  <a href="/2743.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/2743.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

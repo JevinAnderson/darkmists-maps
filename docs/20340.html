@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,13 +10,28 @@
   <title>Path within the tunnel</title>
 </head>
 <body class="room">
-  <h1>Path within the tunnel</h1>
-  <pre>The stony passage stretches north and south. To the east and west of you are
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Path within the tunnel</h1>
+    <pre class="room-description">The stony passage stretches north and south. To the east and west of you are
 walls of striated stone, to which naturally glowing lichen cling, lighting the
 passageway. The ceiling is high and dark. You hear echoes of activity coming
 from the south.</pre>
-  <br />
-  <a href="/20339.html">north</a><a href="/20341.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20339.html">north</a><a class="room-exit" href="/20341.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>The Chamber of Decisions</title>
 </head>
 <body class="room">
-  <h1>The Chamber of Decisions</h1>
-  <pre>A huge mass of red oak forms a circle table that takes up half of the room.
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Chamber of Decisions</h1>
+    <pre class="room-description">A huge mass of red oak forms a circle table that takes up half of the room.
 Oversized solid oak chairs with tall backs line the edge of the giant table.
 One chair dwarfs the rest, its size large enough for a titan to sit in.
 Battle maps and charts are pinned to various points of the walls. This seems
@@ -20,8 +29,15 @@ framed leather scroll, this one sealed with green and adorned with a green
 ribbon. In one corner is a rock bearing the likenesses of a centaur, a dwarf,
 and a canine which strongly resembles a wolf. There are small words chiseled
 in the bottom corner of the rock.</pre>
-  <br />
-  <a href="/5705.html">north</a><a href="/5710.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/5705.html">north</a><a class="room-exit" href="/5710.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

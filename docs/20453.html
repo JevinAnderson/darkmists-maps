@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Huge log house</title>
 </head>
 <body class="room">
-  <h1>Huge log house</h1>
-  <pre>This house was built from logs from wood from a forest far away. The
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Huge log house</h1>
+    <pre class="room-description">This house was built from logs from wood from a forest far away. The
 logs themselves are stripped of their bark inside here, showing off
 a nicely polished light-hued wood with dark-striped grain. The furn-
 iture is all made of the same zebrawood, one of the stronger woods
@@ -27,8 +36,15 @@ made from cast iron or some other strong, dark metal, serves as the
 focal point of the kitchen area. A number of knives, forks, and
 spoons hang nearby, and a stained table shows where butchering and
 meal preparation is done.</pre>
-  <br />
-  <a href="/20452.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20452.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

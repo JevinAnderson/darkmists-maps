@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,13 +10,28 @@
   <title>By the pond</title>
 </head>
 <body class="room">
-  <h1>By the pond</h1>
-  <pre>The hard soil-strewn path curves to the east, toward a dark foresty tunnel,
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">By the pond</h1>
+    <pre class="room-description">The hard soil-strewn path curves to the east, toward a dark foresty tunnel,
 and toward the north, alongside a crystalline pond, its blue waters sparkling.
 Along the edge of the pond, water herbs grow. The grass is green and healthy. Occasionally you notice a little movement beneath the surface of the pond
 water, and can see some silvery fish swimming.</pre>
-  <br />
-  <a href="/20424.html">north</a><a href="/20419.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20424.html">north</a><a class="room-exit" href="/20419.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

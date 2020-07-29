@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,12 +10,27 @@
   <title>Path within the tunnel</title>
 </head>
 <body class="room">
-  <h1>Path within the tunnel</h1>
-  <pre>You stand in a crossway of three tunnels. One extends to the east, one to the
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Path within the tunnel</h1>
+    <pre class="room-description">You stand in a crossway of three tunnels. One extends to the east, one to the
 north, one to the south. Striated rock form the walls and ceiling, which are
 lit by clumps of naturally glowing lichen.</pre>
-  <br />
-  <a href="/20309.html">north</a><a href="/20307.html">east</a><a href="/20311.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20309.html">north</a><a class="room-exit" href="/20307.html">east</a><a class="room-exit" href="/20311.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

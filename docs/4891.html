@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>First Floor</title>
 </head>
 <body class="room">
-  <h1>First Floor</h1>
-  <pre>The floor has been remade, and is beautiful. A mosaic of color greets your
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">First Floor</h1>
+    <pre class="room-description">The floor has been remade, and is beautiful. A mosaic of color greets your
 eyes as you look down at it. Bits of lapis, malachite, garnet, tiger's eye,
 swirl and dance in a design of color. The surface of the floor is smooth,
 each stone having been polished, but not so smooth as to induce slipping and
@@ -18,8 +27,15 @@ falling. The black-veined white marble walls are smooth and polished, gleam-
 ing in the available light. Nothing adorns these walls, however.
 A golden staircase leads upward. It is polished to a fine shine, and appears
 to be in good condition.</pre>
-  <br />
-  <a href="/2650.html">north</a><a href="/4892.html">up</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/2650.html">north</a><a class="room-exit" href="/4892.html">up</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>A Strange Alcove</title>
 </head>
 <body class="room">
-  <h1>A Strange Alcove</h1>
-  <pre>This earthy tunnel is damp and smells like spring rains. A celestial light
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">A Strange Alcove</h1>
+    <pre class="room-description">This earthy tunnel is damp and smells like spring rains. A celestial light
 shines from above, searing your eyes which have become so accustomed to
 the darkness.  You can make out some large antechambers hollowed out in the
 walls here as if someone hastily was looking to conceal something.
 The markings on the antechamber walls draw your attention.</pre>
-  <br />
-  <a href="/32592.html">up</a><a href="/32590.html">down</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/32592.html">up</a><a class="room-exit" href="/32590.html">down</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

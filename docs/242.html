@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>The Waterfall Glade</title>
 </head>
 <body class="room">
-  <h1>The Waterfall Glade</h1>
-  <pre>A majestic waterfall pours from high above the mountains to the south.
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Waterfall Glade</h1>
+    <pre class="room-description">A majestic waterfall pours from high above the mountains to the south.
 Great torrents of water crash down on the rocks in a wide pool, and even
 where you stand in a shaded glade, the wind blows sprays of water into
 your face.  A profusion of flowering shrubs grow at the edge of the
@@ -18,8 +27,15 @@ pool.  In a large shaded retreat made by the overhanging branches of
 silver oak trees stands a likeness of Altariel, the Lady of the Woods.
 At the base of the waterfall, a rock pool with crystal clear water has
 formed.</pre>
-  <br />
-  <a href="/241.html">north</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/241.html">north</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

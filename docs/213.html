@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>The Village Square</title>
 </head>
 <body class="room">
-  <h1>The Village Square</h1>
-  <pre>A couple of farmers are erecting a "Harvest Moon Festival" sign over
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Village Square</h1>
+    <pre class="room-description">A couple of farmers are erecting a "Harvest Moon Festival" sign over
 where you are standing.  A gaggle of goodwives are gossiping by the
 village well while their children are chasing a playful dog.  An apple
 tree lends its shade to two old men who are sharing a large tankard of
 cider.  You see a large farm to the north and espy a dirt track which
 leads west from the village and then turns north to a ruined abbey.</pre>
-  <br />
-  <a href="/216.html">north</a><a href="/210.html">south</a><a href="/214.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/216.html">north</a><a class="room-exit" href="/210.html">south</a><a class="room-exit" href="/214.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

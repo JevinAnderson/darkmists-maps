@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,13 +10,28 @@
   <title>An Old Dirt Track</title>
 </head>
 <body class="room">
-  <h1>An Old Dirt Track</h1>
-  <pre>You are on an old dirt track outside the village of Clover.  The path
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">An Old Dirt Track</h1>
+    <pre class="room-description">You are on an old dirt track outside the village of Clover.  The path
 seems little travelled, and wildflowers grow abundantly by the side of
 the track.  Heading east, you will return to the village.  The dirt track
 continues north for some miles.</pre>
-  <br />
-  <a href="/215.html">north</a><a href="/213.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/215.html">north</a><a class="room-exit" href="/213.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

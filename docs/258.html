@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,16 +10,31 @@
   <title>The Shady bridge</title>
 </head>
 <body class="room">
-  <h1>The Shady bridge</h1>
-  <pre>You stand on the eastern end of a finely crafted wooden bridge. Its
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Shady bridge</h1>
+    <pre class="room-description">You stand on the eastern end of a finely crafted wooden bridge. Its
 edges have small engraved runes carved into them, and the wood
 is probably a form of pine or oak from the Emerald Forest itself.
 Lacking the dull weathered tone and creaking of most wooden
 bridges, it spans across a fairly wide river flowing in a north-south
 direction. The height of the surrounding trees provide a pleasant
 shade from the noon-day sun.</pre>
-  <br />
-  <a href="/257.html">west</a><a href="/259.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/257.html">west</a><a class="room-exit" href="/259.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

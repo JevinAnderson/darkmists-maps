@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,13 +10,28 @@
   <title>Infirmary</title>
 </head>
 <body class="room">
-  <h1>Infirmary</h1>
-  <pre>Located just south of the shrine and the Chaplain Corps' recreation
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Infirmary</h1>
+    <pre class="room-description">Located just south of the shrine and the Chaplain Corps' recreation
 room, the infirmary is where the injured are taken.  Sometimes,
 if a foe has proved themselves honorable, they are taken here
 to be healed also.</pre>
-  <br />
-  <a href="/1507.html">north</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1507.html">north</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

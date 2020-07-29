@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Junction in the Hallway</title>
 </head>
 <body class="room">
-  <h1>Junction in the Hallway</h1>
-  <pre>The mansion's long hallway abruptly widens, providing access to all
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Junction in the Hallway</h1>
+    <pre class="room-description">The mansion's long hallway abruptly widens, providing access to all
 the cardinal directions.  In this room at least, light defeats the
 otherwise pervasive darkness.  A large chandelier hangs dangerously
 low from the ceiling, infusing a glimmering light throughout this
@@ -19,8 +28,15 @@ places, though never quite breaking.  Random sheets of papers are
 scattered throughout the room, probably copies of the reports given
 to the Syndicate officials who use this building as a safe house.
 You can continue to the west, south, and east.</pre>
-  <br />
-  <a href="/48006.html">east</a><a href="/48004.html">south</a><a href="/48001.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/48006.html">east</a><a class="room-exit" href="/48004.html">south</a><a class="room-exit" href="/48001.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

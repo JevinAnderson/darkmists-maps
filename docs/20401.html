@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>On a dark path</title>
 </head>
 <body class="room">
-  <h1>On a dark path</h1>
-  <pre>The hard path below you is liberally covered with soil, but clearly stone-
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">On a dark path</h1>
+    <pre class="room-description">The hard path below you is liberally covered with soil, but clearly stone-
 based. On either side of you to the east and west are thick woods. The canopy
 of leaves arches over the path, lending a lovely shade but also darkening the
 way. Small plants grow at the edges of the path, their leaves a light green,
@@ -18,8 +27,15 @@ their tiny flowers a pretty light violet. The buzzing of bees is audible here,
 though only occasionally do you see one sipping the nectar from a tiny bloom.
 Beyond those little flowering plants, there are lush green shrubs bearing
 sweet berries. The path stretches to the north and south.</pre>
-  <br />
-  <a href="/20404.html">north</a><a href="/20399.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20404.html">north</a><a class="room-exit" href="/20399.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

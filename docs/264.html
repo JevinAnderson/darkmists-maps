@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>A Woody Copse</title>
 </head>
 <body class="room">
-  <h1>A Woody Copse</h1>
-  <pre>You've stumbled into a small woody copse.  The trees here have grown
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">A Woody Copse</h1>
+    <pre class="room-description">You've stumbled into a small woody copse.  The trees here have grown
 close and their curtains of vines obscure the view in any direction.
 The fresh scent of wild thicket flowers hang in the air, the source of
 which cannot be found.  A small green carpet lies in the middle of a
 clearing, leading you to believe you've happened across someone's
 quiet time area.</pre>
-  <br />
-  <a href="/263.html">east</a><a href="/265.html">up</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/263.html">east</a><a class="room-exit" href="/265.html">up</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>The Cavern of the Witch Sisters</title>
 </head>
 <body class="room">
-  <h1>The Cavern of the Witch Sisters</h1>
-  <pre>This is the abode of the Witch Sisters.  Gibbets hang from the ceiling,
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Cavern of the Witch Sisters</h1>
+    <pre class="room-description">This is the abode of the Witch Sisters.  Gibbets hang from the ceiling,
 scrying pools lie placid while cauldrons gurgle awfully.  From a large
 rift in the ground infernal flames belch forth.  The heat in the cavern
 is almost unbearable and you begin to feel yourself passing out from
 the oppressive stench of brimstone.</pre>
-  <br />
-  <a href="/223.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/223.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

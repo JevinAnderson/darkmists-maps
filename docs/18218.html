@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>Along the garden path</title>
 </head>
 <body class="room">
-  <h1>Along the garden path</h1>
-  <pre>A natural rock path encircles a deep pool of water to the west
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Along the garden path</h1>
+    <pre class="room-description">A natural rock path encircles a deep pool of water to the west
 and northwest. From where you stand, you can look west across
 the way and see a rock bridge stradling a stream whose water
 falls upon a rough rock face into the pool below. The path
 below you is uneven, sloping downward toward the north, upward
 toward the south.</pre>
-  <br />
-  <a href="/18219.html">north</a><a href="/18217.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/18219.html">north</a><a class="room-exit" href="/18217.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

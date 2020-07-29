@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,16 +10,31 @@
   <title>A Fae Crossing</title>
 </head>
 <body class="room">
-  <h1>A Fae Crossing</h1>
-  <pre>The path has taken you to a junction over which hangs the twisted
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">A Fae Crossing</h1>
+    <pre class="room-description">The path has taken you to a junction over which hangs the twisted
 branches of two Blackthorn trees and an Elderwood tree.  You remember
 folktales which tell that spiteful faeries lurk under the meetings of
 such trees to waylay and confound woodland travellers.  Feeling a little
 uncomfortable, you look south, where the forest seems to darken
 menacingly.  The east trail beckons you to the safety of the Emerald
 Forest.</pre>
-  <br />
-  <a href="/207.html">east</a><a href="/230.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/207.html">east</a><a class="room-exit" href="/230.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

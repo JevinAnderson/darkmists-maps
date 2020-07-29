@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>The Green Room</title>
 </head>
 <body class="room">
-  <h1>The Green Room</h1>
-  <pre>A cool mist and the sound of splashing water greets you as you enter this
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Green Room</h1>
+    <pre class="room-description">A cool mist and the sound of splashing water greets you as you enter this
 part of the keep. It seems the Crusaders planted a miniature forest inside
 their castle! For a moment it is hard to tell whether you stand inside or out
 until you catch sight of the large stone ceiling arching overhead. Small
@@ -18,8 +27,15 @@ oaks, pines, vines, bushes, and flowers of all sorts thrive here. A marble
 fountain squirts cool water in the center of the tranquil room. Suddenly, you
 notice a figure blended in with the natural colors, eyeing your every move.
 Near one of the bushes is a mound and a marker.</pre>
-  <br />
-  <a href="/5716.html">north</a><a href="/5719.html">east</a><a href="/5730.html">south</a><a href="/5721.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/5716.html">north</a><a class="room-exit" href="/5719.html">east</a><a class="room-exit" href="/5730.html">south</a><a class="room-exit" href="/5721.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

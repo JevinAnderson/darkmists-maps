@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>The Headflow of Blood</title>
 </head>
 <body class="room">
-  <h1>The Headflow of Blood</h1>
-  <pre>This place is barren, the rock untouched by the chisel or the dark
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Headflow of Blood</h1>
+    <pre class="room-description">This place is barren, the rock untouched by the chisel or the dark
 magic that has touched the rest of the complex. It is dark, slimy
 creatures thriving on the filth. A sharp, coppery smell prevails
 within the chamber, filling your throat, burning your eyes. It is
@@ -27,8 +36,15 @@ The roar of the falling blood echoes from the walls, filling your
 ears, making almost all other sound inaudible. You can follow the
 twisting path downward, to the base of the Bloodfall, or east, out
 of this cavernous room.</pre>
-  <br />
-  <a href="/1003.html">down</a><a href="/1001.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1003.html">down</a><a class="room-exit" href="/1001.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

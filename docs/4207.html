@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>The Final Defense</title>
 </head>
 <body class="room">
-  <h1>The Final Defense</h1>
-  <pre>The walls in this room are reinforced by strong dwarvish steel, but this
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Final Defense</h1>
+    <pre class="room-description">The walls in this room are reinforced by strong dwarvish steel, but this
 steel was not strong enough to withstand the wrath of the Goddess of Magic.
 A single torch hangs over the passage to the east, giving the room a darkened
 appearance. The charred remains of something covering the mangled walls does
 not lend any extra light.  Crusaders often use this as an ambush point to
 subdue those raiding to steal the War Gauntlet.</pre>
-  <br />
-  <a href="/4208.html">east</a><a href="/4205.html">south</a><a href="/4210.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/4208.html">east</a><a class="room-exit" href="/4205.html">south</a><a class="room-exit" href="/4210.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

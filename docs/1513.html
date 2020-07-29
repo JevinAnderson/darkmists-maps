@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Training Room</title>
 </head>
 <body class="room">
-  <h1>Training Room</h1>
-  <pre>This room is filled with a large number of training utilities.
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Training Room</h1>
+    <pre class="room-description">This room is filled with a large number of training utilities.
 Wooden dummies that spin and wobble, stationary wooden dummies,
 straw dummies, bales of hay with targets attached to them, and
 pendulum style archery targets adorn the walls and floor of the
 room.  A strange divine aura nullifies all magic cast in here.</pre>
-  <br />
-  <a href="/1511.html">north</a><a href="/1533.html">up</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1511.html">north</a><a class="room-exit" href="/1533.html">up</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

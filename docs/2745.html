@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,15 +10,30 @@
   <title>Bedroom</title>
 </head>
 <body class="room">
-  <h1>Bedroom</h1>
-  <pre>This bedroom is a child's bedroom. A small bed sits against the
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Bedroom</h1>
+    <pre class="room-description">This bedroom is a child's bedroom. A small bed sits against the
 eastern wall. Near it is a small table, upon which is a nearly
 spent candle in a small dish, the wax about to drip over the
 edges. There are toys on the floor. The door is hooked to the
 wall, remaining open. Perhaps the child once locked himself in
 and the Lord and Lady wish to prevent another such occurrance?</pre>
-  <br />
-  <a href="/2739.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/2739.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

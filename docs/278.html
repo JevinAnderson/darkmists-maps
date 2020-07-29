@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>The Silent Grove</title>
 </head>
 <body class="room">
-  <h1>The Silent Grove</h1>
-  <pre>You've managed to wander into a small silent grove in the forest.
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Silent Grove</h1>
+    <pre class="room-description">You've managed to wander into a small silent grove in the forest.
 For some strange reason most of the forest noises seem to have
 disappeared, though you can feel the rustle of the leaves beneath
 your feet as you walk. The silence isn't really eerie, however, but
@@ -19,8 +28,15 @@ fashion on the ground, much the way seating chairs would be arranged
 should the speaker be in the middle of a circle. It's almost as though
 a little tribe of beavers just had a river-dam guild meeting and have
 left for lunch.</pre>
-  <br />
-  <a href="/277.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/277.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

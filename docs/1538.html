@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>The Thirsty Soldier Bar</title>
 </head>
 <body class="room">
-  <h1>The Thirsty Soldier Bar</h1>
-  <pre>Serving light brews brewed by the rangers in the underground farm, the
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">The Thirsty Soldier Bar</h1>
+    <pre class="room-description">Serving light brews brewed by the rangers in the underground farm, the
 Covenant bar provides refreshments for thirsty soldiers who have been
 relieved of duty.  The bar is well decorated with various paintings of
 the lovely lasses of the Covenant in full battle dress and paintings of
 famous battles won by the Covenant.  A sign is mounted on the wall.</pre>
-  <br />
-  <a href="/1512.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1512.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

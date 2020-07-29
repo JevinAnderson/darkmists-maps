@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Shrine to Gryleth</title>
 </head>
 <body class="room">
-  <h1>Shrine to Gryleth</h1>
-  <pre>A few pebbles on the dark floor of this alcove testify to the fact that nobody
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Shrine to Gryleth</h1>
+    <pre class="room-description">A few pebbles on the dark floor of this alcove testify to the fact that nobody
 has really been careful about cleaning. The smooth striated walls have become
 home to glowing lichen which clings in small streaks, giving light in hues of
 brilliant orange and gold. The high ceiling is dark. In the center of the room
@@ -22,8 +31,15 @@ of steel. They appear clean and unused, as though waiting for an immortal smith
 to lift them and put them to use. Near one end of the anvil sits a steel mug,
 empty. A curious inscription is engraved upon its side.  A vaulted opening leads
 to the north.</pre>
-  <br />
-  <a href="/20326.html">north</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20326.html">north</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

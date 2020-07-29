@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Within the cave</title>
 </head>
 <body class="room">
-  <h1>Within the cave</h1>
-  <pre>The surrounding walls and ceiling are made of solid limestone rock and
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Within the cave</h1>
+    <pre class="room-description">The surrounding walls and ceiling are made of solid limestone rock and
 curve naturally towards the center; their surfaces are mostly smooth
 except for some rough patches where algae has grown in sporadic spots,
 giving the cave-wall a dull, almost sickly-green coloration.  The ground
@@ -20,8 +29,15 @@ Water droplets splatter from the ceiling to the lower reaches and finally
 unto the floor beneath, making the traverse more difficult.  Some beaten
 tracks of a four-legged animal could be seen here going further southwards.
 An occasional arthropod saunters about.  It is unusually quiet.</pre>
-  <br />
-  <a href="/21401.html">north</a><a href="/21403.html">south</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/21401.html">north</a><a class="room-exit" href="/21403.html">south</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

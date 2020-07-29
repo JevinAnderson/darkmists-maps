@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Conference Room</title>
 </head>
 <body class="room">
-  <h1>Conference Room</h1>
-  <pre>Meeting delegates within cramped and sometimes smelly barracks
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Conference Room</h1>
+    <pre class="room-description">Meeting delegates within cramped and sometimes smelly barracks
 isn't very polite, and having meetings crouched in the hallways
 or in the mess hall feels unprofessional, and so the Covenant
 built this very lavish room with extremely soft, self cleaning
@@ -19,8 +28,15 @@ chairs, and a marvelous chandelier as well as a cart loaded with
 food and drink.  The room is used often as a delegate meeting
 room, or as a meeting room for Covenant officers.  A sign is
 mounted to a painted marble wall.</pre>
-  <br />
-  <a href="/1509.html">east</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1509.html">east</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

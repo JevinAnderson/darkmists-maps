@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Within the Halls of Valor</title>
 </head>
 <body class="room">
-  <h1>Within the Halls of Valor</h1>
-  <pre>The halls of the castle are simple yet elegant.  A finely woven blue
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Within the Halls of Valor</h1>
+    <pre class="room-description">The halls of the castle are simple yet elegant.  A finely woven blue
 carpet runs down the middle of the walkway.  Small crosses in a darker
 hue of blue are sewn into the carpet at equal intervals.  Beautiful
 white marble tile can be seen to either side of the carpet.  Torches
@@ -18,8 +27,15 @@ are lit along the hallway giving off a flickering illumination.  A
 masterfully crafted tower shield is mounted on the Northern wall.
 Below it a sign can be seen with the simple word of "Courage" engraved
 upon it.</pre>
-  <br />
-  <a href="/82803.html">east</a><a href="/82801.html">south</a><a href="/82804.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/82803.html">east</a><a class="room-exit" href="/82801.html">south</a><a class="room-exit" href="/82804.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Portal Room</title>
 </head>
 <body class="room">
-  <h1>Portal Room</h1>
-  <pre>This room is used mainly by the Covert Operations as a way of
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Portal Room</h1>
+    <pre class="room-description">This room is used mainly by the Covert Operations as a way of
 inserting soldiers into strategic places throughout Thera.  The
 entire room is marked with holy symbols and runes, each glowing
 with power.  The way north leads to the hallway and an inscription
 is carved on the floor around a portal.</pre>
-  <br />
-  <a href="/1508.html">north</a><a href="/10601.html">east</a><a href="/8824.html">south</a><a href="/3014.html">west</a><a href="/711.html">up</a><a href="/27815.html">down</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1508.html">north</a><a class="room-exit" href="/10601.html">east</a><a class="room-exit" href="/8824.html">south</a><a class="room-exit" href="/3014.html">west</a><a class="room-exit" href="/711.html">up</a><a class="room-exit" href="/27815.html">down</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

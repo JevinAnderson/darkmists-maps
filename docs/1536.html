@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Covenant Bestiary</title>
 </head>
 <body class="room">
-  <h1>Covenant Bestiary</h1>
-  <pre>The battledragons and nightmares of the Covenant army dwell here,
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Covenant Bestiary</h1>
+    <pre class="room-description">The battledragons and nightmares of the Covenant army dwell here,
 living without cages or stables of any sort.  Piles of food
 for either type of creature are piled in the corners and a large
 spring welling up from underground into a water trough provides
@@ -18,8 +27,15 @@ them with water.  The creatures themselves do whatever they want
 to do, and when nature calls, they have a large trough filled with
 dirt which channels downwards to the underground farm to use the
 waste as fertilizer.</pre>
-  <br />
-  <a href="/1501.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/1501.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

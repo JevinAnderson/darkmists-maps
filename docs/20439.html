@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Within the herb garden</title>
 </head>
 <body class="room">
-  <h1>Within the herb garden</h1>
-  <pre>The smooth stone path is lined with herbs, and the herbs stretch out beyond
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Within the herb garden</h1>
+    <pre class="room-description">The smooth stone path is lined with herbs, and the herbs stretch out beyond
 in a neat garden. The edges of the path are kept clean and tidy. Not much in
 the way of dirt and soil is scattered upon this part of the path. The clean
 path extends eastward and westward. Toward the west you see a neat looking
 wooden structure with an open doorway.</pre>
-  <br />
-  <a href="/20436.html">east</a><a href="/20440.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/20436.html">east</a><a class="room-exit" href="/20440.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

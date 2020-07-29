@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,14 +10,29 @@
   <title>Study</title>
 </head>
 <body class="room">
-  <h1>Study</h1>
-  <pre>The library to the west is part of this room, but here there is
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Study</h1>
+    <pre class="room-description">The library to the west is part of this room, but here there is
 only a song book, and near a small wooden stool is a large lute.
 A cross-stitched bit of cloth framed in oak hangs from the
 eastern wall. A large oaken door is to the east, right by that
 cross-stitched plaque.</pre>
-  <br />
-  <a href="/2744.html">east</a><a href="/2739.html">south</a><a href="/2740.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/2744.html">east</a><a class="room-exit" href="/2739.html">south</a><a class="room-exit" href="/2740.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>

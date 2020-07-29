@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="author" content="Jevin Anderson">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Should live on some cdn -->
@@ -9,8 +10,16 @@
   <title>Before the Great Tree</title>
 </head>
 <body class="room">
-  <h1>Before the Great Tree</h1>
-  <pre>You stand at the perimeter of the largest, most incredible tree that
+  
+<header class="main-header">
+  <a href="https://darkmists.org" class="main-header-anchor">
+    <img src="/header.png" alt="Main Header Image" class="main-header-image"/>
+  </a>
+</header>
+
+  <div class="container">
+    <h1 class="room-header">Before the Great Tree</h1>
+    <pre class="room-description">You stand at the perimeter of the largest, most incredible tree that
 you have ever laid eyes on.  It has gold-flecked leaves that are the
 size of small horses, with thick roots supporting a massive trunk that
 is easily twice the size of the grand fortress of the Templar Knights
@@ -20,8 +29,15 @@ the forest.  You long to inch closer, but cannot seem to move beyond
 an invisible barrier that keeps you about a hundred yards away.  You
 see movement and lights in and about the tree, but there seems to be
 no way you can get closer to it.</pre>
-  <br />
-  <a href="/243.html">south</a><a href="/238.html">west</a>
+    <div class="room-exits">
+      <a class="room-exit" href="/243.html">south</a><a class="room-exit" href="/238.html">west</a>
+    </div>
+  </div>
+  
+<footer class="main-footer">
+  <img src="/footer.png" alt="main-footer-image"/>
+</footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Should live on some cdn -->
   <script src="/main.js"></script>
