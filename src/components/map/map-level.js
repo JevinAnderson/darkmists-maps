@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 
+import "./map-level.scss";
 import MapRoom from "./map-room";
 
 function renderColumn(column) {
@@ -39,7 +40,9 @@ class MapLevel extends Component {
             {this.props.level.map((row = [], rowIndex) => (
               <tr key={rowIndex} className="map-level-table-row">
                 {row.map((column, colIndex) => (
-                  <td key={colIndex}>{renderColumn(column)}</td>
+                  <td className="map-level-table-column" key={colIndex}>
+                    {renderColumn(column)}
+                  </td>
                 ))}
               </tr>
             ))}

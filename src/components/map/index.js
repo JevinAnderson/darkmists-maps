@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 
 import MapComponent from "./map";
+import './index.scss'
 
 class MapApp extends Component {
-  state = { open: false, renderMap: false };
+  state = { open: true, renderMap: true };
 
   toggleMap = () => {
     this.setState((prevState) => ({
@@ -13,23 +14,28 @@ class MapApp extends Component {
     }));
   };
 
+  renderMapControls = () => (
+    <div className="map-controls">
+      <button className="map-display-button" onClick={this.toggleMap}>
+        {this.state.open ? "Close Map" : "Open Map"}
+      </button>
+    </div>
+  );
+
   render = () => (
     <div className="map-application">
+      {this.renderMapControls()}
       <div
         className="map-container"
         style={{ display: this.state.open ? undefined : "none" }}
       >
         {this.state.renderMap && <MapComponent map={this.props.map} />}
       </div>
-      <div className="map-controls">
-        <button onClick={this.toggleMap}>
-          {this.state.open ? "Close Map" : "Open Map"}
-        </button>
-      </div>
+      {this.state.open && this.renderMapControls()}
     </div>
   );
 }
 
-export function renderMap(node) {
-  render(<MapApp map={window._map} />, node);
+export function renderMap(node, map) {
+  render(<MapApp map={map} />, node);
 }

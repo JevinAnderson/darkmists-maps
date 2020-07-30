@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+import './map-room.scss'
 class MapRoom extends Component {
   state = {};
 
@@ -18,10 +19,10 @@ class MapRoom extends Component {
 
   render() {
     if (this.props.placeholder) {
-      return `\u00A0`;
+      return <div className="map-room" />;
     }
     return (
-      <div className="map-room">
+      <div className="map-room" id={this.props.vnum}>
         <h4 className="map-room-title">{this.props.title}</h4>
         <p className="map-room-vnum">VNUM: {this.props.vnum}</p>
         <p className="map-room-exit-header">Exits: </p>
