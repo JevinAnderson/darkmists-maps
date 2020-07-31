@@ -12,7 +12,7 @@ const Arrow = ({ direction, exits }) =>
     <a
       className={`map-room-arrow-container ${direction}`}
       href={`/${exits[direction]}.html`}
-      target="__blank"
+      target="_blank"
     >
       <i className={`map-room-arrow ${direction}`} />
     </a>
