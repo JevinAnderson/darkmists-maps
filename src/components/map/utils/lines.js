@@ -9,6 +9,10 @@ function getKey(x, y) {
   return `${first}-${second}`;
 }
 
+export function getLine(x, y) {
+  return lines[getKey(x, y)];
+}
+
 export function addLine(x, y) {
   const key = getKey(x, y);
 

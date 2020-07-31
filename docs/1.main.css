@@ -4,7 +4,10 @@
   border-radius: 0.5rem;
   padding: 0.5rem;
   margin: 1rem;
-  background-color: black; }
+  background-color: black;
+  cursor: default; }
+  .map-room.map-room-actual:hover {
+    background-color: #902c1b; }
 
 .map-room-title {
   text-align: center;
