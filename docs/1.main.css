@@ -79,7 +79,10 @@
   bottom: 4px; }
 
 .map-controls {
-  margin: 1rem auto; }
+  margin: 1rem auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; }
 
 .map-display-button {
   background-color: #902c1b;

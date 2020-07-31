@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 
 import MapComponent from "./map";
-import './index.scss'
+import "./index.scss";
 
 class MapApp extends Component {
   state = { open: true, renderMap: true };
