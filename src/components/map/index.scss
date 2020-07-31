@@ -1,5 +1,10 @@
+.map-container {
+  position: relative;
+}
+.map-container,
 .map-controls {
   margin: 1rem auto;
+  padding: 0 1rem;
   width: fit-content;
 }
 .map-display-button {
@@ -20,4 +25,11 @@
   &:focus {
     outline: none;
   }
+}
+
+.map-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }

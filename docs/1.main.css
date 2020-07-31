@@ -3,7 +3,8 @@
   border: 0.125rem solid #f7c14b;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  margin: 1rem; }
+  margin: 1rem;
+  background-color: black; }
 
 .map-room-title {
   text-align: center;
@@ -78,8 +79,13 @@
   left: 10px;
   bottom: 4px; }
 
+.map-container {
+  position: relative; }
+
+.map-container,
 .map-controls {
   margin: 1rem auto;
+  padding: 0 1rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content; }
@@ -99,4 +105,10 @@
     background-color: #530f03; }
   .map-display-button:focus {
     outline: none; }
+
+.map-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; }
 

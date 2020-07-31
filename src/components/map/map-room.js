@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import "./map-room.scss";
+import { addLine, removeLine } from "./utils/lines";
 
 const titleStore = {};
 
 const Arrow = ({ direction, exits }) =>
-  exits[direction] || true ? (
+  exits[direction] ? (
     <a
       className={`map-room-arrow-container ${direction}`}
       href={`/${exits[direction]}.html`}
@@ -32,17 +33,17 @@ function formatTitle(title = "") {
 class MapRoom extends Component {
   state = {};
 
-  // constructor(props) {}
-  // componentWillMount(){} // will be deprecated
-  // componentDidMount(){}
-  // componentWillReceiveProps(nextProps) {} // will be deprecated
-  // static getDerivedStateFromProps(nextProps, prevState) {}
-  // shouldComponentUpdate(nextProps, nextState) { return true; }
-  // componentWillUpdate(nextProps, nextState) {} // will be deprecated
-  // getSnapshotBeforeUpdate(prevProps, prevState) {}
-  // componentDidUpdate(prevProps, prevState, snapshot) {}
-  // componentWillUnmount() {}
-  // componentDidCatch(error, info) {}
+  componentDidMount() {
+    Object.keys(this.props.exits).forEach((key) => {
+      addLine(this.props.vnum, this.props.exits[key]);
+    });
+  }
+
+  componentWillUnmount() {
+    Object.keys(this.props.exits).forEach((key) => {
+      removeLine(this.props.vnum, this.props.exits[key]);
+    });
+  }
 
   render() {
     if (this.props.placeholder) {
@@ -51,8 +52,6 @@ class MapRoom extends Component {
     return (
       <div className="map-room map-room-actual" id={this.props.vnum}>
         <h4 className="map-room-title">{formatTitle(this.props.title)}</h4>
-        {/* <p className="map-room-vnum">VNUM: {this.props.vnum}</p> */}
-        {/* <p className="map-room-exit-header">Exits: </p> */}
         <div className="map-room-exits">
           <div className="map-room-cardinal-container">
             {["east", "south", "west", "north"].map((direction) => (

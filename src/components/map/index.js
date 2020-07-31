@@ -5,7 +5,7 @@ import MapComponent from "./map";
 import "./index.scss";
 
 class MapApp extends Component {
-  state = { open: true, renderMap: true };
+  state = { open: false };
 
   toggleMap = () => {
     this.setState((prevState) => ({
@@ -29,7 +29,7 @@ class MapApp extends Component {
         className="map-container"
         style={{ display: this.state.open ? undefined : "none" }}
       >
-        {this.state.renderMap && <MapComponent map={this.props.map} />}
+        {this.state.open && <MapComponent map={this.props.map} />}
       </div>
       {this.state.open && this.renderMapControls()}
     </div>
