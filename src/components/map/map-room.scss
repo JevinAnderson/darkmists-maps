@@ -1,0 +1,99 @@
+.map-room.map-room-actual {
+  border: 0.125rem solid #f7c14b;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.map-room-title {
+  text-align: center;
+  margin: 0 auto 0.25rem;
+}
+
+.map-room-exits {
+  padding-left: 8px;
+  min-width: 70px;
+  width: fit-content;
+  margin: auto;
+}
+
+.map-room-arrow {
+  border: solid #f7c14b;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+  &.east {
+    transform: rotate(-45deg);
+  }
+  &.west {
+    transform: rotate(135deg);
+  }
+  &.north {
+    transform: rotate(-135deg);
+  }
+  &.south {
+    transform: rotate(45deg);
+  }
+  &.up {
+    transform: rotate(-90deg);
+  }
+  &.down {
+    transform: rotate(90deg);
+  }
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.map-room-cardinal-container,
+.map-room-vertical-container {
+  display: inline-block;
+  min-width: 35px;
+  min-height: 35px;
+  position: relative;
+}
+
+.map-room-cardinal-container {
+  .map-room-arrow-container {
+    &.south {
+      position: absolute;
+      left: 13px;
+      bottom: -1px;
+    }
+    &.east {
+      position: absolute;
+      right: 4px;
+      bottom: 8px;
+    }
+    &.west {
+      position: absolute;
+      left: 4px;
+      bottom: 8px;
+    }
+    &.north {
+      position: absolute;
+      left: 13px;
+      top: 0px;
+    }
+  }
+}
+
+.map-room-vertical-container {
+  .map-room-arrow-container {
+    &.up {
+      position: absolute;
+      left: 18px;
+      top: 4px;
+    }
+    &.down {
+      position: absolute;
+      left: 10px;
+      bottom: 4px;
+    }
+  }
+}
